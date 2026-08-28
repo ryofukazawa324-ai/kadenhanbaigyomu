@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>家電販売ナレッジ | エアコン</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--sub:#637083;--line:#e4e8ef;--accent:#2d67d7;--soft:#eaf1ff}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.wrap{max-width:980px;margin:auto;padding:18px}.top{display:flex;gap:12px;align-items:center;justify-content:space-between}.title{font-weight:800;font-size:20px}.badge{font-size:12px;background:var(--soft);color:var(--accent);padding:5px 10px;border-radius:999px}
+.search{margin-top:14px;width:100%;border:1px solid var(--line);background:#fff;border-radius:14px;padding:13px 15px;font-size:16px;outline:none}.search:focus{border-color:var(--accent)}
+.hero{padding:34px 18px 12px}.hero h1{font-size:32px;line-height:1.25;margin:0 0 10px}.hero p{color:var(--sub);margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 3px 14px rgba(35,49,74,.04)}.card h2{font-size:19px;margin:0 0 8px}.card h3{font-size:15px;margin:15px 0 5px}.card p,.card li{font-size:14px}.card ul{padding-left:20px;margin:7px 0}.tag{display:inline-block;font-size:11px;color:var(--accent);background:var(--soft);border-radius:999px;padding:3px 8px;margin-bottom:9px}.note{background:#fff8df;border:1px solid #f1df9f;border-radius:14px;padding:14px 16px;font-size:13px;margin:18px 0}.hidden{display:none!important}footer{color:var(--sub);font-size:12px;padding:18px 0 40px}
+@media(max-width:600px){.hero h1{font-size:25px}.wrap{padding:14px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="top"><div class="title">家電販売ナレッジ</div><span class="badge">エアコン</span></div><input id="q" class="search" placeholder="例：畳数、除湿、掃除、室外機、三菱…" /></div></header>
+<main class="wrap">
+<section class="hero"><h1>エアコン選び・設置の基礎</h1><p>接客前に短時間で確認できる、一般的な商品知識を整理したメモ。</p></section>
+<div class="note">工事条件・料金・補助制度・保証内容は販売店や施工業者、時期、地域、製品によって異なります。最終確認は各社の最新案内・施工基準を優先してください。</div>
+<section class="grid" id="cards">
+<article class="card"><span class="tag">選び方</span><h2>畳数の考え方</h2><ul><li>部屋の広さだけでなく、建物の断熱性・気密性も重要。</li><li>一般に木造は鉄筋コンクリート造より外気の影響を受けやすい。</li><li>天井が高い、吹き抜けがある、日差しが強い窓が大きい場合は負荷が増える。</li><li>西日が強い部屋や最上階などは、余裕のある能力を検討する。</li></ul></article>
+<article class="card"><span class="tag">ヒアリング</span><h2>最初に確認すること</h2><ul><li>部屋の広さ</li><li>戸建て / 集合住宅</li><li>冷房中心か、暖房もよく使うか</li><li>室内機・室外機の設置場所</li><li>既存配管・配管穴の有無</li><li>専用コンセントの有無と形状</li><li>カーテンレールや梁など高さの制約</li></ul></article>
+<article class="card"><span class="tag">設置</span><h2>室外機の置き場所</h2><p>室外機は熱を外へ捨てる重要な装置。吸込口・吹出口をふさがず、十分に通気できる場所へ設置する。</p><ul><li>強い直射日光や熱がこもる場所は効率低下につながることがある。</li><li>移設距離が増えるほど配管や施工条件が増える。</li><li>ベランダ・屋根・壁面・二段置きなどは施工条件の確認が必要。</li></ul></article>
+<article class="card"><span class="tag">設置</span><h2>専用回路・コンセント</h2><p>エアコンは機種ごとに必要な電源仕様が異なる。専用回路、電圧、コンセント形状を必ず確認する。</p><p>容量不足や不適切な電源使用は発熱・故障・火災リスクにつながるため、必要に応じて電気工事を依頼する。</p></article>
+<article class="card"><span class="tag">設置</span><h2>配管と化粧カバー</h2><p>冷媒配管・ドレンホース・配線をまとめて室内機と室外機を接続する。</p><p>化粧カバーは見た目を整え、配管の露出を抑えるための部材。曲がりや長さ、設置場所によって必要部材が変わる。</p></article>
+<article class="card"><span class="tag">設置</span><h2>隠蔽配管</h2><p>壁や天井内部にあらかじめ配管が通されている方式。既存配管の状態・径・長さ・施工条件によって、取り付け可能な機種が制限される場合がある。</p><p>配管の汚れや劣化状況によっては洗浄・交換など追加作業が必要になる。</p></article>
+<article class="card"><span class="tag">機能</span><h2>価格が上がる主な機能</h2><ul><li>基本の冷房・暖房・除湿</li><li>フィルター自動お掃除</li><li>人感センサー・AI運転</li><li>空気清浄機能</li><li>高性能な除湿</li><li>換気・加湿・高暖房能力</li></ul><p>上位機ほど快適性や省エネ性、メンテナンス性を高めた機能が増える傾向。</p></article>
+<article class="card"><span class="tag">除湿</span><h2>弱冷房除湿と再熱除湿</h2><h3>弱冷房除湿</h3><p>空気を冷やして結露させ、水分を取り除く方式。室温も下がりやすい。</p><h3>再熱除湿</h3><p>いったん冷やして除湿した空気を暖め直して戻す方式。室温を下げにくいのが長所。</p></article>
+<article class="card"><span class="tag">掃除</span><h2>自動お掃除の意味</h2><p>一般的な「自動お掃除」は主にフィルターのホコリを取る機能。エアコン内部すべてを自動清掃するわけではない。</p><ul><li>フィルター掃除の手間を減らしたい人に向く。</li><li>熱交換器・送風ファンなどは汚れるため、状態に応じて専門清掃が必要。</li><li>お掃除機能付きは業者清掃の料金が高くなる場合がある。</li></ul></article>
+<article class="card"><span class="tag">メーカー</span><h2>三菱電機の見方</h2><p>センサーを使った気流制御を特徴とするシリーズがあり、人や床などの温度を見ながら風を届ける考え方が強い。</p><p>一部機種はフラップなどを外しやすく、セルフメンテナンス性を重視している。</p></article>
+<article class="card"><span class="tag">メーカー</span><h2>ダイキンの見方</h2><p>空調専業メーカーで、温度・湿度制御を重視したラインアップが特徴。上位シリーズには加湿・換気など独自機能を備える製品もある。</p><p>シリーズによって本体寸法や除湿方式が異なるため、設置条件と合わせて比較する。</p></article>
+<article class="card"><span class="tag">メーカー</span><h2>日立の見方</h2><p>一部シリーズの「凍結洗浄」など、熱交換器の汚れ対策を重視した機能が特徴。</p><p>自動洗浄があっても、使用環境によって汚れ方は異なるため定期的な状態確認は必要。</p></article>
+<article class="card"><span class="tag">メーカー</span><h2>東芝・その他</h2><p>東芝は気流制御やセンサー、メンテナンス性を特徴とするモデルがある。コロナなどはシンプル機能・コンパクトさ・価格を重視した選択肢になりやすい。</p><p>メーカー名だけで決めず、設置寸法・必要機能・予算で比較する。</p></article>
+<article class="card"><span class="tag">仕組み</span><h2>エアコンが冷える仕組み</h2><p>冷媒を圧縮・膨張させながら循環させ、室内と屋外の間で熱を移動させる「ヒートポンプ」を利用する。</p><p>冷房では室内の熱を屋外へ、暖房では屋外の熱を室内へ運ぶ。</p></article>
+<article class="card"><span class="tag">仕組み</span><h2>室外機が重要な理由</h2><p>室外機にはコンプレッサーや熱交換器、ファンなど冷媒循環の主要部品が入っている。特にコンプレッサーは冷媒を循環させる中心的な部品。</p><p>そのため室外機周辺の通気を確保することが性能維持に重要。</p></article>
+<article class="card"><span class="tag">トラブル</span><h2>ポコポコ音</h2><p>気密性の高い住宅では、換気扇などによる室内外の気圧差でドレンホースから空気が逆流し、音が出ることがある。</p><p>逆止弁（エアカットバルブ）などで改善できる場合がある。</p></article>
+<article class="card"><span class="tag">設置</span><h2>新規の配管穴</h2><p>建物へ新たに穴を開ける場合は、構造・配線・配管・管理規約などの確認が必要。</p><p>古い建物では石綿（アスベスト）に関する事前調査が必要になる場合があるため、施工業者の案内に従う。</p></article>
+<article class="card"><span class="tag">サイズ</span><h2>高さ制限</h2><p>カーテンレール、梁、天井との距離によって室内機が入らないことがある。</p><p>本体寸法だけでなく、メーカー指定の上・左右の施工スペースまで確認する。</p></article>
+<article class="card"><span class="tag">接客</span><h2>迷ったときの比較軸</h2><ul><li>まず設置できるか</li><li>冷暖房能力に余裕があるか</li><li>年間消費電力量・省エネ性</li><li>除湿・加湿・換気など欲しい機能</li><li>掃除のしやすさ</li><li>本体サイズ</li><li>予算</li></ul></article>
+</section>
+<footer>個人学習用ナレッジ。販売条件・施工条件・制度・価格などは必ず最新情報を確認してください。</footer>
+</main>
+<script>
+const q=document.getElementById('q');const cards=[...document.querySelectorAll('.card')];q.addEventListener('input',()=>{const s=q.value.trim().toLowerCase();cards.forEach(c=>c.classList.toggle('hidden',s&&!c.innerText.toLowerCase().includes(s)))})
+</script>
+</body>
+</html>
