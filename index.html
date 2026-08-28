@@ -5,19 +5,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>家電販売ナレッジ | エアコン</title>
 <style>
-:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--sub:#637083;--line:#e4e8ef;--accent:#2d67d7;--soft:#eaf1ff}
+:root{--bg:#f5f7fb;--card:#fff;--text:#172033;--sub:#637083;--line:#e4e8ef;--accent:#2d67d7;--soft:#eaf1ff;--danger:#b42318}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
-header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+button,input,textarea{font:inherit}header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
 .wrap{max-width:980px;margin:auto;padding:18px}.top{display:flex;gap:12px;align-items:center;justify-content:space-between}.title{font-weight:800;font-size:20px}.badge{font-size:12px;background:var(--soft);color:var(--accent);padding:5px 10px;border-radius:999px}
-.search{margin-top:14px;width:100%;border:1px solid var(--line);background:#fff;border-radius:14px;padding:13px 15px;font-size:16px;outline:none}.search:focus{border-color:var(--accent)}
-.hero{padding:34px 18px 12px}.hero h1{font-size:32px;line-height:1.25;margin:0 0 10px}.hero p{color:var(--sub);margin:0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 3px 14px rgba(35,49,74,.04)}.card h2{font-size:19px;margin:0 0 8px}.card h3{font-size:15px;margin:15px 0 5px}.card p,.card li{font-size:14px}.card ul{padding-left:20px;margin:7px 0}.tag{display:inline-block;font-size:11px;color:var(--accent);background:var(--soft);border-radius:999px;padding:3px 8px;margin-bottom:9px}.note{background:#fff8df;border:1px solid #f1df9f;border-radius:14px;padding:14px 16px;font-size:13px;margin:18px 0}.hidden{display:none!important}footer{color:var(--sub);font-size:12px;padding:18px 0 40px}
-@media(max-width:600px){.hero h1{font-size:25px}.wrap{padding:14px}.grid{grid-template-columns:1fr}}
+.search{margin-top:14px;width:100%;border:1px solid var(--line);background:#fff;border-radius:14px;padding:13px 15px;font-size:16px;outline:none}.search:focus,textarea:focus,input:focus{border-color:var(--accent);outline:none}
+.tabs{display:flex;gap:8px;margin-top:12px}.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 13px;font-weight:700;font-size:13px}.tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.hero{padding:30px 18px 12px}.hero h1{font-size:32px;line-height:1.25;margin:0 0 10px}.hero p{color:var(--sub);margin:0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 3px 14px rgba(35,49,74,.04)}.card h2{font-size:19px;margin:0 0 8px}.card h3{font-size:15px;margin:15px 0 5px}.card p,.card li{font-size:14px}.card ul{padding-left:20px;margin:7px 0}.tag{display:inline-block;font-size:11px;color:var(--accent);background:var(--soft);border-radius:999px;padding:3px 8px;margin-bottom:9px}.note{background:#fff8df;border:1px solid #f1df9f;border-radius:14px;padding:14px 16px;font-size:13px;margin:18px 0}.hidden{display:none!important}footer{color:var(--sub);font-size:12px;padding:18px 0 40px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;margin:18px 0}.panel h2{margin:0 0 6px}.panel p{color:var(--sub);font-size:13px}.field{margin:12px 0}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:5px}.field input,.field textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px;background:#fff}.field textarea{min-height:140px;resize:vertical}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{border:0;border-radius:12px;padding:10px 13px;font-weight:700;background:var(--accent);color:#fff}.btn.secondary{background:#eef2f7;color:var(--text)}.btn.danger{background:#fff0ef;color:var(--danger)}.local-card{position:relative}.local-card .meta{font-size:11px;color:var(--sub);margin-bottom:8px}.local-card .delete{position:absolute;right:12px;top:12px;border:0;background:#fff0ef;color:var(--danger);border-radius:9px;padding:5px 8px}.empty{color:var(--sub);font-size:14px;padding:24px;text-align:center}.privacy{background:#eef8f1;border:1px solid #cce8d4;border-radius:14px;padding:14px 16px;font-size:13px}
+@media(max-width:600px){.hero h1{font-size:25px}.wrap{padding:14px}.grid{grid-template-columns:1fr}.actions .btn{flex:1}}
 </style>
 </head>
 <body>
-<header><div class="wrap"><div class="top"><div class="title">家電販売ナレッジ</div><span class="badge">エアコン</span></div><input id="q" class="search" placeholder="例：畳数、除湿、掃除、室外機、三菱…" /></div></header>
+<header><div class="wrap"><div class="top"><div class="title">家電販売ナレッジ</div><span class="badge">エアコン</span></div><input id="q" class="search" placeholder="例：畳数、除湿、掃除、室外機、三菱…" /><div class="tabs"><button class="tab active" data-tab="public">一般知識</button><button class="tab" data-tab="local">端末メモ</button></div></div></header>
 <main class="wrap">
+<section id="publicView">
 <section class="hero"><h1>エアコン選び・設置の基礎</h1><p>接客前に短時間で確認できる、一般的な商品知識を整理したメモ。</p></section>
 <div class="note">工事条件・料金・補助制度・保証内容は販売店や施工業者、時期、地域、製品によって異なります。最終確認は各社の最新案内・施工基準を優先してください。</div>
 <section class="grid" id="cards">
@@ -40,11 +42,30 @@ header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);border-
 <article class="card"><span class="tag">設置</span><h2>新規の配管穴</h2><p>建物へ新たに穴を開ける場合は、構造・配線・配管・管理規約などの確認が必要。</p><p>古い建物では石綿（アスベスト）に関する事前調査が必要になる場合があるため、施工業者の案内に従う。</p></article>
 <article class="card"><span class="tag">サイズ</span><h2>高さ制限</h2><p>カーテンレール、梁、天井との距離によって室内機が入らないことがある。</p><p>本体寸法だけでなく、メーカー指定の上・左右の施工スペースまで確認する。</p></article>
 <article class="card"><span class="tag">接客</span><h2>迷ったときの比較軸</h2><ul><li>まず設置できるか</li><li>冷暖房能力に余裕があるか</li><li>年間消費電力量・省エネ性</li><li>除湿・加湿・換気など欲しい機能</li><li>掃除のしやすさ</li><li>本体サイズ</li><li>予算</li></ul></article>
+</section></section>
+<section id="localView" class="hidden">
+<section class="hero"><h1>端末メモ</h1><p>この内容はGitHubには送信せず、このブラウザ内だけに保存します。</p></section>
+<div class="privacy">🔒 端末メモは localStorage に保存されます。ブラウザのデータ消去・端末変更で消える可能性があるため、必要に応じて「書き出し」でバックアップしてください。</div>
+<div class="panel"><h2>メモを追加</h2><div class="field"><label>タイトル</label><input id="memoTitle" placeholder="例：エアコン受注時の確認" /></div><div class="field"><label>カテゴリ</label><input id="memoCategory" placeholder="例：社内手順 / 工事 / 保証" /></div><div class="field"><label>内容</label><textarea id="memoBody" placeholder="端末だけに保存したい内容を入力"></textarea></div><div class="actions"><button class="btn" id="saveMemo">保存</button><button class="btn secondary" id="exportMemos">書き出し</button><label class="btn secondary" for="importFile" style="cursor:pointer">読み込み</label><input id="importFile" type="file" accept="application/json,.json" class="hidden" /></div></div>
+<div id="memoList" class="grid"></div>
 </section>
-<footer>個人学習用ナレッジ。販売条件・施工条件・制度・価格などは必ず最新情報を確認してください。</footer>
+<footer>一般知識は公開サイト側、社内寄りの情報は端末メモ側に分けて管理してください。</footer>
 </main>
 <script>
-const q=document.getElementById('q');const cards=[...document.querySelectorAll('.card')];q.addEventListener('input',()=>{const s=q.value.trim().toLowerCase();cards.forEach(c=>c.classList.toggle('hidden',s&&!c.innerText.toLowerCase().includes(s)))})
+const STORAGE_KEY='kadenhanbaigyomu_local_memos_v1';
+const q=document.getElementById('q');const cards=[...document.querySelectorAll('#cards .card')];const tabs=[...document.querySelectorAll('.tab')];const publicView=document.getElementById('publicView');const localView=document.getElementById('localView');
+function currentTab(){return document.querySelector('.tab.active').dataset.tab}
+function filterAll(){const s=q.value.trim().toLowerCase();if(currentTab()==='public'){cards.forEach(c=>c.classList.toggle('hidden',s&&!c.innerText.toLowerCase().includes(s)))}else{renderMemos(s)}}
+q.addEventListener('input',filterAll);
+tabs.forEach(t=>t.addEventListener('click',()=>{tabs.forEach(x=>x.classList.remove('active'));t.classList.add('active');const local=t.dataset.tab==='local';publicView.classList.toggle('hidden',local);localView.classList.toggle('hidden',!local);q.placeholder=local?'端末メモを検索…':'例：畳数、除湿、掃除、室外機、三菱…';filterAll()}));
+function loadMemos(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]')}catch(e){return[]}}
+function saveMemos(m){localStorage.setItem(STORAGE_KEY,JSON.stringify(m))}
+function esc(v){return String(v||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+function renderMemos(search=''){const list=document.getElementById('memoList');const s=search.toLowerCase();const memos=loadMemos().filter(m=>!s||`${m.title} ${m.category} ${m.body}`.toLowerCase().includes(s));if(!memos.length){list.innerHTML='<div class="empty">保存された端末メモはありません。</div>';return}list.innerHTML=memos.map(m=>`<article class="card local-card"><button class="delete" data-id="${esc(m.id)}">削除</button><span class="tag">${esc(m.category||'メモ')}</span><h2>${esc(m.title||'無題')}</h2><div class="meta">${new Date(m.updatedAt).toLocaleString('ja-JP')}</div><p style="white-space:pre-wrap">${esc(m.body)}</p></article>`).join('');list.querySelectorAll('.delete').forEach(b=>b.onclick=()=>{if(confirm('このメモを削除しますか？')){saveMemos(loadMemos().filter(m=>m.id!==b.dataset.id));renderMemos(q.value.trim())}})}
+document.getElementById('saveMemo').onclick=()=>{const title=document.getElementById('memoTitle').value.trim();const category=document.getElementById('memoCategory').value.trim();const body=document.getElementById('memoBody').value.trim();if(!title&&!body){alert('タイトルか内容を入力してください');return}const memos=loadMemos();memos.unshift({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),title,category,body,updatedAt:new Date().toISOString()});saveMemos(memos);document.getElementById('memoTitle').value='';document.getElementById('memoCategory').value='';document.getElementById('memoBody').value='';renderMemos(q.value.trim())};
+document.getElementById('exportMemos').onclick=()=>{const data={app:'kadenhanbaigyomu',version:1,exportedAt:new Date().toISOString(),memos:loadMemos()};const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`kaden-memos-${new Date().toISOString().slice(0,10)}.json`;a.click();URL.revokeObjectURL(a.href)};
+document.getElementById('importFile').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;try{const data=JSON.parse(await file.text());const incoming=Array.isArray(data)?data:data.memos;if(!Array.isArray(incoming))throw new Error();const existing=loadMemos();const map=new Map(existing.map(m=>[m.id,m]));incoming.forEach(m=>map.set(m.id||String(Date.now()+Math.random()),{id:m.id||String(Date.now()+Math.random()),title:String(m.title||''),category:String(m.category||''),body:String(m.body||''),updatedAt:m.updatedAt||new Date().toISOString()}));saveMemos([...map.values()].sort((a,b)=>new Date(b.updatedAt)-new Date(a.updatedAt)));renderMemos(q.value.trim());alert('メモを読み込みました')}catch(err){alert('読み込めないファイルです')}e.target.value='' });
+renderMemos();
 </script>
 </body>
 </html>
