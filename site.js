@@ -30,3 +30,17 @@ window.KadenSite=(function(){
     return nativeFetch(input,init)
   };
 })();
+
+(function(){
+  if(!/sales_mode\.html$/.test(location.pathname))return;
+  var key='kaden_pc_color_pref_v1',busy=false;
+  function isPcScreen(){var e=document.querySelector('.modeHero .eyebrow');return !!(e&&/パソコン/.test(e.textContent||''))}
+  function color(){try{return sessionStorage.getItem(key)||''}catch(e){return''}}
+  function addField(){var grid=document.querySelector('.conditionGrid');if(!grid||!isPcScreen()||document.getElementById('pcColorPref'))return;var box=document.createElement('div');box.className='conditionField';box.innerHTML='<label>希望カラー</label><input id="pcColorPref" list="pcColorList" placeholder="例：ブラック / シルバー / ネイビー"><datalist id="pcColorList"><option value="ブラック"><option value="ホワイト"><option value="シルバー"><option value="ネイビー"><option value="ブルー"><option value="ゴールド"><option value="ピンク"></datalist>';
+    grid.appendChild(box);var input=document.getElementById('pcColorPref');input.value=color();input.addEventListener('input',function(){try{sessionStorage.setItem(key,input.value.trim())}catch(e){}})
+  }
+  function patchSearch(){var c=color(),result=document.querySelector('.webSearchSection');if(!c||!result||!isPcScreen())return;if(!document.querySelector('[data-pc-color-tag]')){var req=document.querySelector('.requirements');if(req){var tag=document.createElement('div');tag.className='requirement';tag.setAttribute('data-pc-color-tag','1');tag.innerHTML='<small>希望カラー</small><b>'+window.KadenSite.esc(c)+'</b>';req.appendChild(tag)}}var qbox=document.getElementById('searchQuery');if(qbox&&qbox.textContent.indexOf(c)<0)qbox.textContent=qbox.textContent+' '+c;Array.prototype.forEach.call(document.querySelectorAll('.searchNow,.officialSearch'),function(a){if(a.getAttribute('data-color-patched')==='1')return;try{var u=new URL(a.href),q=u.searchParams.get('q')||'';if(q.indexOf(c)<0){u.searchParams.set('q',q+' '+c);a.href=u.toString()}a.setAttribute('data-color-patched','1')}catch(e){}})
+  }
+  function run(){if(busy)return;busy=true;setTimeout(function(){busy=false;addField();patchSearch()},0)}
+  var root=document.getElementById('app')||document.body;new MutationObserver(run).observe(root,{childList:true,subtree:true});run()
+})();
