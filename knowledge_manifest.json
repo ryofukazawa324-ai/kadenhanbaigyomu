@@ -5,5 +5,6 @@
   "knowledge_support_game.json",
   "knowledge_audio_apple.json",
   "knowledge_camera_printer.json",
-  "knowledge_wifi.json"
+  "knowledge_wifi.json",
+  "knowledge_pc.json"
 ]
