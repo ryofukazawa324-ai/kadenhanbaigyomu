@@ -1,0 +1,17 @@
+[
+  {"match":["Panasonic","テレビ"],"label":"Panasonic VIERA公式","url":"https://panasonic.jp/viera/"},
+  {"match":["VIERA"],"label":"Panasonic VIERA公式","url":"https://panasonic.jp/viera/"},
+  {"match":["SHARP","テレビ"],"label":"SHARP AQUOS公式","url":"https://jp.sharp/aquos/"},
+  {"match":["AQUOS"],"label":"SHARP AQUOS公式","url":"https://jp.sharp/aquos/"},
+  {"match":["Hisense"],"label":"Hisense テレビ公式","url":"https://www.hisense.co.jp/tv/"},
+  {"match":["ハイセンス"],"label":"Hisense テレビ公式","url":"https://www.hisense.co.jp/tv/"},
+  {"match":["SHARP","冷蔵庫"],"label":"SHARP 冷蔵庫公式","url":"https://www.sharp.co.jp/reizo/lineup/"},
+  {"match":["SHARP","洗濯"],"label":"SHARP 洗濯機公式","url":"https://www.sharp.co.jp/sentaku/"},
+  {"match":["日立","洗濯"],"label":"日立 洗濯機公式","url":"https://kadenfan.hitachi.co.jp/wash/"},
+  {"match":["東芝","洗濯機"],"label":"東芝 洗濯機公式","url":"https://www.toshiba-lifestyle.com/jp/laundries/lineup/"},
+  {"match":["AQUA","洗濯機"],"label":"AQUA 洗濯機公式","url":"https://aqua-has.com/laundry/"},
+  {"match":["石綿"],"label":"厚生労働省 石綿総合情報ポータル","url":"https://www.ishiwata.mhlw.go.jp/"},
+  {"match":["専用コンセント","エアコン"],"label":"ダイキン 設置前チェック","url":"https://www.ac.daikin.co.jp/customercenter/useful/ra_check/main"},
+  {"match":["隠蔽配管"],"label":"ダイキン 設置前チェック","url":"https://www.ac.daikin.co.jp/customercenter/useful/ra_check/main"},
+  {"match":["高所作業"],"label":"ダイキン エアコン工事確認","url":"https://www.ac.daikin.co.jp/customercenter/useful/ra_check/main"}
+]
