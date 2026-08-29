@@ -4,39 +4,40 @@
   "lead":"見るもの・部屋の明るさ・録画・ゲーム・予算から、メーカーだけでなく現行シリーズまで絞る。",
   "questions":[
     {"text":"一番よく見るものは？","help":"テレビはコンテンツで最初の比較軸を作ると絞りやすい。","options":[
-      {"label":"地デジ・録画番組","note":"放送・録画重視","scores":{"regza_z890s":10,"regza_z770s":7,"pana_w95c":4,"sharp_x7a":4}},
-      {"label":"映画・Netflixなどの配信","note":"映画・配信重視","scores":{"sony_9ii":9,"sony_8":10,"pana_z95c":10,"pana_w97c":7,"sharp_s9a":8}},
-      {"label":"ゲーム","note":"ゲーム重視","scores":{"regza_z890s":9,"regza_z770s":9,"sony_7ii":6,"hisense_u8s":8,"hisense_u7s":7,"tcl_c7l":7,"tcl_p8k":6}},
+      {"label":"地デジ・録画番組","note":"放送・録画重視","scores":{"regza_z890s":12,"regza_z770s":7,"pana_w95c":4,"sharp_x7a":4}},
+      {"label":"映画・Netflixなどの配信","note":"映画・配信重視","scores":{"regza_zx3s":6,"sony_9ii":9,"sony_8":10,"pana_z95c":10,"pana_w97c":7,"sharp_s9a":8}},
+      {"label":"ゲーム","note":"ゲーム重視","scores":{"regza_zx3s":9,"regza_z890s":9,"regza_z770s":9,"sony_7ii":6,"hisense_u8s":8,"hisense_u7s":7,"tcl_c7l":7,"tcl_p8k":6}},
       {"label":"家族でいろいろ見る","note":"総合重視","scores":{"pana_w95c":7,"pana_w93c":6,"regza_z770s":6,"sharp_x7a":6,"hisense_u8s":5}}
     ]},
     {"text":"部屋の環境・画質の好みは？","help":"明るい部屋か、暗室で黒を重視するかでパネル候補が変わる。","options":[
-      {"label":"明るいリビング・映り込みを抑えたい","note":"明室・低反射","scores":{"sharp_x9a":10,"sharp_x7a":9,"pana_w97c":8,"pana_w95c":7,"hisense_u8s":8,"sony_9ii":6}},
+      {"label":"明るいリビング・映り込みを抑えたい","note":"明室・低反射","scores":{"sharp_x9a":10,"sharp_x7a":9,"pana_w97c":8,"pana_w95c":7,"hisense_u8s":8,"regza_zx3s":8,"sony_9ii":6}},
       {"label":"映画の黒・暗部を最優先したい","note":"有機EL向き","scores":{"pana_z95c":11,"sony_8":10,"sharp_s9a":9,"regza_x770s":8}},
-      {"label":"明るさも黒も欲しい・Mini LEDがいい","note":"Mini LED上位","scores":{"sony_9ii":10,"sony_7ii":8,"regza_z890s":9,"pana_w97c":9,"sharp_x9a":9,"hisense_u8s":8,"tcl_c8l":8}},
+      {"label":"色純度・明るさを上位まで欲しい","note":"RGB Mini LEDも比較","scores":{"regza_zx3s":11,"sony_9ii":10,"sony_7ii":8,"pana_w97c":8,"sharp_x9a":8,"hisense_u8s":7,"tcl_c8l":7}},
       {"label":"方式より価格と見やすさのバランス","note":"バランス","scores":{"regza_z770s":7,"pana_w93c":7,"hisense_u7s":8,"tcl_c7l":8,"tcl_p8k":6}}
     ]},
-    {"text":"録画はどこまで使いますか？","help":"REGZAのタイムシフトが必要かをここで分ける。","options":[
-      {"label":"見逃しを減らしたい・複数チャンネルを自動録画したい","note":"タイムシフト重視","scores":{"regza_z890s":14}},
-      {"label":"見たい番組だけ普通に録画できれば十分","note":"通常録画","scores":{"regza_z770s":4,"pana_w95c":3,"pana_w93c":3,"sharp_x7a":3}},
-      {"label":"ほぼ録画しない・配信中心","note":"録画優先度低い","scores":{"sony_9ii":5,"sony_8":5,"tcl_c8l":4,"hisense_u8s":4}}
+    {"text":"録画はどこまで使いますか？","help":"REGZAのタイムシフトマシンが必要かをここで分ける。","options":[
+      {"label":"見逃しを減らしたい・複数チャンネルを自動録画したい","note":"タイムシフト重視","scores":{"regza_z890s":16}},
+      {"label":"見たい番組だけ普通に録画できれば十分","note":"通常録画","scores":{"regza_zx3s":4,"regza_z770s":4,"pana_w95c":3,"pana_w93c":3,"sharp_x7a":3}},
+      {"label":"ほぼ録画しない・配信中心","note":"録画優先度低い","scores":{"sony_9ii":5,"sony_8":5,"regza_zx3s":4,"tcl_c8l":4,"hisense_u8s":4}}
     ]},
     {"text":"ゲームはどのくらいしますか？","help":"PS5連携、高リフレッシュレート、低遅延のどこを優先するか。","options":[
-      {"label":"PS5をよく使う","note":"PS5連携","scores":{"sony_9ii":10,"sony_7ii":10,"sony_8":9,"regza_z890s":6}},
-      {"label":"PS5以外も含め高fpsゲームをする","note":"高リフレッシュレート","scores":{"regza_z890s":9,"regza_z770s":9,"hisense_u8s":9,"hisense_u7s":8,"tcl_c8l":8,"tcl_c7l":8,"tcl_p8k":7}},
+      {"label":"PS5をよく使う","note":"PS5連携","scores":{"sony_9ii":10,"sony_7ii":10,"sony_8":9,"regza_zx3s":7,"regza_z890s":6}},
+      {"label":"PS5以外も含め高fpsゲームをする","note":"高リフレッシュレート","scores":{"regza_zx3s":10,"regza_z890s":9,"regza_z770s":9,"hisense_u8s":9,"hisense_u7s":8,"tcl_c8l":8,"tcl_c7l":8,"tcl_p8k":7}},
       {"label":"たまに遊ぶ程度","note":"ゲームは補助","scores":{"pana_w95c":3,"sharp_x7a":3,"regza_z770s":3}},
-      {"label":"ゲームはしない","note":"映像・録画優先","scores":{"pana_z95c":4,"sony_8":4,"pana_w97c":3}}
+      {"label":"ゲームはしない","note":"映像・録画優先","scores":{"pana_z95c":4,"sony_8":4,"pana_w97c":3,"regza_z890s":3}}
     ]},
     {"text":"価格と性能の考え方は？","help":"最後にシリーズ帯を決める。","options":[
-      {"label":"画質に意味があれば最上位まで検討","note":"プレミアム","scores":{"sony_9ii":10,"pana_z95c":10,"pana_w97c":8,"sharp_x9a":8,"tcl_c8l":6}},
+      {"label":"画質に意味があれば最上位まで検討","note":"プレミアム","scores":{"regza_zx3s":10,"sony_9ii":10,"pana_z95c":10,"pana_w97c":8,"sharp_x9a":8,"tcl_c8l":6}},
       {"label":"上位画質は欲しいが価格とのバランスも大事","note":"ハイグレード","scores":{"sony_7ii":8,"regza_z890s":8,"regza_z770s":7,"pana_w95c":8,"sharp_x7a":8,"hisense_u8s":8,"tcl_c7l":8}},
       {"label":"同予算なら大画面・機能を優先","note":"コスパ・サイズ","scores":{"hisense_u7s":10,"hisense_u8s":8,"tcl_p8k":9,"tcl_c7l":9,"regza_z770s":5,"pana_w93c":5}},
       {"label":"必要十分で価格を抑えたい","note":"標準帯","scores":{"pana_w80c":8,"tcl_p8k":7,"hisense_u7s":7,"pana_w93c":5}}
     ]}
   ],
   "candidates":[
-    {"id":"regza_z890s","name":"REGZA Z890S","tag":"RGB Mini LED＋タイムシフト","summary":"地デジ・録画・ゲームを全部強く使う人の上位候補。","strength":"RGB Mini LED系の高画質とタイムシフトマシン、ゲーム機能をまとめて比較しやすい。","watch":"タイムシフトには対応USB HDDなど条件確認。","official":"https://www.regza.com/tv/lineup/"},
-    {"id":"regza_z770s","name":"REGZA Z770S","tag":"Mini LED・ゲーム・バランス","summary":"REGZAの録画・ゲーム系の使い勝手を残しつつZ890Sほど上げなくてよい人向け。","strength":"Mini LEDを価格とのバランスで選びやすい。","watch":"タイムシフト最優先ならZ890Sを確認。","official":"https://www.regza.com/tv/lineup/"},
-    {"id":"regza_x770s","name":"REGZA X770S","tag":"有機EL","summary":"REGZAの操作・録画系が好みで、有機ELの黒を重視する人向け。","strength":"有機ELの暗部表現とREGZAの映像処理を比較できる。","watch":"明るい部屋や高輝度重視ならMini LEDも比較。","official":"https://www.regza.com/tv/lineup/"},
+    {"id":"regza_zx3s","name":"REGZA ZX3S","tag":"RGB Mini LED・高画質","summary":"色純度・高輝度・ゲームまで上位画質を求める人向け。","strength":"2026年のRGB Mini LED系。高色純度と144Hz VRR系ゲーム機能を比較しやすい。","watch":"タイムシフトマシンは本体非搭載。見逃し録画最優先ならZ890Sなどを確認。","official":"https://www.regza.com/tv/lineup/zx3s"},
+    {"id":"regza_z890s","name":"REGZA Z890S","tag":"Mini LED＋タイムシフトマシン","summary":"地デジ・見逃し録画・ゲームを1台で強く使う人の本命候補。","strength":"4K Mini LEDと最大6chのタイムシフトマシン、ゲーム機能をまとめて比較しやすい。","watch":"タイムシフトには対応USB HDDなど条件確認。RGB Mini LEDではない。","official":"https://www.regza.com/tv/lineup/z890s"},
+    {"id":"regza_z770s","name":"REGZA Z770S","tag":"Mini LED・ゲーム・バランス","summary":"REGZAのゲーム・通常録画系の使い勝手を残しつつZ890Sほど録画を重視しない人向け。","strength":"Mini LEDを価格とのバランスで選びやすい。","watch":"タイムシフト最優先ならZ890Sを確認。","official":"https://www.regza.com/tv/lineup/"},
+    {"id":"regza_x770s","name":"REGZA X770S","tag":"有機EL","summary":"REGZAの操作性が好みで、有機ELの黒を重視する人向け。","strength":"有機ELの暗部表現とREGZAの映像処理を比較できる。","watch":"明るい部屋や高輝度重視ならMini LED/RGB Mini LEDも比較。","official":"https://www.regza.com/tv/lineup/"},
     {"id":"sony_9ii","name":"SONY BRAVIA 9 II","tag":"RGB Mini LED・フラッグシップ","summary":"映画・配信・高輝度・音まで含め最上位を求める人向け。","strength":"RGB Mini LED上位と映像処理、Google TV、PS5連携をまとめて提案しやすい。","watch":"価格差に映像・音の価値を感じるか確認。","official":"https://www.sony.jp/bravia/"},
     {"id":"sony_7ii","name":"SONY BRAVIA 7 II","tag":"RGB Mini LED・プレミアム","summary":"SONYの映画・配信・PS5連携を重視しつつ最上位までは不要な人向け。","strength":"RGB Mini LEDの上位画質を9 IIより抑えた価格帯で比較しやすい。","watch":"有機ELの黒を求めるならBRAVIA 8も比較。","official":"https://www.sony.jp/bravia/"},
     {"id":"sony_8","name":"SONY BRAVIA 8","tag":"有機EL・映画/音","summary":"暗室映画・配信・音の没入感を強く重視する人向け。","strength":"有機ELとSONYの映像・音響処理、Google TV、PS5連携。","watch":"明るいリビングならMini LED系も比較。","official":"https://www.sony.jp/bravia/"},
@@ -48,7 +49,7 @@
     {"id":"sharp_x9a","name":"SHARP AQUOS X9A","tag":"Mini LED・低反射上位","summary":"明るい部屋や斜め視聴で見やすさを最優先する人向け。","strength":"N-Black系低反射、Mini LED、Google TVなどを上位で比較しやすい。","watch":"サイズごとのパネル・ゲーム仕様を確認。","official":"https://jp.sharp/aquos/"},
     {"id":"sharp_x7a","name":"SHARP AQUOS X7A","tag":"Mini LED・低反射バランス","summary":"AQUOSの見やすさとMini LEDを価格とのバランスで欲しい人向け。","strength":"低反射パネル、Mini LED、Google TV、テレビ視聴向け機能。","watch":"最上位画質ならX9Aを比較。","official":"https://jp.sharp/aquos/"},
     {"id":"sharp_s9a","name":"SHARP AQUOS S9A","tag":"有機EL","summary":"AQUOSの操作性を好み、有機ELの黒を重視する人向け。","strength":"有機ELとAQUOSの映像処理・Google TV。","watch":"明室ならX系Mini LEDも比較。","official":"https://jp.sharp/aquos/"},
-    {"id":"hisense_u8s","name":"Hisense U8S","tag":"Mini LED・高コスパ上位","summary":"Mini LED、広視野角、低反射、ゲーム性能を価格とのバランスで上げたい人向け。","strength":"U7Sより上位の映像処理・視野角・ゲーム性能を比較しやすい。","watch":"最上位国産機との映像・音の体感差も確認。","official":"https://www.hisense.co.jp/tv/"},
+    {"id":"hisense_u8s","name":"Hisense U8S","tag":"Mini LED・高コスパ上位","summary":"Mini LED、広視野角、低反射、ゲーム性能を価格とのバランスで上げたい人向け。","strength":"U7Sより上位の映像処理・視野角・ゲーム性能を比較しやすい。","watch":"最上位機との映像・音の体感差も確認。","official":"https://www.hisense.co.jp/tv/"},
     {"id":"hisense_u7s","name":"Hisense U7S","tag":"Mini LED・コスパ","summary":"同予算でサイズとMini LED、144Hz系ゲームを狙いたい人向け。","strength":"価格と画面サイズ・ゲーム性能のバランス。","watch":"視野角や低反射を重視するならU8Sへ。","official":"https://www.hisense.co.jp/tv/"},
     {"id":"tcl_c8l","name":"TCL C8L","tag":"Mini LED・プレミアムコスパ","summary":"高輝度Mini LEDや大画面を価格とのバランスで上位まで欲しい人向け。","strength":"Mini LEDの上位制御・量子ドット・ゲーム性能を大画面で狙いやすい。","watch":"設置距離と視聴角度、音響差も確認。","official":"https://www.tcl.com/jp/ja/tvs"},
     {"id":"tcl_c7l","name":"TCL C7L","tag":"Mini LED・ハイグレード","summary":"Mini LEDとゲームをコスパ良く選びたい人の本命候補。","strength":"価格・高輝度・量子ドット・高リフレッシュレートのバランス。","watch":"さらに高輝度を求めるならC8L。","official":"https://www.tcl.com/jp/ja/tvs"},
