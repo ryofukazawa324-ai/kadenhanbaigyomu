@@ -1,0 +1,37 @@
+{
+  "products":[
+    {
+      "id":"tv","label":"テレビ","lead":"同じ液晶・有機ELでも、映像処理・録画・OS・音・ゲーム機能でメーカー差が出る。",
+      "makers":[
+        {"name":"REGZA","one":"地デジ・録画・ゲームを強く出しやすい","strength":"タイムシフトマシン、録画まわり、瞬速ゲームモード、映像処理を比較軸にしやすい。","fit":"地デジをよく見る、録画をたくさん使う、ゲームもする人。","check":"タイムシフト対応はシリーズ限定。外付けHDDや対応サイズも確認。","series":"2026の主軸はZ890S（RGB Mini LED＋タイムシフト）、Z770S（Mini LED）、X770S（有機EL）。上位現行にはX9900R/Z970R等も残る。","official":"https://www.regza.com/tv/lineup/"},
+        {"name":"SONY BRAVIA","one":"映画・配信・音・PS5との相性で出しやすい","strength":"Google TV、映像処理、映像と音の一体感、PS5連携を訴求しやすい。","fit":"映画・Netflix等の配信、PS5、音まで含めた没入感を重視する人。","check":"録画機能を最優先する人にはREGZAなども比較。シリーズによりパネル方式と音響が大きく違う。","series":"2026はBRAVIA 9 II（RGB Mini LEDフラッグシップ）、BRAVIA 7 II（RGB Mini LEDプレミアム）。有機ELならBRAVIA 8も主要候補。","official":"https://www.sony.jp/bravia/special/top/"},
+        {"name":"Panasonic VIERA","one":"画質・Fire TV・安心設計を総合で出しやすい","strength":"Fire TV搭載、Mini LED/有機EL、転倒防止スタンド、録画・ゲームを含めた総合力。","fit":"テレビ放送も配信も家族で使い、操作性や安心設計も重視する人。","check":"シリーズでパネル差が大きい。最上位まで必要か、Mini LEDのどこまで上げるかを比較。","series":"Z95C＝有機ELプレミアム、W97C＝Mini LEDフラッグシップ、W95C＝ハイグレード、W93C＝Mini LEDスタンダード、W80C＝標準液晶。","official":"https://panasonic.jp/viera/"},
+        {"name":"SHARP AQUOS","one":"低反射・見やすさ・2画面・使い勝手で比較しやすい","strength":"N-Black系低反射パネル、Mini LED、Google TV、ズーム2画面、早見再生、回転式スタンド等。","fit":"明るい部屋、斜めから見る、地デジとネット動画を使い分ける家族。","check":"N-Black Wide等はサイズ/シリーズ差あり。ゲームの高リフレッシュレートも対象サイズ確認。","series":"2026はX9A/X7AがMini LED上位、S9Aが有機EL上位、HV1がMini LEDの大型中心。","official":"https://jp.sharp/aquos/compare/"},
+        {"name":"Hisense","one":"Mini LED・ゲーム・大画面を価格とのバランスで出しやすい","strength":"Mini LED、ゲームモード、広視野角/低反射を上位機で強化しつつ、サイズあたり価格を比較しやすい。","fit":"同予算で画面サイズやMini LEDを上げたい、ゲーム性能も欲しい人。","check":"U8SとU7Sでもパネル・低反射・リフレッシュレート・音が違う。価格だけでなく視野角も確認。","series":"U8SがU7Sより上位。U8Sは広視野角・低反射・上位エンジン・165Hz系ゲーム、U7Sは144Hz系で価格とのバランス。","official":"https://www.hisense.co.jp/tv/"},
+        {"name":"TCL","one":"Mini LED・大画面・ゲーム性能をコスパで上げやすい","strength":"Mini LEDの分割制御、量子ドット、Google TV、144Hz系ゲーム、ONKYO/B&O音響などを価格と比較しやすい。","fit":"大画面、Mini LED、ゲームをなるべく価格を抑えて欲しい人。","check":"シリーズ数が多く、C8/C7/C6/P系で輝度・分割数・音響差が大きい。","series":"C8Lがプレミアム、C7Lがハイグレード、C6KがMini LEDの価格寄り、P8Kが量子ドット＋144Hzのバランス。","official":"https://www.tcl.com/jp/ja/tvs"}
+      ]
+    },
+    {
+      "id":"refrigerator","label":"冷蔵庫","lead":"メーカー差は、冷凍・野菜・チルド・収納・薄型/幅・引き出し位置に出やすい。",
+      "makers":[
+        {"name":"三菱電機","one":"冷凍・解凍・肉魚保存を強く比較しやすい","strength":"切れちゃう瞬冷凍A.I.、氷点下ストッカー、できちゃうV冷凍＋、全室独立制御。","fit":"作り置き、冷凍食品、肉魚を解凍の手間少なく使いたい人。","check":"冷凍室まんなかWZ/JWか、野菜室まんなかMZ/JMかで使い勝手が変わる。","series":"WZ/MZが上位、JW/JMが主要機能を残した比較候補、幅60cmならBD。","official":"https://www.mitsubishielectric.co.jp/home/reizouko/product/"},
+        {"name":"日立","one":"チルド・冷蔵室全体の鮮度と大容量冷凍で比較しやすい","strength":"まるごとチルド、特鮮氷温、上位の真空氷温、大容量冷凍、新鮮スリープ野菜室。","fit":"肉魚・作り置き・冷蔵品をまとめて鮮度良く保存したい人。","check":"真空氷温まで必要かで上位価格差が出る。幅狭タイプも別途確認。","series":"H＝標準、HWC＝冷凍・野菜・チルドの本命、HZC＝真空氷温まで含む上位。","official":"https://kadenfan.hitachi.co.jp/rei/"},
+        {"name":"東芝","one":"野菜室を軸に冷凍・チルドも強く出しやすい","strength":"もっと潤う摘みたて野菜室、氷結晶チルド、上質冷凍、野菜室まんなかのラインアップ。","fit":"自炊が多い、野菜をまとめ買いする、野菜室をよく開ける人。","check":"上位XFS/FZと価格寄りFH/GSH、幅60cm GTのどこまで必要か。","series":"XFS＝上位、FZ＝機能本命、GT＝幅60cm、FH/GSH＝野菜室まんなか標準寄り。","official":"https://www.toshiba-lifestyle.com/jp/refrigerators/lineup/"},
+        {"name":"Panasonic","one":"収納・冷凍・使いやすさを総合で出しやすい","strength":"コンパクトBIG、微凍結、霜つき抑制冷凍、上位の熱いまま急速冷凍、ナノイーX、アプリ。","fit":"収納のしやすさ、冷凍、家族全体の使い勝手をバランス良く重視する人。","check":"冷凍室まんなかか野菜室まんなか、幅60/65cm、大容量上位の必要性。","series":"WX＝大容量上位、HY＝65cm上位、EY＝65cmバランス、RY＝60cm、BR＝野菜室まんなか。","official":"https://panasonic.jp/reizo/feature.html"},
+        {"name":"SHARP","one":"ドアの使い勝手・大容量冷凍・清潔機能で出しやすい","strength":"どっちもドア/つけかえどっちもドア、大容量冷凍室メガフリーザー、プラズマクラスター、野菜室まんなか等。","fit":"キッチン動線でドア開きが気になる、冷凍ストックが多い、清潔性も重視する人。","check":"ドア方式はシリーズ・容量で違う。設置壁との干渉も確認。","series":"シリーズ名だけより、幅・容量・ドア方式・メガフリーザー・野菜室位置で現行比較するのが実用的。","official":"https://www.sharp.co.jp/reizo/lineup/"},
+        {"name":"AQUA","one":"価格から入り、薄型・冷凍・デザインまで上げやすい","strength":"価格と容量のバランス、TZの薄型デザイン、TXの鮮度上位、DELIE+の中間帯。","fit":"価格を抑えたいが、必要ならデザインや冷凍機能にも予算を上げられる人。","check":"『AQUA＝安い』だけで終わらず、奥行・冷凍容量・シリーズ差を見る。","series":"Standard→DELIE+→TZ/TX。薄型デザインならTZ、鮮度・機能上位ならTX。","official":"https://aqua-has.com/product/product-series/refrigerator/"},
+        {"name":"Haier","one":"必要容量を低価格で確保する時の比較起点","strength":"300〜470L級まで容量選択が広く、シンプルな機能で価格を抑えやすい。","fit":"機能を絞って容量と価格を優先する人。","check":"シリーズ名より型番ごとの冷凍室容量、幅、ドア構成、製氷・鮮度機能を確認。","series":"470/450/411Lや300L台など容量帯から入り、型番ごとの機能で絞る。","official":"https://www.haier.com/jp/refrigerators/"}
+      ]
+    },
+    {
+      "id":"washer","label":"洗濯機","lead":"メーカー差は、乾燥方式・洗浄・シワ・手入れ・自動投入・設置サイズに出やすい。",
+      "makers":[
+        {"name":"Panasonic","one":"ヒートポンプ乾燥・省エネ・自動投入の完成度で出しやすい","strength":"LXのトップユニット式ヒートポンプ、はやふわ乾燥、温水洗浄、トリプル自動投入、上位の乾燥長もちユニット。","fit":"乾燥をほぼ毎日使う、電気代・衣類ダメージ・自動投入を重視する人。","check":"LXとヒーター式SDの乾燥方式差は大きい。縦型ならFA/F系へ。","series":"LX129/127が上位、LX125/123がヒートポンプの価格バランス、SDは低温ヒーター式、FAは縦型主力。","official":"https://panasonic.jp/wash/overview.html"},
+        {"name":"日立","one":"お手入れの少なさとシワ低減で出しやすい","strength":"らくメンテ、風アイロン/らくはや風アイロン、ナイアガラ洗浄。上位STX/SXはヒートポンプ。","fit":"乾燥フィルター手入れを減らしたい、シャツのシワを抑えたい人。","check":"STX/SXとSW/SVでは乾燥方式が違う。コンパクトCX/CGも用途別。","series":"STX/SX＝13kgヒートポンプ上位、SW/SV＝12kg低温ヒート、CX/CG＝コンパクト、BW-X/BW-V＝縦型。","official":"https://kadenfan.hitachi.co.jp/wash/"},
+        {"name":"東芝","one":"洗浄・静音・ヒートポンプ乾燥で比較しやすい","strength":"ウルトラファインバブル洗浄、Ag+抗菌水、低振動・低騒音、ふんわリッチ速乾、上位の温水・UV・自動投入。","fit":"洗浄力と静音性、乾燥をバランス良く重視する人。","check":"XP/XH/XMで温水・UV・操作・自動投入差。8kg GSは乾燥方式が違う。","series":"XP＝最上位、XH＝上位、XM＝価格寄りヒートポンプ、GS＝コンパクト8kg、縦型はDPB等。","official":"https://www.toshiba-lifestyle.com/jp/laundries/lineup/"},
+        {"name":"SHARP","one":"自動お掃除・プラズマクラスター・穴なし槽で差を出しやすい","strength":"ドラムは乾燥ダクト/槽/パッキン等の自動お掃除、プラズマクラスター。縦型は穴なし槽が独自。","fit":"清潔・手入れ、縦型で槽外側の汚れ侵入を抑えたい人。","check":"12X2と12P2で乾燥制御・省エネ差。穴なし槽は縦型の独自軸。","series":"12X2＝ドラム最上位、12P2＝ヒートポンプ上位、下位ドラムは必要機能で比較。縦型は穴なし槽を軸に容量選択。","official":"https://www.sharp.co.jp/sentaku/"},
+        {"name":"AQUA","one":"コンパクトなドラムと価格・機能バランスで出しやすい","strength":"水平のまっ直ぐドラム、コンパクトボディ、上位ヒートポンプ、泡フルウォッシュ、オゾンエアウォッシュ、VP縦型。","fit":"ドラムを置きたいが奥行や価格が気になる、シワ・絡み・設置性を重視する人。","check":"DXS/DMS/D8で容量・乾燥・ケア機能差。縦型VPはドラムとは別軸。","series":"DXS12A＝12kg上位、DMS10A＝薄型10kg、D8A＝8kgコンパクト、VP＝縦型主力。","official":"https://aqua-has.com/laundry/"}
+      ]
+    }
+  ]
+}
