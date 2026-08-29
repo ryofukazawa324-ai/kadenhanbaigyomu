@@ -1,0 +1,10 @@
+{
+  "products":[
+    {
+      "id":"tv",
+      "makers":[
+        {"name":"REGZA","one":"地デジ・録画・ゲームを強く出しやすい","strength":"タイムシフトマシン、録画まわり、瞬速ゲームモード、映像処理を比較軸にしやすい。","fit":"地デジをよく見る、録画をたくさん使う、ゲームもする人。","check":"タイムシフト対応はシリーズ限定。RGB Mini LEDだから必ずタイムシフト内蔵というわけではない。外付けHDDや対応サイズも確認。","series":"2026はZX1S/ZX2S/ZX3SがRGB Mini LED系。Z890Sはタイムシフトマシン搭載4K Mini LED、Z770Sは4K Mini LED、X770Sは有機EL。画質最優先ならZX系、見逃し録画ならZ890Sを強く確認。","official":"https://www.regza.com/tv/lineup/"}
+      ]
+    }
+  ]
+}
