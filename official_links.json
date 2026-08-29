@@ -13,6 +13,9 @@
 
   {"match":["三菱","エアコン"],"label":"三菱電機 霧ヶ峰公式","url":"https://www.mitsubishielectric.co.jp/home/kirigamine/"},
   {"match":["ダイキン"],"label":"ダイキン ルームエアコン公式","url":"https://www.ac.daikin.co.jp/roomaircon"},
+  {"match":["ダイキン","Aシリーズ"],"label":"ダイキン Aシリーズ公式","url":"https://www.ac.daikin.co.jp/roomaircon/products/a_series"},
+  {"match":["ダイキン","Rシリーズ"],"label":"ダイキン Rシリーズ公式","url":"https://www.ac.daikin.co.jp/roomaircon/products/r_series"},
+  {"match":["ゼネラル"],"label":"ゼネラル nocria公式","url":"https://www.generalww.com/jp/products/aircon/"},
   {"match":["パナソニック","エアコン"],"label":"Panasonic エアコン公式","url":"https://panasonic.jp/aircon/"},
 
   {"match":["REGZA"],"label":"REGZA テレビ公式","url":"https://www.regza.com/tv/lineup/"},
@@ -39,6 +42,9 @@
   {"match":["Windows 11"],"label":"Microsoft Windows 11公式","url":"https://www.microsoft.com/ja-jp/windows/windows-11"},
   {"match":["Chromebook"],"label":"Google Chromebook公式","url":"https://www.google.com/chromebook/"},
   {"match":["VAIO"],"label":"VAIO公式","url":"https://vaio.com/"},
+  {"match":["FMV"],"label":"FMV公式","url":"https://www.fmv.com/"},
+  {"match":["富士通"],"label":"FMV公式","url":"https://www.fmv.com/"},
+  {"match":["NEC","LAVIE"],"label":"NEC LAVIE公式","url":"https://www.nec-lavie.jp/"},
 
   {"match":["MacBook"],"label":"Apple Mac公式","url":"https://www.apple.com/jp/mac/"},
   {"match":["iPad"],"label":"Apple iPad公式","url":"https://www.apple.com/jp/ipad/"},
