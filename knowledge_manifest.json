@@ -8,6 +8,8 @@
   "knowledge_wifi.json",
   "knowledge_pc.json",
   "knowledge_vaio.json",
+  "knowledge_pc_makers.json",
+  "knowledge_aircon_makers.json",
   "knowledge_storage_wearables.json",
   "knowledge_recycle.json"
 ]
