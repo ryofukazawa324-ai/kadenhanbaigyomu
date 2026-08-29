@@ -1,5 +1,5 @@
 window.KadenSite=(function(){
-  var files=['knowledge.json','knowledge_network.json','knowledge_mobile.json','knowledge_support_game.json','knowledge_audio_apple.json','knowledge_camera_printer.json','knowledge_wifi.json','knowledge_pc.json','knowledge_vaio.json','knowledge_pc_makers.json','knowledge_aircon_makers.json','knowledge_aircon_series.json','knowledge_zeroemi.json','knowledge_storage_wearables.json','knowledge_recycle.json'];
+  var files=['knowledge.json','knowledge_network.json','knowledge_mobile.json','knowledge_support_game.json','knowledge_audio_apple.json','knowledge_camera_printer.json','knowledge_wifi.json','knowledge_pc.json','knowledge_vaio.json','knowledge_pc_makers.json','knowledge_aircon_makers.json','knowledge_aircon_series.json','knowledge_refrigerator_series.json','knowledge_zeroemi.json','knowledge_storage_wearables.json','knowledge_recycle.json'];
   function fetchJson(url){return fetch(url+'?v='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(url);return r.json()})}
   function loadKnowledge(){return Promise.all(files.map(function(f){return fetchJson(f).catch(function(){return[]})})).then(function(parts){return parts.reduce(function(a,b){return a.concat(Array.isArray(b)?b:[])},[])})}
   function loadConfig(){return Promise.all([fetchJson('consult_config.json'),fetchJson('consult_extra.json').catch(function(){return{products:[]}})]).then(function(all){var base=all[0]||{products:[]},extra=all[1]||{products:[]};(extra.products||[]).forEach(function(ep){var bp=(base.products||[]).find(function(p){return p.id===ep.id});if(!bp){base.products.push(ep);return}if(ep.lead)bp.lead=ep.lead;if(ep.questions)bp.questions=ep.questions;if(ep.route)bp.route=ep.route;if(ep.makers){var current=(bp.makers||[]).slice();ep.makers.forEach(function(em){var i=current.findIndex(function(m){return m.name===em.name||((em.name==='FMV（富士通）')&&(m.name==='富士通'||m.name==='FMV'))||((em.name==='NEC LAVIE')&&(m.name==='NEC'))||((em.name==='三菱電機 霧ヶ峰')&&(m.name==='三菱電機'))||((em.name==='日立 白くまくん')&&(m.name==='日立'))||((em.name==='ゼネラル（nocria）')&&(m.name==='ゼネラル'))});if(i>=0)current[i]=em;else current.push(em)});bp.makers=current}});return base})}
@@ -26,8 +26,9 @@ window.KadenSite=(function(){
     if(/(^|\/)sales_mode\.json(\?|$)/.test(url)){
       return Promise.all([
         nativeFetch(input,init).then(function(r){if(!r.ok)throw new Error('sales_mode');return r.json()}),
-        nativeFetch('sales_mode_aircon.json?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})
-      ]).then(function(all){var base=all[0]||{products:[]},air=all[1];if(air){var i=(base.products||[]).findIndex(function(p){return p.id==='aircon'});if(i>=0)base.products[i]=air;else base.products.push(air)}return new Response(JSON.stringify(base),{status:200,headers:{'Content-Type':'application/json'}})})
+        nativeFetch('sales_mode_aircon.json?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null}),
+        nativeFetch('sales_mode_refrigerator.json?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})
+      ]).then(function(all){var base=all[0]||{products:[]};[all[1],all[2]].forEach(function(override){if(!override)return;var i=(base.products||[]).findIndex(function(p){return p.id===override.id});if(i>=0)base.products[i]=override;else base.products.push(override)});return new Response(JSON.stringify(base),{status:200,headers:{'Content-Type':'application/json'}})})
     }
     return nativeFetch(input,init)
   };
