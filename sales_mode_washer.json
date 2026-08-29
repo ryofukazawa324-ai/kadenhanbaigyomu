@@ -1,0 +1,61 @@
+{
+  "id":"washer",
+  "label":"洗濯機",
+  "lead":"乾燥頻度・洗浄・手入れ・設置サイズから、縦型/ドラムだけでなく現行シリーズまで絞る。",
+  "questions":[
+    {"text":"乾燥はどのくらい使いますか？","help":"洗濯機は乾燥頻度で候補が大きく分かれる。","options":[
+      {"label":"ほぼ毎日、乾燥まで任せたい","note":"ヒートポンプ中心","scores":{"pana_lx_top":12,"pana_lx_value":10,"hitachi_stx_sx":10,"toshiba_xp":9,"toshiba_xh":8,"toshiba_xm":7,"sharp_12x2":9,"sharp_12p2":8,"aqua_dxs12a":8}},
+      {"label":"週に数回・雨の日中心","note":"乾燥は補助","scores":{"pana_lx_value":7,"hitachi_sw_sv":7,"toshiba_xm":7,"sharp_12p2":6,"aqua_dms10a":6,"pana_sd":5}},
+      {"label":"基本は洗濯だけ、乾燥は不要","note":"縦型優先","scores":{"pana_fa":10,"hitachi_bwx":9,"hitachi_bwv":8,"toshiba_dpb":9,"sharp_vertical":9,"aqua_vp":9}},
+      {"label":"ドラムが欲しいが価格は抑えたい","note":"価格寄りドラム","scores":{"pana_sd":8,"toshiba_xm":8,"aqua_dms10a":9,"aqua_d8a":8,"hitachi_cx_cg":7,"sharp_12p2":5}}
+    ]},
+    {"text":"一番重視したいことは？","help":"メーカーごとの強みをシリーズまで絞る。","options":[
+      {"label":"乾燥の省エネ・衣類へのやさしさ","note":"ヒートポンプ乾燥","scores":{"pana_lx_top":11,"pana_lx_value":10,"hitachi_stx_sx":9,"toshiba_xp":9,"toshiba_xh":9,"toshiba_xm":8,"sharp_12x2":9,"sharp_12p2":8,"aqua_dxs12a":8}},
+      {"label":"シャツのシワを減らしたい","note":"シワ低減","scores":{"hitachi_stx_sx":12,"hitachi_sw_sv":10,"pana_lx_top":7,"pana_lx_value":7,"aqua_dxs12a":6}},
+      {"label":"洗浄力を重視","note":"洗浄重視","scores":{"toshiba_xp":11,"toshiba_xh":10,"toshiba_dpb":8,"pana_lx_top":7,"pana_fa":7,"aqua_dxs12a":7}},
+      {"label":"お手入れをなるべく減らしたい","note":"メンテ重視","scores":{"hitachi_stx_sx":12,"hitachi_sw_sv":10,"sharp_12x2":11,"sharp_12p2":9,"pana_lx_top":7}},
+      {"label":"価格を抑えたい","note":"価格優先","scores":{"aqua_d8a":10,"aqua_dms10a":8,"aqua_vp":10,"pana_sd":7,"pana_fa":8,"hitachi_bwv":8,"toshiba_dpb":8,"sharp_vertical":8}}
+    ]},
+    {"text":"設置スペースは？","help":"ドラムは奥行・扉開き・防水パンも確認する。","options":[
+      {"label":"奥行が厳しい・コンパクト優先","note":"薄型/小型","scores":{"aqua_dms10a":11,"aqua_d8a":11,"toshiba_gs":10,"hitachi_cx_cg":10,"pana_sd":7}},
+      {"label":"一般的なドラムが置ける","note":"標準スペース","scores":{"pana_lx_value":5,"hitachi_stx_sx":5,"toshiba_xh":5,"sharp_12p2":5,"aqua_dxs12a":5}},
+      {"label":"12〜13kg級の大型でも問題ない","note":"大容量優先","scores":{"pana_lx_top":8,"hitachi_stx_sx":9,"toshiba_xp":9,"sharp_12x2":8,"aqua_dxs12a":8}},
+      {"label":"縦型を置く予定","note":"縦型","scores":{"pana_fa":9,"hitachi_bwx":9,"hitachi_bwv":8,"toshiba_dpb":8,"sharp_vertical":9,"aqua_vp":9}}
+    ]},
+    {"text":"自動投入・ケア機能はどこまで欲しい？","help":"上位シリーズまで上げる理由があるか確認する。","options":[
+      {"label":"洗剤・柔軟剤など自動投入をしっかり使いたい","note":"自動投入重視","scores":{"pana_lx_top":10,"toshiba_xp":9,"toshiba_xh":8,"hitachi_stx_sx":8,"sharp_12x2":7,"aqua_dxs12a":7}},
+      {"label":"温水・UV・除菌などケア機能も欲しい","note":"ケア上位","scores":{"toshiba_xp":11,"pana_lx_top":9,"sharp_12x2":8,"aqua_dxs12a":8}},
+      {"label":"基本機能で十分","note":"標準帯","scores":{"pana_lx_value":6,"toshiba_xm":7,"hitachi_sw_sv":6,"sharp_12p2":6,"aqua_dms10a":7,"pana_fa":6}},
+      {"label":"特にこだわらない","note":"価格・設置優先","scores":{"aqua_d8a":7,"hitachi_cx_cg":6,"toshiba_gs":6,"pana_sd":6}}
+    ]},
+    {"text":"家族構成・洗い方は？","help":"容量とシリーズの最終調整。","options":[
+      {"label":"家族でまとめ洗いが多い","note":"大容量","scores":{"hitachi_stx_sx":8,"toshiba_xp":8,"pana_lx_top":8,"sharp_12x2":7,"aqua_dxs12a":7,"hitachi_bwx":7}},
+      {"label":"毎日こまめに洗う","note":"日常使い","scores":{"pana_lx_value":6,"toshiba_xh":6,"hitachi_sw_sv":6,"sharp_12p2":6,"pana_fa":5}},
+      {"label":"一人〜二人で容量は小さめでいい","note":"小容量・省スペース","scores":{"aqua_d8a":10,"toshiba_gs":9,"hitachi_cx_cg":9,"pana_sd":7}},
+      {"label":"泥汚れ・子ども服など洗浄中心","note":"洗浄・縦型","scores":{"toshiba_dpb":9,"pana_fa":8,"hitachi_bwx":8,"sharp_vertical":8,"aqua_vp":8}}
+    ]}
+  ],
+  "candidates":[
+    {"id":"pana_lx_top","name":"Panasonic LX129F / LX127F","tag":"ヒートポンプ上位","summary":"乾燥を毎日使い、省エネ・自動投入・上位ケアまで重視する人向け。","strength":"トップユニット式ヒートポンプのはやふわ乾燥、温水洗浄、トリプル自動投入など。","watch":"価格差に上位ケア・自動投入の価値を感じるか確認。","official":"https://panasonic.jp/wash/overview.html"},
+    {"id":"pana_lx_value","name":"Panasonic LX125F / LX123F","tag":"ヒートポンプ・バランス","summary":"Panasonicのヒートポンプ乾燥を使いたいが最上位機能は不要な人向け。","strength":"ヒートポンプ乾燥の省エネ・衣類へのやさしさを価格とのバランスで選べる。","watch":"自動投入・温水など必要機能の有無を型番比較。","official":"https://panasonic.jp/wash/overview.html"},
+    {"id":"pana_sd","name":"Panasonic SDシリーズ","tag":"コンパクト・低温ヒーター式","summary":"ドラム式を置きたいが設置性・価格を優先する人向け。","strength":"LXよりコンパクトな選択肢を作りやすい。","watch":"毎日乾燥するならヒートポンプLXとの電気代・乾燥方式差を確認。","official":"https://panasonic.jp/wash/overview.html"},
+    {"id":"pana_fa","name":"Panasonic FAシリーズ","tag":"縦型主力","summary":"乾燥より洗濯を重視し、縦型の使いやすさを求める人向け。","strength":"縦型で洗浄・自動投入等を容量別に選びやすい。","watch":"乾燥を日常利用するならドラムも比較。","official":"https://panasonic.jp/wash/overview.html"},
+    {"id":"hitachi_stx_sx","name":"日立 STX / SXシリーズ","tag":"13kgヒートポンプ・らくメンテ","summary":"大容量乾燥、お手入れの少なさ、シワ低減を重視する人向け。","strength":"ヒートポンプ乾燥、らくメンテ、らくはや風アイロン系をまとめて比較しやすい。","watch":"本体サイズと13kg容量が必要か確認。","official":"https://kadenfan.hitachi.co.jp/wash/"},
+    {"id":"hitachi_sw_sv","name":"日立 SW / SVシリーズ","tag":"12kg低温ヒート・らくメンテ","summary":"日立の手入れ・シワ低減を重視しつつSTX/SXほど上位でなくてよい人向け。","strength":"らくメンテと風アイロン系の使い勝手。","watch":"乾燥方式は上位ヒートポンプと違うため毎日乾燥なら比較。","official":"https://kadenfan.hitachi.co.jp/wash/"},
+    {"id":"hitachi_cx_cg","name":"日立 CX / CGシリーズ","tag":"コンパクトドラム","summary":"日立を選びたいが容量・設置スペースを小さくしたい人向け。","strength":"10kg/8kg級などコンパクト帯を選びやすい。","watch":"乾燥能力と上位機能はSTX/SXと異なる。","official":"https://kadenfan.hitachi.co.jp/wash/"},
+    {"id":"hitachi_bwx","name":"日立 BW-Xシリーズ","tag":"縦型・自動投入上位","summary":"縦型で大容量・自動投入など使い勝手を上げたい人向け。","strength":"ナイアガラ洗浄系と縦型上位機能を比較しやすい。","watch":"乾燥重視ならドラムへ。","official":"https://kadenfan.hitachi.co.jp/wash/"},
+    {"id":"hitachi_bwv","name":"日立 BW-Vシリーズ","tag":"縦型・価格バランス","summary":"洗浄重視の縦型で価格とのバランスを取りたい人向け。","strength":"日立縦型の基本洗浄を容量別に選びやすい。","watch":"自動投入等が必要ならBW-Xへ。","official":"https://kadenfan.hitachi.co.jp/wash/"},
+    {"id":"toshiba_xp","name":"東芝 XPシリーズ","tag":"ヒートポンプ・最上位","summary":"洗浄・静音・乾燥・温水/UVなど上位ケアまで欲しい人向け。","strength":"ウルトラファインバブル洗浄、ヒートポンプ乾燥、上位ケア・自動投入。","watch":"上位機能が不要ならXH/XMへ。","official":"https://www.toshiba-lifestyle.com/jp/laundries/lineup/"},
+    {"id":"toshiba_xh","name":"東芝 XHシリーズ","tag":"ヒートポンプ・上位","summary":"洗浄・静音・乾燥を高水準でバランス良く使いたい人向け。","strength":"ウルトラファインバブル洗浄とヒートポンプ乾燥を本命帯で比較しやすい。","watch":"温水・UV等の差をXPと確認。","official":"https://www.toshiba-lifestyle.com/jp/laundries/lineup/"},
+    {"id":"toshiba_xm","name":"東芝 XMシリーズ","tag":"ヒートポンプ・価格バランス","summary":"東芝のヒートポンプ乾燥を価格を抑えて選びたい人向け。","strength":"洗浄・静音・ヒートポンプの基本価値を残しやすい。","watch":"上位自動投入・ケア機能が必要ならXH/XPへ。","official":"https://www.toshiba-lifestyle.com/jp/laundries/lineup/"},
+    {"id":"toshiba_gs","name":"東芝 GSシリーズ","tag":"8kgコンパクトドラム","summary":"一人〜二人、設置スペース優先でドラムを使いたい人向け。","strength":"8kg級のコンパクト選択肢。","watch":"乾燥方式・容量は大型XP/XH/XMと異なる。","official":"https://www.toshiba-lifestyle.com/jp/laundries/lineup/"},
+    {"id":"toshiba_dpb","name":"東芝 DPB系 縦型","tag":"洗浄・縦型","summary":"乾燥より洗浄・縦型の使いやすさを優先する人向け。","strength":"ウルトラファインバブル系の洗浄を縦型で比較しやすい。","watch":"型番ごとの自動投入・容量を確認。","official":"https://www.toshiba-lifestyle.com/jp/laundries/lineup/"},
+    {"id":"sharp_12x2","name":"SHARP ES-12X2","tag":"ヒートポンプ上位・自動お掃除","summary":"乾燥・清潔・手入れ軽減を最上位で重視する人向け。","strength":"ハイブリッド系乾燥、乾燥ダクト/槽/パッキン等の自動お掃除、プラズマクラスター。","watch":"価格差と必要なケア機能を確認。","official":"https://www.sharp.co.jp/sentaku/"},
+    {"id":"sharp_12p2","name":"SHARP ES-12P2","tag":"ヒートポンプ・上位","summary":"SHARPの清潔・手入れとヒートポンプ乾燥を価格とのバランスで選びたい人向け。","strength":"ヒートポンプ乾燥と自動お掃除系を比較しやすい。","watch":"最上位の乾燥制御等が必要なら12X2へ。","official":"https://www.sharp.co.jp/sentaku/"},
+    {"id":"sharp_vertical","name":"SHARP 穴なし槽 縦型","tag":"穴なし槽・清潔","summary":"縦型で槽外側の汚れ侵入を抑えたい、節水・清潔を重視する人向け。","strength":"穴なし槽という独自の比較軸が分かりやすい。","watch":"容量・乾燥機能・自動投入は型番ごとに確認。","official":"https://www.sharp.co.jp/sentaku/"},
+    {"id":"aqua_dxs12a","name":"AQUA DXS12A系","tag":"12kg上位・まっ直ぐドラム","summary":"コンパクト感と大容量、ヒートポンプ、ケア機能をAQUAで上げたい人向け。","strength":"水平ドラム、泡フルウォッシュ、ヒートポンプ、オゾンエアウォッシュ系を比較しやすい。","watch":"設置奥行と価格差を確認。","official":"https://aqua-has.com/laundry/"},
+    {"id":"aqua_dms10a","name":"AQUA DMS10A系","tag":"10kg薄型ドラム","summary":"奥行を抑えて10kg級ドラムを置きたい人の有力候補。","strength":"薄型・水平ドラムの設置性を価格とのバランスで出しやすい。","watch":"乾燥・ケア機能はDXS12Aと比較。","official":"https://aqua-has.com/laundry/"},
+    {"id":"aqua_d8a","name":"AQUA D8A系","tag":"8kgコンパクトドラム","summary":"一人〜二人、ドラムを小さく・価格を抑えて置きたい人向け。","strength":"8kg級のコンパクトさと水平ドラム。","watch":"乾燥頻度が高い場合は上位ヒートポンプも比較。","official":"https://aqua-has.com/laundry/"},
+    {"id":"aqua_vp","name":"AQUA VPシリーズ","tag":"縦型・価格と機能","summary":"縦型で価格・容量・洗浄のバランスを取りたい人向け。","strength":"AQUA縦型の主力帯として比較起点にしやすい。","watch":"乾燥を使うならドラムも比較。","official":"https://aqua-has.com/laundry/"}
+  ]
+}
