@@ -1,0 +1,19 @@
+window.KadenSite=(function(){
+  var files=['knowledge.json','knowledge_network.json','knowledge_mobile.json','knowledge_support_game.json','knowledge_audio_apple.json','knowledge_camera_printer.json','knowledge_wifi.json','knowledge_pc.json','knowledge_storage_wearables.json','knowledge_recycle.json'];
+  function fetchJson(url){return fetch(url+'?v='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(url);return r.json()})}
+  function loadKnowledge(){return Promise.all(files.map(function(f){return fetchJson(f).catch(function(){return[]})})).then(function(parts){return parts.reduce(function(a,b){return a.concat(Array.isArray(b)?b:[])},[])})}
+  function loadConfig(){return fetchJson('consult_config.json')}
+  function loadOfficialLinks(){return fetchJson('official_links.json').catch(function(){return[]})}
+  function qs(name){return new URLSearchParams(location.search).get(name)||''}
+  function esc(v){return String(v||'').replace(/[&<>"']/g,function(x){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]})}
+  function getProduct(config,id){return (config.products||[]).find(function(p){return p.id===id})||(config.products||[])[0]}
+  function itemMatchesProduct(item,product){var cat=String(item.cat||'');return (product.keywords||[]).some(function(k){return cat===k||cat.indexOf(k)>=0})}
+  function makerNames(config){var out=[];(config.products||[]).forEach(function(p){(p.makers||[]).forEach(function(m){if(out.indexOf(m.name)<0)out.push(m.name)})});return out}
+  function isMakerItem(item,config){var t=[item.title,item.tag,item.body].join(' ');return makerNames(config).some(function(n){return t.indexOf(n)>=0})}
+  function officialFor(item,links){var t=[item.cat,item.tag,item.title,item.body].join(' ');return (links||[]).filter(function(l){return (l.match||[]).every(function(k){return t.toLowerCase().indexOf(String(k).toLowerCase())>=0})}).slice(0,3)}
+  function stage(item,config){var t=[item.title,item.tag,item.body].join(' ');if(/最初|まず|確認|ヒアリング|選び方|設置|容量|用途|買い替え/.test(t))return 1;if(/違い|仕組み|方式|種類|液晶|OLED|Mini LED|ドラム|縦型|インク|規格|センサー|F値|シャッター|Wi-Fi 5|Wi-Fi 6|Wi-Fi 7/.test(t))return 2;if(isMakerItem(item,config)||/メーカー/.test(t))return 3;if(/保証|録画|HDD|SSD|ケーブル|工事|注意|回収|修理|サポート|周辺/.test(t))return 4;return 2}
+  function sortByConsult(items,config){return items.slice().sort(function(a,b){var d=stage(a,config)-stage(b,config);if(d)return d;return String(a.title).localeCompare(String(b.title),'ja')})}
+  function nav(active){var pages=[['index.html','商品コンサル','home'],['basics.html','基礎知識','basics'],['makers.html','メーカー比較','makers'],['memo.html','端末メモ','memo']];return '<header class="siteHeader"><div class="shell"><div class="headRow"><a class="brand" href="index.html">家電販売ナレッジ</a><div class="nav">'+pages.map(function(p){return'<a class="'+(active===p[2]?'active':'')+'" href="'+p[0]+'">'+p[1]+'</a>'}).join('')+'</div></div></div></header>'}
+  function productTabs(product,active){var id=encodeURIComponent(product.id);return '<div class="tabs"><a class="tabLink '+(active==='consult'?'active':'')+'" href="product.html?product='+id+'">コンサル</a><a class="tabLink '+(active==='basics'?'active':'')+'" href="basics.html?product='+id+'">基礎知識</a><a class="tabLink '+(active==='makers'?'active':'')+'" href="makers.html?product='+id+'">メーカー比較</a></div>'}
+  return{loadKnowledge:loadKnowledge,loadConfig:loadConfig,loadOfficialLinks:loadOfficialLinks,qs:qs,esc:esc,getProduct:getProduct,itemMatchesProduct:itemMatchesProduct,isMakerItem:isMakerItem,officialFor:officialFor,stage:stage,sortByConsult:sortByConsult,nav:nav,productTabs:productTabs};
+})();
