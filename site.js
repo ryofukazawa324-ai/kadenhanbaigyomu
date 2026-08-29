@@ -1,5 +1,5 @@
 window.KadenSite=(function(){
-  var files=['knowledge.json','knowledge_network.json','knowledge_mobile.json','knowledge_support_game.json','knowledge_audio_apple.json','knowledge_camera_printer.json','knowledge_wifi.json','knowledge_pc.json','knowledge_storage_wearables.json','knowledge_recycle.json'];
+  var files=['knowledge.json','knowledge_network.json','knowledge_mobile.json','knowledge_support_game.json','knowledge_audio_apple.json','knowledge_camera_printer.json','knowledge_wifi.json','knowledge_pc.json','knowledge_vaio.json','knowledge_storage_wearables.json','knowledge_recycle.json'];
   function fetchJson(url){return fetch(url+'?v='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(url);return r.json()})}
   function loadKnowledge(){return Promise.all(files.map(function(f){return fetchJson(f).catch(function(){return[]})})).then(function(parts){return parts.reduce(function(a,b){return a.concat(Array.isArray(b)?b:[])},[])})}
   function loadConfig(){return fetchJson('consult_config.json')}
