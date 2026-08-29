@@ -1,0 +1,54 @@
+[
+  {"match":["三菱","冷蔵庫"],"label":"三菱電機 冷蔵庫公式","url":"https://www.mitsubishielectric.co.jp/home/reizouko/function/"},
+  {"match":["AQUA","冷蔵庫"],"label":"AQUA 冷蔵庫公式","url":"https://aqua-has.com/product/product-series/refrigerator/"},
+  {"match":["Haier","冷蔵庫"],"label":"Haier 冷蔵庫公式","url":"https://www.haier.com/jp/refrigerators/"},
+  {"match":["日立","冷蔵庫"],"label":"日立 冷蔵庫公式","url":"https://kadenfan.hitachi.co.jp/rei/"},
+  {"match":["東芝","冷蔵庫"],"label":"東芝 冷蔵庫公式","url":"https://www.toshiba-lifestyle.com/jp/refrigerators/"},
+  {"match":["パナソニック","冷蔵庫"],"label":"Panasonic 冷蔵庫公式","url":"https://panasonic.jp/reizo/"},
+
+  {"match":["Panasonic","洗濯"],"label":"Panasonic 洗濯機公式","url":"https://panasonic.jp/wash/"},
+  {"match":["パナソニック","洗濯"],"label":"Panasonic 洗濯機公式","url":"https://panasonic.jp/wash/"},
+  {"match":["AQUA","洗濯"],"label":"AQUA 洗濯機公式","url":"https://aqua-has.com/product/product-series/washing-machine/"},
+  {"match":["東芝","洗濯"],"label":"東芝 洗濯機公式","url":"https://www.toshiba-lifestyle.com/jp/laundries/"},
+
+  {"match":["三菱","エアコン"],"label":"三菱電機 霧ヶ峰公式","url":"https://www.mitsubishielectric.co.jp/home/kirigamine/"},
+  {"match":["ダイキン"],"label":"ダイキン ルームエアコン公式","url":"https://www.ac.daikin.co.jp/roomaircon"},
+  {"match":["パナソニック","エアコン"],"label":"Panasonic エアコン公式","url":"https://panasonic.jp/aircon/"},
+
+  {"match":["REGZA"],"label":"REGZA テレビ公式","url":"https://www.regza.com/tv/lineup/"},
+  {"match":["ブラビア"],"label":"SONY BRAVIA公式","url":"https://www.sony.jp/bravia/"},
+  {"match":["SONY","テレビ"],"label":"SONY BRAVIA公式","url":"https://www.sony.jp/bravia/"},
+  {"match":["TCL"],"label":"TCL テレビ公式","url":"https://www.tcl.com/jp/ja/tvs"},
+
+  {"match":["Canon","プリンター"],"label":"Canon プリンター公式","url":"https://personal.canon.jp/product/printer"},
+  {"match":["キヤノン","プリンター"],"label":"Canon プリンター公式","url":"https://personal.canon.jp/product/printer"},
+  {"match":["EPSON"],"label":"EPSON プリンター公式","url":"https://www.epson.jp/products/printer/"},
+  {"match":["Brother"],"label":"Brother プリンター公式","url":"https://www.brother.co.jp/product/printer/index.aspx"},
+  {"match":["ブラザー"],"label":"Brother プリンター公式","url":"https://www.brother.co.jp/product/printer/index.aspx"},
+
+  {"match":["SONY","カメラ"],"label":"SONY α公式","url":"https://www.sony.jp/ichigan/"},
+  {"match":["DJI"],"label":"DJI Osmo公式","url":"https://www.dji.com/jp/osmo-pocket-3"},
+  {"match":["Canon","カメラ"],"label":"Canon カメラ公式","url":"https://personal.canon.jp/product"},
+
+  {"match":["BUFFALO"],"label":"BUFFALO Wi-Fiルーター公式","url":"https://www.buffalo.jp/product/search/?small_category_id=101"},
+  {"match":["バッファロー"],"label":"BUFFALO Wi-Fiルーター公式","url":"https://www.buffalo.jp/product/search/?small_category_id=101"},
+  {"match":["ELECOM"],"label":"ELECOM Wi-Fiルーター公式","url":"https://www.elecom.co.jp/category/cat_wifi-router/"},
+  {"match":["エレコム"],"label":"ELECOM Wi-Fiルーター公式","url":"https://www.elecom.co.jp/category/cat_wifi-router/"},
+
+  {"match":["Copilot+ PC"],"label":"Microsoft Copilot+ PC公式","url":"https://www.microsoft.com/ja-jp/windows/copilot-plus-pcs"},
+  {"match":["Windows 11"],"label":"Microsoft Windows 11公式","url":"https://www.microsoft.com/ja-jp/windows/windows-11"},
+  {"match":["Chromebook"],"label":"Google Chromebook公式","url":"https://www.google.com/chromebook/"},
+  {"match":["VAIO"],"label":"VAIO公式","url":"https://vaio.com/"},
+
+  {"match":["MacBook"],"label":"Apple Mac公式","url":"https://www.apple.com/jp/mac/"},
+  {"match":["iPad"],"label":"Apple iPad公式","url":"https://www.apple.com/jp/ipad/"},
+  {"match":["Apple Pencil"],"label":"Apple Pencil公式","url":"https://www.apple.com/jp/apple-pencil/"},
+  {"match":["Apple Watch"],"label":"Apple Watch公式","url":"https://www.apple.com/jp/watch/"},
+
+  {"match":["Switch 2"],"label":"Nintendo Switch 2サポート","url":"https://support.nintendo.com/jp/switch2/"},
+  {"match":["Nintendo Switch"],"label":"Nintendo Switchサポート","url":"https://support.nintendo.com/jp/switch/"},
+
+  {"match":["SONY","イヤホン"],"label":"SONY ヘッドホン公式","url":"https://www.sony.jp/headphone/"},
+  {"match":["Audio-Technica"],"label":"Audio-Technica ヘッドホン公式","url":"https://www.audio-technica.co.jp/category/headphone"},
+  {"match":["Technics"],"label":"Technics ヘッドホン公式","url":"https://jp.technics.com/products/headphones/"}
+]
