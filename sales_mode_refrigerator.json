@@ -1,0 +1,59 @@
+{
+  "id":"refrigerator",
+  "label":"冷蔵庫",
+  "lead":"容量と設置幅を先に決め、メーカーだけでなく現行シリーズ帯まで絞る。",
+  "questions":[
+    {"text":"設置できる横幅はどのくらいですか？","help":"シリーズ選びでは最優先。幅が入らない候補は先に外します。","options":[
+      {"label":"60cmくらいまで","note":"幅60cm優先","scores":{"mitsubishi_bd":10,"toshiba_gt":10,"panasonic_ry":10,"panasonic_br60":9,"haier_mid":6,"aqua_delie":5}},
+      {"label":"65cmくらいまで","note":"65cmまで","scores":{"mitsubishi_wz":6,"mitsubishi_mz":6,"hitachi_hwc":6,"hitachi_hzc":5,"toshiba_fz":7,"panasonic_hy":8,"panasonic_ey":7,"panasonic_br":6,"aqua_delie":5}},
+      {"label":"68.5cm以上でも入る","note":"大容量・上位も比較","scores":{"mitsubishi_wz":5,"mitsubishi_mz":5,"hitachi_hwc":6,"hitachi_hzc":7,"toshiba_xfs":8,"toshiba_fz":5,"panasonic_wx":8,"panasonic_hy":4,"aqua_tx":5}},
+      {"label":"幅はまだ分からない","note":"機能から仮絞り","scores":{"mitsubishi_bd":2,"hitachi_hwc":2,"toshiba_fz":2,"panasonic_hy":2,"aqua_delie":2,"haier_mid":2}}
+    ]},
+    {"text":"一番重視したいのは？","help":"メーカー内でどのシリーズまで上げるかを決める軸です。","options":[
+      {"label":"価格を抑えたい","note":"価格優先","scores":{"haier_mid":9,"aqua_standard":9,"aqua_delie":5,"mitsubishi_bd":4,"hitachi_h":5,"toshiba_fh":5,"panasonic_ry":4,"panasonic_br60":4}},
+      {"label":"冷凍食品・作り置き","note":"冷凍重視","scores":{"mitsubishi_wz":9,"mitsubishi_bd":6,"hitachi_hwc":8,"hitachi_hzc":7,"toshiba_xfs":8,"toshiba_fz":8,"toshiba_gt":7,"panasonic_hy":8,"panasonic_wx":7,"aqua_tx":6}},
+      {"label":"野菜をよく使う","note":"野菜重視","scores":{"mitsubishi_mz":9,"hitachi_hwc":6,"hitachi_hzc":6,"toshiba_xfs":10,"toshiba_fz":9,"toshiba_fh":7,"panasonic_br":10,"panasonic_br60":10,"aqua_tx":5}},
+      {"label":"肉・魚の鮮度","note":"鮮度重視","scores":{"hitachi_hzc":10,"hitachi_hwc":8,"mitsubishi_wz":8,"mitsubishi_mz":8,"toshiba_fz":8,"toshiba_xfs":8,"panasonic_hy":6,"aqua_tx":7}},
+      {"label":"デザイン・キッチンへの収まり","note":"デザイン・薄型","scores":{"aqua_tz":11,"aqua_tx":7,"mitsubishi_wz":5,"mitsubishi_mz":5,"panasonic_hy":5,"panasonic_ey":5}}
+    ]},
+    {"text":"冷凍室と野菜室、使いやすい位置は？","help":"毎日触る引き出しの位置で同じメーカー内でもシリーズが分かれます。","options":[
+      {"label":"冷凍室が真ん中がいい","note":"冷凍室まんなか","scores":{"mitsubishi_wz":9,"mitsubishi_bd":8,"hitachi_hwc":8,"hitachi_hzc":8,"hitachi_h":7,"toshiba_xfs":6,"toshiba_fz":5,"toshiba_gt":5,"panasonic_wx":8,"panasonic_hy":8,"panasonic_ey":8,"panasonic_ry":8}},
+      {"label":"野菜室が真ん中がいい","note":"野菜室まんなか","scores":{"mitsubishi_mz":10,"toshiba_fh":8,"panasonic_br":10,"panasonic_br60":10,"aqua_delie":5}},
+      {"label":"位置にはこだわらない","note":"機能優先","scores":{"mitsubishi_wz":3,"hitachi_hwc":3,"toshiba_fz":3,"panasonic_hy":3,"aqua_tx":3}}
+    ]},
+    {"text":"上位機能にどこまで予算をかけますか？","help":"ここでメーカーだけでなくシリーズの価格帯を決めます。","options":[
+      {"label":"必要十分なら上位機能はいらない","note":"標準帯","scores":{"haier_mid":8,"aqua_standard":8,"mitsubishi_bd":5,"hitachi_h":7,"toshiba_fh":6,"panasonic_ry":6,"panasonic_br60":5}},
+      {"label":"鮮度や冷凍に意味があれば少し上げてよい","note":"中〜上位帯","scores":{"aqua_delie":6,"mitsubishi_wz":6,"mitsubishi_mz":6,"hitachi_hwc":8,"toshiba_fz":8,"toshiba_gt":6,"panasonic_hy":8,"panasonic_ey":7,"panasonic_br":6}},
+      {"label":"毎日使うので上位機能まで欲しい","note":"プレミアム帯","scores":{"mitsubishi_wz":9,"mitsubishi_mz":9,"hitachi_hzc":10,"toshiba_xfs":10,"panasonic_wx":10,"panasonic_hy":7,"aqua_tx":10,"aqua_tz":7}}
+    ]},
+    {"text":"普段の買い物・保存スタイルは？","help":"最後に生活スタイルへ合わせます。","options":[
+      {"label":"週末まとめ買い・冷凍ストックが多い","note":"冷凍容量優先","scores":{"mitsubishi_wz":8,"hitachi_hwc":8,"hitachi_hzc":7,"toshiba_xfs":8,"toshiba_fz":7,"toshiba_gt":7,"panasonic_hy":7,"panasonic_wx":7,"aqua_tx":6}},
+      {"label":"自炊が多く野菜をよく使う","note":"野菜室優先","scores":{"mitsubishi_mz":8,"toshiba_xfs":9,"toshiba_fz":8,"toshiba_fh":7,"panasonic_br":9,"panasonic_br60":9}},
+      {"label":"こまめに買い物、肉魚の保存を重視","note":"チルド・鮮度","scores":{"hitachi_hzc":10,"hitachi_hwc":8,"mitsubishi_wz":8,"mitsubishi_mz":8,"toshiba_fz":7,"panasonic_hy":6}},
+      {"label":"機能より価格と容量のバランス","note":"コスパ","scores":{"haier_mid":9,"aqua_standard":8,"aqua_delie":7,"mitsubishi_bd":6,"hitachi_h":5,"toshiba_fh":5,"panasonic_ry":5}}
+    ]}
+  ],
+  "candidates":[
+    {"id":"mitsubishi_wz","name":"三菱 WZシリーズ","tag":"冷凍室まんなか・上位","summary":"冷凍・作り置き・鮮度を重視し、三菱の主要機能をしっかり使いたい人向け。","strength":"全室独立おまかせA.I.、切れちゃう瞬冷凍A.I.、氷点下ストッカー、できちゃうV冷凍＋など。","watch":"幅65/68.5cm級。野菜室まんなか希望ならMZへ。","official":"https://www.mitsubishielectric.co.jp/home/reizouko/product/"},
+    {"id":"mitsubishi_mz","name":"三菱 MZシリーズ","tag":"野菜室まんなか・上位","summary":"三菱の冷凍・鮮度機能を使いつつ、野菜室の出し入れを優先する人向け。","strength":"WZ系の主要保存機能＋真ん中朝どれ野菜室。","watch":"冷凍室まんなかを優先するならWZ/JWへ。","official":"https://www.mitsubishielectric.co.jp/home/reizouko/product/"},
+    {"id":"mitsubishi_bd","name":"三菱 BDシリーズ","tag":"幅60cm・455L","summary":"幅60cmしか取れないが400L超の大容量と三菱の保存機能を欲しい人向け。","strength":"幅600mmで455Lの置けるスマート大容量。","watch":"上位大容量のWZ/MZより選べる容量帯は狭い。","official":"https://www.mitsubishielectric.co.jp/home/reizouko/product/mr-bd46n/"},
+    {"id":"hitachi_h","name":"日立 Hタイプ","tag":"大容量冷凍・標準","summary":"日立のまるごとチルドや大容量冷凍を価格を抑えながら使いたい人向け。","strength":"特鮮氷温ルーム、まるごとチルド、3段大容量冷凍を備える標準候補。","watch":"デリシャス冷凍や新鮮スリープ野菜室を重視するならHWCへ。","official":"https://kadenfan.hitachi.co.jp/rei/lineup/rh54y/"},
+    {"id":"hitachi_hwc","name":"日立 HWCタイプ","tag":"高鮮度×大容量冷凍・本命","summary":"冷凍・野菜・チルドを全部バランス良く上げたい人の本命候補。","strength":"デリシャス冷凍・霜ブロック、新鮮スリープ野菜室、特鮮氷温ルーム、スマホ連携。","watch":"真空氷温ルームやガラスドアまで欲しければHZCへ。","official":"https://kadenfan.hitachi.co.jp/rei/lineup/rhwc62y/"},
+    {"id":"hitachi_hzc","name":"日立 HZCタイプ","tag":"真空氷温・上位","summary":"肉魚の鮮度や上位保存機能を強く重視する人向け。","strength":"真空氷温ルーム、まるごとチルド、デリシャス冷凍、新鮮スリープ野菜室。","watch":"価格差に真空氷温の価値を感じるか確認。","official":"https://kadenfan.hitachi.co.jp/rei/lineup/rhzc62y/"},
+    {"id":"toshiba_xfs","name":"東芝 XFSシリーズ","tag":"野菜・冷凍・チルド上位","summary":"野菜鮮度を最優先しながら冷凍・チルドも上位まで欲しい人向け。","strength":"もっと潤う摘みたて野菜室、3段冷凍室、Deliチルド/氷結晶チルド、IoLIFE。","watch":"価格を抑えるならFZやFHへ。","official":"https://www.toshiba-lifestyle.com/jp/refrigerators/lineup/"},
+    {"id":"toshiba_fz","name":"東芝 FZシリーズ","tag":"野菜＋冷凍のバランス本命","summary":"東芝の野菜鮮度・冷凍・チルドをバランスよく使いたい人向け。","strength":"もっと潤う摘みたて野菜室、おいしさ密封急冷凍/上質冷凍、氷結晶チルド。","watch":"幅60cmならGTも確認。","official":"https://www.toshiba-lifestyle.com/jp/refrigerators/lineup/"},
+    {"id":"toshiba_gt","name":"東芝 GTシリーズ","tag":"幅60cm・452/501L","summary":"幅60cm条件で野菜・冷凍・チルドの機能を落としたくない人向け。","strength":"幅600mmで452L/501L、摘みたて野菜室・氷結晶チルド・冷凍機能を搭載。","watch":"設置奥行とドア開きも確認。","official":"https://www.toshiba-lifestyle.com/jp/refrigerators/lineup/"},
+    {"id":"toshiba_fh","name":"東芝 FHシリーズ","tag":"野菜室まんなか・標準","summary":"野菜室まんなかの使いやすさを優先し、上位機能は必要十分でよい人向け。","strength":"新鮮摘みたて野菜室、速鮮チルド、切り替え冷凍を備える。","watch":"野菜鮮度や冷凍をさらに上げるならFZ/XFSへ。","official":"https://www.toshiba-lifestyle.com/jp/refrigerators/lineup/"},
+    {"id":"panasonic_wx","name":"Panasonic WXタイプ","tag":"大容量・プレミアム","summary":"551〜650L級で冷凍・時短・アプリなど上位機能まで使いたい人向け。","strength":"熱いまま急速冷凍・急速冷却、ナノイーX、KitchenPocketなど。","watch":"幅65cmに抑えたいならHYへ。","official":"https://panasonic.jp/reizo/"},
+    {"id":"panasonic_hy","name":"Panasonic HYタイプ","tag":"幅65cm・上位本命","summary":"65cm幅で450〜551L、上位冷凍・時短機能まで欲しい人向け。","strength":"コンパクトBIGに上位の急速冷凍/冷却、ナノイーX、アプリを組み合わせる。","watch":"上位機能が不要ならEYへ。","official":"https://panasonic.jp/reizo/"},
+    {"id":"panasonic_ey","name":"Panasonic EYタイプ","tag":"65cm・バランス","summary":"65cm幅で大容量と基本的な鮮度・冷凍機能のバランスを重視する人向け。","strength":"コンパクトBIG、新鮮凍結、霜つき抑制冷凍、微凍結など。","watch":"急速冷凍・アプリ・ナノイーXまで欲しければHYへ。","official":"https://panasonic.jp/reizo/"},
+    {"id":"panasonic_ry","name":"Panasonic RYタイプ","tag":"幅60cm・410/450L","summary":"幅60cmでPanasonicの冷凍室まんなかを選びたい人向け。","strength":"幅60cmのコンパクトBIGで410/450L。","watch":"野菜室まんなかならBR 468Lも比較。","official":"https://panasonic.jp/reizo/"},
+    {"id":"panasonic_br","name":"Panasonic BRタイプ 515L","tag":"野菜室まんなか・65cm","summary":"野菜をよく使い、野菜室まんなか＋大容量冷凍を重視する人向け。","strength":"Wシャキシャキ野菜室プラスと大容量冷凍。","watch":"機能はWX/HYよりシンプル。","official":"https://panasonic.jp/reizo/BR-type.html"},
+    {"id":"panasonic_br60","name":"Panasonic BRタイプ 468L","tag":"野菜室まんなか・幅60cm","summary":"幅60cmで野菜室まんなかを最優先する人向け。","strength":"468L・幅60cmでWシャキシャキ野菜室プラス。","watch":"奥行69.9cmなので設置奥行も確認。","official":"https://panasonic.jp/reizo/products/NR-E47BR3.html"},
+    {"id":"aqua_standard","name":"AQUA Standard系","tag":"価格と容量の基準","summary":"まず価格を抑え、必要容量と基本機能を満たしたい人向け。","strength":"AQUAの価格基準として比較しやすい。","watch":"冷凍・鮮度・デザインに価値を感じるならDELIE+/TZ/TXへ。","official":"https://aqua-has.com/product/product-series/refrigerator/"},
+    {"id":"aqua_delie","name":"AQUA DELIE+","tag":"400L台・機能と価格の中間","summary":"AQUAの価格感を残しながら冷凍・野菜・使い勝手を一段上げたい人向け。","strength":"400L台中心で価格と機能の中間に置きやすい。","watch":"薄型デザインならTZ、鮮度上位ならTX。","official":"https://aqua-has.com/product/product-series/refrigerator/delie/"},
+    {"id":"aqua_tz","name":"AQUA TZシリーズ","tag":"薄型・デザイン・大容量","summary":"キッチンへの出っ張りやデザインを重視する人向け。","strength":"大容量でもスマートな薄型設計を特徴とする。","watch":"本体幅が広いモデルもあるため幅条件を確認。","official":"https://aqua-has.com/product/product-series/refrigerator/tz-series/"},
+    {"id":"aqua_tx","name":"AQUA TXシリーズ","tag":"鮮度・機能フラッグシップ","summary":"AQUAでデザインだけでなく鮮度・冷凍まで上位を選びたい人向け。","strength":"鮮度保持技術をまとめたフラッグシップ。","watch":"価格重視ならDELIE+やStandardとの価格差を確認。","official":"https://aqua-has.com/product/product-series/refrigerator/tx-series/"},
+    {"id":"haier_mid","name":"Haier 300〜470Lクラス","tag":"価格・容量優先","summary":"シリーズ名より、必要容量と価格を優先して選びたい人向け。","strength":"335L、355L、375L、411L、450L、470Lなど幅広い容量から選びやすい。","watch":"冷凍室容量・ドア構成・幅・鮮度機能を型番ごとに確認。","official":"https://www.haier.com/jp/refrigerators/"}
+  ]
+}
