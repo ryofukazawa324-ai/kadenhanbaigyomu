@@ -7,5 +7,6 @@
   "knowledge_camera_printer.json",
   "knowledge_wifi.json",
   "knowledge_pc.json",
-  "knowledge_storage_wearables.json"
+  "knowledge_storage_wearables.json",
+  "knowledge_recycle.json"
 ]
