@@ -1,0 +1,56 @@
+{
+  "id":"aircon",
+  "label":"エアコン",
+  "lead":"設置できるサイズを先に確認し、その範囲で価格・除湿・清潔・省エネ・センサーを比較する。",
+  "questions":[
+    {"text":"まず、設置スペースと機能のどちらを優先しますか？","help":"上位シリーズでも入らなければ候補にならないため、最初にここを分けます。","options":[
+      {"label":"設置スペースがかなり狭い・入ること最優先","note":"コンパクト優先","scores":{"general_c":8,"hitachi_w":7,"hitachi_d":7,"daikin_e":6,"daikin_c":6,"mitsubishi_s":5}},
+      {"label":"奥行の出っ張りをできるだけ抑えたい","note":"薄型優先","scores":{"hitachi_d":9,"mitsubishi_s":8,"daikin_e":5,"general_c":4}},
+      {"label":"設置には余裕があるので機能を優先","note":"上位機能まで比較","scores":{"daikin_a":5,"daikin_r":4,"mitsubishi_z":5,"mitsubishi_fz":4,"hitachi_x":5,"general_z":4}},
+      {"label":"まだ分からない","note":"標準から確認","scores":{"general_c":2,"daikin_e":2,"mitsubishi_ge":2,"hitachi_d":2}}
+    ]},
+    {"text":"一番重視したい機能は？","help":"メーカー名ではなく、困りごとからシリーズを選びます。","options":[
+      {"label":"価格を抑えて最低限しっかり冷暖房","note":"価格・基本性能","scores":{"general_c":7,"mitsubishi_ge":6,"daikin_e":5,"hitachi_d":5}},
+      {"label":"梅雨や夏の除湿をしっかり使いたい","note":"除湿重視","scores":{"daikin_a":9,"general_z":7,"daikin_r":5}},
+      {"label":"人に合わせた気流・センサーを重視","note":"快適性・センサー","scores":{"mitsubishi_z":9,"mitsubishi_fz":8,"hitachi_x":4}},
+      {"label":"内部の清潔・自動おそうじを重視","note":"清潔・手入れ","scores":{"hitachi_x":8,"hitachi_w":7,"general_d":7,"general_w":6,"mitsubishi_z":5,"daikin_c":4}},
+      {"label":"省エネを重視して長時間使いたい","note":"省エネ重視","scores":{"mitsubishi_fz":8,"general_w":7,"general_l":7,"mitsubishi_z":5,"daikin_a":5}}
+    ]},
+    {"text":"設置場所として近いのは？","help":"高さ・幅・奥行のどこが厳しいかでシリーズをさらに絞ります。","options":[
+      {"label":"窓上・カーテンレール上で高さが厳しい","note":"高さ優先","scores":{"hitachi_w":9,"general_c":8,"general_d":8,"daikin_e":7,"daikin_c":7}},
+      {"label":"横幅がかなり狭い","note":"幅優先","scores":{"general_c":10,"hitachi_d":6}},
+      {"label":"壁から前に出っ張るのを抑えたい","note":"奥行優先","scores":{"hitachi_d":10,"mitsubishi_s":9,"daikin_e":6}},
+      {"label":"十分なスペースがある","note":"サイズ制約少ない","scores":{"daikin_a":4,"daikin_r":4,"mitsubishi_z":4,"mitsubishi_fz":4,"hitachi_x":4,"general_z":4}}
+    ]},
+    {"text":"工事条件は？","help":"特にダイキンRは加湿ホースがあるため、新規設置か既設利用かを確認します。","options":[
+      {"label":"戸建て新規で新しく配管できる","note":"新規配管しやすい","scores":{"daikin_r":8,"daikin_a":3,"mitsubishi_z":2}},
+      {"label":"既存エアコンの入れ替え","note":"既設条件を確認","scores":{"daikin_a":4,"general_c":3,"hitachi_w":3,"mitsubishi_s":3}},
+      {"label":"隠蔽配管・穴やカバー条件が厳しい","note":"工事条件優先","scores":{"general_c":5,"hitachi_d":5,"mitsubishi_s":5,"daikin_e":4}},
+      {"label":"分からないので現調・工事確認したい","note":"施工確認優先","scores":{"general_c":2,"daikin_e":2,"hitachi_d":2,"mitsubishi_ge":2}}
+    ]},
+    {"text":"使い方は？","help":"短時間利用なら上位機能を無理に上げず、長時間なら省エネや快適性まで比較します。","options":[
+      {"label":"寝室など短時間・最低限でよい","note":"必要十分","scores":{"general_c":6,"daikin_e":5,"mitsubishi_ge":5,"hitachi_d":5}},
+      {"label":"リビングで毎日長時間使う","note":"長時間利用","scores":{"daikin_a":6,"mitsubishi_z":6,"mitsubishi_fz":5,"general_w":5,"general_l":5,"hitachi_x":5}},
+      {"label":"除湿を長時間使うことが多い","note":"湿度快適性","scores":{"daikin_a":9,"general_z":7,"daikin_r":5}},
+      {"label":"冬の加湿・換気も1台で重視したい","note":"加湿・換気","scores":{"daikin_r":12}}
+    ]}
+  ],
+  "candidates":[
+    {"id":"general_c","name":"ゼネラル nocria Cシリーズ","tag":"幅728×高さ250mm・コンパクト","summary":"幅・高さが厳しく、まず設置できることと価格を優先する時の有力候補。","strength":"室内機が高さ250×幅728×奥行285mmで狭い場所に合わせやすい。","watch":"必要な清潔・自動おそうじ・省エネ機能が足りるか確認。","official":"https://www.generalww.com/jp/products/aircon/2026/lineup/nocria-c/"},
+    {"id":"general_d","name":"ゼネラル nocria Dシリーズ","tag":"高さ250mm＋自動おそうじ・加熱除菌","summary":"高さ制限がありつつ、Cより清潔・手入れ機能も欲しい人向け。","strength":"高さ250mmのスリム型でフィルター自動おそうじと熱交換器加熱除菌を搭載。","watch":"価格だけならC、上位の省エネ・除湿ならW/Zも比較。","official":"https://www.generalww.com/jp/products/aircon/2026/lineup/nocria-d/"},
+    {"id":"general_l","name":"ゼネラル nocria Lシリーズ","tag":"省エネ＋お手入れ性","summary":"価格と省エネ、お手入れ性のバランスを上げたい人向け。","strength":"2027年度省エネ基準を全クラスで達成し、外せる送風路など手入れ性も重視。","watch":"設置サイズが厳しければC/Dへ戻す。","official":"https://www.generalww.com/jp/products/aircon/2026/lineup/nocria-l/"},
+    {"id":"general_w","name":"ゼネラル nocria Wシリーズ","tag":"省エネ＋自動おそうじ","summary":"長時間利用で省エネと手入れの両方を重視したい人向け。","strength":"全クラス省エネ基準達成、フィルター自動おそうじを備える。","watch":"室内機は高さ298×幅799×奥行348mmなので設置確認。","official":"https://www.generalww.com/jp/products/aircon/2026/lineup/nocria-w/"},
+    {"id":"general_z","name":"ゼネラル nocria Zシリーズ","tag":"再熱除湿・さらさら冷房","summary":"湿度快適性と上位機能を重視する人向け。","strength":"再熱除湿を使うさらさら冷房など、温度を下げすぎず湿度を抑える方向で比較しやすい。","watch":"室内機奥行385mm。設置スペースと価格差を確認。","official":"https://www.generalww.com/jp/products/aircon/2026/lineup/nocria-z/"},
+    {"id":"daikin_e","name":"ダイキン Eシリーズ","tag":"高さ250×奥行255mm・標準","summary":"設置性と価格を重視するスタンダード候補。","strength":"高さ250mm・奥行255mmで窓上などにも合わせやすい。","watch":"除湿・快適機能を上げたいならF/Aへ比較。","official":"https://www.ac.daikin.co.jp/roomaircon/products/e_series"},
+    {"id":"daikin_c","name":"ダイキン Cシリーズ","tag":"高さ250×奥行265mm＋自動おそうじ","summary":"高さ制限がありつつ清潔・自動おそうじも欲しい人向け。","strength":"コンパクト室内機でフィルター自動おそうじを備える。","watch":"6.3・7.1kWクラスなど能力によって本体サイズが異なる場合がある。","official":"https://www.ac.daikin.co.jp/roomaircon/products/c_series"},
+    {"id":"daikin_a","name":"ダイキン Aシリーズ","tag":"さらら除湿・ハイグレード","summary":"除湿・気流・長時間の快適性を重視する人の本命候補。","strength":"さらら除湿、快適気流、節電自動運転などを備える。","watch":"加湿・換気まで必要ならR、設置性優先ならC/Eへ。","official":"https://www.ac.daikin.co.jp/roomaircon/products/a_series"},
+    {"id":"daikin_r","name":"ダイキン Rシリーズ うるさらX","tag":"除湿＋無給水加湿＋換気","summary":"除湿だけでなく冬の加湿・換気まで1台で重視する人向け。","strength":"無給水加湿と換気まで含めたフラッグシップ。新規配管しやすい戸建てで提案しやすい。","watch":"外径約35mmの加湿ホースを使うため配管穴・カバー・経路確認が重要。","official":"https://www.ac.daikin.co.jp/roomaircon/products/r_series"},
+    {"id":"hitachi_d","name":"日立 白くまくん Dシリーズ","tag":"幅780×高さ280×奥行218mm","summary":"奥行を最小クラスに抑えたい、出っ張りを減らしたい人向け。","strength":"奥行218mmのコンパクト室内機。小能力では室外機も小幅。","watch":"高さ最優先ならWも比較。","official":"https://kadenfan.hitachi.co.jp/ra/lineup/dseries_26/"},
+    {"id":"hitachi_w","name":"日立 白くまくん Wシリーズ","tag":"高さ248mm・清潔機能","summary":"窓上など高さが厳しいが、清潔機能も欲しい人向け。","strength":"高さ248mmで、凍結洗浄Standard・ファンお掃除ロボなどを備える。","watch":"奥行は340mmなので出っ張り最優先ならDも比較。","official":"https://kadenfan.hitachi.co.jp/ra/lineup/wseries_26/"},
+    {"id":"hitachi_x","name":"日立 白くまくん Xシリーズ","tag":"清潔・高機能上位","summary":"清潔性・快適性を上げたいリビング向け上位候補。","strength":"高機能を重視する時の比較候補。","watch":"室内機は幅798×高さ295×奥行385mmで設置余裕を確認。","official":"https://kadenfan.hitachi.co.jp/ra/lineup/xseries_26/"},
+    {"id":"mitsubishi_ge","name":"三菱 霧ヶ峰 GEシリーズ","tag":"基本機能・スタンダード","summary":"価格と基本性能を重視しつつ三菱のセンサー系基本機能を候補にしたい人向け。","strength":"基本機能と品質を重視したスタンダード。","watch":"奥行・設置性をより優先するならSを比較。","official":"https://www.mitsubishielectric.co.jp/home/kirigamine/product/2026_ge/"},
+    {"id":"mitsubishi_s","name":"三菱 霧ヶ峰 Sシリーズ","tag":"奥行230mm・すっきり","summary":"壁からの出っ張りを抑えたい人の有力候補。","strength":"室内機H295×W799×D230mm（据付後235mm）の奥行すっきりモデル。","watch":"上位センサー・省エネを優先するならZ/FZへ。","official":"https://www.mitsubishielectric.co.jp/home/kirigamine/product/2026_s/"},
+    {"id":"mitsubishi_z","name":"三菱 霧ヶ峰 Zシリーズ","tag":"センサー・清潔・プレミアム","summary":"人に合わせた快適性や清潔機能を重視する人向け。","strength":"センサーと清潔機能を上げるプレミアム候補。","watch":"室内機奥行389mmで、設置性を先に確認。","official":"https://www.mitsubishielectric.co.jp/home/kirigamine/product/2026_z/"},
+    {"id":"mitsubishi_fz","name":"三菱 霧ヶ峰 FZシリーズ","tag":"省エネ・プレミアム","summary":"長時間利用で省エネと上位センサーを重視する人向け。","strength":"三菱のプレミアム上位として省エネ性能を比較しやすい。","watch":"幅890mmと大きいため、設置スペースを必ず確認。","official":"https://www.mitsubishielectric.co.jp/home/kirigamine/product/2026_fz/"}
+  ]
+}
