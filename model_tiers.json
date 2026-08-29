@@ -1,0 +1,34 @@
+{
+  "labels":{
+    "high":{"name":"ハイグレード","short":"HIGH","description":"上位機能・快適性・省エネ・素材や品質まで重視。価格差に意味がある人向け。","search":"上位モデル フラッグシップ ハイグレード"},
+    "middle":{"name":"ミドル","short":"MIDDLE","description":"主要機能をしっかり残し、価格とのバランスが良い本命帯。","search":"ミドルクラス 主力モデル バランス"},
+    "standard":{"name":"スタンダード","short":"STANDARD","description":"必要十分な基本性能を優先し、価格を抑える標準帯。","search":"スタンダード エントリー 価格重視"}
+  },
+  "products":{
+    "pc":{
+      "high":["vaio_sx14r","fmv_note_u","lavie_nextreme","creator_pc","gaming_pc"],
+      "middle":["vaio_sx12","vaio_f14","fmv_note_p","fmv_note_m","lavie_sol"],
+      "standard":["vaio_f16","fmv_note_a","lavie_n15"]
+    },
+    "tv":{
+      "high":["regza_zx3s","sony_9ii","pana_z95c","pana_w97c","sharp_x9a","tcl_c8l"],
+      "middle":["regza_z890s","sony_7ii","sony_8","pana_w95c","sharp_x7a","sharp_s9a","hisense_u8s","tcl_c7l"],
+      "standard":["regza_z770s","regza_x770s","pana_w93c","pana_w80c","hisense_u7s","tcl_p8k"]
+    },
+    "refrigerator":{
+      "high":["mitsubishi_wz","mitsubishi_mz","hitachi_hzc","toshiba_xfs","panasonic_wx","aqua_tx"],
+      "middle":["hitachi_hwc","toshiba_fz","panasonic_hy","panasonic_ey","aqua_tz","aqua_delie","toshiba_gt"],
+      "standard":["mitsubishi_bd","hitachi_h","toshiba_fh","panasonic_ry","panasonic_br","panasonic_br60","aqua_standard","haier_mid"]
+    },
+    "washer":{
+      "high":["pana_lx_top","hitachi_stx_sx","toshiba_xp","sharp_12x2","aqua_dxs12a"],
+      "middle":["pana_lx_value","hitachi_sw_sv","toshiba_xh","toshiba_xm","sharp_12p2","aqua_dms10a","hitachi_bwx"],
+      "standard":["pana_sd","pana_fa","hitachi_cx_cg","hitachi_bwv","toshiba_gs","toshiba_dpb","sharp_vertical","aqua_d8a","aqua_vp"]
+    },
+    "aircon":{
+      "high":["daikin_r","mitsubishi_fz","mitsubishi_z","hitachi_x","general_z"],
+      "middle":["daikin_a","daikin_c","hitachi_w","general_w","general_l","general_d","mitsubishi_s"],
+      "standard":["daikin_e","hitachi_d","general_c","mitsubishi_ge"]
+    }
+  }
+}
