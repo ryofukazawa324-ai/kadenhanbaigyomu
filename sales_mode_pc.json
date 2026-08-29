@@ -1,0 +1,56 @@
+{
+  "id":"pc",
+  "label":"パソコン",
+  "lead":"用途・持ち運び・Web会議・入力・買替え慣れから、メーカーとシリーズ帯まで絞る。",
+  "questions":[
+    {"text":"主な用途は？","help":"CPU名より先に使い方で方向を決める。","options":[
+      {"label":"Web・Office・普段使い","note":"標準用途","scores":{"vaio_f16":5,"fmv_note_a":8,"fmv_note_p":7,"lavie_n15":8,"lavie_sol":4}},
+      {"label":"仕事で持ち運び・出先利用が多い","note":"モバイル仕事","scores":{"vaio_sx14r":12,"vaio_sx12":10,"fmv_note_u":10,"lavie_nextreme":10,"lavie_sol":7}},
+      {"label":"写真・動画編集など制作をする","note":"制作性能","scores":{"creator_pc":13,"vaio_sx14r":5,"fmv_note_u":5,"lavie_nextreme":4}},
+      {"label":"ゲーム・3Dをする","note":"GPU優先","scores":{"gaming_pc":16,"creator_pc":7}}
+    ]},
+    {"text":"持ち運ぶ頻度は？","help":"軽さ・堅牢性・バッテリーに価格差を払うか。","options":[
+      {"label":"毎日持ち運ぶ","note":"軽量・耐久性最優先","scores":{"vaio_sx14r":12,"vaio_sx12":11,"fmv_note_u":12,"lavie_nextreme":12,"lavie_sol":8}},
+      {"label":"週に数回持ち運ぶ","note":"モバイルと画面のバランス","scores":{"vaio_sx14r":8,"fmv_note_u":8,"lavie_nextreme":8,"lavie_sol":6,"fmv_note_p":4}},
+      {"label":"家の中だけ少し移動","note":"大画面寄り","scores":{"fmv_note_p":8,"fmv_note_a":8,"vaio_f16":8,"lavie_n15":8}},
+      {"label":"ほぼ据え置き","note":"大画面・価格優先","scores":{"fmv_note_a":9,"vaio_f16":9,"lavie_n15":9,"creator_pc":5,"gaming_pc":5}}
+    ]},
+    {"text":"Web会議はどのくらいしますか？","help":"会議用マイク・カメラ・ノイズ抑制の価値を確認。","options":[
+      {"label":"仕事で毎日のように使う","note":"会議機能重視","scores":{"vaio_sx14r":14,"vaio_sx12":8,"lavie_nextreme":8,"lavie_sol":7,"fmv_note_u":6}},
+      {"label":"週に数回使う","note":"会議も重要","scores":{"vaio_sx14r":9,"lavie_nextreme":7,"fmv_note_u":6,"lavie_sol":6}},
+      {"label":"たまに使う程度","note":"標準カメラで十分","scores":{"fmv_note_a":5,"fmv_note_p":5,"lavie_n15":5,"vaio_f16":5}},
+      {"label":"ほぼ使わない","note":"会議優先度低い","scores":{"fmv_note_a":6,"fmv_note_p":6,"lavie_n15":6}}
+    ]},
+    {"text":"キーボード・文字入力は？","help":"長文入力が多いなら打鍵感やテンキーも比較。","options":[
+      {"label":"仕事で長文・Office入力が多い","note":"打鍵感重視","scores":{"fmv_note_a":13,"fmv_note_u":8,"vaio_sx14r":7,"lavie_nextreme":6}},
+      {"label":"数字入力・Excelでテンキーが欲しい","note":"テンキー重視","scores":{"fmv_note_a":12,"vaio_f16":10,"lavie_n15":10,"fmv_note_p":8}},
+      {"label":"入力より軽さを優先","note":"モバイル優先","scores":{"fmv_note_u":10,"vaio_sx12":10,"vaio_sx14r":9,"lavie_nextreme":9,"lavie_sol":8}},
+      {"label":"特にこだわらない","note":"総合比較","scores":{"vaio_f16":4,"fmv_note_p":4,"lavie_n15":4}}
+    ]},
+    {"text":"今までのPC・買替えで近いのは？","help":"使い慣れや移行不安も提案軸になる。","options":[
+      {"label":"NEC/LAVIEを長く使っている","note":"LAVIE親和性","scores":{"lavie_nextreme":10,"lavie_sol":9,"lavie_n15":10}},
+      {"label":"富士通/FMVを使っている・サポートも重視","note":"FMV親和性","scores":{"fmv_note_u":9,"fmv_note_a":10,"fmv_note_p":9}},
+      {"label":"仕事道具として耐久性・会議を優先したい","note":"VAIO適性","scores":{"vaio_sx14r":15,"vaio_sx12":10}},
+      {"label":"メーカーにはこだわらない","note":"用途優先","scores":{"vaio_sx14r":3,"fmv_note_u":3,"lavie_nextreme":3,"fmv_note_a":3,"vaio_f16":3}}
+    ]},
+    {"text":"価格と性能の考え方は？","help":"現在は同等スペックの価格差を見て、付加価値に払うかで判断。","options":[
+      {"label":"安さ最優先、必要十分でよい","note":"価格優先","scores":{"vaio_f16":7,"fmv_note_a":7,"fmv_note_p":7,"lavie_n15":8}},
+      {"label":"数年使うので少し上げてもよい","note":"長期利用","scores":{"vaio_sx14r":9,"fmv_note_u":9,"lavie_nextreme":9,"fmv_note_p":7}},
+      {"label":"軽さ・耐久性・会議など仕事の快適性に払える","note":"仕事上位","scores":{"vaio_sx14r":14,"fmv_note_u":9,"lavie_nextreme":9}},
+      {"label":"性能優先","note":"高性能","scores":{"creator_pc":12,"gaming_pc":12,"vaio_sx14r":6}}
+    ]}
+  ],
+  "candidates":[
+    {"id":"vaio_sx14r","name":"VAIO SX14-R","tag":"仕事モバイル・耐久性・Web会議","summary":"毎日持ち運び、Web会議が多く、長く使う仕事PCを求める人の本命候補。","strength":"14型高性能モバイル、品質試験、AIノイズキャンセリング等の会議機能、Copilot+ PC構成を比較しやすい。","watch":"ゲーム・3D制作はGPU搭載機を別軸で優先。価格差は同等スペックで比較。","official":"https://vaio.com/products/sx14-r/"},
+    {"id":"vaio_sx12","name":"VAIO SX12","tag":"12.5型コンパクトモバイル","summary":"画面サイズより小ささ・持ち運びやすさを優先する仕事用途向け。","strength":"VAIOのモバイル性・端子・仕事向け設計を小型で選べる。","watch":"画面の見やすさと会議・作業時間が長いならSX14-Rも比較。","official":"https://vaio.com/"},
+    {"id":"vaio_f16","name":"VAIO F16","tag":"16型・家庭/仕事の大画面","summary":"据え置き中心で大画面・テンキー・VAIOの使いやすさを価格とのバランスで選びたい人向け。","strength":"16型の見やすさと普段使い・Officeのバランス。","watch":"毎日持ち運ぶならSX系へ。","official":"https://vaio.com/"},
+    {"id":"fmv_note_u","name":"FMV Note U","tag":"超軽量・長時間モバイル","summary":"軽さと長時間利用を最優先し、文字入力もしっかりする人向け。","strength":"14型で約634g級から選べる構成、軽量・堅牢性、長時間バッテリー構成を比較しやすい。","watch":"テンキー・大画面が必要ならNote A/P。","official":"https://www.fmv.com/store/pc/note/note_u"},
+    {"id":"fmv_note_a","name":"FMV Note A","tag":"16型・キーボード・安心サポート","summary":"長文入力、Excel、家庭/仕事の大画面を重視する人向け。","strength":"16型、テンキー・キーボードの打ちやすさ、構成による光学ドライブ、3年セキュリティ等を提案しやすい。","watch":"毎日持ち運ぶならNote Uへ。仕様は型番ごとに確認。","official":"https://www.fmv.com/store/pc/note/note_a"},
+    {"id":"fmv_note_p","name":"FMV Note P","tag":"16型薄型・軽量大画面","summary":"16型の見やすさが欲しいが、家の中や車移動で持ち運びもしたい人向け。","strength":"16型で薄型・軽量、MIL規格準拠試験や交換可能バッテリーなど長期利用を比較しやすい。","watch":"光学ドライブが必要ならNote A等も比較。","official":"https://www.fmv.com/store/pc/note/note_p"},
+    {"id":"lavie_nextreme","name":"LAVIE NEXTREME","tag":"1kg未満・長時間・Copilot+ PC","summary":"軽量・長時間バッテリー・堅牢性を重視し、LAVIEの使い慣れも残したい人向け。","strength":"13.3型、1kg未満、長時間駆動、堅牢性、Copilot+ PCを仕事モバイルで比較しやすい。","watch":"大画面・テンキー優先ならN15系なども比較。","official":"https://www.nec-lavie.jp/products/notebook/nx13/"},
+    {"id":"lavie_sol","name":"LAVIE SOL","tag":"13.3型・モバイルAI","summary":"小型モバイルとデザイン、LAVIEの使い慣れを重視する人向け。","strength":"13.3型のCopilot+ PC構成を含み、学生・モバイル用途にも合わせやすい。","watch":"バッテリー・軽さ最優先ならNEXTREMEも比較。","official":"https://www.nec-lavie.jp/products/notebook/direct-sol/"},
+    {"id":"lavie_n15","name":"LAVIE N15系","tag":"大画面・買替え安心","summary":"旧LAVIEからの買替え、据え置き中心、Office・大画面を重視する人向け。","strength":"使い慣れや移行の安心感を含めて比較しやすい。","watch":"現行モデルのCPU・メモリ・Office構成を必ず確認。","official":"https://www.nec-lavie.jp/"},
+    {"id":"creator_pc","name":"クリエイター向けGPU搭載PC","tag":"写真・動画・3D制作","summary":"Adobe系、動画編集、3DなどGPU性能が必要な用途向け。","strength":"CPUブランドよりGPU・メモリ・色域・冷却を用途に合わせて選べる。","watch":"使用ソフトの推奨環境を基準に現行型番を検索する。","official":"https://www.microsoft.com/ja-jp/windows/"},
+    {"id":"gaming_pc","name":"ゲーミングPC","tag":"ゲーム・GPU最優先","summary":"ゲームや3DでGPU性能が重要な人向け。","strength":"GPU、冷却、電源、画面リフレッシュレートを中心に選べる。","watch":"VAIO/FMV/LAVIEの一般ノートをブランド理由だけで選ばない。","official":"https://www.microsoft.com/ja-jp/windows/"}
+  ]
+}
