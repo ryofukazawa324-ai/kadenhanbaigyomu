@@ -1,0 +1,206 @@
+{
+  "products": [
+    {
+      "id": "refrigerator",
+      "label": "冷蔵庫",
+      "lead": "価格・冷凍・野菜・鮮度・収納のどこを重視するかで候補を絞る。",
+      "questions": [
+        {"text":"まず、いちばん近い希望はどれですか？","help":"最初に比較軸を1つ作ります。","options":[
+          {"label":"できるだけ価格を抑えたい","note":"価格優先","scores":{"aqua":4,"haier":4,"panasonic":1}},
+          {"label":"冷凍食品・作り置きをよく使う","note":"冷凍重視","scores":{"mitsubishi":5,"aqua":2,"panasonic":2}},
+          {"label":"野菜をよく買う・自炊が多い","note":"野菜重視","scores":{"toshiba":5,"panasonic":2,"hitachi":1}},
+          {"label":"肉・魚の鮮度を重視したい","note":"鮮度重視","scores":{"hitachi":5,"mitsubishi":2,"panasonic":2}},
+          {"label":"特定機能より全体バランス","note":"総合重視","scores":{"panasonic":5,"mitsubishi":2,"hitachi":2}}
+        ]},
+        {"text":"買い方として近いのは？","help":"予算の使い方を確認します。","options":[
+          {"label":"必要容量が入れば安い方がいい","note":"価格差を小さくしたい","scores":{"aqua":4,"haier":4}},
+          {"label":"毎日使うので多少高くても使いやすさ重視","note":"使い勝手へ投資","scores":{"panasonic":4,"mitsubishi":3,"hitachi":2,"toshiba":2}},
+          {"label":"機能差を見て納得できれば上位でもいい","note":"機能比較型","scores":{"mitsubishi":4,"hitachi":3,"toshiba":3,"panasonic":3}}
+        ]},
+        {"text":"日常の使い方は？","help":"生活スタイルに寄せます。","options":[
+          {"label":"まとめ買い・作り置きが多い","note":"保存量が多い","scores":{"mitsubishi":4,"aqua":3,"toshiba":2}},
+          {"label":"こまめに買い物する","note":"鮮度・取り出しやすさ","scores":{"hitachi":3,"panasonic":3}},
+          {"label":"家族で使うので収納しやすさ重視","note":"収納性","scores":{"panasonic":4,"mitsubishi":2}},
+          {"label":"一人暮らし・シンプルで十分","note":"シンプル重視","scores":{"haier":4,"aqua":4}}
+        ]}
+      ],
+      "candidates": [
+        {"id":"aqua","name":"AQUA","tag":"価格と容量の基準","summary":"必要容量を取りつつ価格を抑えたい時の比較起点。","strength":"価格と容量のバランスを作りやすい。","watch":"モデルごとに自動製氷・冷凍室構成・幅を確認。","official":"https://aqua-has.com/product/product-series/refrigerator/"},
+        {"id":"haier","name":"Haier","tag":"価格優先の入口","summary":"シンプル機能で本体価格を抑えたい人向け。","strength":"小〜中容量を含め価格基準を作りやすい。","watch":"必要機能が足りるかを先に確認。","official":"https://www.haier.com/jp/refrigerators/"},
+        {"id":"mitsubishi","name":"三菱電機","tag":"冷凍・保存を上げる候補","summary":"冷凍・作り置きの使い勝手を重視する時に残しやすい。","strength":"冷凍・保存機能を生活メリットに置き換えて比較しやすい。","watch":"価格差に見合う使い方をするか確認。","official":"https://www.mitsubishielectric.co.jp/home/reizouko/"},
+        {"id":"hitachi","name":"日立","tag":"鮮度・チルド軸","summary":"肉・魚や冷蔵室の鮮度を重視する人の比較候補。","strength":"鮮度保持を比較軸にしやすい。","watch":"冷凍重視なら別メーカーも並べる。","official":"https://kadenfan.hitachi.co.jp/rei/"},
+        {"id":"toshiba","name":"東芝","tag":"野菜軸","summary":"野菜をよく使う自炊層へ提案しやすい。","strength":"野菜室を比較軸にしやすい。","watch":"冷凍・鮮度の優先順位も確認。","official":"https://www.toshiba-lifestyle.com/jp/refrigerators/"},
+        {"id":"panasonic","name":"パナソニック","tag":"総合バランス","summary":"収納・使い勝手を含め全体で決めたい人向け。","strength":"特定機能だけでなく日常動作で比較しやすい。","watch":"価格重視なら基準機との比較を忘れない。","official":"https://panasonic.jp/reizo/"}
+      ]
+    },
+    {
+      "id": "washer",
+      "label": "洗濯機",
+      "lead": "乾燥頻度・汚れ・価格・手入れから縦型/ドラムと候補を絞る。",
+      "questions": [
+        {"text":"乾燥はどのくらい使いたいですか？","help":"ここで縦型とドラムの方向が大きく分かれます。","options":[
+          {"label":"ほぼ毎日、乾燥まで任せたい","note":"乾燥最優先","scores":{"panasonic_drum":6,"aqua_drum":3}},
+          {"label":"雨の日など時々使う","note":"乾燥は補助","scores":{"panasonic_drum":3,"toshiba_top":3,"aqua_top":2}},
+          {"label":"基本は洗濯だけで十分","note":"洗濯中心","scores":{"toshiba_top":5,"aqua_top":4}}
+        ]},
+        {"text":"重視するのは？","help":"メーカー差を1つの軸にします。","options":[
+          {"label":"価格を抑えたい","note":"価格優先","scores":{"aqua_top":5,"aqua_drum":3}},
+          {"label":"洗浄力を重視したい","note":"洗浄優先","scores":{"toshiba_top":5,"panasonic_drum":2}},
+          {"label":"家事の手間を減らしたい","note":"時短優先","scores":{"panasonic_drum":5,"aqua_drum":3}}
+        ]},
+        {"text":"洗濯量・使い方は？","help":"容量だけでなく運転頻度も確認します。","options":[
+          {"label":"まとめ洗いが多い","note":"大容量重視","scores":{"aqua_top":3,"toshiba_top":3,"panasonic_drum":2}},
+          {"label":"毎日こまめに洗う","note":"日常使い","scores":{"panasonic_drum":3,"toshiba_top":2}},
+          {"label":"価格と容量のバランスが大事","note":"コスパ重視","scores":{"aqua_top":5,"aqua_drum":2}}
+        ]}
+      ],
+      "candidates": [
+        {"id":"aqua_top","name":"AQUA 縦型","tag":"価格と容量","summary":"洗濯中心で価格を抑えたい時の基準。","strength":"容量と価格のバランスを作りやすい。","watch":"乾燥を常用するならドラムも比較。","official":"https://aqua-has.com/product/product-series/washing-machine/"},
+        {"id":"aqua_drum","name":"AQUA ドラム","tag":"ドラムを価格軸で比較","summary":"ドラム式を使いたいが価格も重視する人へ。","strength":"上位ドラムとの価格差を比較しやすい。","watch":"乾燥方式や手入れ機能を機種ごとに確認。","official":"https://aqua-has.com/product/product-series/washing-machine/"},
+        {"id":"toshiba_top","name":"東芝 縦型","tag":"洗浄重視","summary":"乾燥より洗浄を重視する時に残しやすい。","strength":"洗浄性能を比較軸にしやすい。","watch":"時短目的が強ければドラムも提案。","official":"https://www.toshiba-lifestyle.com/jp/laundries/"},
+        {"id":"panasonic_drum","name":"パナソニック ドラム","tag":"乾燥・時短","summary":"乾燥を日常的に使い、家事工程を減らしたい人向け。","strength":"洗濯から乾燥までの時短価値で説明しやすい。","watch":"設置寸法と価格差の納得感を確認。","official":"https://panasonic.jp/wash/"}
+      ]
+    },
+    {
+      "id": "tv",
+      "label": "テレビ",
+      "lead": "何を見るか・明るさ・ゲーム・価格からメーカー/方式を絞る。",
+      "questions": [
+        {"text":"一番よく見るものは？","help":"画質方式より先にコンテンツを聞きます。","options":[
+          {"label":"地デジ・録画番組","note":"テレビ視聴中心","scores":{"regza":5,"panasonic":3}},
+          {"label":"映画・配信","note":"映画・配信中心","scores":{"sony":5,"panasonic":4}},
+          {"label":"ゲーム","note":"ゲーム中心","scores":{"regza":5,"tcl":3,"sony":2}},
+          {"label":"いろいろ見る","note":"総合型","scores":{"panasonic":4,"regza":3,"sony":3}}
+        ]},
+        {"text":"価格とサイズ、どちらを優先しますか？","help":"同予算で大画面を取るか、映像処理を取るか。","options":[
+          {"label":"同じ予算なら大きい画面がいい","note":"サイズ優先","scores":{"tcl":5,"regza":2}},
+          {"label":"多少高くても画質を重視","note":"画質優先","scores":{"sony":5,"panasonic":4}},
+          {"label":"価格と画質のバランス","note":"バランス","scores":{"regza":4,"panasonic":3,"tcl":2}}
+        ]},
+        {"text":"追加で重視するものは？","help":"最後の比較軸です。","options":[
+          {"label":"録画機能","note":"録画重視","scores":{"regza":5}},
+          {"label":"音・映画の没入感","note":"音・映像一体","scores":{"sony":5,"panasonic":2}},
+          {"label":"Mini LEDなど上位方式を価格抑えめで","note":"方式コスパ","scores":{"tcl":5}},
+          {"label":"特にない","note":"総合","scores":{"panasonic":3,"regza":3}}
+        ]}
+      ],
+      "candidates": [
+        {"id":"regza","name":"REGZA","tag":"録画・ゲーム・総合","summary":"テレビ視聴、録画、ゲームを幅広く使う人へ。","strength":"機能面を比較軸にしやすい。","watch":"映画・音重視ならSONYも並べる。","official":"https://www.regza.com/tv/lineup/"},
+        {"id":"sony","name":"SONY BRAVIA","tag":"映画・映像処理・音","summary":"映画や配信、画質と音の一体感を重視する人へ。","strength":"映像処理と音まで含め体感比較しやすい。","watch":"同サイズでの価格差を確認。","official":"https://www.sony.jp/bravia/"},
+        {"id":"panasonic","name":"Panasonic VIERA","tag":"総合バランス","summary":"映画から地デジまでバランスよく使う人向け。","strength":"画質・操作・録画周辺を総合比較しやすい。","watch":"強い1機能を求める人は他候補も比較。","official":"https://panasonic.jp/viera/"},
+        {"id":"tcl","name":"TCL","tag":"大画面・Mini LED価格軸","summary":"同予算でサイズや上位方式を上げたい人へ。","strength":"価格差とサイズ差を見せやすい。","watch":"映像処理やサポートも含めて比較。","official":"https://www.tcl.com/jp/ja/tvs"}
+      ]
+    },
+    {
+      "id": "pc",
+      "label": "パソコン",
+      "lead": "用途・持ち運び・Office・GPU要否でタイプを絞る。",
+      "questions": [
+        {"text":"主な用途は？","help":"CPU名より先に用途を確認します。","options":[
+          {"label":"ネット・動画・Office中心","note":"標準用途","scores":{"standard":5,"copilot":2}},
+          {"label":"持ち運びが多い・電池もち重視","note":"モバイル重視","scores":{"copilot":5,"standard":2}},
+          {"label":"写真・動画編集をする","note":"クリエイティブ","scores":{"creator":5,"copilot":2}},
+          {"label":"ゲームをする","note":"ゲーム","scores":{"gaming":6}}
+        ]},
+        {"text":"AI PCに興味はありますか？","help":"AIという言葉だけで上位にしません。","options":[
+          {"label":"ローカルAIや新機能を使いたい","note":"NPU活用","scores":{"copilot":5,"creator":1}},
+          {"label":"特にこだわらない","note":"用途優先","scores":{"standard":3,"gaming":2,"creator":2}},
+          {"label":"AIよりゲーム・編集性能が大事","note":"GPU優先","scores":{"gaming":5,"creator":5}}
+        ]},
+        {"text":"価格感は？","help":"必要以上のスペックを外します。","options":[
+          {"label":"必要十分で安く","note":"コスパ","scores":{"standard":5}},
+          {"label":"長く使える余裕がほしい","note":"余裕あり","scores":{"copilot":3,"creator":2,"standard":2}},
+          {"label":"性能優先","note":"高性能","scores":{"gaming":5,"creator":5}}
+        ]}
+      ],
+      "candidates": [
+        {"id":"standard","name":"標準Windowsノート","tag":"Office・普段使い","summary":"Web、Office、動画など一般用途の基準。","strength":"必要十分なCPU・16GB前後のメモリを軸に価格を抑えやすい。","watch":"編集・ゲーム・特殊ソフトの有無を確認。","official":"https://www.microsoft.com/ja-jp/windows/"},
+        {"id":"copilot","name":"Copilot+ PC","tag":"モバイル・NPU","summary":"持ち運びや省電力、新しいAI機能を重視する人へ。","strength":"NPU搭載の価値が用途に合うか比較できる。","watch":"AI PCだから全用途が速いわけではない。","official":"https://www.microsoft.com/ja-jp/windows/copilot-plus-pcs"},
+        {"id":"creator","name":"クリエイター向けPC","tag":"写真・動画・制作","summary":"写真・動画編集など制作負荷が高い人へ。","strength":"CPUだけでなくGPU・メモリ・画面まで含めて選べる。","watch":"使うソフトの推奨環境を確認。","official":"https://www.microsoft.com/ja-jp/windows/"},
+        {"id":"gaming","name":"ゲーミングPC","tag":"ゲーム・GPU","summary":"ゲームや3DなどGPU性能が重要な用途へ。","strength":"GPUを中心に必要性能を決められる。","watch":"電源・重量・排熱・ディスプレイも確認。","official":"https://www.microsoft.com/ja-jp/windows/"}
+      ]
+    },
+    {
+      "id": "wifi",
+      "label": "Wi-Fi・ルーター",
+      "lead": "速度不足か電波不足かを切り分けて、標準・Wi-Fi 7・メッシュへ絞る。",
+      "questions": [
+        {"text":"一番困っていることは？","help":"まず回線問題か宅内Wi-Fi問題かを切り分けます。","options":[
+          {"label":"近くでも速度が遅い","note":"速度側を確認","scores":{"wifi7":3,"wifi6":3}},
+          {"label":"離れた部屋で弱い・切れる","note":"電波範囲","scores":{"mesh":6}},
+          {"label":"台数が増えて不安定","note":"多台数","scores":{"wifi7":5,"mesh":3}},
+          {"label":"古いルーターなので買い替えたい","note":"更新","scores":{"wifi6":4,"wifi7":3}}
+        ]},
+        {"text":"回線速度は？","help":"10G回線でも端末やLANがボトルネックになることがあります。","options":[
+          {"label":"1G以下","note":"標準回線","scores":{"wifi6":5,"mesh":2}},
+          {"label":"10G回線","note":"10G活用","scores":{"wifi7":6,"mesh":2}},
+          {"label":"分からない","note":"まず確認","scores":{"wifi6":3,"mesh":2}}
+        ]},
+        {"text":"家の広さ・使い方は？","help":"1台高性能か複数台メッシュかを分けます。","options":[
+          {"label":"ワンルーム〜1LDK程度","note":"1台で届きやすい","scores":{"wifi6":4,"wifi7":3}},
+          {"label":"2階建て・部屋数が多い","note":"範囲重視","scores":{"mesh":6}},
+          {"label":"高性能端末を多く使う","note":"高速・多台数","scores":{"wifi7":6}}
+        ]}
+      ],
+      "candidates": [
+        {"id":"wifi6","name":"Wi-Fi 6クラスの標準ルーター","tag":"1G回線・標準用途","summary":"一般家庭の基準にしやすい。","strength":"価格を抑えつつ十分なケースが多い。","watch":"遠い部屋の弱さは高性能1台で解決しないこともある。","official":"https://www.buffalo.jp/product/child_category/ap.html"},
+        {"id":"wifi7","name":"Wi-Fi 7対応ルーター","tag":"10G・多台数・高性能","summary":"10G回線やWi-Fi 7端末を活かしたい人へ。","strength":"高速規格・多台数環境の上位候補。","watch":"端末側対応と有線ポート速度も確認。","official":"https://www.buffalo.jp/product/child_category/ap.html"},
+        {"id":"mesh","name":"メッシュWi-Fi","tag":"家全体の電波範囲","summary":"遠い部屋、2階、複数部屋で弱い場合の本命候補。","strength":"1台の最大速度より家全体のつながりやすさを改善しやすい。","watch":"設置場所と台数、バックホール条件を確認。","official":"https://www.buffalo.jp/topics/utilize/detail/mesh-wifi.html"}
+      ]
+    },
+    {
+      "id": "printer",
+      "label": "プリンター",
+      "lead": "印刷量・写真/文書・FAX要否でカートリッジ/大容量タンク/複合機を絞る。",
+      "questions": [
+        {"text":"何を一番印刷しますか？","help":"メーカー名より先に用途を聞きます。","options":[
+          {"label":"写真・年賀状","note":"写真寄り","scores":{"canon":5,"epson_tank":2}},
+          {"label":"文書・学校/仕事の資料","note":"文書寄り","scores":{"brother":4,"epson_tank":3,"canon":2}},
+          {"label":"写真も文書も","note":"混合用途","scores":{"canon":4,"epson_tank":3,"brother":2}}
+        ]},
+        {"text":"印刷量は？","help":"本体価格よりランニングコストが重要になることがあります。","options":[
+          {"label":"月に数枚〜少なめ","note":"少量","scores":{"canon":5,"brother":3}},
+          {"label":"毎週かなり印刷する","note":"中〜多量","scores":{"epson_tank":6,"brother":3}},
+          {"label":"大量印刷が多い","note":"ランニングコスト重視","scores":{"epson_tank":7}}
+        ]},
+        {"text":"FAXや電話機能は必要？","help":"複合機の方向を確認します。","options":[
+          {"label":"必要","note":"FAX複合機","scores":{"brother":6}},
+          {"label":"不要","note":"印刷中心","scores":{"canon":3,"epson_tank":3}}
+        ]}
+      ],
+      "candidates": [
+        {"id":"canon","name":"Canon カートリッジ式複合機","tag":"写真・少量印刷","summary":"写真や年賀状、印刷量が多すぎない人の基準。","strength":"家庭用の写真・文書をバランスよく比較しやすい。","watch":"大量印刷ではインクコストを確認。","official":"https://personal.canon.jp/product/printer"},
+        {"id":"epson_tank","name":"EPSON 大容量インクタンク","tag":"多量印刷・ランニングコスト","summary":"印刷量が多い人の本命候補。","strength":"本体価格より長期のインクコストで比較しやすい。","watch":"印刷量が少ない人は本体差額を回収しにくい。","official":"https://www.epson.jp/products/ecotank/"},
+        {"id":"brother","name":"Brother 複合機","tag":"文書・FAX","summary":"文書中心、FAXや電話周辺機能が必要な人へ。","strength":"家庭/仕事の文書用途で比較軸を作りやすい。","watch":"写真画質最優先ならCanon/EPSONも比較。","official":"https://www.brother.co.jp/product/printer/inkjet/"}
+      ]
+    },
+    {
+      "id": "aircon",
+      "label": "エアコン",
+      "lead": "部屋条件・利用時間・清潔/快適性で標準〜上位メーカー候補を絞る。",
+      "questions": [
+        {"text":"使う部屋は？","help":"工事条件確認が前提です。","options":[
+          {"label":"寝室・短時間利用","note":"必要十分","scores":{"value":5,"panasonic":2}},
+          {"label":"リビング・長時間利用","note":"快適性・省エネ","scores":{"mitsubishi":5,"daikin":4,"panasonic":3}},
+          {"label":"暖房もかなり使う","note":"冷暖房重視","scores":{"daikin":5,"mitsubishi":4}}
+        ]},
+        {"text":"重視したいのは？","help":"畳数以外の比較軸です。","options":[
+          {"label":"価格を抑えたい","note":"価格優先","scores":{"value":6}},
+          {"label":"人に合わせた快適性","note":"センサー","scores":{"mitsubishi":6}},
+          {"label":"除湿・空調性能","note":"空調重視","scores":{"daikin":6}},
+          {"label":"清潔・手入れ","note":"清潔重視","scores":{"panasonic":5,"mitsubishi":2}}
+        ]},
+        {"text":"本体価格差については？","help":"長時間使う部屋ほど上位機能の価値が出やすい。","options":[
+          {"label":"最低限でいい","note":"最低限","scores":{"value":5}},
+          {"label":"毎日使うので快適性に払ってもいい","note":"上位比較可","scores":{"mitsubishi":4,"daikin":4,"panasonic":3}}
+        ]}
+      ],
+      "candidates": [
+        {"id":"value","name":"標準グレード","tag":"寝室・価格優先","summary":"短時間利用や必要最低限の冷暖房を求める人へ。","strength":"本体価格を抑えやすい。","watch":"長時間利用では省エネ・快適機能も比較。","official":"https://www.meti.go.jp/policy/it_policy/air_conditioner/"},
+        {"id":"mitsubishi","name":"三菱電機 霧ヶ峰","tag":"センサー・快適性","summary":"人の位置や体感に合わせた運転を重視する人へ。","strength":"長時間利用で快適性を比較軸にしやすい。","watch":"機能を使わない人には価格差が大きい。","official":"https://www.mitsubishielectric.co.jp/home/kirigamine/"},
+        {"id":"daikin","name":"ダイキン","tag":"空調・除湿","summary":"冷暖房・除湿・空調性能を細かく見たい人へ。","strength":"空調メーカーとして機能比較しやすい。","watch":"設置条件とシリーズ差を確認。","official":"https://www.ac.daikin.co.jp/roomaircon"},
+        {"id":"panasonic","name":"パナソニック","tag":"清潔・総合","summary":"内部清潔や手入れまで含めて選びたい人へ。","strength":"清潔・省エネ・使い勝手を総合比較しやすい。","watch":"最優先機能が別なら他メーカーも比較。","official":"https://panasonic.jp/aircon/"}
+      ]
+    }
+  ]
+}
