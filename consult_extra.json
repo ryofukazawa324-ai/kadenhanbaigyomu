@@ -9,6 +9,23 @@
       ]
     },
     {
+      "id":"refrigerator",
+      "route":[
+        {"title":"容量と設置幅でシリーズ候補を作る","body":"まず必要容量と設置幅を確認。60cmまで、65cmまで、68.5cm以上で候補シリーズが大きく変わる。"},
+        {"title":"冷凍室か野菜室か、使いやすい位置を決める","body":"冷凍ストックが多いなら冷凍室まんなか、野菜を頻繁に使うなら野菜室まんなかを優先し、同一メーカー内でもシリーズを分ける。"},
+        {"title":"メーカーの中でシリーズを上下させる","body":"価格・鮮度・冷凍・野菜・デザインのどこに差額を払うかを確認し、標準→中上位→プレミアムのどこまで必要かを決める。"},
+        {"title":"最後に現行型番へ落とす","body":"シリーズまで決まったら容量・幅・扉・予算で現行型番を検索し、2〜3台を比較する。"}
+      ],
+      "makers":[
+        {"name":"三菱電機","position":"WZ/MZが上位、JW/JMが主要機能、BDが幅60cm","fit":"冷凍・鮮度を重視し、冷凍室/野菜室の位置まで細かく選びたい人。","compare":"冷凍室まんなかならWZ/JW、野菜室まんなかならMZ/JM。上位のWZ/MZはスマホ連携などまで含めて比較。幅60cmならBDを強く確認。","official":"https://www.mitsubishielectric.co.jp/home/reizouko/product/"},
+        {"name":"日立","position":"Hが標準、HWCが本命、HZCが鮮度上位","fit":"冷凍・チルド・野菜をバランス良く使い、肉魚の鮮度も重視する人。","compare":"価格を抑えるならH、デリシャス冷凍・新鮮スリープ野菜室まで欲しいならHWC、真空氷温まで上げるならHZC。HWCを比較の中心に置きやすい。","official":"https://kadenfan.hitachi.co.jp/rei/"},
+        {"name":"東芝","position":"XFSが上位、FZが本命、GTが幅60cm、FHが野菜まんなか標準","fit":"野菜の鮮度を重視しつつ、冷凍・チルドも用途に応じて上げたい人。","compare":"野菜＋冷凍を上位までならXFS/FZ、幅60cmならGT、野菜室まんなかで価格を抑えるならFH/GSH。FZを機能と価格の基準にしやすい。","official":"https://www.toshiba-lifestyle.com/jp/refrigerators/lineup/"},
+        {"name":"Panasonic","position":"WXが大容量上位、HYが65cm上位、EYがバランス、RYが60cm、BRが野菜まんなか","fit":"収納性・冷凍・日常の使いやすさを総合的に重視する人。","compare":"65cmで上位機能ならHY、価格と機能のバランスならEY、60cmならRY、野菜室まんなかならBR。大容量プレミアムならWXまで上げる。","official":"https://panasonic.jp/reizo/"},
+        {"name":"AQUA","position":"Standard→DELIE+→TZ/TXで上げる","fit":"価格を抑えつつ、冷凍・薄型・デザイン・鮮度のどこかに価値を足したい人。","compare":"価格基準はStandard、機能と価格の中間ならDELIE+、薄型デザインならTZ、鮮度・機能フラッグシップならTX。『安いAQUA』だけで終わらせずシリーズ差を見せる。","official":"https://aqua-has.com/product/product-series/refrigerator/"},
+        {"name":"Haier","position":"シリーズ名より容量・幅・冷凍室で選ぶ","fit":"本体価格と容量を優先し、必要機能が明確な人。","compare":"470L/450L/411L/300L台など容量帯から選び、冷凍室容量・幅・ドア構成を型番ごとに確認する。","official":"https://www.haier.com/jp/refrigerators/"}
+      ]
+    },
+    {
       "id": "aircon",
       "questions": [
         "室内機を置ける幅・高さ・奥行とカーテンレール位置",
