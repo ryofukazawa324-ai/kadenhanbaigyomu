@@ -29,6 +29,21 @@
       "high":["panasonic_x","panasonic_lv","daikin_r","daikin_a","mitsubishi_fz","mitsubishi_z","hitachi_x","general_z"],
       "middle":["panasonic_ex","panasonic_gx","daikin_f","daikin_c","hitachi_w","general_w","general_l","general_d","mitsubishi_s"],
       "standard":["panasonic_j","daikin_e","hitachi_d","general_c","mitsubishi_ge"]
+    },
+    "camera":{
+      "high":["dji_action6","gopro_hero13","sony_a6700","sony_rx100m7"],
+      "middle":["canon_r50v","canon_powershot_v1","sony_zve10ii","nikon_z50ii"],
+      "standard":[]
+    },
+    "rice":{
+      "high":["pana_x910d","tiger_jrt_a100","zoji_nx_ab","mitsu_bw10g","toshiba_zwa"],
+      "middle":["pana_n510d","tiger_jri_s100","zoji_nw_nc","mitsu_vw10g","toshiba_mga"],
+      "standard":["pana_h10b","mitsu_vs10g"]
+    },
+    "printer":{
+      "high":["brother_j7500","canon_ts8830","epson_ep887a"],
+      "middle":["brother_j7100","canon_xk140","epson_ewm757t"],
+      "standard":["brother_j929"]
     }
   }
 }
