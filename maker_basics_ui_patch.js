@@ -1,0 +1,7 @@
+(function(){
+  var map={'テレビ':'tv','冷蔵庫':'refrigerator','洗濯機':'washer','エアコン':'aircon','パソコン':'pc','カメラ':'camera','炊飯器':'rice','プリンター':'printer'},busy=false;
+  function current(){var h=document.querySelector('.makerBasicsHero h1'),t=h?(h.textContent||''):'';var id='';Object.keys(map).some(function(k){if(t.indexOf(k)===0){id=map[k];return true}return false});return id}
+  function patch(){var tabs=document.querySelector('.makerBasicsHero + .tabs')||document.querySelector('.tabs'),id=current();if(!tabs||!id)return;var maker=tabs.querySelector('a[href*="maker_basics.html"]');if(!maker){maker=document.createElement('a');maker.className='tabLink active';maker.href='maker_basics.html?product='+encodeURIComponent(id);maker.textContent='メーカー基礎';var makers=tabs.querySelector('a[href*="makers.html"]');if(makers)tabs.insertBefore(maker,makers);else tabs.appendChild(maker)}Array.prototype.forEach.call(tabs.querySelectorAll('.tabLink'),function(a){a.classList.toggle('active',a===maker)});if(id==='camera'||id==='rice'){var sales=tabs.querySelector('a[href*="sales_mode.html"]');if(sales)sales.style.display='none'}else{var sales2=tabs.querySelector('a[href*="sales_mode.html"]');if(sales2)sales2.style.display=''}}
+  function run(){if(busy)return;busy=true;setTimeout(function(){busy=false;patch()},0)}
+  var root=document.getElementById('app')||document.body;new MutationObserver(run).observe(root,{childList:true,subtree:true});run()
+})();
