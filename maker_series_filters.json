@@ -1,0 +1,94 @@
+{
+  "products": {
+    "tv": {
+      "prompt": "まず画面サイズを選ぶ",
+      "help": "選んだインチで販売設定のあるシリーズだけ残します。",
+      "axes": [
+        {"key":"size","label":"画面サイズ","options":[{"value":"43","label":"43型"},{"value":"48","label":"48型"},{"value":"50","label":"50型"},{"value":"55","label":"55型"},{"value":"65","label":"65型"},{"value":"75","label":"75型"},{"value":"77","label":"77型"},{"value":"85","label":"85型"},{"value":"98","label":"98型"},{"value":"100","label":"100型"},{"value":"115","label":"115型"}]}
+      ],
+      "items": {
+        "regza_zx3s":{"maker":"REGZA","size":["55","65","75","85","100"],"spec":"55 / 65 / 75 / 85 / 100型"},
+        "regza_z890s":{"maker":"REGZA","size":["43","50","55","65","75","85"],"spec":"43 / 50 / 55 / 65 / 75 / 85型"},
+        "regza_z770s":{"maker":"REGZA","size":["43","50","55","65","75"],"spec":"43 / 50 / 55 / 65 / 75型"},
+        "regza_x770s":{"maker":"REGZA","size":["48","55","65"],"spec":"48 / 55 / 65型"},
+        "sony_9ii":{"maker":"SONY BRAVIA","size":["65","75","85","115"],"spec":"65 / 75 / 85 / 115型"},
+        "sony_7ii":{"maker":"SONY BRAVIA","size":["50","55","65","75","85","98"],"spec":"50 / 55 / 65 / 75 / 85 / 98型"},
+        "sony_8":{"maker":"SONY BRAVIA","size":["55","65","77"],"spec":"55 / 65 / 77型"},
+        "pana_z95c":{"maker":"Panasonic VIERA","size":["55","65"],"spec":"55 / 65型"},
+        "pana_w97c":{"maker":"Panasonic VIERA","size":["55","65","75"],"spec":"55 / 65 / 75型"},
+        "pana_w95c":{"maker":"Panasonic VIERA","size":["43","50","55","65","75"],"spec":"43 / 50 / 55 / 65 / 75型"},
+        "pana_w93c":{"maker":"Panasonic VIERA","size":["55","65"],"spec":"55 / 65型"},
+        "pana_w80c":{"maker":"Panasonic VIERA","size":["43","50"],"spec":"43 / 50型"},
+        "sharp_x9a":{"maker":"SHARP AQUOS","size":["55","65","75"],"spec":"55 / 65 / 75型"},
+        "sharp_x7a":{"maker":"SHARP AQUOS","size":["43","50","55","65"],"spec":"43 / 50 / 55 / 65型"},
+        "sharp_s9a":{"maker":"SHARP AQUOS","size":["48","55","65","77"],"spec":"48 / 55 / 65 / 77型"},
+        "hisense_u8s":{"maker":"Hisense","size":["55","65","75","85"],"spec":"55 / 65 / 75 / 85型"},
+        "hisense_u7s":{"maker":"Hisense","size":["55","65","75","85","100"],"spec":"55 / 65 / 75 / 85 / 100型"},
+        "tcl_c8l":{"maker":"TCL","size":["55","65","75","85","98"],"spec":"55 / 65 / 75 / 85 / 98型"},
+        "tcl_c7l":{"maker":"TCL","size":["55","65","75","85"],"spec":"55 / 65 / 75 / 85型"},
+        "tcl_p8k":{"maker":"TCL","size":["43","50","55","65","75","85"],"spec":"43 / 50 / 55 / 65 / 75 / 85型"}
+      }
+    },
+    "refrigerator": {
+      "prompt": "まず設置できる幅を選ぶ",
+      "help": "容量より先に、家に入る幅でシリーズを落とします。奥行・高さは最終型番で確認。",
+      "axes": [
+        {"key":"width","label":"設置幅","options":[{"value":"60","label":"60cmまで"},{"value":"65","label":"65cmまで"},{"value":"large","label":"68.5cm以上も可"}]}
+      ],
+      "items": {
+        "mitsubishi_wz":{"maker":"三菱電機","width":["65","large"],"spec":"幅65cm級〜 / 冷凍室まんなか"},
+        "mitsubishi_mz":{"maker":"三菱電機","width":["65","large"],"spec":"幅65cm級〜 / 野菜室まんなか"},
+        "mitsubishi_bd":{"maker":"三菱電機","width":["60","65","large"],"spec":"幅60cm / 455L"},
+        "hitachi_h":{"maker":"日立","width":["65","large"],"spec":"大容量・標準帯"},
+        "hitachi_hwc":{"maker":"日立","width":["65","large"],"spec":"高鮮度＋大容量冷凍"},
+        "hitachi_hzc":{"maker":"日立","width":["large"],"spec":"真空氷温・上位"},
+        "toshiba_xfs":{"maker":"東芝","width":["large"],"spec":"野菜・冷凍・チルド上位"},
+        "toshiba_fz":{"maker":"東芝","width":["65","large"],"spec":"野菜＋冷凍の本命"},
+        "toshiba_gt":{"maker":"東芝","width":["60","65","large"],"spec":"幅60cm / 452・501L級"},
+        "toshiba_fh":{"maker":"東芝","width":["65","large"],"spec":"野菜室まんなか・標準"},
+        "panasonic_wx":{"maker":"Panasonic","width":["large"],"spec":"大容量プレミアム"},
+        "panasonic_hy":{"maker":"Panasonic","width":["65","large"],"spec":"幅65cm・上位本命"},
+        "panasonic_ey":{"maker":"Panasonic","width":["65","large"],"spec":"幅65cm・バランス"},
+        "panasonic_ry":{"maker":"Panasonic","width":["60","65","large"],"spec":"幅60cm・冷凍室まんなか"},
+        "panasonic_br":{"maker":"Panasonic","width":["65","large"],"spec":"野菜室まんなか"},
+        "panasonic_br60":{"maker":"Panasonic","width":["60","65","large"],"spec":"幅60cm・野菜室まんなか"},
+        "aqua_tx":{"maker":"AQUA","width":["large"],"spec":"鮮度・機能上位"},
+        "aqua_tz":{"maker":"AQUA","width":["large"],"spec":"薄型デザイン上位"},
+        "aqua_delie":{"maker":"AQUA","width":["60","65","large"],"spec":"価格と機能の中間"},
+        "aqua_standard":{"maker":"AQUA","width":["60","65","large"],"spec":"必要十分・価格重視"},
+        "haier_mid":{"maker":"Haier","width":["60","65","large"],"spec":"容量と価格の比較起点"}
+      }
+    },
+    "washer": {
+      "prompt": "タイプと容量から選ぶ",
+      "help": "乾燥を毎日使うならドラム、洗濯中心なら縦型を起点にシリーズ比較。",
+      "axes": [
+        {"key":"type","label":"タイプ","options":[{"value":"drum","label":"ドラム式"},{"value":"vertical","label":"縦型"}]},
+        {"key":"capacity","label":"洗濯容量","optional":true,"options":[{"value":"8","label":"8kg前後"},{"value":"10","label":"10kg前後"},{"value":"12","label":"12kg前後"},{"value":"13","label":"13kg級"}]}
+      ],
+      "items": {
+        "pana_lx_top":{"maker":"Panasonic","type":["drum"],"capacity":["12"],"spec":"12kg級 / ヒートポンプ上位"},
+        "pana_lx_value":{"maker":"Panasonic","type":["drum"],"capacity":["12"],"spec":"12kg級 / ヒートポンプ本命"},
+        "pana_sd":{"maker":"Panasonic","type":["drum"],"capacity":["10","12"],"spec":"コンパクト・低温ヒーター式"},
+        "pana_fa":{"maker":"Panasonic","type":["vertical"],"capacity":["8","10","12"],"spec":"縦型主力"},
+        "hitachi_stx_sx":{"maker":"日立","type":["drum"],"capacity":["13"],"spec":"13kg / ヒートポンプ上位"},
+        "hitachi_sw_sv":{"maker":"日立","type":["drum"],"capacity":["12"],"spec":"12kg / 低温ヒート"},
+        "hitachi_cx_cg":{"maker":"日立","type":["drum"],"capacity":["8","10"],"spec":"8〜10kg級 / コンパクト"},
+        "hitachi_bwx":{"maker":"日立","type":["vertical"],"capacity":["8","10","12"],"spec":"縦型・自動投入上位"},
+        "hitachi_bwv":{"maker":"日立","type":["vertical"],"capacity":["8","10","12"],"spec":"縦型・価格バランス"},
+        "toshiba_xp":{"maker":"東芝","type":["drum"],"capacity":["12"],"spec":"12kg級 / ヒートポンプ最上位"},
+        "toshiba_xh":{"maker":"東芝","type":["drum"],"capacity":["12"],"spec":"12kg級 / ヒートポンプ上位"},
+        "toshiba_xm":{"maker":"東芝","type":["drum"],"capacity":["12"],"spec":"12kg級 / ヒートポンプ価格バランス"},
+        "toshiba_gs":{"maker":"東芝","type":["drum"],"capacity":["8"],"spec":"8kg級 / コンパクト"},
+        "toshiba_dpb":{"maker":"東芝","type":["vertical"],"capacity":["8","10","12"],"spec":"縦型・洗浄重視"},
+        "sharp_12x2":{"maker":"SHARP","type":["drum"],"capacity":["12"],"spec":"12kg級 / ヒートポンプ上位"},
+        "sharp_12p2":{"maker":"SHARP","type":["drum"],"capacity":["12"],"spec":"12kg級 / ヒートポンプ本命"},
+        "sharp_vertical":{"maker":"SHARP","type":["vertical"],"capacity":["8","10","12"],"spec":"穴なし槽・縦型"},
+        "aqua_dxs12a":{"maker":"AQUA","type":["drum"],"capacity":["12"],"spec":"12kg級 / 上位まっ直ぐドラム"},
+        "aqua_dms10a":{"maker":"AQUA","type":["drum"],"capacity":["10"],"spec":"10kg級 / 薄型ドラム"},
+        "aqua_d8a":{"maker":"AQUA","type":["drum"],"capacity":["8"],"spec":"8kg級 / コンパクトドラム"},
+        "aqua_vp":{"maker":"AQUA","type":["vertical"],"capacity":["8","10","12"],"spec":"縦型・価格と機能のバランス"}
+      }
+    }
+  }
+}
