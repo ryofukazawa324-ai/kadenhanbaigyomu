@@ -1,0 +1,46 @@
+{
+  "products":{
+    "pc":{
+      "prompt":"まず画面サイズを選ぶ",
+      "help":"直近約1.5年の主要シリーズを中心に、同じインチでも重量・持ち運び・画面・使い方で比較します。",
+      "axes":[
+        {"key":"screen","label":"画面サイズ","options":[{"value":"small","label":"12〜13.3型"},{"value":"14","label":"14型"},{"value":"large","label":"15.6〜16型"}]},
+        {"key":"carry","label":"持ち運び","optional":true,"options":[{"value":"daily","label":"毎日持つ"},{"value":"sometimes","label":"週数回・時々"},{"value":"desk","label":"ほぼ据え置き"}]}
+      ],
+      "compareRows":[{"key":"weight","label":"重量目安"},{"key":"position","label":"シリーズの立ち位置"},{"key":"display","label":"画面の特徴"},{"key":"carryFit","label":"持ち運び"},{"key":"color","label":"カラー・外観"}],
+      "items":{
+        "vaio_sx12":{"maker":"VAIO","screen":["small"],"carry":["daily","sometimes"],"spec":"12.5型","weight":"約899g級","position":"小型仕事モバイル","display":"12.5型・コンパクト重視","carryFit":"毎日持ち運び向き","color":"型番・世代で確認"},
+        "vaio_sx14r":{"maker":"VAIO","screen":["14"],"carry":["daily","sometimes"],"spec":"14.0型","weight":"約958g〜","position":"仕事モバイル上位","display":"14型で軽さと作業性を両立","carryFit":"毎日持ち運び＋仕事向け","color":"通常系5色＋特別仕様あり"},
+        "vaio_f14":{"maker":"VAIO","screen":["14"],"carry":["sometimes","desk"],"spec":"14.0型","weight":"約1.23kg級","position":"標準14型","display":"14型・実用バランス","carryFit":"週数回・家と外の往復","color":"販売構成で確認"},
+        "vaio_f16":{"maker":"VAIO","screen":["large"],"carry":["sometimes","desk"],"spec":"16.0型","weight":"約1.57〜1.59kg級","position":"大画面標準","display":"16型・作業領域重視","carryFit":"家ナカ・車移動・据え置き","color":"販売構成で確認"},
+        "fmv_note_u":{"maker":"FMV","screen":["14"],"carry":["daily","sometimes"],"spec":"14型中心","weight":"約634g〜。構成差大","position":"超軽量モバイル上位","display":"14型・軽さ最優先","carryFit":"毎日持つ人向け","color":"ピクトブラック / フロストグレー / シルバーホワイト系"},
+        "fmv_note_m":{"maker":"FMV","screen":["14"],"carry":["sometimes","desk"],"spec":"14型","weight":"約1.3kg級","position":"14型ホームモバイル","display":"14型・標準","carryFit":"家ナカ・時々持つ","color":"型番確認"},
+        "fmv_note_p":{"maker":"FMV","screen":["large"],"carry":["sometimes","desk"],"spec":"16型","weight":"約1.68kg級","position":"軽め大画面","display":"16型・作業領域重視","carryFit":"大画面をたまに持つ","color":"型番確認"},
+        "fmv_note_a":{"maker":"FMV","screen":["large"],"carry":["desk"],"spec":"16型","weight":"約1.9kg級","position":"据え置き標準","display":"16型・入力重視","carryFit":"据え置き・長文入力","color":"最大3色系。型番確認"},
+        "lavie_nextreme":{"maker":"NEC LAVIE","screen":["small"],"carry":["daily","sometimes"],"spec":"13.3型","weight":"1kg未満級","position":"軽量AIモバイル上位","display":"13.3型・長時間駆動重視","carryFit":"毎日持ち運び向き","color":"現行カタログはフロストブラック中心"},
+        "lavie_sol":{"maker":"NEC LAVIE","screen":["small"],"carry":["sometimes"],"spec":"13.3型","weight":"約1.2kg級","position":"デザイン・タッチ系モバイル","display":"13.3型・タッチ系構成あり","carryFit":"週数回・学生/日常モバイル","color":"プラチナシルバー / フェアリーパープル / ムーンブラック系"},
+        "lavie_n13slim":{"maker":"NEC LAVIE","screen":["small"],"carry":["daily","sometimes"],"spec":"13.3型","weight":"構成別確認","position":"薄型実用モバイル","display":"13.3型・薄型重視","carryFit":"毎日〜週数回","color":"販売モデルで確認"},
+        "lavie_n14slim":{"maker":"NEC LAVIE","screen":["14"],"carry":["daily","sometimes"],"spec":"14型","weight":"構成別確認","position":"手ごろな14型モバイルAI PC","display":"14型・作業性と携帯性の中間","carryFit":"週数回〜毎日","color":"Web限定構成で確認"},
+        "lavie_n16":{"maker":"NEC LAVIE","screen":["large"],"carry":["desk","sometimes"],"spec":"16.0型","weight":"約1.9〜2.0kg級","position":"大画面スタンダード","display":"16:10 WUXGA IPS系","carryFit":"家ナカ・据え置き中心","color":"プルシャンブルー / シルバー / ゴールド / ブラック系"},
+        "dell_14_plus":{"maker":"Dell","screen":["14"],"carry":["daily","sometimes"],"spec":"14.0型","weight":"構成別確認","position":"AI対応14型本命","display":"2K級構成・16:10","carryFit":"仕事・外出のバランス","color":"構成別確認"},
+        "dell_14_plus_2in1":{"maker":"Dell","screen":["14"],"carry":["sometimes"],"spec":"14.0型タッチ","weight":"構成別確認","position":"2-in-1・タッチ","display":"2Kタッチ・変形可能","carryFit":"会議・手書き・プレゼン","color":"アイスブルー系など構成確認"},
+        "dell_16_plus":{"maker":"Dell","screen":["large"],"carry":["desk","sometimes"],"spec":"16.0型","weight":"構成別確認","position":"大画面AI PC本命","display":"16:10・2K級","carryFit":"据え置き・開発/制作寄り","color":"構成別確認"},
+        "hp_omnibook_x14":{"maker":"HP","screen":["14"],"carry":["daily","sometimes"],"spec":"14.0型","weight":"約1.29kg","position":"上位AIモバイル","display":"2K OLED・16:10","carryFit":"毎日〜週数回","color":"販売構成で確認"},
+        "hp_omnibook_xflip14":{"maker":"HP","screen":["14"],"carry":["sometimes"],"spec":"14.0型タッチ","weight":"約1.39kg級","position":"上位2-in-1","display":"3K OLEDタッチ構成あり","carryFit":"手書き・プレゼン・動画視聴","color":"ミッドナイトブルー系など"},
+        "hp_omnibook7_14":{"maker":"HP","screen":["14"],"carry":["daily","sometimes"],"spec":"14型","weight":"構成別確認","position":"HP定番14型","display":"14型・高精細構成あり","carryFit":"仕事と家の両用","color":"モデル別確認"},
+        "hp_omnibook7_16":{"maker":"HP","screen":["large"],"carry":["desk","sometimes"],"spec":"16.0型","weight":"構成別確認","position":"HP定番大画面","display":"16型・16:10","carryFit":"据え置き・大画面作業","color":"モデル別確認"},
+        "lenovo_x1carbon13":{"maker":"Lenovo","screen":["14"],"carry":["daily","sometimes"],"spec":"14型","weight":"1kg未満級","position":"ビジネス最上位モバイル","display":"WUXGA〜2.8K OLED構成","carryFit":"毎日持つ仕事PC","color":"ブラック中心"},
+        "lenovo_yoga_slim7i9":{"maker":"Lenovo","screen":["14"],"carry":["daily","sometimes"],"spec":"14.0型","weight":"構成別確認","position":"薄型プレミアム","display":"WUXGA OLED・薄型","carryFit":"仕事・制作・持ち運び","color":"ルナグレー系"},
+        "lenovo_ideapad5g10_14":{"maker":"Lenovo","screen":["14"],"carry":["sometimes","daily"],"spec":"14.0型","weight":"約1.39kg級","position":"価格性能バランス","display":"WUXGA OLED構成あり","carryFit":"週数回・日常用","color":"ルナグレー"},
+        "lenovo_ideapad5g10_16":{"maker":"Lenovo","screen":["large"],"carry":["desk","sometimes"],"spec":"16.0型","weight":"構成別確認","position":"大画面価格性能バランス","display":"2.8K OLED構成あり","carryFit":"据え置き・家ナカ","color":"モデル別確認"},
+        "asus_zenbook14_ux3405":{"maker":"ASUS","screen":["14"],"carry":["daily","sometimes"],"spec":"14.0型","weight":"約1.2〜1.28kg級","position":"OLED軽量プレミアム","display":"3K 120Hz OLED系","carryFit":"毎日〜週数回","color":"ポンダーブルー中心"},
+        "asus_vivobook14_x1407":{"maker":"ASUS","screen":["14"],"carry":["sometimes","desk"],"spec":"14.0型","weight":"約1.54kg","position":"14型スタンダード","display":"16:10 WUXGA IPS系","carryFit":"家ナカ・週数回","color":"クワイエットブルー"},
+        "asus_vivobook16_x1607":{"maker":"ASUS","screen":["large"],"carry":["desk","sometimes"],"spec":"16.0型","weight":"約1.88〜1.91kg級","position":"16型スタンダード","display":"16:10 WUXGA IPS系","carryFit":"据え置き・家ナカ","color":"クワイエットブルー系"},
+        "dynabook_rzma":{"maker":"dynabook","screen":["14"],"carry":["daily","sometimes"],"spec":"14型","weight":"約899g","position":"超軽量モバイル上位","display":"14型・モビリティ重視","carryFit":"毎日持ち運び向き","color":"販売構成で確認"},
+        "dynabook_mzma":{"maker":"dynabook","screen":["14"],"carry":["sometimes","desk"],"spec":"14.0型","weight":"構成別確認","position":"ホームモバイル","display":"14型・家と外の両用","carryFit":"週数回・家ナカ","color":"販売構成で確認"},
+        "dynabook_azma":{"maker":"dynabook","screen":["large"],"carry":["desk","sometimes"],"spec":"16.0型","weight":"構成別確認","position":"16型大画面標準","display":"16:10 WUXGA・高輝度系","carryFit":"据え置き・家ナカ","color":"アッシュゴールド系"},
+        "dynabook_azda":{"maker":"dynabook","screen":["large"],"carry":["desk"],"spec":"15.6型","weight":"構成別確認","position":"光学ドライブ対応オールインワン","display":"15.6型 FHD","carryFit":"据え置き中心","color":"プレシャスブルー / ブラック系"}
+      }
+    }
+  }
+}
