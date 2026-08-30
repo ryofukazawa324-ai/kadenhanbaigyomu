@@ -6,9 +6,9 @@
   },
   "products":{
     "pc":{
-      "high":["vaio_sx14r","fmv_note_u","lavie_nextreme","creator_pc","gaming_pc"],
-      "middle":["vaio_sx12","vaio_f14","fmv_note_p","fmv_note_m","lavie_sol"],
-      "standard":["vaio_f16","fmv_note_a","lavie_n15"]
+      "high":["vaio_sx14r","fmv_note_u","lavie_nextreme","creator_pc","gaming_pc","hp_omnibook_x14","hp_omnibook_xflip14","lenovo_x1carbon13","lenovo_yoga_slim7i9","asus_zenbook14_ux3405","dynabook_rzma"],
+      "middle":["vaio_sx12","vaio_f14","fmv_note_p","fmv_note_m","lavie_sol","lavie_n13slim","lavie_n14slim","dell_14_plus","dell_14_plus_2in1","dell_16_plus","hp_omnibook7_14","hp_omnibook7_16","lenovo_ideapad5g10_14","lenovo_ideapad5g10_16","dynabook_mzma"],
+      "standard":["vaio_f16","fmv_note_a","lavie_n15","lavie_n16","asus_vivobook14_x1407","asus_vivobook16_x1607","dynabook_azma","dynabook_azda"]
     },
     "tv":{
       "high":["regza_zx3s","sony_9ii","pana_z95c","pana_w97c","sharp_x9a","tcl_c8l"],
