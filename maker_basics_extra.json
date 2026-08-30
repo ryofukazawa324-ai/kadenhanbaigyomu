@@ -1,0 +1,50 @@
+{
+  "products":[
+    {
+      "id":"aircon","label":"エアコン","lead":"畳数と設置条件を先に決め、長時間利用・除湿・清潔・加湿換気のどこまで必要かでシリーズを上げ下げする。",
+      "makers":[
+        {"name":"Panasonic","one":"コンパクトから省エネ・加湿換気まで段階が分かりやすい","strength":"Jの標準、GXの高さコンパクト＋自動掃除、EXの奥行コンパクト、Xの長時間省エネ、LVの加湿・給排気換気まで用途別に分けやすい。","fit":"設置条件も清潔も省エネも比較しながら、シリーズを段階的に決めたい人。","check":"14畳以上で長時間使うなら本体価格だけでなく期間消費電力量を見る。LVは工事条件を先に確認。","series":"J→GX/EX→X→LV。設置優先ならGX/EX、長時間省エネならX、加湿換気までならLV。","official":"https://panasonic.jp/aircon/products.html"},
+        {"name":"ダイキン","one":"除湿・空調制御・加湿換気まで機能で上げやすい","strength":"E/Cの設置性、F/Aの除湿、Rの無給水加湿・給排気換気まで比較しやすい。","fit":"梅雨の除湿、長時間運転、冬の加湿や換気まで空調機能を細かく選びたい人。","check":"Rは加湿ホースを含む施工条件を確認。マンション不可と決めつけず、穴径・隠蔽配管・化粧カバーで判断。","series":"E/C→F→A→R。除湿だけならF/Aも候補、加湿換気まで必要ならR。","official":"https://www.ac.daikin.co.jp/roomaircon"},
+        {"name":"三菱電機","one":"センサー・気流・省エネを上位で強く比較できる","strength":"GEの標準、Sの薄型、Z/FZのセンサー・快適性・省エネ上位という分け方がしやすい。","fit":"人に風を当てにくくしたい、長時間の快適性や省エネを重視する人。","check":"Z/FZは本体サイズが大きくなるため、窓上やカーテンレールとの干渉を先に確認。","series":"GE→S→Z→FZ。奥行優先ならS、快適性ならZ、省エネ上位までならFZ。","official":"https://www.mitsubishielectric.co.jp/home/kirigamine/"},
+        {"name":"日立","one":"薄型・低背・清潔上位を設置条件で分けやすい","strength":"Dの奥行薄型、Wの高さコンパクト、Xの清潔・高機能上位という違いが明確。","fit":"設置スペースが厳しいが、清潔機能や使い勝手も重視したい人。","check":"高さが厳しいのか、奥行が厳しいのかを先に聞く。","series":"D＝奥行、W＝高さ、X＝上位機能。寸法のどこが厳しいかで決める。","official":"https://kadenfan.hitachi.co.jp/ra/"},
+        {"name":"ゼネラル","one":"設置性・価格から省エネ・気流・再熱除湿まで段階的","strength":"C/Dのコンパクト、L/Wの省エネ、Zの気流・再熱除湿など、価格と快適性能の差を説明しやすい。","fit":"まず入ること・価格を重視しつつ、必要なら省エネや快適性まで上げたい人。","check":"Cは自動掃除なし、Dは高さ250mmで自動掃除あり。上位との差は掃除だけでなく気流・除湿・省エネまで見る。","series":"C→D→L/W→Z。設置性から入り、使用時間が長いほど上位も比較。","official":"https://www.generalww.com/jp/products/aircon/"}
+      ]
+    },
+    {
+      "id":"pc","label":"パソコン","lead":"画面サイズと持ち運び頻度を先に決め、同じインチでも重量・会議機能・キーボード・色でシリーズを比較する。",
+      "makers":[
+        {"name":"VAIO","one":"仕事モバイル・耐久性・Web会議・国内設計製造で出しやすい","strength":"SX14-Rは約1kg前後の14型モバイルで、会議機能・堅牢性・安曇野での設計製造を比較軸にしやすい。F14/F16は価格と画面サイズのバランス。","fit":"毎日持ち運ぶ、Web会議が多い、長く使う仕事PCに品質も求める人。","check":"SX系とF系では軽さと価格差が大きい。同等CPU・メモリ・SSDで差額の価値を確認。","series":"12.5型SX12、14型SX14-R/F14、16型F16。軽さ・会議・品質を上げるほどSX系。","official":"https://vaio.com/"},
+        {"name":"FMV","one":"軽さとキーボード、大画面入力までサイズ別に選びやすい","strength":"Note Uの超軽量14型、Note Mの標準14型、Note Pの軽め16型、Note Aの据え置き16型を比較しやすい。","fit":"毎日持ち歩く人から、長文入力・Excel中心の据え置きまで。","check":"Note Uは構成で重量差が大きい。Note A/Pはテンキー・光学ドライブなど型番差も確認。","series":"14型ならU→M、16型ならP→Aを用途で比較。軽さ最優先はU、入力・据え置きはA。","official":"https://www.fmv.com/store/pc/note"},
+        {"name":"NEC LAVIE","one":"小型モバイルと買い替え安心を分けやすい","strength":"NEXTREMEの1kg未満モバイル、SOLの13.3型デザイン・タッチ系、N15系の据え置き大画面を比較できる。","fit":"LAVIEを使い慣れている、移行不安がある、13型モバイルか大画面据え置きかを明確に選びたい人。","check":"同じ13型でもNEXTREMEは軽さ優先、SOLはデザインやタッチを含めた比較。","series":"NEXTREME＝軽量仕事モバイル、SOL＝13.3型デザイン/タッチ、N15系＝大画面据え置き。","official":"https://www.nec-lavie.jp/"}
+      ]
+    },
+    {
+      "id":"camera","label":"カメラ","lead":"まず何を撮るかで、アクションカメラ・コンデジ・ミラーレス一眼を分ける。最後にメモリーカード規格・速度・最大容量まで確認する。",
+      "makers":[
+        {"name":"DJI","one":"歩き撮り・アクション・Vlogを手軽に安定させやすい","strength":"Osmo Actionは強力な電子手ブレ補正と防水、内蔵ストレージを持つモデルがあり、Osmo系マイク連携も強い。","fit":"旅行、バイク、自転車、水辺、歩き撮りなど動画中心。","check":"Action 6は50GB使用可能な内蔵ストレージ＋microSD最大1TB。高画質動画ではV30級以上を基準にする。","series":"Action 6＝フラッグシップアクション。Pocket系は防水アクションではなくジンバルVlog用途。","official":"https://www.dji.com/jp/osmo-action-6"},
+        {"name":"GoPro","one":"アクション撮影とマウント資産で選びやすい","strength":"HERO13 Blackは5.3K、高フレームレート、HyperSmooth、豊富なマウント・レンズモッドが強み。","fit":"スポーツ、車載、アウトドア、ヘルメット・胸部など固定撮影。","check":"HERO13 BlackはmicroSDが必要。V30/U3以上、最大1TBを確認。","series":"HERO13 Black＝上位。小型HEROはシンプル・軽量重視。","official":"https://gopro.com/ja/jp/shop/cameras/learn/hero13black/CHDHX-131-master.html"},
+        {"name":"Canon","one":"初めてのミラーレスから動画コンデジまで入りやすい","strength":"EOS R系はRFレンズ交換で写真・動画を広げやすく、PowerShot V1はレンズ交換なしで動画・旅行をまとめやすい。","fit":"家族・人物・旅行、Vlog、初めてレンズ交換式へ進む人。","check":"EOS R50 V/PowerShot V1はSD/SDHC/SDXC、UHS-II対応。容量だけでなく動画記録モードに必要な速度を確認。","series":"EOS R50 V＝動画寄りAPS-Cミラーレス、PowerShot V1＝1.4型センサー搭載の高性能コンデジ。","official":"https://personal.canon.jp/product/camera"},
+        {"name":"SONY","one":"AF・動画・動体撮影と小型機の選択肢が広い","strength":"α6700は被写体認識と写真/動画の総合力、ZV-E10 IIはVlog寄り、RX100 VIIはレンズ交換なしの望遠コンパクト。","fit":"人物・ペット・スポーツ・動画、持ち運びを重視しつつAF性能も欲しい人。","check":"α6700/ZV-E10 IIはSD UHS-I/II対応。RX100 VIIはUHS-I中心。高ビットレート動画は対応カード速度を確認。","series":"α6700＝APS-C上位、ZV-E10 II＝動画/Vlog、RX100 VII＝高倍率コンデジ。","official":"https://www.sony.jp/ichigan/"},
+        {"name":"Nikon","one":"写真・動体・ファインダー撮影をバランスよく出しやすい","strength":"Z50IIは被写体検出、EVF、4K動画を備えたAPS-Cミラーレスで写真中心から動画まで使いやすい。","fit":"家族、動物、乗り物、旅行で写真をしっかり撮りたい人。","check":"Z50IIはUHS-I/UHS-IIのSDHC/SDXC対応。公式動作確認では1TBカード例もある。4K60pは高速カードを推奨。","series":"Z50II＝APS-Cの本命。より小型動画寄りならZ30も比較。","official":"https://www.nikon-image.com/products/mirrorless/"}
+      ]
+    },
+    {
+      "id":"rice","label":"炊飯器","lead":"何合炊くかより先に食感の好みと、保温・冷凍ごはん・お手入れを確認し、メーカー内で上位/本命/標準を比較する。",
+      "makers":[
+        {"name":"Panasonic","one":"食感炊き分けと圧力制御を段階的に選びやすい","strength":"ビストロ上位の細かな食感炊き分けから、おどり炊き、標準IHまでシリーズ差が分かりやすい。","fit":"もちもち/しゃっきりなど好みを変えたい、冷凍ごはんや少量炊飯も使う人。","check":"最上位のAIやWおどり炊きが必要か、N系で十分か、IH標準でよいかを比較。","series":"X系ビストロ→N系おどり炊き→H/C系標準。2026はN510Eなど新型も展開。","official":"https://panasonic.jp/suihan/"},
+        {"name":"タイガー","one":"粒立ちと甘み、本土鍋か金属釜かで選びやすい","strength":"最上位JRT-Aは本土鍋。JRI-Sは土鍋コーティング系で土鍋ごはんの方向性を価格を抑えて狙える。","fit":"粒立ち・甘み、土鍋らしい炊き上がりを重視する人。","check":"本土鍋は重さや扱いも含めて比較。最上位の価値が必要かJRI系で十分かを見る。","series":"JRT-A＝2026最上位5.5合、JRI-S＝ご泡火炊き本命、JRI-C＝小容量。","official":"https://www.tiger-corporation.com/ja/jpn/product/rice-cooker/"},
+        {"name":"象印","one":"もちもち・保温・炊き分けを圧力IH上位で強く出しやすい","strength":"炎舞炊きは複数IHヒーターの加熱制御と圧力、長時間保温を比較軸にしやすい。","fit":"もちもち感、保温時間、家族で時間差で食べることが多い人。","check":"炎舞炊きでもNX/NW系で加熱構造や内釜保証が違う。","series":"NX-AB＝2026上位、NW-NCなど炎舞炊き本命、容量は5.5合/1升を確認。","official":"https://www.zojirushi.co.jp/syohin/rice/"},
+        {"name":"三菱電機","one":"圧力を使わず粒立ちを狙う本炭釜が独自","strength":"本炭釜は炭素材そのものが発熱し、粒立ちと甘みを狙う。圧力IHのもちもち方向とは違う比較軸を作りやすい。","fit":"しゃっきり〜粒立ち、冷めてもおいしいごはんを重視する人。","check":"本炭釜は陶器・土鍋同様に強い衝撃で破損する可能性がある。取り扱いも含めて説明。","series":"本炭釜BW/VW系→炭炊釜VS系。釜素材と炊飯構造で上下させる。","official":"https://www.mitsubishielectric.co.jp/home/suihanki/"},
+        {"name":"東芝","one":"真空ひたしと粒立ち・甘みを上位で比較しやすい","strength":"真空技術で吸水を促し、上位は大火力・連続加熱・圧力制御で粒立ちを狙う。","fit":"浸水の手間を減らしつつ、ふっくら粒立ちを重視する人。","check":"最上位ZWAとSGA/MGA/PGAの機能差、真空の有無を確認。","series":"ZWA＝2026フラッグシップ。下位の真空圧力IHへ機能と価格で下げる。","official":"https://www.toshiba-lifestyle.com/jp/rice-cookers/"}
+      ]
+    },
+    {
+      "id":"printer","label":"プリンター","lead":"A3が必要かを最初に分け、A4なら写真の色数・文書コスト・印刷速度・ADF/FAXの必要性でシリーズを決める。",
+      "makers":[
+        {"name":"Brother","one":"A3複合機・文書速度・FAX・ランニングコストで強い","strength":"A3対応MFC系は高速・顔料4色・ADF/FAX・大量印刷をまとめやすい。A4家庭用は4色で文書とコストのバランス。","fit":"仕事、学校資料、FAX、コピー、A3文書を多く使う人。","check":"A3対応は本体サイズが大きい。J7500とJ7100はコスト・速度・給紙構成の差を見る。","series":"A3大量印刷＝MFC-J7500CDW、A3本命＝MFC-J7100CDW、A4家庭用＝DCP-J929N。","official":"https://www.brother.co.jp/product/printer/index.aspx"},
+        {"name":"Canon PIXUS","one":"写真の色数と低ランニングコストをA4で選び分けやすい","strength":"TS8830は6色で写真表現、XK140は5色ハイブリッド＋低文書コストという違いが明確。","fit":"写真・年賀状も文書も家庭で使い、画質かコストのどちらを優先するか決めたい人。","check":"6色だから必ず低コストではない。写真画質ならTS、印刷量とコストならXKを比較。","series":"TS8830＝6色写真寄り、XK140＝5色＋低ランニングコスト。","official":"https://personal.canon.jp/product/printer/pixus"},
+        {"name":"EPSON","one":"6色写真かエコタンク低コストかをはっきり分けられる","strength":"EP-887Aは染料6色で写真、EW-M757Tは5色エコタンクで文書・写真を低コストに大量印刷。","fit":"写真をきれいに残したい人、または家庭でも印刷枚数が多い人。","check":"カラリオとエコタンクでは本体価格とインク方式が大きく違う。月間枚数を必ず確認。","series":"写真重視＝EP-887A、印刷量・低コスト＝EW-M757T。","official":"https://www.epson.jp/products/printer/"}
+      ]
+    }
+  ]
+}
