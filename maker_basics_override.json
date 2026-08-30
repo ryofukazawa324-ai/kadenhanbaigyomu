@@ -3,7 +3,10 @@
     {
       "id":"tv",
       "makers":[
-        {"name":"REGZA","one":"地デジ・録画・ゲームを強く出しやすい","strength":"タイムシフトマシン、録画まわり、瞬速ゲームモード、映像処理を比較軸にしやすい。","fit":"地デジをよく見る、録画をたくさん使う、ゲームもする人。","check":"タイムシフト対応はシリーズ限定。RGB Mini LEDだから必ずタイムシフト内蔵というわけではない。外付けHDDや対応サイズも確認。","series":"2026はZX1S/ZX2S/ZX3SがRGB Mini LED系。Z890Sはタイムシフトマシン搭載4K Mini LED、Z770Sは4K Mini LED、X770Sは有機EL。画質最優先ならZX系、見逃し録画ならZ890Sを強く確認。","official":"https://www.regza.com/tv/lineup/"}
+        {"name":"REGZA","one":"地デジ・録画・ゲームを強く出しやすい。M550Sは価格重視の基準にも使いやすい","strength":"タイムシフトマシン、録画まわり、瞬速ゲームモード、地デジAIビューティ、シリーズ別のMini LED/有機EL/RGB Mini LEDを比較軸にしやすい。","fit":"地デジをよく見る、録画をたくさん使う、ゲームもする人。価格を抑えた55型4KならM550Sも比較起点にしやすい。","check":"M550Sは倍速・4K120Hz・VRR非対応。スポーツ重視なら倍速系へ。タイムシフト対応もシリーズ限定。風景の色は好みがあるので実機比較する。","series":"M550S＝スタンダード価格帯、Z770S＝Mini LEDバランス、Z890S＝Mini LED＋タイムシフト、X770S＝有機EL、ZX1S/ZX2S/ZX3S＝RGB Mini LED系。","official":"https://www.regza.com/tv/lineup/"},
+        {"name":"SONY BRAVIA","one":"映画・ドラマ・人物・セリフ・PS5との相性で出しやすい","strength":"映像処理、映像と音の一体感、Google TV、PS5連携に加え、対象モデルのVoice Zoom 3で人の声だけを調整できる。","fit":"映画やドラマをよく見る、セリフが聞き取りづらい、PS5、音まで含めた没入感を重視する人。","check":"録画を最優先する人にはREGZAも比較。Voice Zoom 3は全機種ではなく対象モデル限定。","series":"2026はBRAVIA 9 II / 7 IIがVoice Zoom 3対応。高画質・音・映画をどこまで上げるかでシリーズを選ぶ。","official":"https://www.sony.jp/bravia/"},
+        {"name":"Panasonic VIERA","one":"画質・Fire TV・上位有機ELの放熱・テレビ単体の音を総合で出しやすい","strength":"Fire TV、Mini LED/有機EL、転倒防止設計。上位有機ELは放熱設計を強化し、Z95Cは前向きラインアレイスピーカーを含む高出力音響を備える。","fit":"テレビ放送も配信も家族で使う、有機ELの画質とテレビ単体の音を両方重視する人。","check":"Z95Cなど上位まで必要か、Mini LEDで十分かを比較。壁掛け・壁寄せなら本体重量と金具適合も確認。","series":"Z95C＝有機ELプレミアム、W97C＝Mini LEDフラッグシップ、W95C＝ハイグレード、W93C＝Mini LEDスタンダード、W80C＝標準液晶。","official":"https://panasonic.jp/viera/"},
+        {"name":"SHARP AQUOS","one":"N-Black・回転スタンド・倍速・前向き音響で接客しやすい","strength":"N-Black系低反射パネル、回転式スタンド、倍速液晶、4Kスポーツビュー、声の聞きやすさ、前向きのフロントオープンサウンドなどが比較軸。","fit":"明るいリビング、斜めから見る、スポーツを見る、画面の向きを変えたい、テレビ単体でも声を聞きやすくしたい人。","check":"X7Aは65/55Vが65W、50/43Vが50W。サイズでN-Blackの種類やゲーム仕様も変わる。W数だけで音質を決めない。","series":"X9A＝上位Mini LED・100W、X7A＝Mini LED・N-Black・回転スタンド・倍速の本命、S9A＝有機EL上位。","official":"https://jp.sharp/aquos/compare/"}
       ]
     }
   ]
