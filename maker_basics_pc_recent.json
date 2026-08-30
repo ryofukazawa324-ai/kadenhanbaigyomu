@@ -1,0 +1,17 @@
+{
+  "products":[
+    {
+      "id":"pc",
+      "label":"パソコン",
+      "lead":"直近約1.5年の主要ノートPCを中心に、画面サイズ・重量・持ち運び・使い方からメーカー内のシリーズを比較する。",
+      "makers":[
+        {"name":"NEC LAVIE","one":"13.3型モバイルから16型据え置きまで、用途別にシリーズが分かりやすい","strength":"LAVIE SOL、N13 Slim、Direct N14 Slim、Direct NEXTREME、N16まで、13.3〜16型で選択肢が広い。国内メーカーらしいサポートや買い替え安心感も比較軸にしやすい。","fit":"LAVIEを使い慣れている、移行やサポートを重視する、モバイルから大画面まで同一メーカーで比較したい人。","check":"13.3型でもNEXTREMEは軽さと長時間駆動、SOLはデザイン・タッチ系、N13 Slimは薄型実用寄り。16型N16は約2kg級なので毎日持ち運びより家ナカ向き。","series":"NEXTREME / N13 Slim / SOL＝13.3型、Direct N14 Slim＝14型、N16＝16型。軽さ最優先はNEXTREME、大画面標準はN16。","official":"https://www.nec-lavie.jp/premiumclub/products/notebook/"},
+        {"name":"Dell","one":"14型モバイルと16型大画面をPlus系で分けやすい","strength":"Dell 14 Plus、14 Plus 2-in-1、16 Plusを中心に、AI PC・2K級画面・タッチ/2-in-1など用途別に比較しやすい。構成をオンラインで細かく選べるのも特徴。","fit":"メーカーよりCPU・メモリ・SSD・画面を自分で選びたい、仕事用やクリエイティブ用途で価格と性能を細かく調整したい人。","check":"同じPlusでも通常クラムシェルと2-in-1で重さ・タッチ・使い方が違う。Officeや保証は構成時に確認。","series":"Dell 14 Plus＝14型本命、14 Plus 2-in-1＝タッチ変形型、Dell 16 Plus＝16型大画面。","official":"https://www.dell.com/ja-jp/shop/dell-laptops/scr/laptops"},
+        {"name":"HP","one":"軽量14型・2-in-1・16型大画面までOmniBookで整理しやすい","strength":"OmniBook X 14は約1.29kgの14型OLED系、X Flip 14はタブレット形状にもできる2-in-1、OmniBook 7は13〜16型の定番帯まで幅が広い。","fit":"デザイン、OLED、タッチ、AI PC、持ち運びをバランスよく選びたい人。","check":"OmniBook Xは上位寄り、OmniBook 7は定番本命。Flipは約1.4kg級なので、タブレット利用の価値があるか確認。","series":"OmniBook X 14 / X Flip 14＝上位14型、OmniBook 7 Aero/14＝標準〜軽量14型、OmniBook 7 16＝大画面。","official":"https://jp.ext.hp.com/notebooks/personal/"},
+        {"name":"Lenovo","one":"仕事のThinkPad、薄型のYoga、価格バランスのIdeaPadで分けやすい","strength":"ThinkPad X1 Carbonは1kg未満級の14型仕事モバイル、Yoga SlimはOLEDや薄型デザイン、IdeaPad Slim 5は14/16型で価格と性能のバランスを取りやすい。","fit":"キーボード・ビジネス耐久性、OLED・デザイン、価格性能比のどれを重視するかが明確な人。","check":"ThinkPad・Yoga・IdeaPadは立ち位置が大きく違う。同じ14型でも重量、画面、保証、ポート構成を比較。","series":"ThinkPad X1 Carbon＝仕事プレミアム、Yoga Slim 7i＝薄型高品質、IdeaPad Slim 5 Gen 10＝14/16型の価格バランス。","official":"https://www.lenovo.com/jp/ja/c/laptops/"},
+        {"name":"ASUS","one":"OLED軽量モバイルと価格重視のVivobookを分けやすい","strength":"Zenbook 14 OLEDは約1.2kg級で3K OLED系、Vivobook 14は約1.5kg級、Vivobook 16は約1.9kg級で、画面品質と価格の差が分かりやすい。","fit":"OLED画面、動画視聴、持ち運び、価格を同じメーカー内で段階的に比較したい人。","check":"ZenbookとVivobookでは画面・筐体・重量差が大きい。Officeは構成や販売モデルで異なるため確認。","series":"Zenbook 14 OLED＝上位軽量14型、Vivobook 14＝14型標準、Vivobook 16＝16型大画面標準。","official":"https://www.asus.com/jp/laptops/for-home/all-series/"},
+        {"name":"dynabook","one":"超軽量14型から16型・光学ドライブ付きまで国内向け構成が広い","strength":"RZ/MAは14型約899g級、MZ/MAは14型ホームモバイル、AZ/MAは16型16:10、AZ/DA・SAは15.6型で光学ドライブを選べる。Officeや国内サポートも比較軸。","fit":"軽量モバイル、家ナカ14型、16型大画面、DVD/BDを使う人など用途がはっきりしている人。","check":"AZ系は型番で光学ドライブ・CPU・Office構成が変わる。RZは軽さを優先する分、価格差に価値があるか確認。","series":"RZ＝超軽量14型、MZ＝14型ホームモバイル、AZ/MA＝16型、AZ/DA・SA＝15.6型オールインワン。","official":"https://dynabook.com/direct/"}
+      ]
+    }
+  ]
+}
