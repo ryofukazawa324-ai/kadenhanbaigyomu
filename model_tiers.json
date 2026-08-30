@@ -26,9 +26,9 @@
       "standard":["pana_sd","pana_fa","hitachi_cx_cg","hitachi_bwv","toshiba_gs","toshiba_dpb","sharp_vertical","aqua_d8a","aqua_vp"]
     },
     "aircon":{
-      "high":["daikin_r","mitsubishi_fz","mitsubishi_z","hitachi_x","general_z"],
-      "middle":["daikin_a","daikin_c","hitachi_w","general_w","general_l","general_d","mitsubishi_s"],
-      "standard":["daikin_e","hitachi_d","general_c","mitsubishi_ge"]
+      "high":["panasonic_x","panasonic_lv","daikin_r","daikin_a","mitsubishi_fz","mitsubishi_z","hitachi_x","general_z"],
+      "middle":["panasonic_ex","panasonic_gx","daikin_f","daikin_c","hitachi_w","general_w","general_l","general_d","mitsubishi_s"],
+      "standard":["panasonic_j","daikin_e","hitachi_d","general_c","mitsubishi_ge"]
     }
   }
 }
