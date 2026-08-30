@@ -1,0 +1,46 @@
+{
+  "products":[
+    {
+      "id":"camera",
+      "candidates":[
+        {"id":"dji_action6","name":"DJI Osmo Action 6","tag":"アクションカメラ・動画","summary":"旅行・自転車・バイク・水辺・歩き撮りなど、動きながら動画を撮る人向け。","strength":"強力な電子手ブレ補正、防水、小型ボディ。50GB使用可能な内蔵ストレージがあり、カードを忘れても一定量撮影できる。","watch":"microSDは最大1TB。高画質動画では速度も重要なので、DJI推奨カードまたはV30級以上を基準に確認。","official":"https://www.dji.com/jp/osmo-action-6"},
+        {"id":"gopro_hero13","name":"GoPro HERO13 Black","tag":"アクションカメラ・マウント豊富","summary":"スポーツ・車載・ヘルメット・胸部固定など、アクセサリーを使った撮影が多い人向け。","strength":"5.3K動画、HyperSmooth、豊富なマウントやレンズモッドで撮影方法を広げやすい。","watch":"内蔵ストレージではなくmicroSDが必要。V30/U3以上、公式最大1TBを確認。","official":"https://gopro.com/ja/jp/shop/cameras/learn/hero13black/CHDHX-131-master.html"},
+        {"id":"canon_r50v","name":"Canon EOS R50 V","tag":"APS-Cミラーレス・動画/Vlog","summary":"スマホより画質を上げ、レンズ交換も使いながらVlog・人物・動画をしっかり撮りたい人向け。","strength":"APS-CセンサーとRFレンズ交換、動画向け操作性。レンズを変えて表現を広げられる。","watch":"SD/SDHC/SDXC、UHS-II/I対応。動画モードによって必要な書込速度が変わるためカード容量だけで選ばない。","official":"https://personal.canon.jp/product/camera/eos/r50v"},
+        {"id":"canon_powershot_v1","name":"Canon PowerShot V1","tag":"高性能コンデジ・旅行/Vlog","summary":"レンズ交換はしたくないが、スマホより画質・ズーム・動画性能を上げたい人向け。","strength":"1.4型センサーと一体型レンズで、旅行やVlogを1台で完結しやすい。","watch":"SD/SDHC/SDXC、UHS-I/II対応。レンズ交換はできないので将来の拡張性より手軽さ優先。","official":"https://personal.canon.jp/product/compact-digital-camera/powershot/v1"},
+        {"id":"sony_a6700","name":"SONY α6700","tag":"APS-Cミラーレス・動体/写真/動画","summary":"人物・ペット・乗り物など動く被写体と、写真・動画の両方を高いレベルで使いたい人向け。","strength":"被写体認識AF、APS-C、交換レンズ、写真と動画の総合力。","watch":"SD/SDHC/SDXC UHS-I/II対応。高ビットレート動画ではV60/V90など記録モードに合う速度クラスを確認。","official":"https://www.sony.jp/ichigan/products/ILCE-6700/"},
+        {"id":"sony_zve10ii","name":"SONY VLOGCAM ZV-E10 II","tag":"APS-Cミラーレス・Vlog","summary":"自撮り・商品レビュー・旅行動画など、Vlog中心でレンズ交換もしたい人向け。","strength":"APS-C画質と動画向け操作、交換レンズの自由度を小型ボディで使える。","watch":"SD UHS-I/II対応。静止画中心でファインダーが必要ならα6700なども比較。","official":"https://www.sony.jp/vlogcam/products/ZV-E10M2/"},
+        {"id":"sony_rx100m7","name":"SONY RX100 VII","tag":"高倍率コンデジ・旅行/動体","summary":"小さいカメラで望遠まで使い、旅行・子ども・乗り物などをレンズ交換なしで撮りたい人向け。","strength":"24-200mm相当の高倍率ズームと高速AFを約300g級のコンパクトにまとめる。","watch":"SD/SDHC/SDXCはUHS-I中心。最新ミラーレスほど大型センサーではないが携帯性が強み。","official":"https://www.sony.jp/cyber-shot/products/DSC-RX100M7/"},
+        {"id":"nikon_z50ii","name":"Nikon Z50II","tag":"APS-Cミラーレス・写真総合","summary":"家族・動物・鉄道・旅行など、ファインダーを使って写真をしっかり撮りながら動画も使いたい人向け。","strength":"被写体検出、EVF、交換レンズ、4K動画を備えたAPS-Cの本命帯。","watch":"SDHC/SDXC UHS-I/II対応。公式動作確認では1TBカード例もあるが、最終的には推奨カード表を確認。","official":"https://www.nikon-image.com/products/mirrorless/lineup/z50_2/"}
+      ]
+    },
+    {
+      "id":"rice",
+      "candidates":[
+        {"id":"pana_x910d","name":"Panasonic ビストロ SR-X910D","tag":"5.5合・食感炊き分け上位","summary":"家族で好みが違う、もちもち・しゃっきりなど食感を細かく変えて楽しみたい人向け。","strength":"ビストロ上位の炊き分けと高火力・圧力制御。銘柄や食感を細かく調整したい人に向く。","watch":"細かな炊き分けを使わないならN系でも十分か比較。","official":"https://panasonic.jp/suihan/"},
+        {"id":"pana_n510d","name":"Panasonic おどり炊き SR-N510D","tag":"5.5合・本命バランス","summary":"上位ほど細かな調整は不要だが、食感炊き分け・冷凍ごはん・保温をしっかり使いたい人向け。","strength":"おどり炊き、4通りの食感炊き分け、冷凍用ごはんコース、長時間保温をバランス良く備える。","watch":"最上位の細かな炊き分けが必要か、標準IHで十分かを比較。","official":"https://panasonic.jp/suihan/products/SR-N510D.html"},
+        {"id":"pana_h10b","name":"Panasonic SR-H10B","tag":"5.5合・IHスタンダード","summary":"圧力までは不要で、基本の炊飯・冷凍ごはん・手入れのしやすさを価格重視で選びたい人向け。","strength":"IHの標準帯で、食感炊き分けや冷凍用コースを備えつつ手入れ部品も少ない。","watch":"もちもち感や炊き分け幅を上げたいならN/X系へ。","official":"https://panasonic.jp/suihan/"},
+        {"id":"tiger_jrt_a100","name":"タイガー 土鍋ご泡火炊き JRT-A100","tag":"5.5合・本土鍋フラッグシップ","summary":"土鍋らしい粒立ちと甘みを最優先し、釜そのものにもこだわりたい人向け。","strength":"本土鍋を使う2026年上位。高火力と泡で粒を守る方向性を強く打ち出せる。","watch":"本土鍋は重量・取り扱いも確認。価格差に土鍋の炊き上がり価値を感じるか比較。","official":"https://www.tiger-corporation.com/ja/jpn/product/rice-cooker/"},
+        {"id":"tiger_jri_s100","name":"タイガー ご泡火炊き JRI-S100","tag":"5.5合・ご泡火炊き本命","summary":"土鍋方向の粒立ち・甘みは欲しいが、最上位の本土鍋までは必要ない人向け。","strength":"ご泡火炊きの本命帯として、炊き上がりと価格のバランスを取りやすい。","watch":"本土鍋JRT-Aとの差を実食・価格で確認。","official":"https://www.tiger-corporation.com/ja/jpn/product/rice-cooker/"},
+        {"id":"zoji_nx_ab","name":"象印 炎舞炊き NX-AB","tag":"5.5合・圧力IH上位","summary":"もちもち感、炊き分け、長時間保温まで上位機能を使いたい人向け。","strength":"炎舞炊きの複数IH加熱と圧力制御で、もちもち〜粒感まで炊き分けを狙う。","watch":"炎舞炊きの中でも下位モデルとの価格差を、加熱構造・内釜・保温で比較。","official":"https://www.zojirushi.co.jp/syohin/rice/"},
+        {"id":"zoji_nw_nc","name":"象印 炎舞炊き NW-NC","tag":"5.5合・炎舞炊き本命","summary":"象印のもちもち・保温の強みを使いつつ、最上位までは上げなくてよい人向け。","strength":"炎舞炊きと圧力IHの本命帯で、家族の時間差食事や保温にも合わせやすい。","watch":"上位NXとの加熱・内釜・炊き分け差を確認。","official":"https://www.zojirushi.co.jp/syohin/rice/"},
+        {"id":"mitsu_bw10g","name":"三菱 本炭釜 NJ-BW10G","tag":"5.5合・本炭釜上位","summary":"圧力でもちもちより、粒立ち・しゃっきり感と炭釜の加熱を重視する人向け。","strength":"本炭釜と非圧力系の炊飯で、粒を立たせる独自方向を比較しやすい。","watch":"本炭釜は強い衝撃で破損する可能性があるため扱いも説明。","official":"https://www.mitsubishielectric.co.jp/home/suihanki/"},
+        {"id":"mitsu_vw10g","name":"三菱 本炭釜 NJ-VW10G","tag":"5.5合・本炭釜本命","summary":"三菱の粒立ち・本炭釜を使いたいが、最上位機能は必要十分でよい人向け。","strength":"本炭釜による粒立ちと甘みを本命帯で狙える。","watch":"BW系との炊き分けや機能差を比較。","official":"https://www.mitsubishielectric.co.jp/home/suihanki/"},
+        {"id":"mitsu_vs10g","name":"三菱 炭炊釜 NJ-VS10G","tag":"5.5合・炭炊釜バランス","summary":"三菱のしゃっきり・粒立ち方向が好みで、本炭釜より価格を抑えたい人向け。","strength":"炭炊釜で三菱らしい方向を残しつつ価格とのバランスを取りやすい。","watch":"本炭釜との釜素材・加熱差を確認。","official":"https://www.mitsubishielectric.co.jp/home/suihanki/"},
+        {"id":"toshiba_zwa","name":"東芝 真空圧力IH RC-10ZWA","tag":"5.5合・真空圧力IHフラッグシップ","summary":"浸水を任せたい、粒立ちと甘みを上位火力で狙いたい人向け。","strength":"真空ひたしと大火力・連続加熱・圧力制御を組み合わせる上位モデル。","watch":"真空機能や最上位火力に価値を感じるか、下位MGA等と比較。","official":"https://www.toshiba-lifestyle.com/jp/rice-cookers/"},
+        {"id":"toshiba_mga","name":"東芝 真空圧力IH RC-10MGA","tag":"5.5合・真空圧力IH本命","summary":"真空ひたしや圧力IHを使いたいが、最上位まで上げなくてよい人向け。","strength":"真空圧力IHの本命帯で、炊飯・保温・手入れをバランス良く選べる。","watch":"ZWAとの火力・炊き分け差を確認。","official":"https://www.toshiba-lifestyle.com/jp/rice-cookers/"}
+      ]
+    },
+    {
+      "id":"printer",
+      "candidates":[
+        {"id":"brother_j7500","name":"Brother MFC-J7500CDW","tag":"A3・大量印刷・高速","summary":"仕事でA3、FAX、ADFを使い、月間印刷枚数も多くランニングコストを強く抑えたい人向け。","strength":"A3対応、全色顔料4色、A4約30ipm、低ランニングコスト、大容量給紙・FAX。","watch":"本体が大きいので設置寸法を確認。写真作品より文書・業務用途向け。","official":"https://www.brother.co.jp/product/printer/inkjet/mfcj7500cdw/"},
+        {"id":"brother_j7100","name":"Brother MFC-J7100CDW","tag":"A3・文書/FAX本命","summary":"A3文書、コピー、スキャン、FAXを家庭・SOHOで使い、速度とコストのバランスを取りたい人向け。","strength":"A3、全色顔料4色、A4約28ipm、ADF/FAXに対応。","watch":"J7500より大量印刷性能をどこまで必要とするか比較。","official":"https://www.brother.co.jp/product/printer/inkjet/mfcj7100cdw/"},
+        {"id":"brother_j929","name":"Brother DCP-J929N","tag":"A4・家庭文書バランス","summary":"A4までで、コピー・スキャン・自動両面・文書印刷を手頃にまとめたい人向け。","strength":"4色独立インク、A4カラー約14.5ipm/モノクロ約15ipm。家庭文書とランニングコストのバランス。","watch":"A3/FAXは不要な人向け。写真色数を重視するならCanon/EPSON 6色機も比較。","official":"https://www.brother.co.jp/product/printer/inkjet/dcpj929n/"},
+        {"id":"canon_ts8830","name":"Canon PIXUS TS8830","tag":"A4・6色・写真重視","summary":"家族写真・年賀状など写真画質を優先しつつ、A4文書も使う人向け。","strength":"6色ハイブリッドインク、L判写真約10秒。写真の色表現を家庭用複合機で上げやすい。","watch":"印刷量が多い場合はランニングコストをXKやエコタンクと比較。","official":"https://personal.canon.jp/product/printer/pixus/lineup/ts8830"},
+        {"id":"canon_xk140","name":"Canon PIXUS XK140","tag":"A4・5色・低コストバランス","summary":"写真も印刷するが、家庭文書のランニングコストも抑えたい人向け。","strength":"5色ハイブリッドで写真と文書を両立し、A4文書コストを抑えやすい。","watch":"写真表現最優先なら6色TS系との実機比較。","official":"https://personal.canon.jp/product/printer/pixus/lineup/xk140"},
+        {"id":"epson_ep887a","name":"EPSON カラリオ EP-887A","tag":"A4・染料6色・写真重視","summary":"写真をきれいに残すことを最優先し、家庭用複合機として使いたい人向け。","strength":"染料6色で写真向け。L判写真約13秒の家庭用カラリオ上位。","watch":"文書大量印刷や低コスト最優先ならエコタンクへ。","official":"https://www.epson.jp/products/colorio/ep887a/"},
+        {"id":"epson_ewm757t","name":"EPSON EW-M757T","tag":"A4・5色エコタンク・低コスト","summary":"家庭でも印刷枚数が多く、インク交換回数とランニングコストを抑えたい人向け。","strength":"5色エコタンク、A4文書の低コスト、写真も対応。","watch":"写真作品の色表現最優先なら6色カラリオと比較。","official":"https://www.epson.jp/products/ecotank/ewm757t/"}
+      ]
+    }
+  ]
+}
