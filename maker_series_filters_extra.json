@@ -1,0 +1,119 @@
+{
+  "products":{
+    "aircon":{
+      "prompt":"まず部屋の大きさを選ぶ",
+      "help":"畳数帯で候補を残し、次に設置性・長時間省エネ・除湿・加湿換気の優先度でシリーズを見る。最終対応畳数は型番ごとに確認。",
+      "axes":[
+        {"key":"room","label":"部屋の目安","options":[{"value":"small","label":"6〜10畳"},{"value":"living","label":"12〜18畳"},{"value":"large","label":"20畳以上"}]},
+        {"key":"priority","label":"優先したいこと","optional":true,"options":[{"value":"compact","label":"設置性・コンパクト"},{"value":"longuse","label":"長時間・省エネ"},{"value":"dehumid","label":"除湿・快適性"},{"value":"humid","label":"加湿・換気"}]}
+      ],
+      "compareRows":[{"key":"install","label":"設置性"},{"key":"clean","label":"自動掃除"},{"key":"feature","label":"機能の方向"}],
+      "items":{
+        "panasonic_j":{"maker":"Panasonic","room":["small","living"],"priority":[],"spec":"スタンダード帯","install":"標準サイズ。型番別寸法を確認","clean":"フィルター自動掃除なし","feature":"価格・基本性能"},
+        "panasonic_gx":{"maker":"Panasonic","room":["small","living"],"priority":["compact"],"spec":"高さ249mm","install":"窓上など高さ制限に強い","clean":"あり","feature":"コンパクト＋清潔"},
+        "panasonic_ex":{"maker":"Panasonic","room":["small","living"],"priority":["compact","longuse"],"spec":"奥行コンパクト","install":"前への出っ張りを抑えやすい","clean":"あり。排出/ダスト方式は施工確認","feature":"設置性＋省エネの中間"},
+        "panasonic_x":{"maker":"Panasonic","room":["small","living","large"],"priority":["longuse","dehumid"],"spec":"長時間利用向け上位","install":"上位機は本体寸法を先に確認","clean":"あり","feature":"省エネ・快適・清潔"},
+        "panasonic_lv":{"maker":"Panasonic","room":["living","large"],"priority":["longuse","humid"],"spec":"14〜23畳級中心","install":"換気・加湿ホース等の施工条件あり","clean":"あり","feature":"加湿＋給排気換気"},
+        "daikin_e":{"maker":"ダイキン","room":["small","living"],"priority":["compact"],"spec":"高さ250mm級コンパクト","install":"高さ・奥行を抑えやすい","clean":"なし","feature":"価格・設置性"},
+        "daikin_c":{"maker":"ダイキン","room":["small","living"],"priority":["compact"],"spec":"高さ250mm級","install":"コンパクト＋機能を少し上げる","clean":"あり系統を型番確認","feature":"設置性＋清潔"},
+        "daikin_f":{"maker":"ダイキン","room":["small","living","large"],"priority":["dehumid"],"spec":"除湿を上げる中位","install":"標準的。能力別寸法確認","clean":"型番確認","feature":"除湿・快適性"},
+        "daikin_a":{"maker":"ダイキン","room":["small","living","large"],"priority":["longuse","dehumid"],"spec":"さらら除湿・上位","install":"大能力は室外機も確認","clean":"あり","feature":"除湿・省エネ・安定運転"},
+        "daikin_r":{"maker":"ダイキン","room":["small","living","large"],"priority":["longuse","dehumid","humid"],"spec":"うるさらX・最上位","install":"加湿ホースの穴径・経路確認","clean":"あり","feature":"除湿＋無給水加湿＋換気"},
+        "mitsubishi_ge":{"maker":"三菱電機","room":["small","living"],"priority":[],"spec":"標準シリーズ","install":"基本サイズを型番確認","clean":"なし系統を型番確認","feature":"価格・基本性能"},
+        "mitsubishi_s":{"maker":"三菱電機","room":["small","living"],"priority":["compact"],"spec":"奥行230mm級","install":"奥行を抑えたい時の候補","clean":"型番確認","feature":"薄型・設置性"},
+        "mitsubishi_z":{"maker":"三菱電機","room":["small","living","large"],"priority":["longuse","dehumid"],"spec":"センサー上位","install":"奥行が大きくなるため確認","clean":"あり","feature":"ムーブアイ・快適・省エネ"},
+        "mitsubishi_fz":{"maker":"三菱電機","room":["living","large"],"priority":["longuse"],"spec":"省エネ最上位","install":"幅・奥行とも大きめ。先に採寸","clean":"あり","feature":"省エネ・快適性上位"},
+        "hitachi_d":{"maker":"日立","room":["small","living"],"priority":["compact"],"spec":"奥行218mm級","install":"奥行が厳しい場所に強い","clean":"型番確認","feature":"薄型・設置性"},
+        "hitachi_w":{"maker":"日立","room":["small","living"],"priority":["compact"],"spec":"高さ248mm級","install":"高さが厳しい場所に強い","clean":"あり系統","feature":"低背＋清潔"},
+        "hitachi_x":{"maker":"日立","room":["small","living","large"],"priority":["longuse","dehumid"],"spec":"高機能上位","install":"奥行・設置余裕を確認","clean":"あり","feature":"清潔・センサー・上位快適"},
+        "general_c":{"maker":"ゼネラル","room":["small","living"],"priority":["compact"],"spec":"幅728×高さ250mm級","install":"幅・高さが厳しい時の有力候補","clean":"なし","feature":"価格・設置性"},
+        "general_d":{"maker":"ゼネラル","room":["small","living"],"priority":["compact"],"spec":"高さ250mm級","install":"高さを抑えつつ機能を追加","clean":"あり","feature":"設置性＋清潔"},
+        "general_l":{"maker":"ゼネラル","room":["small","living"],"priority":["longuse"],"spec":"省エネ中上位","install":"標準的。型番寸法確認","clean":"あり系統","feature":"省エネ・お手入れ"},
+        "general_w":{"maker":"ゼネラル","room":["small","living","large"],"priority":["longuse"],"spec":"省エネ上位","install":"能力別室外機も確認","clean":"あり","feature":"省エネ・快適"},
+        "general_z":{"maker":"ゼネラル","room":["living","large"],"priority":["longuse","dehumid"],"spec":"再熱除湿・高機能","install":"本体奥行を先に確認","clean":"あり","feature":"気流・再熱除湿・快適性"}
+      }
+    },
+    "pc":{
+      "prompt":"まず画面サイズを選ぶ",
+      "help":"同じインチでも重量差が大きいので、持ち運び頻度まで入れてシリーズを比較します。",
+      "axes":[
+        {"key":"screen","label":"画面サイズ","options":[{"value":"small","label":"12〜13.3型"},{"value":"14","label":"14型"},{"value":"large","label":"15.6〜16型"}]},
+        {"key":"carry","label":"持ち運び","optional":true,"options":[{"value":"daily","label":"毎日持つ"},{"value":"sometimes","label":"週数回・時々"},{"value":"desk","label":"ほぼ据え置き"}]}
+      ],
+      "compareRows":[{"key":"weight","label":"重量目安"},{"key":"carryFit","label":"持ち運び"},{"key":"color","label":"カラー"}],
+      "items":{
+        "vaio_sx12":{"maker":"VAIO","screen":["small"],"carry":["daily","sometimes"],"spec":"12.5型","weight":"約899g級","carryFit":"毎日持ち運び向き","color":"型番・世代で確認"},
+        "vaio_sx14r":{"maker":"VAIO","screen":["14"],"carry":["daily","sometimes"],"spec":"14.0型","weight":"約958g〜","carryFit":"毎日持ち運び＋仕事向け","color":"通常系5色＋特別仕様あり"},
+        "vaio_f14":{"maker":"VAIO","screen":["14"],"carry":["sometimes","desk"],"spec":"14.0型","weight":"約1.23kg級","carryFit":"週数回・家と外の往復","color":"3色系。販売構成確認"},
+        "vaio_f16":{"maker":"VAIO","screen":["large"],"carry":["sometimes","desk"],"spec":"16.0型","weight":"約1.57〜1.59kg級","carryFit":"家ナカ・車移動・据え置き","color":"3色系。販売構成確認"},
+        "fmv_note_u":{"maker":"FMV","screen":["14"],"carry":["daily","sometimes"],"spec":"14型中心","weight":"約634g〜。構成差大","carryFit":"軽さ最優先の毎日持ち運び","color":"ピクトブラック / フロストグレー / シルバーホワイト系"},
+        "fmv_note_m":{"maker":"FMV","screen":["14"],"carry":["sometimes","desk"],"spec":"14型","weight":"約1.3kg級","carryFit":"家ナカ・時々持ち運び","color":"2色中心。型番確認"},
+        "fmv_note_p":{"maker":"FMV","screen":["large"],"carry":["sometimes","desk"],"spec":"16型","weight":"約1.68kg級","carryFit":"大画面をたまに持つ","color":"型番確認"},
+        "fmv_note_a":{"maker":"FMV","screen":["large"],"carry":["desk"],"spec":"16型","weight":"約1.9kg級","carryFit":"据え置き・長文入力","color":"最大3色系。型番確認"},
+        "lavie_nextreme":{"maker":"NEC LAVIE","screen":["small"],"carry":["daily","sometimes"],"spec":"13.3型","weight":"1kg未満級","carryFit":"毎日持ち運び・長時間","color":"現行カタログはフロストブラック中心"},
+        "lavie_sol":{"maker":"NEC LAVIE","screen":["small"],"carry":["sometimes"],"spec":"13.3型","weight":"約1.2kg級","carryFit":"デザイン・タッチ込みのモバイル","color":"プラチナシルバー / フェアリーパープル / ムーンブラック系"},
+        "lavie_n15":{"maker":"NEC LAVIE","screen":["large"],"carry":["desk"],"spec":"15.6型級","weight":"型番別確認","carryFit":"据え置き・買い替え安心","color":"型番別確認"}
+      }
+    },
+    "camera":{
+      "prompt":"まず何を撮るか選ぶ",
+      "help":"アクションカメラ・高性能コンデジ・ミラーレス一眼を用途から分けます。現在のレンズ交換式はミラーレスが主流です。",
+      "axes":[
+        {"key":"scene","label":"主に撮るもの","options":[{"value":"action","label":"スポーツ・車載・水辺"},{"value":"vlog","label":"Vlog・自撮り・歩き撮り"},{"value":"travel","label":"旅行・日常を手軽に"},{"value":"moving","label":"子ども・動物・乗り物"},{"value":"photo","label":"写真をしっかり撮る"}]},
+        {"key":"type","label":"カメラのタイプ","optional":true,"options":[{"value":"action","label":"アクションカメラ"},{"value":"compact","label":"コンデジ"},{"value":"mirrorless","label":"ミラーレス一眼"}]}
+      ],
+      "compareRows":[{"key":"typeLabel","label":"タイプ"},{"key":"memory","label":"メモリー規格"},{"key":"internal","label":"内蔵メモリー"},{"key":"maxCapacity","label":"最大容量目安"},{"key":"speed","label":"速度の注意"}],
+      "items":{
+        "dji_action6":{"maker":"DJI","scene":["action","vlog","travel"],"type":["action"],"spec":"小型・防水アクション","typeLabel":"アクションカメラ","memory":"microSD","internal":"64GB内蔵 / 使用可能約50GB","maxCapacity":"microSD 最大1TB","speed":"高画質動画は推奨カード/V30級以上を確認"},
+        "gopro_hero13":{"maker":"GoPro","scene":["action","travel"],"type":["action"],"spec":"マウント撮影に強い","typeLabel":"アクションカメラ","memory":"microSD / microSDHC / microSDXC","internal":"なし。カード必須","maxCapacity":"公式最大1TB","speed":"V30・U3以上"},
+        "canon_r50v":{"maker":"Canon","scene":["vlog","moving","photo"],"type":["mirrorless"],"spec":"APS-C・レンズ交換","typeLabel":"ミラーレス一眼","memory":"SD / SDHC / SDXC・UHS-I/II","internal":"撮影用内蔵メモリーなし","maxCapacity":"カード個別の公式動作確認を優先","speed":"動画モードに応じU3/V30以上、上位はさらに高速カード"},
+        "canon_powershot_v1":{"maker":"Canon","scene":["vlog","travel"],"type":["compact"],"spec":"1.4型センサー・レンズ一体","typeLabel":"高性能コンデジ","memory":"SD / SDHC / SDXC・UHS-I/II","internal":"撮影用内蔵メモリーなし","maxCapacity":"カード個別の公式動作確認を優先","speed":"高ビットレート動画は高速カード確認"},
+        "sony_a6700":{"maker":"SONY","scene":["moving","photo","vlog"],"type":["mirrorless"],"spec":"APS-C・動体AF上位","typeLabel":"ミラーレス一眼","memory":"SD / SDHC / SDXC・UHS-I/II","internal":"撮影用内蔵メモリーなし","maxCapacity":"公式対応/動作確認カードを優先","speed":"高ビットレート動画はV60/V90等を記録設定に合わせる"},
+        "sony_zve10ii":{"maker":"SONY","scene":["vlog","travel"],"type":["mirrorless"],"spec":"APS-C・Vlog寄り","typeLabel":"ミラーレス一眼","memory":"SD / SDHC / SDXC・UHS-I/II","internal":"撮影用内蔵メモリーなし","maxCapacity":"公式対応/動作確認カードを優先","speed":"4K動画は記録設定に合う速度クラス確認"},
+        "sony_rx100m7":{"maker":"SONY","scene":["travel","moving"],"type":["compact"],"spec":"24-200mm相当ズーム","typeLabel":"高性能コンデジ","memory":"SD / SDHC / SDXC・UHS-I中心","internal":"撮影用内蔵メモリーなし","maxCapacity":"公式対応カードを確認","speed":"動画時の最低速度をモード別に確認"},
+        "nikon_z50ii":{"maker":"Nikon","scene":["moving","photo","travel"],"type":["mirrorless"],"spec":"APS-C・写真総合","typeLabel":"ミラーレス一眼","memory":"SDHC / SDXC・UHS-I/II","internal":"撮影用内蔵メモリーなし","maxCapacity":"公式動作確認に1TBカード例あり","speed":"4K等はUHS Speed Class 3以上を推奨条件で確認"}
+      }
+    },
+    "rice":{
+      "prompt":"まず好みの食感を選ぶ",
+      "help":"メーカー名より、しゃっきり・もちもち・バランスの方向からシリーズを比較します。",
+      "axes":[
+        {"key":"texture","label":"好きな食感","options":[{"value":"grain","label":"しゃっきり・粒立ち"},{"value":"mochi","label":"もちもち・甘み"},{"value":"balance","label":"どちらも炊き分けたい"}]},
+        {"key":"use","label":"使い方","optional":true,"options":[{"value":"frozen","label":"冷凍ごはんが多い"},{"value":"keep","label":"長時間保温する"},{"value":"easy","label":"手入れを簡単に"}]}
+      ],
+      "compareRows":[{"key":"heating","label":"炊飯方式"},{"key":"textureNote","label":"食感の方向"},{"key":"keep","label":"保温・冷凍"},{"key":"care","label":"手入れ"}],
+      "items":{
+        "pana_x910d":{"maker":"Panasonic","texture":["grain","mochi","balance"],"use":["frozen","keep"],"spec":"5.5合・上位","heating":"可変圧力・高火力上位","textureNote":"細かな食感炊き分け","keep":"冷凍・保温も上位機能","care":"機能が多い分、部品確認"},
+        "pana_n510d":{"maker":"Panasonic","texture":["grain","mochi","balance"],"use":["frozen","keep","easy"],"spec":"5.5合・本命","heating":"おどり炊き","textureNote":"4通りの食感炊き分け","keep":"冷凍用ごはん / 長時間保温","care":"日常手入れを比較しやすい"},
+        "pana_h10b":{"maker":"Panasonic","texture":["grain","balance"],"use":["frozen","easy"],"spec":"5.5合・標準IH","heating":"IH","textureNote":"標準＋食感調整","keep":"冷凍用コースあり","care":"手入れ部品少なめ"},
+        "tiger_jrt_a100":{"maker":"タイガー","texture":["grain","mochi"],"use":[],"spec":"5.5合・本土鍋上位","heating":"本土鍋＋圧力IH系","textureNote":"粒立ちと甘みを強く狙う","keep":"炊きたて重視","care":"土鍋の重量・扱いに注意"},
+        "tiger_jri_s100":{"maker":"タイガー","texture":["grain","mochi","balance"],"use":["easy"],"spec":"5.5合・本命","heating":"ご泡火炊き","textureNote":"粒立ち・甘みのバランス","keep":"日常使い向け","care":"本土鍋より扱いやすい"},
+        "zoji_nx_ab":{"maker":"象印","texture":["mochi","balance"],"use":["keep"],"spec":"5.5合・炎舞炊き上位","heating":"圧力IH・炎舞炊き","textureNote":"もちもち〜炊き分け幅広い","keep":"長時間保温を比較軸にしやすい","care":"内釜・上位構造を確認"},
+        "zoji_nw_nc":{"maker":"象印","texture":["mochi","balance"],"use":["keep"],"spec":"5.5合・炎舞炊き本命","heating":"圧力IH・炎舞炊き","textureNote":"もちもち・家族向け","keep":"保温重視に向く","care":"上位NXとの差を確認"},
+        "mitsu_bw10g":{"maker":"三菱電機","texture":["grain"],"use":[],"spec":"5.5合・本炭釜上位","heating":"本炭釜・非圧力系","textureNote":"しゃっきり・粒立ち","keep":"炊き上がり重視","care":"炭釜は強い衝撃に注意"},
+        "mitsu_vw10g":{"maker":"三菱電機","texture":["grain"],"use":["easy"],"spec":"5.5合・本炭釜本命","heating":"本炭釜・非圧力系","textureNote":"粒立ち・甘み","keep":"冷めても食感を活かす方向","care":"本炭釜の扱い確認"},
+        "mitsu_vs10g":{"maker":"三菱電機","texture":["grain","balance"],"use":["easy"],"spec":"5.5合・炭炊釜","heating":"炭炊釜IH","textureNote":"粒立ち方向を価格バランスで","keep":"日常使い","care":"本炭釜より価格を抑えやすい"},
+        "toshiba_zwa":{"maker":"東芝","texture":["grain","mochi","balance"],"use":["keep"],"spec":"5.5合・真空圧力IH上位","heating":"真空圧力IH・大火力","textureNote":"粒立ちと甘みを炊き分け","keep":"真空ひたし・保温も比較","care":"真空機構を含めて手入れ確認"},
+        "toshiba_mga":{"maker":"東芝","texture":["grain","mochi","balance"],"use":["keep","easy"],"spec":"5.5合・真空圧力IH本命","heating":"真空圧力IH","textureNote":"バランス型","keep":"保温・浸水の手間軽減","care":"上位よりシンプル"}
+      }
+    },
+    "printer":{
+      "prompt":"まずA3が必要か選ぶ",
+      "help":"A3が必要ならBrother系が一気に有力。A4までなら写真の色数・印刷量・コスト・速度で分けます。",
+      "axes":[
+        {"key":"paper","label":"最大用紙サイズ","options":[{"value":"a3","label":"A3が必要"},{"value":"a4","label":"A4までで十分"}]},
+        {"key":"use","label":"主な用途","optional":true,"options":[{"value":"photo","label":"写真・年賀状"},{"value":"document","label":"文書・学校資料"},{"value":"highvolume","label":"大量印刷・低コスト"},{"value":"fax","label":"FAX・ADF"}]}
+      ],
+      "compareRows":[{"key":"ink","label":"インク"},{"key":"speed","label":"印刷速度"},{"key":"cost","label":"ランニングコスト"},{"key":"office","label":"ADF・FAX"}],
+      "items":{
+        "brother_j7500":{"maker":"Brother","paper":["a3"],"use":["document","highvolume","fax"],"spec":"A3対応","ink":"全色顔料4色","speed":"A4 約30ipm級","cost":"カラー約4.3円 / モノクロ約0.8円目安","office":"ADF・FAX・A3複合機"},
+        "brother_j7100":{"maker":"Brother","paper":["a3"],"use":["document","fax"],"spec":"A3対応","ink":"全色顔料4色","speed":"A4 約28ipm級","cost":"カラー約7.5円 / モノクロ約2.0円目安","office":"ADF・FAX・A3複合機"},
+        "brother_j929":{"maker":"Brother","paper":["a4"],"use":["document"],"spec":"A4対応","ink":"4色独立・顔料黒＋染料カラー","speed":"カラー約14.5 / モノクロ約15ipm","cost":"カラー約11.4円 / モノクロ約2.9円目安","office":"ADFあり / FAXなし"},
+        "canon_ts8830":{"maker":"Canon PIXUS","paper":["a4"],"use":["photo","document"],"spec":"A4対応","ink":"6色ハイブリッド","speed":"A4カラー約10 / モノクロ約15ipm","cost":"L判写真約22.9円目安","office":"家庭用コピー・スキャン"},
+        "canon_xk140":{"maker":"Canon PIXUS","paper":["a4"],"use":["photo","document","highvolume"],"spec":"A4対応","ink":"5色ハイブリッド","speed":"A4カラー約10 / モノクロ約15ipm","cost":"A4カラー約4.1円 / モノクロ約1.6円目安","office":"家庭用コピー・スキャン"},
+        "epson_ep887a":{"maker":"EPSON","paper":["a4"],"use":["photo"],"spec":"A4対応","ink":"染料6色独立","speed":"L判写真約13秒","cost":"L判写真約26.2円目安","office":"家庭用コピー・スキャン"},
+        "epson_ewm757t":{"maker":"EPSON","paper":["a4"],"use":["photo","document","highvolume"],"spec":"A4対応","ink":"5色エコタンク・顔料黒＋染料カラー","speed":"カラー約9 / モノクロ約12ipm","cost":"A4カラー約3.7円 / モノクロ約1.6円目安","office":"家庭用コピー・スキャン"}
+      }
+    }
+  }
+}
