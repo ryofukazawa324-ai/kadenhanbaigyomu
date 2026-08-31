@@ -1,0 +1,19 @@
+{
+  "products":[
+    {
+      "id":"camera",
+      "label":"カメラ",
+      "lead":"何を撮るかから、アクション・Vlog・ミラーレス・コンデジ・ビデオカメラ・チェキを分け、最後にメモリー規格と必要速度まで確認する。",
+      "makers":[
+        {"name":"SONY","one":"ミラーレス・Vlog・ビデオカメラまで動画系の幅が広い","strength":"α/ZV系はAFと動画、Handycamは長時間連続撮影と光学ズームを比較しやすい。α6400のようなAPS-C定番からα7C IIのフルサイズ、ZV-E10 IIのVlogまで用途差が明確。","fit":"子ども・動物・運動会、Vlog、旅行、長時間動画までSONY内で用途別に選びたい人。","check":"写真中心ならEVF・センサーサイズ、動画中心なら手ブレ・連続撮影・マイク端子、ビデオカメラなら内蔵メモリーと光学ズームを確認。FDR-AX45Aは公式では生産完了なので、店頭在庫は旧型として案内する。","series":"ZV-E10 II＝Vlog APS-C、α6400＝写真/動画の定番APS-C、α7C II＝小型フルサイズ、FDR-AX45A＝4K長時間動画の旧型Handycam。","official":"https://www.sony.jp/ichigan/"},
+        {"name":"Canon","one":"R100→R50→R50 Vで初心者の写真・動画を分けやすい","strength":"EOS R100はシンプル入門、R50はAF・連写・可動モニターを上げ、R50 Vは動画操作を強化。PowerShot V1ならレンズ交換なしでVlog/旅行へ行ける。","fit":"初めてスマホより画質を上げたい、家族写真、運動会、Vlogを始めたい人。","check":"R100/R50はSD UHS-I、R50 VはUHS-II対応。動画撮影は容量だけでなくV30/V60など必要速度を確認。","series":"EOS R100＝最初のミラーレス、R50＝写真も動画も本命、R50 V＝動画/Vlog、PowerShot V1＝レンズ交換なし高性能コンデジ。","official":"https://personal.canon.jp/product/camera"},
+        {"name":"Nikon","one":"ファインダーで写真をしっかり撮るAPS-Cの本命を作りやすい","strength":"Z50IIは被写体検出、EVF、4K動画を備え、家族・動物・鉄道など写真中心から動画まで広く対応。","fit":"スマホより写真をしっかり撮りたい、ファインダーを使いたい、動く被写体も撮りたい人。","check":"Z50IIはSD UHS-I/II対応。高速連写や4K動画ではカード速度を合わせる。","series":"Z50II＝APS-C本命。小型動画寄りならZ30も比較。","official":"https://www.nikon-image.com/products/mirrorless/"},
+        {"name":"OM SYSTEM","one":"水・落下・アウトドアならTG系が明確","strength":"Tough TG-7は防水・耐衝撃・マクロなど、スマホを出しにくい水辺やアウトドアで価値が分かりやすい。","fit":"海、川、キャンプ、工事現場、子ども利用など壊れにくさを優先する人。","check":"TG-7はSD/SDHC/SDXC UHS-I対応。画質万能よりタフ性能を買うカメラ。","series":"TG-7＝タフコンデジ。ミラーレスOMシリーズとは用途が別。","official":"https://jp.omsystem.com/product/compact/tg7/"},
+        {"name":"FUJIFILM instax","one":"撮ってすぐ渡すならチェキ、デジタル保存もしたいならEvo","strength":"mini 13はフィルムに直接撮るシンプルなアナログチェキ。mini Evoはデジタル撮影して選んでプリントでき、スマホプリンター連携も使える。","fit":"旅行・イベント・友人との記念写真をその場で形にしたい人。","check":"mini 13はSDカード不要でinstax miniフィルムを使う。mini Evoは内蔵メモリー＋microSD/microSDHC対応。デジカメとは『保存方法』から違う。","series":"mini 13＝アナログ入門、mini Evo＝ハイブリッド上位。","official":"https://www.fujifilm.com/jp/ja/consumer/instax/cameras"},
+        {"name":"KODAK PIXPRO","one":"低価格・防水・シンプルコンデジの入口を作りやすい","strength":"WPZ2は防水・耐衝撃・光学4倍ズームで、水辺や子ども利用など『スマホを出したくない場所』に分かりやすい。","fit":"海・プール・旅行、価格を抑えた専用カメラが欲しい人。","check":"WPZ2はmicroSD/microSDHC最大32GB。microSDXCは非対応なので、大容量カードをそのまま勧めない。","series":"WPZ2＝防水タフコンデジ。一般コンデジは型番ごとにズーム・センサーを確認。","official":"https://kodakpixpro.com/cameras/action-sport/wpz2/"},
+        {"name":"Kenko","one":"手ごろなビデオカメラ・コンデジの比較起点","strength":"KC-Z4K10は4K記録、光学3倍、3型タッチモニターなど、専用ビデオカメラを価格重視で始めたい人の比較候補。","fit":"運動会・発表会などをスマホとは別機で長く撮りたいが、高価格機までは不要な人。","check":"KC-Z4K10はSDHC 32GB、SDXC 64〜256GB対応。Class10またはUHS-I U1以上を基準にする。","series":"KC-Z4K10＝手ごろな4Kビデオカメラ。SONY Handycamとは手ブレ・ズーム・内蔵メモリー等を比較。","official":"https://www.kenko-tokina.co.jp/imaging/camera/"},
+        {"name":"DJI","one":"動きながら撮る用途をAction・Pocket・360で分けやすい","strength":"Action 6は防水アクション、Pocket 3は3軸ジンバルVlog、Osmo 360は360度撮影。撮影後の切り出しやマイク連携まで含め動画用途に強い。","fit":"旅行、歩き撮り、自転車・バイク、水辺、SNS動画、360度映像を撮る人。","check":"Action 6は利用可能50GB内蔵＋microSD最大1TB、Pocket 3は内蔵保存なし＋microSD最大1TB、Osmo 360は105GB使用可能内蔵＋microSD最大1TB。V30級の推奨カードを確認。","series":"Action 6＝防水アクション、Pocket 3＝ジンバルVlog、Osmo 360＝360度撮影。","official":"https://www.dji.com/jp/handheld"}
+      ]
+    }
+  ]
+}
