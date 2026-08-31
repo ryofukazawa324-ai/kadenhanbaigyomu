@@ -1,0 +1,21 @@
+{
+  "products":[
+    {
+      "id":"camera",
+      "candidates":[
+        {"id":"dji_pocket3","name":"DJI Osmo Pocket 3","tag":"1型・3軸ジンバルVlog","summary":"旅行・自撮り・歩き撮りで、スマホより安定した動画を小さく持ち歩きたい人向け。","strength":"1型センサーと3軸メカニカルジンバルで、手持ち歩行動画を自然に安定させやすい。","watch":"内蔵ストレージはないためmicroSD必須。最大1TB、V30/U3級の推奨カードを確認。","official":"https://www.dji.com/jp/osmo-pocket-3"},
+        {"id":"dji_osmo360","name":"DJI Osmo 360","tag":"360度・後から画角を決める","summary":"旅行・アクション・自撮り棒撮影で、撮った後から好きな方向を切り出したい人向け。","strength":"360度撮影と105GB使用可能な内蔵ストレージ。通常カメラでは撮り逃す方向も後編集で選べる。","watch":"編集工程が前提。microSDは最大1TBで、一般的なカメラよりデータ量が大きくなりやすい。","official":"https://www.dji.com/jp/360"},
+        {"id":"sony_a6400","name":"SONY α6400","tag":"APS-C・写真/動画の定番","summary":"家族・旅行・子ども・人物を、スマホよりしっかり撮りたい人向け。","strength":"APS-C約2420万画素、Eマウント、EVFを備えた小型ミラーレス。","watch":"ボディ内手ブレ補正はない。SDカードはUHS-I対応なので、高速なUHS-IIカードを入れても本体側上限を確認。","official":"https://www.sony.jp/ichigan/products/ILCE-6400/"},
+        {"id":"sony_a7cii","name":"SONY α7C II","tag":"小型フルサイズ・写真/動画","summary":"フルサイズ画質が欲しいが、α7系の中では持ち運びやすさも重視したい人向け。","strength":"フルサイズセンサー、ボディ内手ブレ補正、被写体認識AFをコンパクトボディにまとめる。","watch":"レンズまで含めるとサイズ・価格が上がる。APS-Cで十分かも比較。","official":"https://www.sony.jp/ichigan/products/ILCE-7CM2/"},
+        {"id":"sony_fdr_ax45a","name":"SONY FDR-AX45A","tag":"4K Handycam・64GB内蔵","summary":"運動会・発表会など、長時間動画とズームを専用機で安定して撮りたい人向け。","strength":"光学20倍ズーム、空間光学手ブレ補正、64GB内蔵メモリーを備える。","watch":"2026年時点でSONY公式では生産完了。店頭にあっても現行新製品ではなく旧型在庫として案内。4K100MbpsはUHS-I U3以上を確認。","official":"https://www.sony.jp/handycam/products/FDR-AX45A/"},
+        {"id":"canon_r50","name":"Canon EOS R50","tag":"APS-C・入門本命","summary":"家族・旅行・運動会で、初めてレンズ交換式へ進みたい人向け。","strength":"約2420万画素APS-C、デュアルピクセルCMOS AF、高速連写、バリアングルで初心者が使いやすい。","watch":"記録媒体はSD/SDHC/SDXC UHS-I。R100との差はAF・連写・モニター・動画を中心に見る。","official":"https://personal.canon.jp/product/camera/eos/r50"},
+        {"id":"canon_r100","name":"Canon EOS R100","tag":"APS-C・シンプル入門","summary":"写真中心で、できるだけシンプル・低予算にミラーレスを始めたい人向け。","strength":"APS-C約2410万画素とRFマウントを低価格帯で使える。","watch":"R50より連写・映像エンジン・モニター・動画機能が控えめ。4Kや動体撮影を重視するならR50を比較。","official":"https://personal.canon.jp/product/camera/eos/r100"},
+        {"id":"om_tg7","name":"OM SYSTEM Tough TG-7","tag":"防水・耐衝撃タフコンデジ","summary":"海・川・キャンプ・現場など、スマホを出しにくい環境で写真を撮りたい人向け。","strength":"防水・耐衝撃・マクロなどアウトドア特化で、画質だけでなく壊れにくさを買うカメラ。","watch":"記録媒体はSD/SDHC/SDXC UHS-I。大型センサー機との画質比較ではなく、タフ性能で選ぶ。","official":"https://jp.omsystem.com/product/compact/tg7/"},
+        {"id":"kodak_wpz2","name":"KODAK PIXPRO WPZ2","tag":"低価格・防水コンデジ","summary":"プールや旅行で気軽に使える専用カメラを、価格を抑えて欲しい人向け。","strength":"15m防水、2m耐衝撃、光学4倍ズームを備えるタフ系コンデジ。","watch":"microSD/microSDHC最大32GBまで。microSDXCは非対応なので64GB以上を勧めない。","official":"https://kodakpixpro.com/cameras/action-sport/wpz2/"},
+        {"id":"kenko_kcz4k10","name":"Kenko KC-Z4K10","tag":"手ごろな4Kビデオカメラ","summary":"発表会・家族動画などを専用ビデオカメラで撮りたいが、高価格機までは不要な人向け。","strength":"4K記録、光学3倍ズーム、3型IPSタッチパネルを備える。","watch":"SDHC 32GBまたはSDXC 64〜256GB。Class10またはUHS-I U1以上を確認。","official":"https://www.kenko-tokina.co.jp/imaging/camera/"},
+        {"id":"instax_mini13","name":"FUJIFILM instax mini 13","tag":"アナログチェキ・その場でプリント","summary":"友人・旅行・イベントで、撮った写真をその場で渡したい人向け。","strength":"2026年発売のエントリー機でセルフタイマーを追加。デジタル操作なしで分かりやすい。","watch":"SDカードやデジタル保存は使わず、instax miniフィルムを使用。1パック10枚。","official":"https://www.fujifilm.com/jp/ja/consumer/instax/cameras/mini13"},
+        {"id":"instax_minievo","name":"FUJIFILM instax mini Evo","tag":"ハイブリッドチェキ・選んでプリント","summary":"チェキの楽しさは欲しいが、失敗写真をそのまま印刷せず選んで出したい人向け。","strength":"デジタル撮影、内蔵メモリー、microSD/microSDHC、スマホプリンター連携に対応。","watch":"普通のデジカメの画質競争ではなく、プリント体験と表現フィルターを楽しむ製品。","official":"https://www.fujifilm.com/jp/ja/consumer/instax/cameras/minievo"}
+      ]
+    }
+  ]
+}
