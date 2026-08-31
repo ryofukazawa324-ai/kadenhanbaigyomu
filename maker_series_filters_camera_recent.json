@@ -1,0 +1,42 @@
+{
+  "products":{
+    "camera":{
+      "prompt":"まず撮り方・カメラのタイプを選ぶ",
+      "help":"同じ価格帯でも用途が全く違うので、まず撮るものとタイプを分けます。メモリーカード規格・内蔵メモリー・必要速度まで同じ表で確認できます。",
+      "axes":[
+        {"key":"scene","label":"主に撮るもの","options":[{"value":"action","label":"スポーツ・車載・水辺"},{"value":"vlog","label":"Vlog・自撮り・歩き撮り"},{"value":"family","label":"子ども・家族・運動会"},{"value":"photo","label":"写真をしっかり撮る"},{"value":"longvideo","label":"長時間動画・発表会"},{"value":"instant","label":"その場でプリント"},{"value":"simple","label":"手軽な専用カメラ"}]},
+        {"key":"type","label":"タイプ","optional":true,"options":[{"value":"action","label":"アクションカメラ"},{"value":"gimbal","label":"ジンバル/Vlogカメラ"},{"value":"mirrorless","label":"ミラーレス一眼"},{"value":"compact","label":"コンデジ"},{"value":"camcorder","label":"ビデオカメラ"},{"value":"instant","label":"チェキ"}]}
+      ],
+      "compareRows":[
+        {"key":"typeLabel","label":"タイプ"},
+        {"key":"sensor","label":"センサー・画質方向"},
+        {"key":"lens","label":"レンズ交換 / ズーム"},
+        {"key":"stabilization","label":"手ブレ補正"},
+        {"key":"memory","label":"メモリー規格"},
+        {"key":"internal","label":"内蔵メモリー"},
+        {"key":"maxCapacity","label":"最大容量目安"},
+        {"key":"speed","label":"カード速度"},
+        {"key":"status","label":"販売・位置づけ"}
+      ],
+      "items":{
+        "dji_action6":{"maker":"DJI","scene":["action","vlog"],"type":["action"],"spec":"防水アクション","typeLabel":"アクションカメラ","sensor":"1/1.1型スクエアCMOS","lens":"超広角固定レンズ・可変絞り","stabilization":"RockSteady / HorizonSteady","memory":"microSDXC","internal":"64GB内蔵 / 使用可能約50GB","maxCapacity":"最大1TB","speed":"U3 / V30級の推奨カード","status":"現行フラッグシップ"},
+        "dji_pocket3":{"maker":"DJI","scene":["vlog","family"],"type":["gimbal"],"spec":"小型ジンバルVlog","typeLabel":"ジンバルカメラ","sensor":"1型CMOS","lens":"固定広角レンズ","stabilization":"3軸メカニカルジンバル","memory":"microSD","internal":"なし","maxCapacity":"最大1TB","speed":"V30/U3級の推奨カード","status":"Vlog・歩き撮り本命"},
+        "dji_osmo360":{"maker":"DJI","scene":["action","vlog"],"type":["action"],"spec":"360度カメラ","typeLabel":"360度アクション","sensor":"デュアル1/1.1型スクエアCMOS","lens":"360度撮影・後から切り出し","stabilization":"360度補正・水平維持系","memory":"microSD","internal":"128GB内蔵 / 使用可能約105GB","maxCapacity":"最大1TB","speed":"V30級推奨","status":"360度撮影専用"},
+        "sony_zve10ii":{"maker":"SONY","scene":["vlog","family"],"type":["mirrorless"],"spec":"APS-C Vlogミラーレス","typeLabel":"ミラーレス一眼","sensor":"APS-C 約2600万画素","lens":"Eマウント交換レンズ","stabilization":"電子補正中心・レンズ側OSS併用","memory":"SD/SDHC/SDXC UHS-I/II","internal":"なし","maxCapacity":"カード仕様・動作確認表で確認","speed":"高ビットレート動画はV60/V90等をモード別確認","status":"現行Vlog本命"},
+        "sony_a6400":{"maker":"SONY","scene":["family","photo"],"type":["mirrorless"],"spec":"APS-C 定番ミラーレス","typeLabel":"ミラーレス一眼","sensor":"APS-C 約2420万画素","lens":"Eマウント交換レンズ","stabilization":"ボディ内なし・レンズ側OSS中心","memory":"SD/SDHC/SDXC UHS-Iほか","internal":"なし","maxCapacity":"カード仕様で確認","speed":"4K100MbpsならU3/V30級を目安","status":"定番APS-C"},
+        "sony_a7cii":{"maker":"SONY","scene":["family","photo"],"type":["mirrorless"],"spec":"小型フルサイズ","typeLabel":"フルサイズミラーレス","sensor":"35mmフルサイズ","lens":"Eマウント交換レンズ","stabilization":"ボディ内手ブレ補正","memory":"SD UHS-I/II","internal":"なし","maxCapacity":"カード仕様で確認","speed":"高ビットレート動画はV60/V90等を確認","status":"小型フルサイズ上位"},
+        "sony_fdr_ax45a":{"maker":"SONY","scene":["family","longvideo"],"type":["camcorder"],"spec":"4K Handycam","typeLabel":"デジタルビデオカメラ","sensor":"4K動画向け1/2.5型系","lens":"光学20倍ズーム","stabilization":"空間光学手ブレ補正","memory":"SD/SDHC/SDXCほか","internal":"64GB","maxCapacity":"カード仕様で確認","speed":"4K100MbpsはUHS-I U3以上","status":"公式では生産完了・旧型在庫比較"},
+        "canon_r100":{"maker":"Canon","scene":["family","photo"],"type":["mirrorless"],"spec":"APS-C 入門","typeLabel":"ミラーレス一眼","sensor":"APS-C 約2410万画素","lens":"RF/RF-S交換レンズ","stabilization":"レンズ側IS中心","memory":"SD/SDHC/SDXC UHS-I","internal":"なし","maxCapacity":"カード仕様で確認","speed":"4K/連写はU3/V30級も比較","status":"エントリー"},
+        "canon_r50":{"maker":"Canon","scene":["family","photo","vlog"],"type":["mirrorless"],"spec":"APS-C 本命入門","typeLabel":"ミラーレス一眼","sensor":"APS-C 約2420万画素","lens":"RF/RF-S交換レンズ","stabilization":"レンズ側IS＋動画電子補正","memory":"SD/SDHC/SDXC UHS-I","internal":"なし","maxCapacity":"カード仕様で確認","speed":"4K/連写はU3/V30級を目安","status":"入門本命"},
+        "canon_r50v":{"maker":"Canon","scene":["vlog","family"],"type":["mirrorless"],"spec":"APS-C 動画寄り","typeLabel":"ミラーレス一眼","sensor":"APS-C 約2420万画素","lens":"RF/RF-S交換レンズ","stabilization":"動画電子補正＋対応レンズIS","memory":"SD/SDHC/SDXC UHS-I/II","internal":"なし","maxCapacity":"カード仕様で確認","speed":"動画記録モードによりV30/V60等を確認","status":"動画/Vlog向け"},
+        "canon_powershot_v1":{"maker":"Canon","scene":["vlog","simple"],"type":["compact"],"spec":"高性能Vlogコンデジ","typeLabel":"コンデジ","sensor":"1.4型センサー","lens":"一体型ズーム・交換不可","stabilization":"光学＋動画補正系","memory":"SD/SDHC/SDXC UHS-I/II","internal":"なし","maxCapacity":"カード仕様で確認","speed":"動画モードに合うUHS/Vクラス確認","status":"高性能コンデジ"},
+        "nikon_z50ii":{"maker":"Nikon","scene":["family","photo"],"type":["mirrorless"],"spec":"APS-C 写真本命","typeLabel":"ミラーレス一眼","sensor":"APS-C/DX","lens":"Zマウント交換レンズ","stabilization":"レンズ側VR中心","memory":"SDHC/SDXC UHS-I/II","internal":"なし","maxCapacity":"公式動作確認に1TB例あり","speed":"4K60p等は高速カード推奨","status":"APS-C本命"},
+        "om_tg7":{"maker":"OM SYSTEM","scene":["action","simple"],"type":["compact"],"spec":"防水タフコンデジ","typeLabel":"タフコンデジ","sensor":"小型センサー・タフ性能重視","lens":"一体型光学ズーム","stabilization":"センサーシフト系","memory":"SD/SDHC/SDXC UHS-I","internal":"なし","maxCapacity":"SDXC対応・容量はカード互換表確認","speed":"通常撮影はUHS-I、動画はモード別確認","status":"防水・耐衝撃用途"},
+        "kodak_wpz2":{"maker":"KODAK PIXPRO","scene":["action","simple"],"type":["compact"],"spec":"防水・低価格コンデジ","typeLabel":"タフコンデジ","sensor":"1/2.3型 BSI CMOS 約1635万画素","lens":"光学4倍ズーム","stabilization":"電子式","memory":"microSD / microSDHC","internal":"約8MB・試写程度","maxCapacity":"最大32GB","speed":"Class 4以上","status":"低価格タフ系"},
+        "kenko_kcz4k10":{"maker":"Kenko","scene":["family","longvideo","simple"],"type":["camcorder"],"spec":"手ごろな4Kビデオカメラ","typeLabel":"デジタルビデオカメラ","sensor":"1/2.8型 CMOS 約846万有効画素","lens":"光学3倍ズーム","stabilization":"動画手振れ軽減","memory":"SDHC / SDXC","internal":"なし","maxCapacity":"最大256GB","speed":"32GBはClass10、64〜256GBはClass10/U1以上","status":"価格重視ビデオ"},
+        "instax_mini13":{"maker":"FUJIFILM instax","scene":["instant"],"type":["instant"],"spec":"アナログチェキ","typeLabel":"インスタントカメラ","sensor":"フィルム撮影・デジタルセンサーなし","lens":"固定レンズ","stabilization":"なし","memory":"SDカード不要・instax miniフィルム","internal":"デジタル保存なし","maxCapacity":"1パック10枚","speed":"カード速度の概念なし","status":"2026年エントリー新モデル"},
+        "instax_minievo":{"maker":"FUJIFILM instax","scene":["instant","simple"],"type":["instant"],"spec":"ハイブリッドチェキ","typeLabel":"デジタル＋インスタント","sensor":"1/5型CMOS","lens":"固定レンズ","stabilization":"なし","memory":"内蔵＋microSD/microSDHC","internal":"約45枚保存目安","maxCapacity":"microSDHCまで・公式仕様確認","speed":"高速カード不要","status":"撮って選んでプリント"}
+      }
+    }
+  }
+}
