@@ -13,7 +13,7 @@
     "tv":{
       "high":["regza_zx3s","sony_9ii","pana_z95c","pana_w97c","sharp_x9a","tcl_c8l"],
       "middle":["regza_z890s","sony_7ii","sony_8","pana_w95c","sharp_x7a","sharp_s9a","hisense_u8s","tcl_c7l"],
-      "standard":["regza_z770s","regza_x770s","pana_w93c","pana_w80c","hisense_u7s","tcl_p8k"]
+      "standard":["regza_s25r","sony_w500e_32","sharp_ge1_32","hisense_a4s_32","hisense_a5s_32","tcl_s5l_32","tcl_s5400_32","regza_z770s","regza_x770s","pana_w93c","pana_w80c","hisense_u7s","tcl_p8k"]
     },
     "refrigerator":{
       "high":["mitsubishi_wz","mitsubishi_mz","hitachi_hzc","toshiba_xfs","panasonic_wx","aqua_tx"],
@@ -31,9 +31,9 @@
       "standard":["panasonic_j","daikin_e","hitachi_d","general_c","mitsubishi_ge"]
     },
     "camera":{
-      "high":["dji_action6","gopro_hero13","sony_a6700","sony_rx100m7"],
-      "middle":["canon_r50v","canon_powershot_v1","sony_zve10ii","nikon_z50ii"],
-      "standard":[]
+      "high":["dji_action6","gopro_hero13","sony_a6700","sony_rx100m7","sony_a7cii","dji_osmo360"],
+      "middle":["canon_r50v","canon_powershot_v1","sony_zve10ii","nikon_z50ii","dji_pocket3","sony_a6400","sony_fdr_ax45a","canon_r50","om_tg7","instax_minievo"],
+      "standard":["canon_r100","kodak_wpz2","kenko_kcz4k10","instax_mini13"]
     },
     "rice":{
       "high":["pana_x910d","tiger_jrt_a100","zoji_nx_ab","mitsu_bw10g","toshiba_zwa"],
