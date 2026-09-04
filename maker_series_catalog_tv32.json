@@ -1,0 +1,15 @@
+{
+  "products":[
+    {
+      "id":"tv",
+      "candidates":[
+        {"id":"regza_s25r","name":"REGZA S25R 32V","tag":"32型・地デジ/録画のシンプル本命","summary":"寝室・子ども部屋・一人暮らしで、地デジと外付けHDD録画を中心に使いたい人向け。","strength":"2025年モデルの32V型。レグザエンジンHR、おまかせオートピクチャー、地デジ/BS・CS各2チューナーでシンプルに使いやすい。","watch":"32V型はワイドXGA 1366×768。40V型とは解像度が異なる。ネット動画をテレビ単体で重視する場合はスマートTV系も比較。","official":"https://www.regza.com/tv/lineup/s25r.html"},
+        {"id":"sharp_ge1_32","name":"SHARP AQUOS GE1 32V","tag":"32型・放送/録画シンプル","summary":"テレビ放送と裏番組録画を中心に、ネット機能は不要で分かりやすい32型が欲しい人向け。","strength":"2T-C32GE1は地デジ/BS・CS各2チューナー、USB HDD裏番組録画対応。年間消費電力量41kWh/年のシンプル機。","watch":"1366×768で、インターネット・無線LAN・Bluetoothは非対応。YouTube等をテレビ単体で見たい人にはスマートTV系が向く。","official":"https://jp.sharp/aquos/products/ge1/"},
+        {"id":"hisense_a4s_32","name":"Hisense A4S 32V","tag":"32型・FHDスマートTV","summary":"32型でもフルHDとネット動画を重視し、寝室・一人暮らし用を1台で完結したい人向け。","strength":"2026年の32型主力の一つ。FHD/HDスマートTVのA4Sシリーズで、動画配信サービスを使いやすい。","watch":"同じ32型でも販売チャネル別の派生型番がある。A4S/A48S/YS4A/E40Sなど型番と仕様を販売時点で確認。","official":"https://www.hisense.co.jp/tv/"},
+        {"id":"hisense_a5s_32","name":"Hisense A5S 32V","tag":"32型・FHDデザインスマートTV","summary":"寝室や個室でネット動画を見つつ、テレビ本体の見た目や置きやすさも重視する人向け。","strength":"32A5SはフルハイビジョンのスマートTVで、Hisenseの32型の中ではデザイン性を前面に出した選択肢。","watch":"放送中心ならA4S系との価格差を確認。設置方法・スタンド形状も実物で確認する。","official":"https://www.hisense.co.jp/tv/"},
+        {"id":"tcl_s5l_32","name":"TCL S5L 32V","tag":"32型・FHD QLEDスマートTV","summary":"32型でも色の鮮やかさとネット動画を重視し、普通の液晶より一段画質を上げたい人向け。","strength":"32S5Lは量子ドットを使う2K/FHD QLED系で、HDR10対応。小型でも色表現を重視する比較軸を作れる。","watch":"32型でQLEDに価格差を出す価値があるか確認。4KではなくFHDクラスとして比較する。","official":"https://www.tcl.com/jp/ja/tvs/32-inch-tv"},
+        {"id":"tcl_s5400_32","name":"TCL S5400 32V","tag":"32型・FHD Google TV","summary":"32型でYouTube・Netflix等のネット動画を手軽に使い、Google TVの操作性を重視する人向け。","strength":"32S5400はフルHD、Google TV、HDR10/HLG、Dolby Audioに対応するスマートTV。","watch":"画質最優先ならQLEDのS5L系も比較。放送・録画だけならよりシンプルな機種でも足りる。","official":"https://www.tcl.com/jp/ja/tvs/s5400"}
+      ]
+    }
+  ]
+}
