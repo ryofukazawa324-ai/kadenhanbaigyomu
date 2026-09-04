@@ -2,11 +2,17 @@
   "products": {
     "tv": {
       "prompt": "まず画面サイズを選ぶ",
-      "help": "選んだインチで販売設定のあるシリーズだけ残します。",
+      "help": "選んだインチで販売設定のあるシリーズだけ残します。32型はHD/FHD・スマート機能・録画の違いも見ます。",
       "axes": [
-        {"key":"size","label":"画面サイズ","options":[{"value":"43","label":"43型"},{"value":"48","label":"48型"},{"value":"50","label":"50型"},{"value":"55","label":"55型"},{"value":"65","label":"65型"},{"value":"75","label":"75型"},{"value":"77","label":"77型"},{"value":"85","label":"85型"},{"value":"98","label":"98型"},{"value":"100","label":"100型"},{"value":"115","label":"115型"}]}
+        {"key":"size","label":"画面サイズ","options":[{"value":"32","label":"32型"},{"value":"43","label":"43型"},{"value":"48","label":"48型"},{"value":"50","label":"50型"},{"value":"55","label":"55型"},{"value":"65","label":"65型"},{"value":"75","label":"75型"},{"value":"77","label":"77型"},{"value":"85","label":"85型"},{"value":"98","label":"98型"},{"value":"100","label":"100型"},{"value":"115","label":"115型"}]}
       ],
       "items": {
+        "regza_s25r":{"maker":"REGZA","size":["32"],"spec":"32型 / HD / 放送・録画重視"},
+        "sharp_ge1_32":{"maker":"SHARP AQUOS","size":["32"],"spec":"32型 / HD / 裏番組録画"},
+        "hisense_a4s_32":{"maker":"Hisense","size":["32"],"spec":"32型 / FHD / スマートTV"},
+        "hisense_a5s_32":{"maker":"Hisense","size":["32"],"spec":"32型 / FHD / デザインスマートTV"},
+        "tcl_s5l_32":{"maker":"TCL","size":["32"],"spec":"32型 / FHD QLED / スマートTV"},
+        "tcl_s5400_32":{"maker":"TCL","size":["32"],"spec":"32型 / FHD / Google TV"},
         "regza_zx3s":{"maker":"REGZA","size":["55","65","75","85","100"],"spec":"55 / 65 / 75 / 85 / 100型"},
         "regza_z890s":{"maker":"REGZA","size":["43","50","55","65","75","85"],"spec":"43 / 50 / 55 / 65 / 75 / 85型"},
         "regza_z770s":{"maker":"REGZA","size":["43","50","55","65","75"],"spec":"43 / 50 / 55 / 65 / 75型"},
