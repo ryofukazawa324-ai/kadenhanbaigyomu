@@ -8,6 +8,7 @@
       ],
       "items": {
         "regza_s25r":{"maker":"REGZA","size":["32"],"spec":"32型 / HD / 放送・録画重視"},
+        "sony_w500e_32":{"maker":"SONY BRAVIA","size":["32"],"spec":"32型 / HD / 放送・録画 / 生産完了"},
         "sharp_ge1_32":{"maker":"SHARP AQUOS","size":["32"],"spec":"32型 / HD / 裏番組録画"},
         "hisense_a4s_32":{"maker":"Hisense","size":["32"],"spec":"32型 / FHD / スマートTV"},
         "hisense_a5s_32":{"maker":"Hisense","size":["32"],"spec":"32型 / FHD / デザインスマートTV"},
