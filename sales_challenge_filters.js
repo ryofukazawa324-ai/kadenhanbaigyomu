@@ -1,0 +1,11 @@
+(function(){
+if(!/sales_challenge\.html$/.test(location.pathname))return;
+var chosen='',busy=false;
+function label(){var e=document.querySelector('.challengeHero .eyebrow');return e?(e.textContent||'').split('/')[0].trim():''}
+function sizes(l){return {'テレビ':['43型以下','48〜50型','55型','65型','75型以上'],'洗濯機':['7〜8kg','9〜10kg','11〜12kg','13kg以上'],'冷蔵庫':['〜300L','301〜400L','401〜500L','501L〜'],'パソコン':['13型以下','14型','15〜16型','17型以上'],'エアコン':['6畳','8〜10畳','12〜14畳','18畳以上']}[l]||[]}
+function text(b){return (b.textContent||'').toLowerCase()}
+function hit(t,l,s){if(!s)return true;if(l==='テレビ'){if(s==='43型以下')return /43|42|40|32/.test(t);if(s==='48〜50型')return /48|49|50/.test(t);if(s==='55型')return /55/.test(t);if(s==='65型')return /65/.test(t);return /75|77|85|98|100|115/.test(t)}if(l==='洗濯機'){if(s==='7〜8kg')return /7kg|8kg|コンパクト/.test(t);if(s==='9〜10kg')return /9kg|10kg|コンパクト/.test(t);if(s==='11〜12kg')return /11kg|12kg|大容量/.test(t);return /13kg|大容量/.test(t)}if(l==='冷蔵庫'){if(s==='〜300L')return /200l|300l|小容量/.test(t);if(s==='301〜400L')return /300l|400l/.test(t);if(s==='401〜500L')return /400l|500l|大容量/.test(t);return /500l|600l|大容量/.test(t)}return true}
+function inject(){var grid=document.querySelector('.modelGrid'),l=label(),ss=sizes(l);if(!grid||!ss.length)return;if(!document.getElementById('sizeFilter')){var d=document.createElement('div');d.id='sizeFilter';d.style.margin='12px 0 18px';d.innerHTML='<h3>商品サイズで絞り込み</h3><div class="choiceGrid"><button class="askBtn" data-size="">すべて</button>'+ss.map(function(s){return'<button class="askBtn" data-size="'+s+'">'+s+'</button>'}).join('')+'</div>';grid.parentNode.insertBefore(d,grid);d.querySelectorAll('[data-size]').forEach(function(b){b.onclick=function(){chosen=b.dataset.size;filter()}})}filter()}
+function filter(){var l=label();document.querySelectorAll('.modelGrid .modelBtn').forEach(function(b){b.style.display=hit(text(b),l,chosen)?'':'none'});document.querySelectorAll('#sizeFilter [data-size]').forEach(function(b){b.classList.toggle('asked',b.dataset.size===chosen)})}
+function run(){if(busy)return;busy=true;setTimeout(function(){busy=false;inject()},0)}new MutationObserver(run).observe(document.getElementById('app')||document.body,{childList:true,subtree:true});run();
+})();
