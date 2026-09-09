@@ -1,13 +1,19 @@
 {
   "id":"pc",
   "label":"パソコン",
-  "lead":"用途・画面サイズ・持ち運び・重量・Web会議・入力から、メーカーとシリーズ帯まで絞る。",
+  "lead":"用途・画面サイズ・持ち運び・重量・GPU・Web会議・入力から、メーカーとシリーズ帯まで絞る。",
   "questions":[
-    {"text":"主な用途は？","help":"CPU名より先に使い方で方向を決める。","options":[
-      {"label":"Web・Office・普段使い","note":"標準用途","scores":{"vaio_f16":5,"vaio_f14":7,"fmv_note_a":8,"fmv_note_p":7,"fmv_note_m":7,"lavie_n15":8,"lavie_sol":4}},
-      {"label":"仕事で持ち運び・出先利用が多い","note":"モバイル仕事","scores":{"vaio_sx14r":12,"vaio_sx12":10,"vaio_f14":6,"fmv_note_u":10,"fmv_note_m":4,"lavie_nextreme":10,"lavie_sol":7}},
-      {"label":"写真・動画編集など制作をする","note":"制作性能","scores":{"creator_pc":13,"vaio_sx14r":5,"fmv_note_u":5,"lavie_nextreme":4,"vaio_f16":4}},
-      {"label":"ゲーム・3Dをする","note":"GPU優先","scores":{"gaming_pc":16,"creator_pc":7}}
+    {"text":"主な用途は？","help":"CPU名より先に使い方で方向を決める。ゲーム・3Dが主目的でなければ、専用GPUを載せず軽さや電池持ちを優先する選び方も有力。","options":[
+      {"label":"Web・Office・普段使い","note":"標準用途。内蔵GPUで十分になりやすい","scores":{"vaio_f16":5,"vaio_f14":7,"fmv_note_a":8,"fmv_note_p":7,"fmv_note_m":7,"lavie_n15":8,"lavie_sol":4,"gaming_pc":-8}},
+      {"label":"仕事で持ち運び・出先利用が多い","note":"モバイル仕事。軽量な内蔵GPU機が有利","scores":{"vaio_sx14r":12,"vaio_sx12":10,"vaio_f14":6,"fmv_note_u":10,"fmv_note_m":4,"lavie_nextreme":10,"lavie_sol":7,"gaming_pc":-10}},
+      {"label":"写真・動画編集など制作をする","note":"制作性能。内容によってGPUの必要性を確認","scores":{"creator_pc":13,"vaio_sx14r":5,"fmv_note_u":5,"lavie_nextreme":4,"vaio_f16":4}},
+      {"label":"ゲーム・3Dをする","note":"専用GPUを優先","scores":{"gaming_pc":16,"creator_pc":7}}
+    ]},
+    {"text":"ゲーム・3D・GPU性能はどのくらい必要？","help":"内蔵GPUと専用GPUは優劣ではなく用途で選ぶ。ゲーム・3Dがメインでなければ、同価格帯でより軽い本体・長いバッテリー・静音性を取りやすい内蔵GPU機が有力。","options":[
+      {"label":"ゲーム・3Dはほぼしない","note":"内蔵GPU向き。同価格帯のゲーミングPCより軽量・薄型・省電力な機種を選びやすい","scores":{"vaio_sx14r":12,"vaio_sx12":10,"vaio_f14":10,"vaio_f16":8,"fmv_note_u":12,"fmv_note_m":9,"fmv_note_a":8,"fmv_note_p":8,"lavie_nextreme":11,"lavie_sol":8,"lavie_n15":8,"gaming_pc":-18,"creator_pc":-8}},
+      {"label":"軽いゲーム・軽い画像編集くらい","note":"新しい内蔵GPUも候補。実際に使うゲーム・ソフトの推奨環境を確認","scores":{"vaio_sx14r":9,"fmv_note_u":8,"lavie_nextreme":8,"vaio_f14":6,"creator_pc":3,"gaming_pc":1}},
+      {"label":"動画編集・制作をしっかり行う","note":"処理内容次第で専用GPUが有利。GPU・VRAM・冷却も確認","scores":{"creator_pc":18,"gaming_pc":6,"vaio_sx14r":2}},
+      {"label":"3Dゲーム・3DCGがメイン","note":"専用GPU向き。高い描画性能とVRAM、冷却性能を優先","scores":{"gaming_pc":22,"creator_pc":14,"vaio_sx14r":-8,"fmv_note_u":-10,"lavie_nextreme":-8}}
     ]},
     {"text":"画面サイズはどのくらいがいい？","help":"サイズは持ち運びやすさと作業領域に直結。シリーズ候補をここで大きく分ける。","options":[
       {"label":"12〜13.3型くらい","note":"小型・毎日持ち運び向け","scores":{"vaio_sx12":22,"lavie_nextreme":22,"lavie_sol":18,"vaio_sx14r":-20,"vaio_f14":-25,"vaio_f16":-30,"fmv_note_u":-20,"fmv_note_m":-25,"fmv_note_a":-30,"fmv_note_p":-30,"lavie_n15":-30}},
@@ -15,11 +21,11 @@
       {"label":"15.6〜16型くらい","note":"大画面・据え置き寄り","scores":{"vaio_f16":22,"fmv_note_a":22,"fmv_note_p":22,"lavie_n15":20,"vaio_sx14r":-30,"vaio_sx12":-30,"vaio_f14":-20,"fmv_note_u":-30,"fmv_note_m":-20,"lavie_nextreme":-30,"lavie_sol":-30}},
       {"label":"まだ決めていない","note":"持ち運び頻度から決める","scores":{"vaio_sx14r":2,"fmv_note_u":2,"lavie_nextreme":2,"vaio_f16":2,"fmv_note_p":2}}
     ]},
-    {"text":"持ち運ぶ頻度は？","help":"同じ14型でも約600g台から1.3kg前後まで差がある。サイズだけでなく重量も見る。","options":[
-      {"label":"毎日持ち運ぶ","note":"1kg前後以下を優先","scores":{"vaio_sx14r":14,"vaio_sx12":14,"fmv_note_u":16,"lavie_nextreme":14,"lavie_sol":5,"vaio_f14":4,"fmv_note_m":2}},
-      {"label":"週に数回持ち運ぶ","note":"1〜1.4kg前後も候補","scores":{"vaio_sx14r":10,"fmv_note_u":10,"lavie_nextreme":10,"lavie_sol":8,"vaio_f14":9,"fmv_note_m":8,"fmv_note_p":4}},
+    {"text":"持ち運ぶ頻度は？","help":"同じ14型でも約600g台から1.3kg前後まで差がある。専用GPU搭載機は冷却機構や電源も含め重くなりやすいため、GPU性能が本当に必要かも合わせて確認。","options":[
+      {"label":"毎日持ち運ぶ","note":"1kg前後以下を優先","scores":{"vaio_sx14r":14,"vaio_sx12":14,"fmv_note_u":16,"lavie_nextreme":14,"lavie_sol":5,"vaio_f14":4,"fmv_note_m":2,"gaming_pc":-10}},
+      {"label":"週に数回持ち運ぶ","note":"1〜1.4kg前後も候補","scores":{"vaio_sx14r":10,"fmv_note_u":10,"lavie_nextreme":10,"lavie_sol":8,"vaio_f14":9,"fmv_note_m":8,"fmv_note_p":4,"gaming_pc":-5}},
       {"label":"家の中・車移動でたまに運ぶ","note":"14〜16型の軽め大画面も候補","scores":{"fmv_note_p":11,"fmv_note_m":10,"vaio_f14":10,"vaio_f16":9,"fmv_note_a":7,"lavie_n15":7}},
-      {"label":"ほぼ据え置き","note":"大画面・テンキー・価格優先","scores":{"fmv_note_a":11,"vaio_f16":11,"lavie_n15":11,"fmv_note_p":8,"creator_pc":5,"gaming_pc":5}}
+      {"label":"ほぼ据え置き","note":"大画面・テンキー・性能も選びやすい","scores":{"fmv_note_a":11,"vaio_f16":11,"lavie_n15":11,"fmv_note_p":8,"creator_pc":5,"gaming_pc":5}}
     ]},
     {"text":"Web会議はどのくらいしますか？","help":"会議用マイク・カメラ・ノイズ抑制の価値を確認。","options":[
       {"label":"仕事で毎日のように使う","note":"会議機能重視","scores":{"vaio_sx14r":14,"vaio_sx12":8,"vaio_f14":8,"vaio_f16":7,"lavie_nextreme":8,"lavie_sol":7,"fmv_note_u":6}},
@@ -30,7 +36,7 @@
     {"text":"キーボード・文字入力は？","help":"長文入力が多いなら打鍵感やテンキーも比較。","options":[
       {"label":"仕事で長文・Office入力が多い","note":"打鍵感重視","scores":{"fmv_note_a":13,"fmv_note_u":8,"fmv_note_m":8,"vaio_sx14r":7,"lavie_nextreme":6}},
       {"label":"数字入力・Excelでテンキーが欲しい","note":"テンキー重視","scores":{"fmv_note_a":12,"vaio_f16":10,"lavie_n15":10,"fmv_note_p":8}},
-      {"label":"入力より軽さを優先","note":"モバイル優先","scores":{"fmv_note_u":12,"vaio_sx12":11,"vaio_sx14r":10,"lavie_nextreme":10,"lavie_sol":7,"vaio_f14":5}},
+      {"label":"入力より軽さを優先","note":"モバイル優先","scores":{"fmv_note_u":12,"vaio_sx12":11,"vaio_sx14r":10,"lavie_nextreme":10,"lavie_sol":7,"vaio_f14":5,"gaming_pc":-6}},
       {"label":"特にこだわらない","note":"総合比較","scores":{"vaio_f16":4,"vaio_f14":4,"fmv_note_p":4,"fmv_note_m":4,"lavie_n15":4}}
     ]},
     {"text":"今までのPC・買替えで近いのは？","help":"使い慣れや移行不安も提案軸になる。","options":[
@@ -39,26 +45,26 @@
       {"label":"仕事道具として耐久性・会議を優先したい","note":"VAIO適性","scores":{"vaio_sx14r":15,"vaio_sx12":10,"vaio_f14":7,"vaio_f16":5}},
       {"label":"メーカーにはこだわらない","note":"用途優先","scores":{"vaio_sx14r":3,"fmv_note_u":3,"lavie_nextreme":3,"fmv_note_a":3,"vaio_f16":3,"fmv_note_p":3}}
     ]},
-    {"text":"価格と性能の考え方は？","help":"同等スペックの価格差を見て、軽さ・耐久性・会議・大画面などの付加価値に払うかで判断。","options":[
-      {"label":"安さ最優先、必要十分でよい","note":"価格優先","scores":{"vaio_f16":7,"vaio_f14":6,"fmv_note_a":7,"fmv_note_p":5,"fmv_note_m":7,"lavie_n15":8}},
+    {"text":"価格と性能の考え方は？","help":"同価格帯でも、専用GPUに予算を使うか、軽さ・電池持ち・CPU・メモリ・画面・仕事の快適性に振るかで方向が変わる。","options":[
+      {"label":"安さ最優先、必要十分でよい","note":"価格優先。用途に不要な専用GPUは載せない","scores":{"vaio_f16":7,"vaio_f14":6,"fmv_note_a":7,"fmv_note_p":5,"fmv_note_m":7,"lavie_n15":8,"gaming_pc":-5}},
       {"label":"数年使うので少し上げてもよい","note":"長期利用","scores":{"vaio_sx14r":9,"fmv_note_u":9,"lavie_nextreme":9,"fmv_note_p":7,"fmv_note_m":6}},
-      {"label":"軽さ・耐久性・会議など仕事の快適性に払える","note":"仕事上位","scores":{"vaio_sx14r":14,"fmv_note_u":11,"lavie_nextreme":10,"vaio_sx12":8}},
-      {"label":"性能優先","note":"高性能","scores":{"creator_pc":12,"gaming_pc":12,"vaio_sx14r":6}}
+      {"label":"軽さ・耐久性・会議など仕事の快適性に払える","note":"仕事上位。専用GPUより携帯性を優先する選択も有力","scores":{"vaio_sx14r":14,"fmv_note_u":11,"lavie_nextreme":10,"vaio_sx12":8,"gaming_pc":-8}},
+      {"label":"ゲーム・制作性能を最優先","note":"専用GPUを含め高性能構成を検討","scores":{"creator_pc":14,"gaming_pc":14,"vaio_sx14r":2}}
     ]}
   ],
   "candidates":[
-    {"id":"vaio_sx14r","name":"VAIO SX14-R","tag":"14.0型・約958g〜・仕事モバイル","summary":"14型の見やすさを確保しながら毎日持ち運び、Web会議・耐久性・性能まで重視する人の本命候補。","strength":"14.0型で約958g〜の軽量設計。高性能CPU構成、堅牢性、AIノイズキャンセリングなど仕事向けの差を説明しやすい。","watch":"軽さ最優先ならFMV Note U、さらに小型ならSX12も比較。ゲーム・3D制作はGPU搭載機を別軸で優先。","official":"https://store.vaio.com/shop/e/ePC10/"},
+    {"id":"vaio_sx14r","name":"VAIO SX14-R","tag":"14.0型・約958g〜・仕事モバイル","summary":"14型の見やすさを確保しながら毎日持ち運び、Web会議・耐久性・性能まで重視する人の本命候補。ゲーム・3Dが主目的でなければ、専用GPU機より軽さを取りやすい。","strength":"14.0型で約958g〜の軽量設計。高性能CPU構成、堅牢性、AIノイズキャンセリングなど仕事向けの差を説明しやすい。","watch":"軽さ最優先ならFMV Note U、さらに小型ならSX12も比較。3Dゲーム・重い3D制作が主目的なら専用GPU搭載機を優先。","official":"https://store.vaio.com/shop/e/ePC10/"},
     {"id":"vaio_sx12","name":"VAIO SX12","tag":"12.5型・約899g・小型モバイル","summary":"小さめの鞄に入れて毎日持ち運び、画面の大きさよりコンパクトさを優先する仕事用途向け。","strength":"12.5型・約899gの小型軽量ボディに、会議機能・豊富な端子・堅牢性をまとめている。","watch":"長時間のExcelや画面の見やすさを重視するなら14型SX14-Rも比較。","official":"https://store.vaio.com/shop/e/ePC02/"},
     {"id":"vaio_f14","name":"VAIO F14","tag":"14.0型・約1.23kg・標準モバイル","summary":"14型が欲しいがSX14-Rほど軽さ・高性能に予算をかけず、家と外を行き来したい人向け。","strength":"14.0型・約1.23kgでOfficeやWeb会議に使いやすく、軽量上位機との価格差を比較しやすい。","watch":"毎日長時間持ち歩くならSX14-RやFMV Note Uの軽さに価値があるか確認。","official":"https://store.vaio.com/"},
     {"id":"vaio_f16","name":"VAIO F16","tag":"16.0型・約1.57〜1.59kg・大画面","summary":"据え置き中心で16型の作業領域・テンキーを重視しつつ、家の中では移動したい人向け。","strength":"16.0型で約1.57〜1.59kg。一般的な大画面ノートの中では持ち動かしも考えやすく、OfficeやWeb会議に向く。","watch":"毎日電車で持ち運ぶ用途なら14型以下を優先。","official":"https://store.vaio.com/shop/pages/f162.aspx"},
-    {"id":"fmv_note_u","name":"FMV Note U","tag":"14.0型中心・約634g〜・超軽量","summary":"画面は14型ほしいが、とにかく軽く毎日持ち歩きたい人の最有力候補。","strength":"現行14型で約634g〜の構成があり、軽量・堅牢性・長時間バッテリー構成を比較しやすい。構成によって重量は大きく変わる。","watch":"最軽量構成と長時間バッテリー・タッチ・CPU構成では重量が変わるため、型番ごとに確認。","official":"https://www.fmv.com/store/pc/note/note_u"},
+    {"id":"fmv_note_u","name":"FMV Note U","tag":"14.0型中心・約634g〜・超軽量","summary":"画面は14型ほしいが、とにかく軽く毎日持ち歩きたい人の最有力候補。ゲームが主目的でなければ、GPU搭載ゲーミングノートとの重量差を大きなメリットとして説明できる。","strength":"現行14型で約634g〜の構成があり、軽量・堅牢性・長時間バッテリー構成を比較しやすい。構成によって重量は大きく変わる。","watch":"最軽量構成と長時間バッテリー・タッチ・CPU構成では重量が変わるため、型番ごとに確認。3D性能が必要なら別途GPU搭載機を比較。","official":"https://www.fmv.com/store/pc/note/note_u"},
     {"id":"fmv_note_m","name":"FMV Note M","tag":"14型・約1.3kg・家ナカ/時々持ち運び","summary":"14型の見やすさが欲しく、毎日通勤ではなく家の中や時々持ち出す程度の人向け。","strength":"約1.3kgの14型で、超軽量Note Uより価格や使い方を抑えた中間候補にしやすい。","watch":"毎日持ち歩くならNote Uとの差額を軽さに払う価値があるか確認。","official":"https://www.fmv.com/store/pc/note"},
     {"id":"fmv_note_a","name":"FMV Note A","tag":"16.0型・約1.9kg・据え置き中心","summary":"長文入力、Excel、家庭/仕事の大画面を重視し、持ち運びは少ない人向け。","strength":"16型、テンキー・キーボードの打ちやすさ、構成による光学ドライブ、3年セキュリティ等を提案しやすい。","watch":"16型を少し持ち運びたいなら約1.68kgのNote Pも比較。毎日持つならNote Uへ。","official":"https://www.fmv.com/store/pc/note/note_a"},
     {"id":"fmv_note_p","name":"FMV Note P","tag":"16.0型・約1.68kg・軽め大画面","summary":"16型の見やすさが欲しいが、家の中・車移動・時々の持ち出しもしたい人向け。","strength":"16型で約1.68kg、薄型・ドライブレス。Note Aより持ち動かしやすい大画面候補。","watch":"毎日電車で持つなら14型Note Uとの重量差を体感して比較。光学ドライブが必要ならNote A等も確認。","official":"https://www.fmv.com/store/pc/note/note_p"},
     {"id":"lavie_nextreme","name":"LAVIE NEXTREME","tag":"13.3型・1kg未満・長時間モバイル","summary":"小型画面で軽量・長時間バッテリー・堅牢性を重視し、LAVIEの使い慣れも残したい人向け。","strength":"13.3型・1kg未満で、長時間駆動・堅牢性・Copilot+ PCを仕事モバイルで比較しやすい。","watch":"14型の作業領域が欲しいならVAIO SX14-RやFMV Note Uも比較。","official":"https://www.nec-lavie.jp/products/notebook/nx13/"},
     {"id":"lavie_sol","name":"LAVIE SOL","tag":"13.3型・約1.197kg・デザイン/タッチ","summary":"13.3型の小ささ、タッチ操作、デザイン、LAVIEの使い慣れを重視する人向け。","strength":"13.3型・約1197g、タッチパネル、薄型設計。軽さ最優先よりデザインや操作性も含めたモバイル候補。","watch":"同じ13.3型でも軽さ最優先なら1kg未満のNEXTREMEを比較。","official":"https://www.nec-lavie.jp/products/notebook/direct-sol/"},
     {"id":"lavie_n15","name":"LAVIE N15系","tag":"15.6型級・大画面・買替え安心","summary":"旧LAVIEからの買替え、据え置き中心、Office・大画面を重視する人向け。","strength":"使い慣れや移行の安心感を含めて比較しやすい。","watch":"現行モデルの画面サイズ、重量、CPU・メモリ・Office構成を必ず確認。毎日持つ用途ならNEXTREME/SOLへ。","official":"https://www.nec-lavie.jp/"},
-    {"id":"creator_pc","name":"クリエイター向けGPU搭載PC","tag":"画面サイズよりGPU・色域・冷却優先","summary":"Adobe系、動画編集、3DなどGPU性能が必要な用途向け。","strength":"サイズだけでなくGPU・メモリ・色域・冷却を用途に合わせて選ぶ。14型高性能から16型以上まで候補。","watch":"使用ソフトの推奨環境を基準に現行型番を検索する。軽さとの両立は性能・冷却とのトレードオフ。","official":"https://www.microsoft.com/ja-jp/windows/"},
-    {"id":"gaming_pc","name":"ゲーミングPC","tag":"GPU・冷却最優先","summary":"ゲームや3DでGPU性能が重要な人向け。","strength":"GPU、冷却、電源、画面リフレッシュレートを中心に選ぶ。サイズ・重量より性能が優先されやすい。","watch":"毎日持ち運ぶなら14型ゲーミング等も探せるが、重量・ACアダプタまで含めて確認。","official":"https://www.microsoft.com/ja-jp/windows/"}
+    {"id":"creator_pc","name":"クリエイター向けGPU搭載PC","tag":"専用GPU・色域・冷却を用途で選ぶ","summary":"動画編集、3DCG、GPUを使う制作など、専用GPUの性能を実際に活かせる用途向け。","strength":"専用GPUと専用VRAMを使えるため、対応する動画処理・3D・レンダリングでは内蔵GPU機より高い処理性能を狙いやすい。","watch":"専用GPU搭載により本体重量・厚み・発熱・消費電力・ファン音が増えやすい。軽い編集やOffice中心なら内蔵GPU機の方が持ち運びやすさや電池持ちで有利な場合がある。","official":"https://www.microsoft.com/ja-jp/windows/"},
+    {"id":"gaming_pc","name":"ゲーミングPC","tag":"専用GPU・冷却・高fps最優先","summary":"3Dゲームや3DCGが主目的で、軽さよりGPU性能を優先する人向け。ゲームがメインでなければ過剰性能になる場合がある。","strength":"専用GPU、専用VRAM、強力な冷却、高リフレッシュレート画面を選びやすく、高画質・高fpsの3DゲームやGPU処理で大きなメリットがある。","watch":"同価格帯の一般ノートと比べ、本体やACアダプタが重く、厚く、消費電力・発熱・ファン音も増えやすい。ゲームをほぼしない人は、同じ予算を軽量化・CPU・メモリ・画面・バッテリーへ回した一般ノートも比較する。","official":"https://www.microsoft.com/ja-jp/windows/"}
   ]
 }
