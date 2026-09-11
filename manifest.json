@@ -1,0 +1,12 @@
+{
+  "name": "家電販売ナレッジ",
+  "short_name": "家電販売",
+  "start_url": "./sales_challenge.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#172033",
+  "icons": [
+    {"src":"apple-touch-icon.png","sizes":"180x180","type":"image/png","purpose":"any"}
+  ]
+}
