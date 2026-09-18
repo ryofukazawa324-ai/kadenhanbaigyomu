@@ -1,1 +1,40 @@
-{"products":{"pc":{"items":{"vaio_t_2026":{"maker":"VAIO","screen":["small"],"carry":["daily","sometimes"],"spec":"13.3型 WQXGA タッチ","weight":"約1.253kg〜","position":"3スタイル・タッチAI PC","display":"13.3型 WQXGA（2560×1600）・10点マルチタッチ","carryFit":"毎日〜週数回。軽さ最優先より多用途重視","color":"ファインブラック / ファインレッド / 勝色（直販特別仕様）"}}}}}
+{
+  "products": {
+    "pc": {
+      "items": {
+        "vaio_t_2026": {
+          "maker": "VAIO",
+          "screen": [
+            "small"
+          ],
+          "carry": [
+            "daily",
+            "sometimes"
+          ],
+          "spec": "13.3型 WQXGA タッチ",
+          "weight": "約1.253kg〜",
+          "position": "3スタイル・タッチAI PC",
+          "display": "13.3型 WQXGA（2560×1600）・10点マルチタッチ",
+          "carryFit": "毎日〜週数回。軽さ最優先より多用途重視",
+          "color": "ファインブラック / ファインレッド / 勝色（直販特別仕様）"
+        },
+        "vaio_sx14r2_2026": {
+          "maker": "VAIO",
+          "screen": [
+            "14"
+          ],
+          "carry": [
+            "daily",
+            "sometimes"
+          ],
+          "spec": "14.0型 16:10 / Copilot+ PC",
+          "weight": "約958g〜（構成で異なる）",
+          "position": "軽量・高性能を両立するVAIO最上位モバイル",
+          "display": "14型16:10。WQXGAやタッチ構成も選択可",
+          "carryFit": "毎日持つ。軽量でもHシリーズ級性能を妥協したくない人",
+          "color": "ファインブラック / ディープエメラルド等。特別仕様・限定色あり"
+        }
+      }
+    }
+  }
+}
