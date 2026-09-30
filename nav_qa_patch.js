@@ -19,3 +19,25 @@
   function install(){if(typeof window.build!=='function'||typeof window.render!=='function'||!window.data)return setTimeout(install,100);window.build=adaptiveBuild;adaptiveBuild();if(typeof genres==='function')genres();render();document.addEventListener('click',function(ev){var b=ev.target.closest&&ev.target.closest('.qaChoice[data-c]');if(!b||b.disabled)return;var x=pool&&pool.length?pool[idx%pool.length]:null;if(!x)return;var ok=typeof norm==='function'&&typeof answer==='function'?norm(b.dataset.c)===norm(answer(x)):b.classList.contains('correct');record(x,ok)},true)}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){setTimeout(install,150)});else setTimeout(install,150);
 })();
+
+(function(){
+  if(!/qa\.html$/i.test(location.pathname))return;
+  var MARK='kadenQaReviewMarksV1';
+  function read(){try{var a=JSON.parse(localStorage.getItem(MARK)||'[]');return Array.isArray(a)?a:[]}catch(e){return[]}}
+  function currentKey(){try{var x=pool&&pool.length?pool[idx]:null;return x?(String(x.genre||'')+'||'+String(x.q||'')):''}catch(e){return''}}
+  function marked(k){return read().indexOf(k)>=0}
+  function toggle(k){var a=read(),i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);localStorage.setItem(MARK,JSON.stringify(a))}
+  function addButton(){
+    var result=document.getElementById('result');
+    if(!result||!result.querySelector('.qaResult'))return;
+    var old=document.querySelector('.qaActions [data-action="mark"]');if(old)old.style.display='none';
+    if(result.querySelector('.qaReviewAfterAnswer'))return;
+    var k=currentKey();if(!k)return;
+    var wrap=document.createElement('div');wrap.className='qaActions qaReviewAfterAnswer';
+    var b=document.createElement('button');b.type='button';b.className='qaBtn'+(marked(k)?' marked':'');b.textContent=marked(k)?'○ 復習マーク済み':'○ あとで見返す';
+    b.addEventListener('click',function(){toggle(k);var on=marked(k);b.classList.toggle('marked',on);b.textContent=on?'○ 復習マーク済み':'○ あとで見返す'});
+    wrap.appendChild(b);result.appendChild(wrap)
+  }
+  function watch(){var c=document.getElementById('content');if(!c)return setTimeout(watch,100);new MutationObserver(function(){setTimeout(addButton,0)}).observe(c,{childList:true,subtree:true});document.addEventListener('click',function(){setTimeout(addButton,0)},true)}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',watch);else watch();
+})();
