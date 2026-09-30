@@ -1,4 +1,11 @@
-(function(){var pages=[['sales_challenge.html','接客挑戦モード'],['sales_mode.html','接客モード'],['consult.html','商品コンサル'],['compare.html','商品比較'],['qa.html','QA暗記'],['basics.html','基礎知識'],['maker_basics.html','メーカー基礎'],['makers.html','メーカー比較'],['memo.html','端末メモ']];function current(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();if(p==='index.html'||p==='')return 'sales_challenge.html';return p}function sync(){var nav=document.querySelector('.siteHeader .nav');if(!nav)return;var cur=current();nav.innerHTML=pages.map(function(p){return '<a'+(cur===p[0]?' class="active"':'')+' href="'+p[0]+'">'+p[1]+'</a>'}).join('')}function run(){sync();setTimeout(sync,50);setTimeout(sync,250)}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();new MutationObserver(function(){var nav=document.querySelector('.siteHeader .nav');if(nav&&!nav.dataset.stableNav){nav.dataset.stableNav='1';sync()}}).observe(document.documentElement,{childList:true,subtree:true})})();
+(function(){
+  var pages=[['sales_challenge.html','接客挑戦モード'],['sales_mode.html','接客モード'],['consult.html','商品コンサル'],['compare.html','商品比較'],['qa.html','QA暗記'],['basics.html','基礎知識'],['maker_basics.html','メーカー基礎'],['makers.html','メーカー比較'],['memo.html','端末メモ']];
+  function current(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();if(p==='index.html'||p==='')return 'sales_challenge.html';return p}
+  function sync(){var nav=document.querySelector('.siteHeader .nav');if(!nav)return;var cur=current();var html=pages.map(function(p){return '<a'+(cur===p[0]?' class="active"':'')+' href="'+p[0]+'">'+p[1]+'</a>'}).join('');if(nav.innerHTML!==html)nav.innerHTML=html}
+  function run(){sync();setTimeout(sync,60);setTimeout(sync,300)}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();
+  window.addEventListener('pageshow',run);
+})();
 
 (function(){
   if(!/qa\.html$/i.test(location.pathname))return;
