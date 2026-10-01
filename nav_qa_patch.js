@@ -4,7 +4,7 @@
   window.fetch=function(input,init){
     var url=typeof input==='string'?input:(input&&input.url)||'';
     if(/qa_expansion_09\.json(?:\?|$)/.test(url)){
-      return Promise.all([originalFetch(input,init),originalFetch('qa_expansion_10.json?v=20261001-pack10',{cache:'no-store'})]).then(function(rs){
+      return Promise.all([originalFetch(input,init),originalFetch('qa_expansion_10.json?v=20261001-pack10',{cache:'no-store'}),originalFetch('qa_expansion_11.json?v=20261001-camera-audio',{cache:'no-store'})]).then(function(rs){
         return Promise.all(rs.map(function(r){return r.ok?r.json():[]})).then(function(parts){
           var merged=[];parts.forEach(function(a){if(Array.isArray(a))merged=merged.concat(a)});
           return new Response(JSON.stringify(merged),{status:200,headers:{'Content-Type':'application/json'}})
