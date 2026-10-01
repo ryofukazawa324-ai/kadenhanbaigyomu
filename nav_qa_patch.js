@@ -9,35 +9,27 @@
 
 (function(){
   if(!/qa\.html$/i.test(location.pathname))return;
-  var STORE='kadenQaMasteryV1';
-  function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
-  function save(v){try{localStorage.setItem(STORE,JSON.stringify(v))}catch(e){}}
-  function qkey(x){return String((x&&x.genre)||'')+'||'+String((x&&x.q)||'')}
-  function record(x,ok){if(!x)return;var m=load(),k=qkey(x),v=m[k]||{correct:0,wrong:0};if(ok){v.correct=Math.min(8,(v.correct||0)+1)}else{v.wrong=(v.wrong||0)+1;v.correct=Math.max(0,(v.correct||0)-2)}m[k]=v;save(m)}
-  function chance(x){var v=load()[qkey(x)]||{},c=v.correct||0;if(c>=5)return .08;if(c>=3)return .18;if(c>=2)return .35;if(c>=1)return .6;return 1}
-  function adaptiveBuild(){if(typeof filtered!=='function'||typeof shuffle!=='function')return;var src=filtered(),picked=src.filter(function(x){return Math.random()<chance(x)});if(!picked.length&&src.length)picked=[src[Math.floor(Math.random()*src.length)]];pool=shuffle(picked);idx=correct=answered=0}
-  function install(){if(typeof window.build!=='function'||typeof window.render!=='function'||!window.data)return setTimeout(install,100);window.build=adaptiveBuild;adaptiveBuild();if(typeof genres==='function')genres();render();document.addEventListener('click',function(ev){var b=ev.target.closest&&ev.target.closest('.qaChoice[data-c]');if(!b||b.disabled)return;var x=pool&&pool.length?pool[idx%pool.length]:null;if(!x)return;var ok=typeof norm==='function'&&typeof answer==='function'?norm(b.dataset.c)===norm(answer(x)):b.classList.contains('correct');record(x,ok)},true)}
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',function(){setTimeout(install,150)});else setTimeout(install,150);
-})();
-
-(function(){
-  if(!/qa\.html$/i.test(location.pathname))return;
   var MARK='kadenQaReviewMarksV1';
-  function read(){try{var a=JSON.parse(localStorage.getItem(MARK)||'[]');return Array.isArray(a)?a:[]}catch(e){return[]}}
-  function currentKey(){try{var x=pool&&pool.length?pool[idx]:null;return x?(String(x.genre||'')+'||'+String(x.q||'')):''}catch(e){return''}}
-  function marked(k){return read().indexOf(k)>=0}
-  function toggle(k){var a=read(),i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);localStorage.setItem(MARK,JSON.stringify(a))}
-  function addButton(){
+  function read(name){try{var a=JSON.parse(localStorage.getItem(name)||'[]');return Array.isArray(a)?a:[]}catch(e){return[]}}
+  function currentItem(){try{return pool&&pool.length?pool[idx]:null}catch(e){return null}}
+  function currentKey(){var x=currentItem();return x?(String(x.genre||'')+'||'+String(x.q||'')):''}
+  function marked(k){return read(MARK).indexOf(k)>=0}
+  function toggleMark(k){var a=read(MARK),i=a.indexOf(k);if(i>=0)a.splice(i,1);else a.push(k);localStorage.setItem(MARK,JSON.stringify(a))}
+  function installAnswerActions(){
     var result=document.getElementById('result');
     if(!result||!result.querySelector('.qaResult'))return;
-    var old=document.querySelector('.qaActions [data-action="mark"]');if(old)old.style.display='none';
-    if(result.querySelector('.qaReviewAfterAnswer'))return;
-    var k=currentKey();if(!k)return;
-    var wrap=document.createElement('div');wrap.className='qaActions qaReviewAfterAnswer';
-    var b=document.createElement('button');b.type='button';b.className='qaBtn'+(marked(k)?' marked':'');b.textContent=marked(k)?'○ 復習マーク済み':'○ あとで見返す';
-    b.addEventListener('click',function(){toggle(k);var on=marked(k);b.classList.toggle('marked',on);b.textContent=on?'○ 復習マーク済み':'○ あとで見返す'});
-    wrap.appendChild(b);result.appendChild(wrap)
+    var topMark=document.querySelector('.qaActions [data-action="mark"]');if(topMark)topMark.style.display='none';
+    var topRemove=document.querySelector('.qaActions [data-action="remove"]');if(topRemove)topRemove.style.display='none';
+    if(result.querySelector('.qaAfterAnswerActions'))return;
+    var x=currentItem(),k=currentKey();if(!x||!k)return;
+    var wrap=document.createElement('div');wrap.className='qaActions qaAfterAnswerActions';wrap.style.cssText='display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:3px solid #d8dde7;';
+    var mark=document.createElement('button');mark.type='button';mark.className='qaBtn'+(marked(k)?' marked':'');mark.textContent=marked(k)?'○ 復習マーク済み':'○ 復習に追加';
+    mark.addEventListener('click',function(){toggleMark(k);var on=marked(k);mark.classList.toggle('marked',on);mark.textContent=on?'○ 復習マーク済み':'○ 復習に追加'});
+    var hide=document.createElement('button');hide.type='button';hide.className='qaBtn';hide.textContent='この問題を非表示';hide.style.cssText='border-color:#efb0ad;color:#b42318;';
+    hide.addEventListener('click',function(){if(typeof saveHidden==='function'){saveHidden(x)}else{var store='kadenQaHiddenV1',a=read(store),kk=k;if(a.indexOf(kk)<0)a.push(kk);localStorage.setItem(store,JSON.stringify(a));location.reload()}});
+    wrap.appendChild(mark);wrap.appendChild(hide);result.appendChild(wrap)
   }
-  function watch(){var c=document.getElementById('content');if(!c)return setTimeout(watch,100);new MutationObserver(function(){setTimeout(addButton,0)}).observe(c,{childList:true,subtree:true});document.addEventListener('click',function(){setTimeout(addButton,0)},true)}
+  function hidePreAnswerActions(){var m=document.querySelector('.qaActions [data-action="mark"]'),r=document.querySelector('.qaActions [data-action="remove"]');if(m)m.style.display='none';if(r)r.style.display='none'}
+  function watch(){var c=document.getElementById('content');if(!c)return setTimeout(watch,100);new MutationObserver(function(){hidePreAnswerActions();setTimeout(installAnswerActions,0)}).observe(c,{childList:true,subtree:true});document.addEventListener('click',function(){setTimeout(function(){hidePreAnswerActions();installAnswerActions()},0)},true);hidePreAnswerActions()}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',watch);else watch();
 })();
