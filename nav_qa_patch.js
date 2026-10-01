@@ -1,4 +1,21 @@
 (function(){
+  if(!/qa\.html$/i.test(location.pathname))return;
+  var originalFetch=window.fetch.bind(window);
+  window.fetch=function(input,init){
+    var url=typeof input==='string'?input:(input&&input.url)||'';
+    if(/qa_expansion_09\.json(?:\?|$)/.test(url)){
+      return Promise.all([originalFetch(input,init),originalFetch('qa_expansion_10.json?v=20261001-pack10',{cache:'no-store'})]).then(function(rs){
+        return Promise.all(rs.map(function(r){return r.ok?r.json():[]})).then(function(parts){
+          var merged=[];parts.forEach(function(a){if(Array.isArray(a))merged=merged.concat(a)});
+          return new Response(JSON.stringify(merged),{status:200,headers:{'Content-Type':'application/json'}})
+        })
+      })
+    }
+    return originalFetch(input,init)
+  }
+})();
+
+(function(){
   var pages=[['sales_challenge.html','接客挑戦モード'],['sales_mode.html','接客モード'],['consult.html','商品コンサル'],['compare.html','商品比較'],['qa.html','QA暗記'],['basics.html','基礎知識'],['maker_basics.html','メーカー基礎'],['makers.html','メーカー比較'],['memo.html','端末メモ']];
   function current(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();if(p==='index.html'||p==='')return 'sales_challenge.html';return p}
   function sync(){var nav=document.querySelector('.siteHeader .nav');if(!nav)return;var cur=current();var html=pages.map(function(p){return '<a'+(cur===p[0]?' class="active"':'')+' href="'+p[0]+'">'+p[1]+'</a>'}).join('');if(nav.innerHTML!==html)nav.innerHTML=html}
