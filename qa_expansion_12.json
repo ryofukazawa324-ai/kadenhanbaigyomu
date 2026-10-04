@@ -69,7 +69,9 @@
     "answer": "マイクなどのアクセサリー。",
     "detail": "機種によって電子接点や対応アクセサリーが異なる。単なる固定具としてだけでなく通信・給電に対応するタイプもある。",
     "refUrl": "https://personal.canon.jp/product/camera/eos/r50/feature/face-design",
-    "refLabel": "キヤノン公式 EOS R50 各部名称（製品画像・端子位置）"
+    "refLabel": "キヤノン公式 EOS R50 各部名称（製品画像・端子位置）",
+    "imageUrl": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Website/personal/product/camera/eos/r50/image/feature/face-design/img-01.jpg",
+    "imageAlt": "キヤノン EOS R50 公式製品・各部参考画像"
   },
   {
     "genre": "カメラ",
@@ -101,7 +103,9 @@
     "answer": "入力。",
     "detail": "動画用途では外部マイクを接続できるだけでなく、収録中の音をモニターできるかも比較ポイント。",
     "refUrl": "https://personal.canon.jp/product/camera/eos/r50/feature/face-design",
-    "refLabel": "キヤノン公式 EOS R50 各部名称（製品画像・端子位置）"
+    "refLabel": "キヤノン公式 EOS R50 各部名称（製品画像・端子位置）",
+    "imageUrl": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Website/personal/product/camera/eos/r50/image/feature/face-design/img-01.jpg",
+    "imageAlt": "キヤノン EOS R50 公式製品・各部参考画像"
   },
   {
     "genre": "カメラ",
@@ -167,7 +171,9 @@
     "answer": "電気代。",
     "detail": "容量が大きいから必ず電気代が高いとは限らない。省エネ性能を数値で確認する。",
     "refUrl": "https://panasonic.jp/reizo/feature/refrigerator.html",
-    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）"
+    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）",
+    "imageUrl": "https://panasonic.jp/reizo/products.html",
+    "imageAlt": "Panasonic 冷蔵庫 公式参考画像"
   },
   {
     "genre": "冷蔵庫",
@@ -179,7 +185,9 @@
     "answer": "冷凍室。",
     "detail": "総容量が大きくても冷凍室の配分は機種ごとに違う。冷凍室の位置・引き出し構造も見る。",
     "refUrl": "https://panasonic.jp/reizo/feature/refrigerator.html",
-    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）"
+    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）",
+    "imageUrl": "https://panasonic.jp/reizo/products.html",
+    "imageAlt": "Panasonic 冷蔵庫 公式参考画像"
   },
   {
     "genre": "洗濯機",
