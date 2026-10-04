@@ -9,7 +9,9 @@
     "answer": "自動投入。",
     "detail": "どちらも10kgの縦型だが、K6は液体洗剤・柔軟剤の自動投入に対応。容量だけでなく毎回の計量を減らしたいかで提案を分ける。",
     "refUrl": "https://panasonic.jp/wash/feature/FA/auto.html",
-    "refLabel": "Panasonic公式 洗濯機 自動投入（製品画像・タンク図解）"
+    "refLabel": "Panasonic公式 洗濯機 自動投入（製品画像・タンク図解）",
+    "imageUrl": "https://panasonic.jp/wash/feature/FA/auto.html",
+    "imageAlt": "Panasonic 洗濯機 自動投入 公式参考画像"
   },
   {
     "genre": "洗濯機",
@@ -61,7 +63,9 @@
     "answer": "急速冷凍。",
     "detail": "WX・HYタイプには熱いまま急速冷凍や、あら熱取り急速冷却がある。作り置きや調理後の保存を重視する人には比較ポイントになる。",
     "refUrl": "https://panasonic.jp/reizo/feature/refrigerator.html",
-    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）"
+    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）",
+    "imageUrl": "https://panasonic.jp/reizo/products.html",
+    "imageAlt": "Panasonic 冷蔵庫 公式参考画像"
   },
   {
     "genre": "冷蔵庫",
@@ -93,7 +97,9 @@
     "answer": "配置。",
     "detail": "総容量が近くても冷凍室・野菜室の大きさと位置は違う。生活スタイルに直結するため、上位下位比較でも重要。",
     "refUrl": "https://panasonic.jp/reizo/feature/refrigerator.html",
-    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）"
+    "refLabel": "Panasonic公式 冷蔵庫の収納・引き出し構造（画像・図解）",
+    "imageUrl": "https://panasonic.jp/reizo/products.html",
+    "imageAlt": "Panasonic 冷蔵庫 公式参考画像"
   },
   {
     "genre": "テレビ",
