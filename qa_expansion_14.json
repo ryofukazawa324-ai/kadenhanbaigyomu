@@ -7,7 +7,9 @@
       "良くなる"
     ],
     "answer": "どう良くなるか。",
-    "detail": "機能名→効果→その客のメリットまでつなげる。例：自動投入がある→毎回量らなくていい→洗濯回数が多い人ほど手間が減る。"
+    "detail": "機能名→効果→その客のメリットまでつなげる。例：自動投入がある→毎回量らなくていい→洗濯回数が多い人ほど手間が減る。",
+    "refUrl": "https://panasonic.jp/wash/feature/FA/auto.html",
+    "refLabel": "Panasonic公式 洗濯機 自動投入（製品画像・タンク図解）"
   },
   {
     "genre": "接客実践",
@@ -57,7 +59,9 @@
       "手間"
     ],
     "answer": "手間。",
-    "detail": "「Aの方が上」だけでなく、共通点と具体的な差をセットで伝える。"
+    "detail": "「Aの方が上」だけでなく、共通点と具体的な差をセットで伝える。",
+    "refUrl": "https://panasonic.jp/wash/feature/FA/auto.html",
+    "refLabel": "Panasonic公式 洗濯機 自動投入（製品画像・タンク図解）"
   },
   {
     "genre": "洗濯機",
@@ -67,7 +71,9 @@
       "量る"
     ],
     "answer": "量る手間を減らせる。",
-    "detail": "洗濯回数が多い家庭ほど価値を感じやすい。一方、毎回自分で投入しても困らない人には優先度が下がる。"
+    "detail": "洗濯回数が多い家庭ほど価値を感じやすい。一方、毎回自分で投入しても困らない人には優先度が下がる。",
+    "refUrl": "https://panasonic.jp/wash/feature/FA/auto.html",
+    "refLabel": "Panasonic公式 洗濯機 自動投入（製品画像・タンク図解）"
   },
   {
     "genre": "洗濯機",
@@ -77,7 +83,9 @@
       "共通"
     ],
     "answer": "共通。",
-    "detail": "同じ部分を先に示してから「価格差は主にこの便利機能」と説明すると選びやすい。"
+    "detail": "同じ部分を先に示してから「価格差は主にこの便利機能」と説明すると選びやすい。",
+    "refUrl": "https://panasonic.jp/wash/feature/FA/auto.html",
+    "refLabel": "Panasonic公式 洗濯機 自動投入（製品画像・タンク図解）"
   },
   {
     "genre": "冷蔵庫",
@@ -121,7 +129,9 @@
       "コントラスト"
     ],
     "answer": "コントラスト。",
-    "detail": "技術名そのものではなく、映像のどこが変わるのかまで説明する。"
+    "detail": "技術名そのものではなく、映像のどこが変わるのかまで説明する。",
+    "refUrl": "https://www.sony.jp/bravia/xr/",
+    "refLabel": "ソニー公式 BRAVIA XR（Mini LED・有機ELの画像・技術図解）"
   },
   {
     "genre": "テレビ",
@@ -131,7 +141,9 @@
       "上"
     ],
     "answer": "上と決めること。",
-    "detail": "黒表現、明るさ、視聴環境、ゲーム用途など、客の重視点で向き不向きを整理する。"
+    "detail": "黒表現、明るさ、視聴環境、ゲーム用途など、客の重視点で向き不向きを整理する。",
+    "refUrl": "https://www.sony.jp/bravia/xr/",
+    "refLabel": "ソニー公式 BRAVIA XR（Mini LED・有機ELの画像・技術図解）"
   },
   {
     "genre": "エアコン",
@@ -211,7 +223,9 @@
       "スキャン"
     ],
     "answer": "スキャンする客。",
-    "detail": "ADFがあること自体より「何枚も原稿を1枚ずつ置く手間が減る」と説明する。"
+    "detail": "ADFがあること自体より「何枚も原稿を1枚ずつ置く手間が減る」と説明する。",
+    "refUrl": "https://www.epson.jp/products/printer/cpnavi/",
+    "refLabel": "エプソン公式 プリンターお探しナビ（ADFなど機能・製品画像）"
   },
   {
     "genre": "カメラ",
@@ -261,7 +275,9 @@
       "共通点"
     ],
     "answer": "共通点。",
-    "detail": "例：「容量は同じ。Aだけ自動投入あり。毎日洗濯するならAの方が手間を減らせる」のように組み立てる。"
+    "detail": "例：「容量は同じ。Aだけ自動投入あり。毎日洗濯するならAの方が手間を減らせる」のように組み立てる。",
+    "refUrl": "https://panasonic.jp/wash/feature/FA/auto.html",
+    "refLabel": "Panasonic公式 洗濯機 自動投入（製品画像・タンク図解）"
   },
   {
     "genre": "接客実践",
