@@ -131,7 +131,9 @@
       "コントラスト"
     ],
     "answer": "コントラスト。",
-    "detail": "Mini LEDも液晶テレビの一種。OLEDとは発光方式そのものが異なる。"
+    "detail": "Mini LEDも液晶テレビの一種。OLEDとは発光方式そのものが異なる。",
+    "refUrl": "https://www.sony.jp/bravia/xr/",
+    "refLabel": "ソニー公式 BRAVIA XR（Mini LED・有機ELの画像・技術図解）"
   },
   {
     "genre": "テレビ",
@@ -141,7 +143,9 @@
       "予算"
     ],
     "answer": "予算。",
-    "detail": "方式だけで優劣を決めず、明るい部屋、映画、ゲームなど用途を聞いて比較する。"
+    "detail": "方式だけで優劣を決めず、明るい部屋、映画、ゲームなど用途を聞いて比較する。",
+    "refUrl": "https://www.sony.jp/bravia/xr/",
+    "refLabel": "ソニー公式 BRAVIA XR（Mini LED・有機ELの画像・技術図解）"
   },
   {
     "genre": "テレビ",
@@ -237,7 +241,9 @@
       "スキャナー"
     ],
     "answer": "スキャナーへ送る機能。",
-    "detail": "書類を何枚もコピー・スキャンする客には重要。両面ADF対応かも機種差になる。"
+    "detail": "書類を何枚もコピー・スキャンする客には重要。両面ADF対応かも機種差になる。",
+    "refUrl": "https://www.epson.jp/products/printer/cpnavi/",
+    "refLabel": "エプソン公式 プリンターお探しナビ（ADFなど機能・製品画像）"
   },
   {
     "genre": "Wi-Fi・ルーター",
