@@ -1,32 +1,6 @@
 [
   {
     "genre": "換気扇・レンジフード",
-    "q": "プロペラファンとシロッコファンの大きな違いは？",
-    "blank": "プロペラは外壁へ直接排気、シロッコは（　）を通して排気しやすい。",
-    "answers": [
-      "ダクト"
-    ],
-    "answer": "ダクト。",
-    "detail": "Panasonic公式では、プロペラファンは直接排気できる戸建て等、シロッコファンはダクト排気や高層住宅などに適すると説明している。",
-    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/81828/related/1",
-    "refLabel": "Panasonic公式 プロペラファンとシロッコファンの違い",
-    "imageUrl": "https://sumai.panasonic.jp/air/kanki/rangehood/",
-    "imageAlt": "Panasonic公式 換気扇・レンジフード参考画像"
-  },
-  {
-    "genre": "換気扇・レンジフード",
-    "q": "外壁へ直接排気できない場所で候補になりやすいのは？",
-    "blank": "（　）ファン＋ダクト施工。",
-    "answers": [
-      "シロッコ"
-    ],
-    "answer": "シロッコファン。",
-    "detail": "天井裏などへダクトを通して屋外へ排気できる。機種・現場によって施工条件は異なる。",
-    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/81828/related/1",
-    "refLabel": "Panasonic公式 ファン方式・施工図"
-  },
-  {
-    "genre": "換気扇・レンジフード",
     "q": "レンジフードの換気連動は、IHと電線で直接つながって動く機能？",
     "blank": "Panasonicの換気連動では主に（　）信号を利用する。",
     "answers": [
