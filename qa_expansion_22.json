@@ -1,0 +1,162 @@
+[
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのDCP-Jから始まる機種は、売場では何系として覚えると分かりやすい？",
+    "blank": "インクジェットの（　）系。",
+    "answers": [
+      "複合機"
+    ],
+    "answer": "複合機。",
+    "detail": "Brother公式ではDCP-J529Nなどを『プリンター・コピー・スキャナー』のA4カラー複合機として掲載。DCP＝単機能プリンターではない点に注意。",
+    "refUrl": "https://www.brother.co.jp/product/printer/inkjet/index.aspx",
+    "refLabel": "Brother公式 インクジェットプリンター・複合機"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのMFC-Jは全部『電話機付き複合機』？",
+    "blank": "（　）。FAXのみのMFC-Jと、電話付きのMFC-Jがある。",
+    "answers": [
+      "違う"
+    ],
+    "answer": "違う。",
+    "detail": "例：MFC-J4450Nはプリンター・コピー・スキャナー・FAX。MFC-J4950DNはFAX・電話付き。MFCだけで電話機付きとは断定しない。",
+    "refUrl": "https://www.brother.co.jp/product/printer/inkjet/index.aspx",
+    "refLabel": "Brother公式 インクジェット製品一覧"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "Brotherで『MFC』から始まる型番を見たとき、まず期待できる追加機能は？",
+    "blank": "DCP系に加えて（　）機能を持つモデルが中心。",
+    "answers": [
+      "FAX"
+    ],
+    "answer": "FAX。",
+    "detail": "現行例ではMFC-J4450Nなどがプリンター・コピー・スキャナー・FAX。電話機能の有無は末尾を含む個別仕様で確認する。"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのMFC-J4950DNのようなモデルは？",
+    "blank": "プリンター・コピー・スキャナー・FAXに加えて（　）付き。",
+    "answers": [
+      "電話"
+    ],
+    "answer": "電話付き。",
+    "detail": "Brother公式でFAX・電話付として掲載されている。MFC-Jでも電話なし機種があるので型番だけで一括判断しない。",
+    "refUrl": "https://www.brother.co.jp/product/printer/inkjet/index.aspx",
+    "refLabel": "Brother公式 MFC-J製品一覧"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのHLから始まるモデルは何系として覚える？",
+    "blank": "基本的に単機能（　）系。",
+    "answers": [
+      "プリンター"
+    ],
+    "answer": "プリンター系。",
+    "detail": "Brother公式ではHL-J5113NをA4カラープリンター、HL-L系をレーザープリンターとして分類している。",
+    "refUrl": "https://www.brother.co.jp/product/printer/index.aspx",
+    "refLabel": "Brother公式 プリンター製品情報"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのADSから始まる型番は？",
+    "blank": "ドキュメント（　）。",
+    "answers": [
+      "スキャナー"
+    ],
+    "answer": "ドキュメントスキャナー。",
+    "detail": "ADS-1800W、ADS-4300NなどはBrother公式でドキュメントスキャナーに分類されている。",
+    "refUrl": "https://www.brother.co.jp/product/scanner/index.aspx",
+    "refLabel": "Brother公式 スキャナー"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのDCP-Lから始まるモデルは？",
+    "blank": "主にレーザー/LED系の（　）。",
+    "answers": [
+      "複合機"
+    ],
+    "answer": "複合機。",
+    "detail": "Brother公式対応表ではDCP-L2600DWなどをモノクロレーザー複合機として分類。"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのMFC-Lから始まるモデルは？",
+    "blank": "レーザー/LED系の（　）で、FAX等を備えるモデルが中心。",
+    "answers": [
+      "複合機"
+    ],
+    "answer": "複合機。",
+    "detail": "MFC-L2860DWなどはモノクロレーザー複合機。カラー複合機にもMFC-L型番がある。"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "Brother型番のJとLは、売場でどう切り分けると便利？",
+    "blank": "Jは主に（　）、Lは主にレーザー/LED系。",
+    "answers": [
+      "インクジェット"
+    ],
+    "answer": "インクジェット。",
+    "detail": "公式対応表でもDCP-J/HL-J/MFC-Jをインクジェット、HL-L/DCP-L/MFC-Lをレーザー/LED系として分類している。"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "BrotherのDCP-J529Nを『プリンターだけの機種』と案内してよい？",
+    "blank": "（　）。コピー・スキャンもできる複合機。",
+    "answers": [
+      "だめ"
+    ],
+    "answer": "だめ。",
+    "detail": "DCP-J529Nはプリンター・コピー・スキャナーのA4カラー複合機。"
+  },
+  {
+    "genre": "接客実践",
+    "q": "客『Brotherで電話はいらないけどFAXは欲しい』。MFCなら何でもよい？",
+    "blank": "（　）。電話付き/なしを個別仕様で確認する。",
+    "answers": [
+      "よくない"
+    ],
+    "answer": "よくない。",
+    "detail": "MFC-JにはFAXのみのモデルとFAX・電話付きモデルの両方がある。"
+  },
+  {
+    "genre": "接客実践",
+    "q": "客『FAXも電話もいらない。印刷・コピー・スキャンが欲しい』。Brotherでまず見る系列は？",
+    "blank": "（　）系。",
+    "answers": [
+      "DCP"
+    ],
+    "answer": "DCP系。",
+    "detail": "DCP-Jの代表モデルはプリンター・コピー・スキャナー構成。インクジェットかレーザーかも続けて確認する。"
+  },
+  {
+    "genre": "接客実践",
+    "q": "客『コピーもスキャンもいらない。印刷だけ』。Brotherでまず見る系列は？",
+    "blank": "（　）系。",
+    "answers": [
+      "HL"
+    ],
+    "answer": "HL系。",
+    "detail": "HL-J/HL-LはBrother公式でプリンターとして分類される。インクジェット/レーザー、カラー/モノクロを続けて絞る。"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "Brotherの型番だけで機能を100%断定してよい？",
+    "blank": "（　）。系列から大まかに推測し、最終的には仕様確認。",
+    "answers": [
+      "よくない"
+    ],
+    "answer": "よくない。",
+    "detail": "MFC-Jでも電話付き/なしが分かれるなど例外・差がある。型番は売場での一次判別に使い、正確な機能は公式仕様で確認する。"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "Brother型番を覚える売場向けの基本整理は？",
+    "blank": "DCP＝複合機、MFC＝FAX系複合機、HL＝（　）、ADS＝スキャナー。",
+    "answers": [
+      "プリンター"
+    ],
+    "answer": "プリンター。",
+    "detail": "さらにJ＝主にインクジェット、L＝主にレーザー/LED系として整理すると候補を素早く絞れる。MFCの電話有無などは個別確認する。"
+  }
+]
