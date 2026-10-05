@@ -8,8 +8,8 @@
     ],
     "answer": "フード。",
     "detail": "『ひもなら換気扇、電源連動なら必ずレンジフード』だけで断定せず、既設機器の型番・形状・施工状態まで確認する。",
-    "refUrl": "https://sumai.panasonic.jp/air/kanki/kankisen/",
-    "refLabel": "Panasonic公式 一般用・台所用換気扇",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
     "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
   },
@@ -22,8 +22,8 @@
     ],
     "answer": "排気する換気設備。",
     "detail": "レンジフードには複数の形状・ファン方式・操作方式があり、コンロとの換気連動に対応する機種もある。",
-    "refUrl": "https://sumai.panasonic.jp/air/kanki/rangehood/",
-    "refLabel": "Panasonic公式 レンジフード",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
     "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
   },
@@ -36,8 +36,8 @@
     ],
     "answer": "換気連動機能。",
     "detail": "対応する調理機器とレンジフードの組み合わせでは、運転・停止や照明などを連動できる。組み合わせにより連動内容は異なる。",
-    "refUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
-    "refLabel": "Panasonic公式 IH・レンジフード換気連動",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
     "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
   },
@@ -51,7 +51,9 @@
     "answer": "よくない。",
     "detail": "現場では型番・形状・配線・ダクト・既設開口などを確認する。連動対応レンジフードは実在するが、電源条件だけを定義にはしない。",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
-    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
+    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   },
   {
     "genre": "換気扇・レンジフード",
@@ -62,8 +64,8 @@
     ],
     "answer": "ある。",
     "detail": "例えばFY-25VE6などはシャッターが引きひも連動式。既設がひも式なら一般換気扇の可能性を判断する材料になる。",
-    "refUrl": "https://panasonic.jp/work/products/FY-25VE6/spec.html",
-    "refLabel": "Panasonic公式 FY-25VE6 仕様",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/61557",
     "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図"
   },
@@ -76,8 +78,8 @@
     ],
     "answer": "なりやすい。",
     "detail": "『必ずすぐ付く』とは言い切らない。Panasonic公式でも一般換気扇には埋込寸法や設置不可条件が指定されている。",
-    "refUrl": "https://sumai.panasonic.jp/air/kanki/kankisen/",
-    "refLabel": "Panasonic公式 一般用・台所用換気扇",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
     "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
   },
@@ -91,7 +93,9 @@
     "answer": "よくない。",
     "detail": "同じ25cm羽根でも埋込寸法など施工条件がある。フード内では使用できない樹脂製機種もあるため、型番と設置状態を見る。",
     "imageUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/61557",
-    "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図"
+    "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   },
   {
     "genre": "換気扇・レンジフード",
@@ -102,8 +106,8 @@
     ],
     "answer": "工事内容が変わるため。",
     "detail": "レンジフードは単体換気扇より施工条件が多い。高額になる可能性もあるため、販売時は現場条件を確認し、必要に応じて見積もりへつなぐ。",
-    "refUrl": "https://sumai.panasonic.jp/air/kanki/rangehood/",
-    "refLabel": "Panasonic公式 レンジフード",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
     "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
   },
@@ -115,7 +119,9 @@
       "形状"
     ],
     "answer": "形状。",
-    "detail": "『ひもを引くプロペラ式』『コンロ上の大きなフード』『コンロと連動する』などを聞くと切り分けやすい。"
+    "detail": "『ひもを引くプロペラ式』『コンロ上の大きなフード』『コンロと連動する』などを聞くと切り分けやすい。",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   },
   {
     "genre": "接客実践",
@@ -127,7 +133,9 @@
     "answer": "型番。",
     "detail": "同等タイプへの交換候補を探しやすいが、現場条件を確認してから取付可否を案内する。",
     "imageUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/61557",
-    "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図"
+    "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   },
   {
     "genre": "接客実践",
@@ -138,8 +146,8 @@
     ],
     "answer": "連動対応。",
     "detail": "買い替え後も連動を希望するなら、新しいレンジフードとIH/ガスコンロの組み合わせ対応を確認する。",
-    "refUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
-    "refLabel": "Panasonic公式 換気連動",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
     "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
   },
@@ -153,7 +161,9 @@
     "answer": "しない。",
     "detail": "Panasonicも他社製IH・ガスコンロとの組み合わせでは連動しない場合があると案内している。",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
-    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
+    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   },
   {
     "genre": "換気扇・レンジフード",
@@ -164,8 +174,8 @@
     ],
     "answer": "よくない。",
     "detail": "Panasonicは一部樹脂製台所用換気扇についてキッチンフード内不可、フード内では金属製換気扇を使用するよう案内している。",
-    "refUrl": "https://sumai.panasonic.jp/air/kanki/kankisen/",
-    "refLabel": "Panasonic公式 一般用・台所用換気扇",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）",
     "imageUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/61557",
     "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図"
   },
@@ -179,7 +189,9 @@
     "answer": "よくない。",
     "detail": "Panasonicの一般換気扇工事説明書でも、配線工事は電気工事士が確実に行うよう指定されている。",
     "imageUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/61557",
-    "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図"
+    "imageAlt": "Panasonic公式 一般換気扇・引きひも参考図",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   },
   {
     "genre": "接客実践",
@@ -191,7 +203,9 @@
     "answer": "見積もり。",
     "detail": "幅・ダクト・電源・幕板・連動・既設機器の撤去などで工事内容が変わるため、現場条件が不明なら見積もりを優先する。",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
-    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
+    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   },
   {
     "genre": "接客実践",
@@ -203,6 +217,8 @@
     "answer": "寸法。",
     "detail": "最後に設置条件と工事内容を確認し、単純交換か見積もりが必要な工事か判断する。",
     "imageUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
-    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図"
+    "imageAlt": "Panasonic公式 レンジフード・IH換気連動参考図",
+    "refUrl": "https://sumai.panasonic.jp/support/call/kakunin/kitchen.html",
+    "refLabel": "Panasonic公式 レンジフード確認ポイント（写真例）"
   }
 ]
