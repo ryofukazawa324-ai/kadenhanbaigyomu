@@ -229,7 +229,9 @@
     "answer": "手入れ。",
     "detail": "自動掃除の対象範囲を確認する。『完全メンテナンスフリー』として説明しない。",
     "refUrl": "https://panasonic.jp/aircon/feature/clean.html",
-    "refLabel": "Panasonic公式 エオリア 清潔・フィルターお掃除（画像・図解）"
+    "refLabel": "Panasonic公式 エオリア 清潔・フィルターお掃除（画像・図解）",
+    "imageUrl": "https://panasonic.jp/housing-aircon/feature/built-in.html",
+    "imageAlt": "Panasonic公式 エアコン 配管・施工参考画像"
   },
   {
     "genre": "プリンター",
