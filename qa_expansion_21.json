@@ -1,0 +1,174 @@
+[
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "プロペラファンとシロッコファンの大きな違いは？",
+    "blank": "プロペラは外壁へ直接排気、シロッコは（　）を通して排気しやすい。",
+    "answers": [
+      "ダクト"
+    ],
+    "answer": "ダクト。",
+    "detail": "Panasonic公式では、プロペラファンは直接排気できる戸建て等、シロッコファンはダクト排気や高層住宅などに適すると説明している。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/81828/related/1",
+    "refLabel": "Panasonic公式 プロペラファンとシロッコファンの違い"
+  },
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "外壁へ直接排気できない場所で候補になりやすいのは？",
+    "blank": "（　）ファン＋ダクト施工。",
+    "answers": [
+      "シロッコ"
+    ],
+    "answer": "シロッコファン。",
+    "detail": "天井裏などへダクトを通して屋外へ排気できる。機種・現場によって施工条件は異なる。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/81828/related/1",
+    "refLabel": "Panasonic公式 ファン方式・施工図"
+  },
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "レンジフードの換気連動は、IHと電線で直接つながって動く機能？",
+    "blank": "Panasonicの換気連動では主に（　）信号を利用する。",
+    "answers": [
+      "赤外線"
+    ],
+    "answer": "赤外線。",
+    "detail": "Panasonic公式FAQでは家製協フォーマット36.7kHzの赤外線方式と案内されている。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/89945/",
+    "refLabel": "Panasonic公式 換気連動システム"
+  },
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "換気連動対応IHなら、古いレンジフードでも必ず連動する？",
+    "blank": "（　）。レンジフード側の対応状況も確認する。",
+    "answers": [
+      "しない"
+    ],
+    "answer": "しない。",
+    "detail": "製造時期・機種などによって連動可否が異なるため、既設レンジフードの品番確認が重要。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/89968/",
+    "refLabel": "Panasonic公式 既設レンジフードの換気連動"
+  },
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "一般換気扇の羽根径20cmでも、開口寸法は20cm角とは限らない？",
+    "blank": "（　）。例えばFY-20K6BLは埋込寸法250mm角。",
+    "answers": [
+      "限らない"
+    ],
+    "answer": "限らない。",
+    "detail": "羽根径と壁の開口・埋込寸法は別項目。交換時は既設型番や埋込寸法を確認する。",
+    "refUrl": "https://panasonic.jp/work/products/FY-20K6BL/spec.html",
+    "refLabel": "Panasonic公式 FY-20K6BL仕様"
+  },
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "引きひも式一般換気扇の交換で、羽根径だけ合わせればよい？",
+    "blank": "（　）。埋込寸法や設置条件も確認する。",
+    "answers": [
+      "よくない"
+    ],
+    "answer": "よくない。",
+    "detail": "同じ羽根径でも施工条件を確認する。既設品番の確認が最も確実。",
+    "refUrl": "https://panasonic.jp/work/products/FY-20VE6/spec.html",
+    "refLabel": "Panasonic公式 一般換気扇仕様"
+  },
+  {
+    "genre": "接客実践",
+    "q": "客『換気扇は20cmです』。その情報だけで商品を確定してよい？",
+    "blank": "（　）。型番・埋込寸法・設置場所も確認する。",
+    "answers": [
+      "よくない"
+    ],
+    "answer": "よくない。",
+    "detail": "羽根径20cmと埋込寸法は同じ意味ではない。写真と型番があると選定しやすい。"
+  },
+  {
+    "genre": "接客実践",
+    "q": "レンジフード交換で、既存がプロペラ式だった。新しいシロッコ式へ必ず簡単に交換できる？",
+    "blank": "（　）。ダクト・開口・電源・幕板など施工確認が必要。",
+    "answers": [
+      "限らない"
+    ],
+    "answer": "限らない。",
+    "detail": "ファン方式が変わると排気経路も変わる可能性があるため、現場見積もりにつなげる。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/81828/related/1",
+    "refLabel": "Panasonic公式 ファン方式の違い"
+  },
+  {
+    "genre": "接客実践",
+    "q": "レンジフードとIHを同時交換。連動を希望されたら何を確認する？",
+    "blank": "IH側とレンジフード側の（　）対応。",
+    "answers": [
+      "換気連動"
+    ],
+    "answer": "換気連動対応。",
+    "detail": "メーカーや機種の組み合わせによって信号が合わない場合がある。",
+    "refUrl": "https://sumai.panasonic.jp/ihcook/feature/detail.php?id=kanki",
+    "refLabel": "Panasonic公式 IH・レンジフード換気連動"
+  },
+  {
+    "genre": "接客実践",
+    "q": "客『今のレンジフードがIHと連動している』。交換時に重要なのは？",
+    "blank": "新しい機種でも同じ（　）を維持できるか確認する。",
+    "answers": [
+      "連動"
+    ],
+    "answer": "連動。",
+    "detail": "既存機能を落としてしまわないよう、現在使っている機能をヒアリングする。"
+  },
+  {
+    "genre": "エアコン工事",
+    "q": "隠蔽配管なら、既設配管は絶対に再利用できない？",
+    "blank": "（　）。条件が合えば再利用できる場合がある。",
+    "answers": [
+      "違う"
+    ],
+    "answer": "違う。",
+    "detail": "Panasonic公式では既設配管を再利用可能としているが、設置環境・機種によって不可または配管洗浄が必要な場合がある。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9719/p/1747",
+    "refLabel": "Panasonic公式 隠蔽配管の再利用"
+  },
+  {
+    "genre": "エアコン工事",
+    "q": "隠蔽配管の再利用で、可否が現場ごとに変わる理由は？",
+    "blank": "配管状態や設置環境、新機種の（　）条件が異なるため。",
+    "answers": [
+      "施工"
+    ],
+    "answer": "施工条件。",
+    "detail": "隠蔽だから一律不可・一律再利用可とは判断しない。販売店や施工担当へ確認する。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/9719/p/1747",
+    "refLabel": "Panasonic公式 既設配管再利用"
+  },
+  {
+    "genre": "接客実践",
+    "q": "客『壁の中の配管はそのまま使えますか？』。最適な答えは？",
+    "blank": "『再利用できる場合がありますが、設置条件を（　）します』。",
+    "answers": [
+      "確認"
+    ],
+    "answer": "確認します。",
+    "detail": "即答で保証せず、既設配管の状態や新機種との適合を確認する。"
+  },
+  {
+    "genre": "エアコン工事",
+    "q": "引越しや別室へのエアコン移設は、メーカー公式ではどう案内されている？",
+    "blank": "販売店へ（　）する。",
+    "answers": [
+      "相談"
+    ],
+    "answer": "相談する。",
+    "detail": "Panasonicは引越しや別室へ移設する場合、販売店への相談を案内している。",
+    "refUrl": "https://panasonic.jp/aircon/support.html",
+    "refLabel": "Panasonic公式 エアコンサポート"
+  },
+  {
+    "genre": "接客実践",
+    "q": "工事商品で『たぶん付く』のまま受注するより優先することは？",
+    "blank": "写真・型番・寸法・施工条件を確認し、必要なら（　）を取る。",
+    "answers": [
+      "見積もり"
+    ],
+    "answer": "見積もり。",
+    "detail": "エアコン、レンジフード、換気扇などは本体だけでなく既設設備と施工条件で工事内容が変わる。"
+  }
+]
