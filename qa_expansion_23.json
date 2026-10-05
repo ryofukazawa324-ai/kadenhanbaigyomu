@@ -94,54 +94,6 @@
     "refLabel": "Canon公式 インクジェットFAQ"
   },
   {
-    "genre": "型番・売場知識",
-    "q": "BrotherのHL-Lは公式分類では何系？",
-    "blank": "主にレーザー/LEDの単機能（　）。",
-    "answers": [
-      "プリンター"
-    ],
-    "answer": "プリンター。",
-    "detail": "Brother公式対応表ではHL-Lをモノクロレーザープリンターまたはカラープリンター（レーザー/LED）として分類。",
-    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
-    "refLabel": "Brother公式 製品分類"
-  },
-  {
-    "genre": "型番・売場知識",
-    "q": "BrotherのDCP-Lは公式分類では何系？",
-    "blank": "モノクロレーザー（　）。",
-    "answers": [
-      "複合機"
-    ],
-    "answer": "複合機。",
-    "detail": "Brother公式対応表ではDCP-Lをモノクロレーザー複合機として分類している。",
-    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
-    "refLabel": "Brother公式 製品分類"
-  },
-  {
-    "genre": "型番・売場知識",
-    "q": "BrotherのMFC-Lはレーザー系でも存在する？",
-    "blank": "（　）。モノクロ・カラー複合機にMFC-Lがある。",
-    "answers": [
-      "する"
-    ],
-    "answer": "する。",
-    "detail": "MFC-L2860DWなどのモノクロレーザー複合機、MFC-L3780CDWなどのカラー複合機が公式対応表に掲載されている。",
-    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
-    "refLabel": "Brother公式 製品分類"
-  },
-  {
-    "genre": "型番・売場知識",
-    "q": "BrotherのADSは何系？",
-    "blank": "ドキュメント（　）。",
-    "answers": [
-      "スキャナー"
-    ],
-    "answer": "ドキュメントスキャナー。",
-    "detail": "公式対応表ではADS-4300N、ADS-4700W、ADS-4900Wなどをドキュメントスキャナーとして分類。",
-    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
-    "refLabel": "Brother公式 製品分類"
-  },
-  {
     "genre": "接客実践",
     "q": "型番を覚える一番のメリットは？",
     "blank": "商品を見ただけでカテゴリや機能を（　）し、確認を速くできる。",
