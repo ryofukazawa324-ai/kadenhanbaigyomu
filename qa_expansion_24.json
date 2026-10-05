@@ -1,0 +1,112 @@
+[
+  {
+    "genre": "プリンター型番",
+    "q": "Brotherの型番と製品タイプを①→②→③の順に合わせる",
+    "blank": "各型番に合う製品タイプを選択。",
+    "matchOptions": [
+      "プリンター・コピー・スキャン複合機",
+      "FAX系複合機",
+      "単機能プリンター"
+    ],
+    "matchItems": [
+      {
+        "label": "DCP",
+        "answer": "プリンター・コピー・スキャン複合機"
+      },
+      {
+        "label": "MFC",
+        "answer": "FAX系複合機"
+      },
+      {
+        "label": "HL",
+        "answer": "単機能プリンター"
+      }
+    ],
+    "answer": "①DCP＝プリンター・コピー・スキャン複合機　②MFC＝FAX系複合機　③HL＝単機能プリンター",
+    "detail": "MFCはFAX系複合機だが、電話機能は機種ごとに確認する。",
+    "refUrl": "https://www.brother.co.jp/product/printer/index.aspx",
+    "refLabel": "Brother公式 プリンター製品情報"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "Brotherの型番記号とカテゴリを①→②→③の順に合わせる",
+    "blank": "それぞれ最も近い分類を選択。",
+    "matchOptions": [
+      "主にインクジェット",
+      "主にレーザー/LED",
+      "ドキュメントスキャナー"
+    ],
+    "matchItems": [
+      {
+        "label": "J",
+        "answer": "主にインクジェット"
+      },
+      {
+        "label": "L",
+        "answer": "主にレーザー/LED"
+      },
+      {
+        "label": "ADS",
+        "answer": "ドキュメントスキャナー"
+      }
+    ],
+    "answer": "①J＝主にインクジェット　②L＝主にレーザー/LED　③ADS＝ドキュメントスキャナー",
+    "detail": "型番から一次判別し、最終的な機能は個別仕様で確認する。",
+    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
+    "refLabel": "Brother公式 製品分類"
+  },
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "換気設備の特徴を①→②→③の順に合わせる",
+    "blank": "設備・方式に合う特徴を選択。",
+    "matchOptions": [
+      "外壁へ直接排気しやすい",
+      "ダクト排気に向く",
+      "コンロ操作と連動できる機種がある"
+    ],
+    "matchItems": [
+      {
+        "label": "プロペラファン",
+        "answer": "外壁へ直接排気しやすい"
+      },
+      {
+        "label": "シロッコファン",
+        "answer": "ダクト排気に向く"
+      },
+      {
+        "label": "レンジフード",
+        "answer": "コンロ操作と連動できる機種がある"
+      }
+    ],
+    "answer": "①プロペラ＝直接排気　②シロッコ＝ダクト排気　③レンジフード＝換気連動対応機あり",
+    "detail": "現場では型番・排気経路・電源・施工条件も確認する。",
+    "refUrl": "https://sumai.panasonic.jp/air/kanki/rangehood/",
+    "refLabel": "Panasonic公式 レンジフード"
+  },
+  {
+    "genre": "接客実践",
+    "q": "工事商品の確認項目を①→②→③の順に合わせる",
+    "blank": "各商品で特に重要な確認ポイントを選択。",
+    "matchOptions": [
+      "既設配管・電源・室外機置場",
+      "ダクト・幅・幕板・連動",
+      "埋込寸法・取付枠・電源"
+    ],
+    "matchItems": [
+      {
+        "label": "エアコン",
+        "answer": "既設配管・電源・室外機置場"
+      },
+      {
+        "label": "レンジフード",
+        "answer": "ダクト・幅・幕板・連動"
+      },
+      {
+        "label": "一般換気扇",
+        "answer": "埋込寸法・取付枠・電源"
+      }
+    ],
+    "answer": "①エアコン＝配管等　②レンジフード＝ダクト等　③一般換気扇＝埋込寸法等",
+    "detail": "単純な本体選びではなく、既設設備と施工条件まで確認する。"
+  }
+]
