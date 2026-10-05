@@ -1,0 +1,174 @@
+[
+  {
+    "genre": "型番・売場知識",
+    "q": "Panasonicの家庭用ルームエアコンで、室内機の品番の先頭は？",
+    "blank": "（　）-X221Dのように表記される。",
+    "answers": [
+      "CS"
+    ],
+    "answer": "CS。",
+    "detail": "Panasonic公式の品番検索でも室内機の例はCS-X221D-W。型番確認では色記号まで含めず本体系列を見ることもある。",
+    "refUrl": "https://panasonic.jp/aircon/rc.html",
+    "refLabel": "Panasonic公式 エアコン品番記載箇所"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "Panasonicエアコン CS-X221D-W の末尾 -W は何を示す？",
+    "blank": "本体の（　）記号。",
+    "answers": [
+      "色"
+    ],
+    "answer": "色記号。",
+    "detail": "Panasonic公式の品番検索では-W、-C、-N等を色記号として扱っている。",
+    "refUrl": "https://panasonic.jp/aircon/rc.html",
+    "refLabel": "Panasonic公式 エアコン品番検索"
+  },
+  {
+    "genre": "接客実践",
+    "q": "Panasonicエアコンの型番を客に確認してもらうとき、どこを見る？",
+    "blank": "（　）に記載された品番を確認する。",
+    "answers": [
+      "室内機"
+    ],
+    "answer": "室内機。",
+    "detail": "Panasonic公式では室内機底面の品番記載位置を画像で案内している。",
+    "refUrl": "https://panasonic.jp/aircon/rc.html",
+    "refLabel": "Panasonic公式 品番記載位置"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "Panasonic冷蔵庫の現行型番で共通して見かける先頭記号は？",
+    "blank": "（　）-F52BR3 など。",
+    "answers": [
+      "NR"
+    ],
+    "answer": "NR。",
+    "detail": "公式比較表ではNR-E41RY3、NR-F52BR3、NR-C37WS2などが掲載されている。",
+    "refUrl": "https://panasonic.jp/reizo/comparison.html",
+    "refLabel": "Panasonic公式 冷蔵庫比較表"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "Panasonic冷蔵庫 NR-E47BR3L の末尾Lは何の判断材料になる？",
+    "blank": "（　）開きモデル。",
+    "answers": [
+      "左"
+    ],
+    "answer": "左開き。",
+    "detail": "公式比較表ではNR-E47BR3が右開き、NR-E47BR3Lが左開きとして掲載されている。",
+    "refUrl": "https://panasonic.jp/reizo/comparison.html",
+    "refLabel": "Panasonic公式 冷蔵庫比較表"
+  },
+  {
+    "genre": "接客実践",
+    "q": "冷蔵庫の型番末尾にLがあるのを見て、メーカーを問わず左開きと断定してよい？",
+    "blank": "（　）。メーカーごとの型番ルールを確認する。",
+    "answers": [
+      "よくない"
+    ],
+    "answer": "よくない。",
+    "detail": "Panasonicの現行比較表ではLが左開きの例があるが、型番記号の意味はメーカー・シリーズごとに確認する。"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "Canonインクジェットで見かける代表的なシリーズ記号は？",
+    "blank": "XK、TS、TR、G/GM、（　）など。",
+    "answers": [
+      "GX"
+    ],
+    "answer": "GX。",
+    "detail": "Canon公式FAQではXK、TS、TR、MG、G/GM、GX、MBなどのシリーズ別に案内されている。",
+    "refUrl": "https://faq.canon.jp/app/answers/detail/a_id/104937/",
+    "refLabel": "Canon公式 インクジェット製品シリーズ"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "Canonプリンターで『TS』という記号だけを見て、搭載機能を全部断定できる？",
+    "blank": "（　）。シリーズ内でも機種により機能が異なる。",
+    "answers": [
+      "できない"
+    ],
+    "answer": "できない。",
+    "detail": "Canon公式もコピー機能などについて『機種により搭載機能は異なる』と案内している。型番は一次判別に使い、仕様を確認する。",
+    "refUrl": "https://faq.canon.jp/app/answers/detail/a_id/104937/",
+    "refLabel": "Canon公式 インクジェットFAQ"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "BrotherのHL-Lは公式分類では何系？",
+    "blank": "主にレーザー/LEDの単機能（　）。",
+    "answers": [
+      "プリンター"
+    ],
+    "answer": "プリンター。",
+    "detail": "Brother公式対応表ではHL-Lをモノクロレーザープリンターまたはカラープリンター（レーザー/LED）として分類。",
+    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
+    "refLabel": "Brother公式 製品分類"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "BrotherのDCP-Lは公式分類では何系？",
+    "blank": "モノクロレーザー（　）。",
+    "answers": [
+      "複合機"
+    ],
+    "answer": "複合機。",
+    "detail": "Brother公式対応表ではDCP-Lをモノクロレーザー複合機として分類している。",
+    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
+    "refLabel": "Brother公式 製品分類"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "BrotherのMFC-Lはレーザー系でも存在する？",
+    "blank": "（　）。モノクロ・カラー複合機にMFC-Lがある。",
+    "answers": [
+      "する"
+    ],
+    "answer": "する。",
+    "detail": "MFC-L2860DWなどのモノクロレーザー複合機、MFC-L3780CDWなどのカラー複合機が公式対応表に掲載されている。",
+    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
+    "refLabel": "Brother公式 製品分類"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "BrotherのADSは何系？",
+    "blank": "ドキュメント（　）。",
+    "answers": [
+      "スキャナー"
+    ],
+    "answer": "ドキュメントスキャナー。",
+    "detail": "公式対応表ではADS-4300N、ADS-4700W、ADS-4900Wなどをドキュメントスキャナーとして分類。",
+    "refUrl": "https://support.brother.co.jp/j/b/sp/oscontents.aspx?c=jp&lang=ja&ossid=48",
+    "refLabel": "Brother公式 製品分類"
+  },
+  {
+    "genre": "接客実践",
+    "q": "型番を覚える一番のメリットは？",
+    "blank": "商品を見ただけでカテゴリや機能を（　）し、確認を速くできる。",
+    "answers": [
+      "推測"
+    ],
+    "answer": "推測できる。",
+    "detail": "型番記号は一次判別に有効。ただし記号だけで最終断定せず、メーカー公式仕様で確認する。"
+  },
+  {
+    "genre": "接客実践",
+    "q": "型番知識の正しい使い方は？",
+    "blank": "型番で（　）→公式仕様で確定。",
+    "answers": [
+      "絞り込み"
+    ],
+    "answer": "絞り込み。",
+    "detail": "売場で素早く候補を絞りつつ、例外や世代差による誤案内を防ぐ。"
+  },
+  {
+    "genre": "接客実践",
+    "q": "同じアルファベットが別メーカーにもある場合、その意味は共通？",
+    "blank": "（　）。メーカー・商品カテゴリごとに意味を確認する。",
+    "answers": [
+      "限らない"
+    ],
+    "answer": "限らない。",
+    "detail": "型番記号は業界共通規格とは限らない。メーカー内でもシリーズや世代で使い方が変わる可能性がある。"
+  }
+]
