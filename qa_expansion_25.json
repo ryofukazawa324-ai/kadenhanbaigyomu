@@ -1,0 +1,136 @@
+[
+  {
+    "genre": "エアコン工事",
+    "q": "移設先で追加工事になりやすい条件を①→②→③の順に合わせる",
+    "blank": "不足・設置条件に合う工事を選択。",
+    "matchOptions": [
+      "専用回路・コンセント工事",
+      "壁穴あけ・配管経路確認",
+      "特殊な室外機設置工事"
+    ],
+    "matchItems": [
+      {
+        "label": "専用コンセントがない",
+        "answer": "専用回路・コンセント工事"
+      },
+      {
+        "label": "配管穴がない",
+        "answer": "壁穴あけ・配管経路確認"
+      },
+      {
+        "label": "屋根・壁面・天吊り設置",
+        "answer": "特殊な室外機設置工事"
+      }
+    ],
+    "answer": "①専用回路・コンセント工事　②壁穴あけ・配管経路確認　③特殊な室外機設置工事",
+    "detail": "移設は取り外し・再取付だけでなく、移設先の設備条件で追加工事が発生する可能性がある。"
+  },
+  {
+    "genre": "エアコン工事",
+    "q": "エアコン工事の種類を①→②→③の順に合わせる",
+    "blank": "状況に合う工事区分を選択。",
+    "matchOptions": [
+      "新規設置",
+      "入替工事",
+      "移設"
+    ],
+    "matchItems": [
+      {
+        "label": "今まで無かった部屋へ初めて設置",
+        "answer": "新規設置"
+      },
+      {
+        "label": "既設機を外し同じ場所へ新品設置",
+        "answer": "入替工事"
+      },
+      {
+        "label": "既設機を外し別の場所へ再設置",
+        "answer": "移設"
+      }
+    ],
+    "answer": "①新規設置　②入替工事　③移設",
+    "detail": "工事区分を先に切り分けると、必要な確認事項を整理しやすい。"
+  },
+  {
+    "genre": "換気扇・レンジフード",
+    "q": "換気設備の確認ポイントを①→②→③の順に合わせる",
+    "blank": "それぞれ特に重要な確認を選択。",
+    "matchOptions": [
+      "羽根径だけでなく埋込寸法",
+      "ダクト・幅・幕板",
+      "IH/コンロとの連動可否"
+    ],
+    "matchItems": [
+      {
+        "label": "一般換気扇交換",
+        "answer": "羽根径だけでなく埋込寸法"
+      },
+      {
+        "label": "レンジフード交換",
+        "answer": "ダクト・幅・幕板"
+      },
+      {
+        "label": "換気連動を維持",
+        "answer": "IH/コンロとの連動可否"
+      }
+    ],
+    "answer": "①埋込寸法　②ダクト・幅・幕板　③連動可否",
+    "detail": "似た換気設備でも、交換時に優先して確認する項目が異なる。",
+    "refUrl": "https://sumai.panasonic.jp/air/kanki/rangehood/",
+    "refLabel": "Panasonic公式 レンジフード"
+  },
+  {
+    "genre": "プリンター型番",
+    "q": "Brotherで客の希望と見る系列を①→②→③の順に合わせる",
+    "blank": "用途に合う系列を選択。",
+    "matchOptions": [
+      "DCP",
+      "MFC",
+      "HL"
+    ],
+    "matchItems": [
+      {
+        "label": "印刷・コピー・スキャン",
+        "answer": "DCP"
+      },
+      {
+        "label": "FAXも必要",
+        "answer": "MFC"
+      },
+      {
+        "label": "印刷だけでよい",
+        "answer": "HL"
+      }
+    ],
+    "answer": "①DCP　②MFC　③HL",
+    "detail": "MFCは電話付きとは限らない。電話の有無は個別仕様で確認する。",
+    "refUrl": "https://www.brother.co.jp/product/printer/index.aspx",
+    "refLabel": "Brother公式 プリンター製品情報"
+  },
+  {
+    "genre": "型番・売場知識",
+    "q": "メーカー型番の読み方を①→②→③の順に合わせる",
+    "blank": "型番・記号に合う意味を選択。",
+    "matchOptions": [
+      "Panasonicルームエアコン室内機",
+      "Panasonic冷蔵庫",
+      "Canonインクジェットのシリーズ記号"
+    ],
+    "matchItems": [
+      {
+        "label": "CS-",
+        "answer": "Panasonicルームエアコン室内機"
+      },
+      {
+        "label": "NR-",
+        "answer": "Panasonic冷蔵庫"
+      },
+      {
+        "label": "TS / TR / GXなど",
+        "answer": "Canonインクジェットのシリーズ記号"
+      }
+    ],
+    "answer": "①CS＝Panasonicエアコン　②NR＝Panasonic冷蔵庫　③TS/TR/GX等＝Canonインクジェット",
+    "detail": "型番は候補を素早く絞るために使い、最終的な機能は公式仕様で確認する。"
+  }
+]
