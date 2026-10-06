@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#f6f8fb"/><style>text{font-family:Arial,'Noto Sans JP',sans-serif;fill:#172033}.t{font-size:38px;font-weight:700}.h{font-size:29px;font-weight:700}.b{font-size:24px}.s{font-size:20px;fill:#566173}.box{fill:white;stroke:#d9dee8;stroke-width:2}.blue{fill:#e9f4ff}.orange{fill:#fff1df}.green{fill:#eaf8ef}</style>
+<text x="55" y="65" class="t">エアコン暖房仕様の読み方</text>
+<rect x="50" y="105" width="1100" height="150" rx="22" class="box"/><text x="85" y="155" class="h">暖房能力 5.0（0.4〜11.5）kW</text>
+<rect x="85" y="178" width="250" height="50" rx="12" class="orange"/><text x="110" y="212" class="b">5.0 = 定格能力</text>
+<rect x="370" y="178" width="290" height="50" rx="12" class="blue"/><text x="395" y="212" class="b">0.4 = 最小能力</text>
+<rect x="695" y="178" width="340" height="50" rx="12" class="green"/><text x="720" y="212" class="b">11.5 = 最大能力</text>
+<rect x="50" y="285" width="530" height="200" rx="22" class="box"/><text x="85" y="335" class="h">暖房能力 kW</text><text x="85" y="380" class="b">部屋へ届ける「暖める力」</text><text x="85" y="425" class="s">5.0 kW = 5,000 W相当の能力</text><text x="85" y="458" class="s">※5,000 Wの電気を使う意味ではない</text>
+<rect x="620" y="285" width="530" height="200" rx="22" class="box"/><text x="655" y="335" class="h">消費電力 W</text><text x="655" y="380" class="b">運転時に使う電気</text><text x="655" y="425" class="s">例：消費電力 1,170 W</text><text x="655" y="458" class="s">能力とは別欄で確認する</text>
+<rect x="50" y="520" width="1100" height="170" rx="22" class="box"/><text x="85" y="570" class="h">低温暖房能力</text><text x="85" y="615" class="b">外気温2℃時に発揮できる暖房能力。寒い日の比較ポイント。</text><text x="85" y="655" class="s">同じ畳数クラスでもシリーズによって数値が違う → 暖房重視なら要確認</text>
+<text x="50" y="730" class="s">学習用図解。具体的な数値は機種ごとのメーカー公式仕様を確認。</text></svg>
