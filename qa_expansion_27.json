@@ -25,7 +25,9 @@
     "answer": "①5.0＝定格　②0.4＝最小　③11.5＝最大",
     "detail": "同じ定格5.0kWでも、シリーズによって最小～最大の幅が異なる。仕様表ではカッコ内まで比較する。",
     "refUrl": "https://panasonic.jp/aircon/comparison.html",
-    "refLabel": "Panasonic公式 エアコン比較表"
+    "refLabel": "Panasonic公式 エアコン比較表",
+    "imageUrl": "assets/qa_ac_heating_kw.svg",
+    "imageAlt": "エアコン暖房能力・消費電力・低温暖房能力の学習図解"
   },
   {
     "genre": "エアコン・仕様表",
@@ -53,7 +55,9 @@
     "answer": "①5.0kW＝通常の暖房能力　②1,170W＝消費電力　③8.0kW＝低温暖房能力",
     "detail": "Panasonic TXシリーズ4.0kWクラスの実例。能力のkWと消費電力のWを混同しない。",
     "refUrl": "https://panasonic.jp/aircon/TXseries.html",
-    "refLabel": "Panasonic公式 TXシリーズ仕様"
+    "refLabel": "Panasonic公式 TXシリーズ仕様",
+    "imageUrl": "assets/qa_ac_heating_kw.svg",
+    "imageAlt": "エアコン暖房能力・消費電力・低温暖房能力の学習図解"
   },
   {
     "genre": "エアコン・仕様表",
@@ -65,7 +69,9 @@
     "answer": "A。",
     "detail": "同じ畳数・定格クラスでも低温暖房能力には差が出る。寒い地域や暖房重視では比較ポイントになる。",
     "refUrl": "https://panasonic.jp/aircon/feature/fulldan-heating.html",
-    "refLabel": "Panasonic公式 フル暖エオリア暖房比較"
+    "refLabel": "Panasonic公式 フル暖エオリア暖房比較",
+    "imageUrl": "assets/qa_ac_heating_kw.svg",
+    "imageAlt": "エアコン暖房能力・消費電力・低温暖房能力の学習図解"
   },
   {
     "genre": "エアコン・仕様表",
@@ -77,7 +83,9 @@
     "answer": "使わない。",
     "detail": "5.0kWは熱を届ける能力。電気として使う量は消費電力欄を見る。この例では定格消費電力1,170W。",
     "refUrl": "https://panasonic.jp/aircon/TXseries.html",
-    "refLabel": "Panasonic公式 TXシリーズ仕様"
+    "refLabel": "Panasonic公式 TXシリーズ仕様",
+    "imageUrl": "assets/qa_ac_heating_kw.svg",
+    "imageAlt": "エアコン暖房能力・消費電力・低温暖房能力の学習図解"
   },
   {
     "genre": "エアコン・仕様表",
@@ -89,7 +97,9 @@
     "answer": "低温暖房能力。",
     "detail": "畳数が同じでも暖房能力の幅や外気温2℃時の低温暖房能力はシリーズで異なる。",
     "refUrl": "https://panasonic.jp/aircon/comparison.html",
-    "refLabel": "Panasonic公式 エアコン比較表"
+    "refLabel": "Panasonic公式 エアコン比較表",
+    "imageUrl": "assets/qa_ac_heating_kw.svg",
+    "imageAlt": "エアコン暖房能力・消費電力・低温暖房能力の学習図解"
   },
   {
     "genre": "エアコン・仕様表",
@@ -117,7 +127,9 @@
     "answer": "①8.0＝2℃　②7.4＝-7℃　③6.3＝-15℃",
     "detail": "Panasonic TX 4.0kWクラスの仕様例。外気温がさらに低い条件の能力も仕様表で確認できる機種がある。",
     "refUrl": "https://panasonic.jp/aircon/TXseries.html",
-    "refLabel": "Panasonic公式 TXシリーズ仕様"
+    "refLabel": "Panasonic公式 TXシリーズ仕様",
+    "imageUrl": "assets/qa_ac_heating_kw.svg",
+    "imageAlt": "エアコン暖房能力・消費電力・低温暖房能力の学習図解"
   },
   {
     "genre": "接客実践",
@@ -129,6 +141,8 @@
     "answer": "部屋を暖める力。",
     "detail": "『kWは部屋を暖める力です。使う電気は別の消費電力Wを見ます。寒い日の強さは低温暖房能力も見ます』まで言えると比較につなげやすい。",
     "refUrl": "https://panasonic.jp/aircon/glossary/basic.html",
-    "refLabel": "Panasonic公式 エアコン用語集"
+    "refLabel": "Panasonic公式 エアコン用語集",
+    "imageUrl": "assets/qa_ac_heating_kw.svg",
+    "imageAlt": "エアコン暖房能力・消費電力・低温暖房能力の学習図解"
   }
 ]
