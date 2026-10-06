@@ -1,0 +1,156 @@
+[
+  {
+    "genre": "エアコン",
+    "q": "エアコンの暖房能力「2.5kW」のkWは何を表している？",
+    "blank": "暖房時に部屋へ届けられる（　）の大きさ。",
+    "answers": [
+      "熱の能力"
+    ],
+    "answer": "熱の能力。",
+    "detail": "暖房能力のkWは、エアコンが一定条件下でどれだけ部屋へ熱を届けられるかを示す。消費電力そのものではない。",
+    "refUrl": "https://panasonic.jp/aircon/glossary/basic.html",
+    "refLabel": "Panasonic公式 エアコン用語集"
+  },
+  {
+    "genre": "エアコン",
+    "q": "暖房能力2.5kWは『2500Wの電気を消費する』という意味？",
+    "blank": "（　）。能力と消費電力は別の数値。",
+    "answers": [
+      "違う"
+    ],
+    "answer": "違う。",
+    "detail": "2.5kWは暖房能力。実際に使う電力は仕様表の『消費電力（W）』を見る。ヒートポンプ式エアコンは投入した電力と暖房能力が同じ値になるわけではない。",
+    "refUrl": "https://panasonic.jp/life/air/170017.html",
+    "refLabel": "Panasonic公式 カタログの見方"
+  },
+  {
+    "genre": "エアコン",
+    "q": "暖房能力の表記が「2.5（0.4～5.2）kW」なら、2.5は何？",
+    "blank": "中心となる（　）能力。",
+    "answers": [
+      "定格"
+    ],
+    "answer": "定格能力。",
+    "detail": "中央の2.5kWが定格（中心となる能力）。カッコ内は運転状況に応じて変化できる最小～最大能力を示す。",
+    "refUrl": "https://panasonic.jp/aircon/glossary/basic.html",
+    "refLabel": "Panasonic公式 暖房能力"
+  },
+  {
+    "genre": "エアコン",
+    "q": "暖房能力「2.5（0.4～5.2）kW」の0.4～5.2は何？",
+    "blank": "暖房能力の（　）。",
+    "answers": [
+      "可変範囲"
+    ],
+    "answer": "可変範囲。",
+    "detail": "0.4kW付近まで弱く運転でき、必要時には5.2kW付近まで能力を上げられる、という見方をする。"
+  },
+  {
+    "genre": "エアコン",
+    "q": "暖房能力の最大値が大きい機種のメリットとして考えやすいのは？",
+    "blank": "運転開始時などに（　）で暖めやすい。",
+    "answers": [
+      "強いパワー"
+    ],
+    "answer": "強いパワー。",
+    "detail": "最大能力は運転開始直後など、一気に部屋を暖める際のフルパワーの目安になる。",
+    "refUrl": "https://panasonic.jp/aircon/glossary/basic.html",
+    "refLabel": "Panasonic公式 暖房能力"
+  },
+  {
+    "genre": "エアコン",
+    "q": "暖房能力の最小値が小さいことは何に関係する？",
+    "blank": "設定温度付近で（　）運転しやすい。",
+    "answers": [
+      "弱く"
+    ],
+    "answer": "弱く運転しやすい。",
+    "detail": "最小能力が低いほど、設定温度に近づいた後に弱い能力で細かく室温を維持しやすい。",
+    "refUrl": "https://panasonic.jp/aircon/glossary/basic.html",
+    "refLabel": "Panasonic公式 暖房能力"
+  },
+  {
+    "genre": "エアコン",
+    "q": "通常の暖房能力と低温暖房能力の違いは？",
+    "blank": "低温暖房能力は主に外気温（　）時の能力を見る。",
+    "answers": [
+      "2℃"
+    ],
+    "answer": "2℃。",
+    "detail": "一般的な暖房能力は外気温7℃を基準とし、低温暖房能力は外気温2℃時の寒い環境で出せる暖房能力を見る指標。",
+    "refUrl": "https://panasonic.jp/aircon/glossary/basic.html",
+    "refLabel": "Panasonic公式 暖房能力・低温暖房能力"
+  },
+  {
+    "genre": "エアコン",
+    "q": "同じ10畳用エアコンなら、寒い日の暖房性能も必ず同じ？",
+    "blank": "（　）。低温暖房能力などに差がある。",
+    "answers": [
+      "同じとは限らない"
+    ],
+    "answer": "同じとは限らない。",
+    "detail": "同じ畳数クラスでもシリーズによって最大能力や低温暖房能力が異なることがある。寒い地域・暖房重視なら比較ポイントになる。",
+    "refUrl": "https://www.ac.daikin.co.jp/roomaircon/products/e_series/spec",
+    "refLabel": "ダイキン公式 Eシリーズ仕様"
+  },
+  {
+    "genre": "エアコン",
+    "q": "暖房能力kWが大きいほど、必ず電気代も高い？",
+    "blank": "（　）。能力と消費電力・効率は別に見る。",
+    "answers": [
+      "必ずではない"
+    ],
+    "answer": "必ずではない。",
+    "detail": "暖房能力は熱を届ける能力。電気代を見るには消費電力、期間消費電力量、APFなども確認する。"
+  },
+  {
+    "genre": "エアコン",
+    "q": "エアコンの『能力2.8kW』と『消費電力890W』。実際にコンセントから使う電力として見るのは？",
+    "blank": "（　）Wの方。",
+    "answers": [
+      "890"
+    ],
+    "answer": "890W。",
+    "detail": "能力kWは冷暖房する能力、消費電力Wは電気として消費する側の数値。仕様表では別項目として掲載される。",
+    "refUrl": "https://www.ac.daikin.co.jp/roomaircon/2024/products/e_series/spec",
+    "refLabel": "ダイキン公式 エアコン仕様表"
+  },
+  {
+    "genre": "エアコン",
+    "q": "暖房能力・消費電力・低温暖房能力を①→②→③で合わせる",
+    "blank": "各数値が何を意味するか選択。",
+    "matchOptions": [
+      "部屋へ届ける暖房パワー",
+      "使用する電気の大きさ",
+      "外気温2℃時の暖房パワー"
+    ],
+    "matchItems": [
+      {
+        "label": "暖房能力 kW",
+        "answer": "部屋へ届ける暖房パワー"
+      },
+      {
+        "label": "消費電力 W",
+        "answer": "使用する電気の大きさ"
+      },
+      {
+        "label": "低温暖房能力 kW",
+        "answer": "外気温2℃時の暖房パワー"
+      }
+    ],
+    "answer": "①暖房能力＝暖房パワー　②消費電力＝使う電気　③低温暖房能力＝外気温2℃時の暖房パワー",
+    "detail": "『kWだから消費電力』と混同しないのが重要。能力にもkWという単位が使われる。",
+    "refUrl": "https://panasonic.jp/aircon/glossary/basic.html",
+    "refLabel": "Panasonic公式 エアコン用語集"
+  },
+  {
+    "genre": "接客実践",
+    "q": "客『暖房能力5kWって、5000Wも電気を使うの？』。どう説明する？",
+    "blank": "5kWは（　）で、消費電力とは別です。",
+    "answers": [
+      "暖房する能力"
+    ],
+    "answer": "暖房する能力。",
+    "detail": "『5kWは部屋へ熱を届ける能力です。電気を何W使うかは別欄の消費電力を見ます』と説明すると分かりやすい。"
+  }
+]
