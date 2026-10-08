@@ -1,0 +1,130 @@
+[
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【機器判別】『DVDプレーヤーに録画が残っている』。最初に確認するのは？",
+    "blank": "録画データがある（　）と型番。",
+    "answers": [
+      "機器"
+    ],
+    "answer": "機器。",
+    "detail": "DVDプレーヤーは原則再生用。レコーダーやテレビ、USB-HDDの録画かを確認する。"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【買い替え】テレビだけ交換し、今のレコーダーを使い続ける。レコーダー内の録画は？",
+    "blank": "レコーダー側に（　）。",
+    "answers": [
+      "残る"
+    ],
+    "answer": "残る。",
+    "detail": "HDMI接続などを再設定して旧レコーダーを使う。テレビ録画用USB-HDDとは別。"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【対応確認】お引越しダビングは全メーカー・全機種間で可能？",
+    "blank": "（　）。両機器の対応表を確認。",
+    "answers": [
+      "できない"
+    ],
+    "answer": "できない。",
+    "detail": "PanasonicやSHARPなどに機能はあるが、機種間互換は限定される。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/42885/",
+    "refLabel": "Panasonic公式 お引越しダビング"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【方法選択】①お引越し対応2台 ②お引越し非対応だがBD書き出し可 ③旧レコーダーを継続使用。対応を合わせる",
+    "blank": "条件に合う手段を選ぶ。",
+    "matchOptions": [
+      "LANでお引越しを検討",
+      "BD-RE等を使った移行を検討",
+      "移行せず従来の録画を再生"
+    ],
+    "matchItems": [
+      {
+        "label": "①両機器が対応",
+        "answer": "LANでお引越しを検討"
+      },
+      {
+        "label": "②LAN非対応・ディスク可",
+        "answer": "BD-RE等を使った移行を検討"
+      },
+      {
+        "label": "③旧機器を残す",
+        "answer": "移行せず従来の録画を再生"
+      }
+    ],
+    "answer": "①LAN ②ディスク ③旧機器を継続",
+    "detail": "実際は録画方式・コピー制限・機器型番を確認。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/42885/",
+    "refLabel": "Panasonic公式"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【所要時間】お引越しダビングは録画1時間につき必ず1時間？",
+    "blank": "（　）。機種や録画方式で異なる。",
+    "answers": [
+      "違う"
+    ],
+    "answer": "違う。",
+    "detail": "Panasonicの例では1時間DR番組を約13分または約25分で移行する機種がある。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/42885/",
+    "refLabel": "Panasonic公式"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【USB】テレビ録画の外付けHDDを新しいテレビに挿せば必ず再生できる？",
+    "blank": "（　）。著作権保護や機器登録が関係。",
+    "answers": [
+      "できない"
+    ],
+    "answer": "できない。",
+    "detail": "元の機器と紐づく場合がある。SeeQVault等も対応機種確認が必要。",
+    "refUrl": "https://jp.seeqvault.com/",
+    "refLabel": "SeeQVault公式"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【SeeQVault】対応機器同士なら再生・追記・ダビングが全部必ず可能？",
+    "blank": "（　）。用途別に対応確認。",
+    "answers": [
+      "保証されない"
+    ],
+    "answer": "保証されない。",
+    "detail": "再生互換性を高める技術だが、対応する機能は機種によって異なる。",
+    "refUrl": "https://jp.seeqvault.com/",
+    "refLabel": "SeeQVault公式"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【テレビ録画】テレビのUSB-HDD録画をレコーダーへ移せるケースはある？",
+    "blank": "対応機種なら（　）。",
+    "answers": [
+      "ある"
+    ],
+    "answer": "ある。",
+    "detail": "Panasonicビエラからディーガへのネットワークダビングなど。",
+    "refUrl": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/42729/",
+    "refLabel": "Panasonic公式"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【店頭運用】店舗で録画ディスクのデータ移行セッティングを実施している？",
+    "blank": "この店舗の運用では（　）。",
+    "answers": [
+      "実施していない"
+    ],
+    "answer": "実施していない。",
+    "detail": "ユーザー提供の店舗運用メモ。必要なら対応業者や家庭での作業を案内する。"
+  },
+  {
+    "genre": "テレビ・レコーダー",
+    "q": "【接客】録画番組の引越し相談で最初に聞くべきことは？",
+    "blank": "旧・新機器の（　）と録画先。",
+    "answers": [
+      "型番"
+    ],
+    "answer": "型番。",
+    "detail": "録画先・型番・コピー制限・LAN対応・ディスク対応を確認する。"
+  }
+]
