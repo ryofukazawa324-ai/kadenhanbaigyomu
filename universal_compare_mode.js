@@ -1,7 +1,7 @@
 (function(){
 var host=document.getElementById('app');if(!host)return;
 var btn=document.createElement('button');btn.type='button';btn.className='quickChip';btn.textContent='全ジャンル自由比較';btn.style.cssText='font-weight:700;border:2px solid #2563eb';
-var target=document.getElementById('productQuick');if(!target)return;target.parentNode.insertBefore(btn,target);
+var target=document.getElementById('productQuick');if(!target)return;document.querySelector('.compareHero').appendChild(btn);
 var pane=document.createElement('section');pane.id='universalCompare';pane.style.display='none';pane.innerHTML='<div class="compareBox"><h2>全ジャンル自由比較</h2><p>ビデオカメラとアクションカメラ、PCとタブレットなど、ジャンルを問わず横に追加できます。空欄は「—」と表示します。</p><input id="universalSearch" class="compareSearch" placeholder="機種名・メーカー・ジャンルで検索"><div id="universalChoices" class="candidatePicker" style="margin-top:12px"></div><div id="universalPicked" style="margin:12px 0"></div><div id="universalTable" style="overflow-x:auto"></div><button id="universalClear" class="quickChip" type="button">選択をすべて解除</button></div>';
 document.getElementById('compareArea').parentNode.insertBefore(pane,document.getElementById('compareArea'));
 var original=[document.querySelector('.compareControls'),document.querySelector('.compareCandidateHead'),document.getElementById('candidatePicker'),document.getElementById('compareSticky'),document.getElementById('compareArea')];var active=false,records=[],picked=[];
