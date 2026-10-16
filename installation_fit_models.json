@@ -1,0 +1,33 @@
+{
+  "washers": [
+    {
+      "name": "Panasonic NA-LX129F / LX127F / LX125F",
+      "panW": 590,
+      "panD": 540,
+      "back": 590,
+      "source": "https://panasonica.live/wash/check/space.html",
+      "note": "防水パン内寸の目安。排水口・水栓・本体外形と上部スペースは別途確認。"
+    },
+    {
+      "name": "日立 BD-STX130M / BD-SX130M",
+      "panW": 597,
+      "panD": 540,
+      "back": 597,
+      "source": "https://kadenfan.hitachi.co.jp/support/wash/item/docs/bd-stx130m_sx130m_ss_A.pdf",
+      "note": "設置場所幅620mm以上など追加条件あり。据付説明書を確認。"
+    }
+  ],
+  "fridges": [
+    {
+      "name": "Panasonic NR-F55HY2",
+      "w": 650,
+      "d": 699,
+      "h": 1850,
+      "left": 5,
+      "right": 5,
+      "top": 40,
+      "source": "https://panasonic.jp/reizo/products/NR-F55HY2/spec.html",
+      "note": "ドア開放時や搬入経路は別途確認。壁際は追加余裕が必要な場合あり。"
+    }
+  ]
+}
