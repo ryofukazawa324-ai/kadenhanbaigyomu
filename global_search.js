@@ -4,7 +4,7 @@ function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){retur
 function get(f){return fetch(f+'?v=20261012',{cache:'default'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
 var knowledge=['knowledge.json','knowledge_network.json','knowledge_mobile.json','knowledge_support_game.json','knowledge_audio_apple.json','knowledge_camera_printer.json','knowledge_wifi.json','knowledge_pc.json','knowledge_vaio.json','knowledge_pc_makers.json','knowledge_pc_colors.json','knowledge_tv_makers.json','knowledge_refrigerator_makers.json','knowledge_refrigerator_series.json','knowledge_washer_makers.json','knowledge_aircon_makers.json','knowledge_aircon_series.json','knowledge_aircon_install.json','knowledge_zeroemi.json','knowledge_storage_wearables.json','knowledge_recycle.json','knowledge_camcorder_three_models.json','knowledge_camera_comparison.json','knowledge_pc_asus_comparison.json','knowledge_pc_brand_comparison.json'];
 var qa=['qa_data.json','qa_microwave_toaster.json'];for(var i=1;i<=34;i++)qa.push('qa_expansion_'+(i<10?'0':'')+i+'.json');
-var catalog=['maker_series_catalog.json','maker_series_catalog_pc_recent.json','maker_series_catalog_camera_recent.json','maker_series_catalog_vaio_t.json','maker_series_catalog_microwave.json','maker_series_catalog_tv32.json'];
+var catalog=['maker_series_catalog.json','maker_series_catalog_pc_recent.json','maker_series_catalog_camera_recent.json','maker_series_catalog_vaio_t.json','maker_series_catalog_microwave.json','maker_series_catalog_tv32.json','maker_series_catalog_tv_2026.json'];
 var records=[],files=knowledge.concat(qa,catalog),done=0;
 if(!q){status.textContent='上部の検索欄にキーワードを入力してください。';return}
 var terms=q.toLowerCase().split(/\s+/).filter(Boolean);
