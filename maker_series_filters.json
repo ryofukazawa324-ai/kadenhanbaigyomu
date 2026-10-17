@@ -337,6 +337,20 @@
           "recording": "通常録画（タイムシフト全録なし）",
           "os": "Google TV",
           "position": "2026年QD-OLED上位"
+        },
+        "regza_x8900n": {
+          "maker": "REGZA",
+          "size": [
+            "48",
+            "55",
+            "65"
+          ],
+          "spec": "48 / 55 / 65型",
+          "panel": "4K有機EL・高コントラスト低反射パネル",
+          "engine": "レグザエンジンZR",
+          "recording": "通常録画（タイムシフトマシン非搭載）",
+          "os": "レグザ独自スマート機能",
+          "position": "2024年モデル・有機ELハイグレード・在庫限り"
         }
       },
       "compareRows": [
