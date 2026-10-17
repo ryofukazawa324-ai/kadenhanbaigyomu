@@ -1,0 +1,128 @@
+{
+  "products": {
+    "coffee": {
+      "prompt": "抽出方式を選ぶ",
+      "help": "豆から挽くか、ドリップか、カプセルかで比較します。",
+      "axes": [
+        {
+          "key": "method",
+          "label": "抽出方式",
+          "options": [
+            {
+              "value": "espresso",
+              "label": "全自動エスプレッソ"
+            },
+            {
+              "value": "drip",
+              "label": "ドリップ"
+            },
+            {
+              "value": "capsule",
+              "label": "カプセル"
+            }
+          ]
+        }
+      ],
+      "compareRows": [
+        {
+          "key": "spec",
+          "label": "方式"
+        },
+        {
+          "key": "grinder",
+          "label": "ミル内蔵"
+        },
+        {
+          "key": "beans",
+          "label": "対応する豆・粉"
+        },
+        {
+          "key": "milk",
+          "label": "ミルク機能"
+        },
+        {
+          "key": "capacity",
+          "label": "抽出杯数"
+        },
+        {
+          "key": "cleaning",
+          "label": "お手入れ"
+        }
+      ],
+      "items": {
+        "delonghi_dinamica": {
+          "maker": "デロンギ",
+          "method": [
+            "espresso"
+          ],
+          "grinder": "あり",
+          "beans": "豆",
+          "milk": "型番により異なる",
+          "capacity": "型番による",
+          "cleaning": "抽出ユニット・カス受けなど",
+          "spec": "全自動エスプレッソ"
+        },
+        "delonghi_magnifica_s": {
+          "maker": "デロンギ",
+          "method": [
+            "espresso"
+          ],
+          "grinder": "あり",
+          "beans": "豆",
+          "milk": "手動フロッサー（型番確認）",
+          "capacity": "型番による",
+          "cleaning": "抽出ユニット・カス受けなど",
+          "spec": "全自動エスプレッソ"
+        },
+        "panasonic_nc_a58": {
+          "maker": "パナソニック",
+          "method": [
+            "drip"
+          ],
+          "grinder": "あり",
+          "beans": "豆・粉",
+          "milk": "なし",
+          "capacity": "型番・公式仕様確認",
+          "cleaning": "ミル洗浄機能・部品洗浄",
+          "spec": "全自動ドリップ"
+        },
+        "tiger_ace_v080": {
+          "maker": "タイガー",
+          "method": [
+            "drip"
+          ],
+          "grinder": "なし",
+          "beans": "粉",
+          "milk": "なし",
+          "capacity": "最大8杯",
+          "cleaning": "フィルター・サーバー洗浄",
+          "spec": "ドリップ式"
+        },
+        "nespresso_essenza_mini": {
+          "maker": "ネスプレッソ",
+          "method": [
+            "capsule"
+          ],
+          "grinder": "なし",
+          "beans": "専用カプセル",
+          "milk": "なし（単体）",
+          "capacity": "一杯ずつ",
+          "cleaning": "使用済みカプセル処理",
+          "spec": "カプセル式エスプレッソ"
+        },
+        "ucc_drip_pod_dp3": {
+          "maker": "UCC",
+          "method": [
+            "capsule"
+          ],
+          "grinder": "なし",
+          "beans": "専用カプセル・粉",
+          "milk": "なし",
+          "capacity": "一杯ずつ",
+          "cleaning": "ホルダー・水タンクなど",
+          "spec": "カプセル式ドリップ"
+        }
+      }
+    }
+  }
+}
