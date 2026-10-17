@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": "tv",
+      "candidates": [
+        {
+          "id": "regza_z890s",
+          "name": "REGZA Z890S（2026）",
+          "tag": "4K Mini LED・タイムシフトマシン",
+          "summary": "地デジ録画・スポーツ・ゲーム・高輝度映像をバランスよく楽しみたい方向け。43～85型。",
+          "strength": "量子ドットMini LED、広視野角、レグザエンジンZRα、最大6チャンネルのタイムシフトマシン対応。",
+          "watch": "タイムシフト録画には対応USB HDD等の条件確認が必要。RGB Mini LEDではなく量子ドットMini LED。",
+          "official": "https://www.regza.com/tv/lineup/z890s.html"
+        },
+        {
+          "id": "sony_7ii",
+          "name": "SONY BRAVIA 7 II（XR70M2）",
+          "tag": "2026 RGB Mini LED・Google TV",
+          "summary": "映画・配信・PS5・色再現を重視する人向け。50～98型。",
+          "strength": "RGB Mini LEDバックライト、XR映像処理、Google TV、ソニーの映像・音響連携。",
+          "watch": "REGZAのタイムシフトマシン相当の全録機能はない。RGB Mini LEDと量子ドットMini LEDは方式が異なる。",
+          "official": "https://www.sony.jp/bravia/compare/"
+        },
+        {
+          "id": "sony_9ii",
+          "name": "SONY BRAVIA 9 II（XR90M2）",
+          "tag": "2026 RGB Mini LED・液晶最上位",
+          "summary": "明るいリビングでも映り込みを抑え、高輝度・広色域・映画画質を追求したい人向け。65～115型。",
+          "strength": "True RGB / RGB Backlight Master Drive Pro、高度なRGBバックライト制御、低反射技術。",
+          "watch": "液晶最上位のため価格帯・設置サイズを確認。REGZA Z890Sとは価格階層が異なる。",
+          "official": "https://www.sony.jp/bravia/special/bravia9m2_XR90M2/"
+        },
+        {
+          "id": "sony_8ii_m2",
+          "name": "SONY BRAVIA 8 II（XR80M2）",
+          "tag": "2026 QD-OLED・有機EL",
+          "summary": "暗部の黒・コントラスト・映画画質を重視する人向け。55・65型。",
+          "strength": "QD-OLED有機ELパネル、プロセッサーXR、4K画質。",
+          "watch": "Mini LED液晶ではない。直射日光や明るい部屋での使い方は店頭比較。",
+          "official": "https://www.sony.jp/bravia/products/K-XR80M2/spec.html"
+        }
+      ]
+    }
+  ]
+}
