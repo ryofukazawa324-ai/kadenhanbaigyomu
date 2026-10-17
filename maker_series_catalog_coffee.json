@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "id": "coffee",
+      "candidates": [
+        {
+          "id": "delonghi_dinamica",
+          "name": "デロンギ ディナミカ",
+          "tag": "全自動エスプレッソ",
+          "summary": "豆から挽いてエスプレッソやカフェジャポーネを楽しむ人向け。",
+          "strength": "ミル内蔵、抽出からカス処理まで全自動。",
+          "watch": "型番によりミルクメニュー・操作画面が異なる。",
+          "official": "https://www.delonghi.com/ja-jp"
+        },
+        {
+          "id": "delonghi_magnifica_s",
+          "name": "デロンギ マグニフィカS",
+          "tag": "全自動エスプレッソ",
+          "summary": "豆から挽く本格コーヒーを手軽に始めたい人向け。",
+          "strength": "豆挽きから抽出まで自動、エスプレッソ系を楽しめる。",
+          "watch": "ミルク泡立てはモデルにより手動。型番で機能確認。",
+          "official": "https://www.delonghi.com/ja-jp"
+        },
+        {
+          "id": "panasonic_nc_a58",
+          "name": "パナソニック NC-A58",
+          "tag": "全自動ドリップ",
+          "summary": "豆から挽いてドリップコーヒーを淹れたい人向け。",
+          "strength": "ミル内蔵で豆挽きから抽出まで自動。",
+          "watch": "エスプレッソ抽出機ではない。",
+          "official": "https://panasonic.jp/coffee/"
+        },
+        {
+          "id": "tiger_ace_v080",
+          "name": "タイガー ACE-V080",
+          "tag": "ドリップ式",
+          "summary": "家族で複数杯のコーヒーをまとめて淹れたい人向け。",
+          "strength": "大容量のドリップ抽出に対応。",
+          "watch": "豆を挽くミルは別途必要。",
+          "official": "https://www.tiger-corporation.com/ja/jpn/product/coffee-maker/"
+        },
+        {
+          "id": "nespresso_essenza_mini",
+          "name": "ネスプレッソ エッセンサ ミニ",
+          "tag": "カプセル・エスプレッソ",
+          "summary": "手軽さ・後片付けの簡単さを重視する人向け。",
+          "strength": "専用カプセルで安定したエスプレッソを抽出。",
+          "watch": "ネスプレッソ オリジナル専用カプセルが必要。",
+          "official": "https://www.nespresso.com/jp/ja/"
+        },
+        {
+          "id": "ucc_drip_pod_dp3",
+          "name": "UCC ドリップポッド DP3",
+          "tag": "カプセル・ドリップ",
+          "summary": "コーヒー・紅茶などを手軽に一杯ずつ楽しみたい人向け。",
+          "strength": "専用ドリップポッドを使い、抽出を簡単に再現。",
+          "watch": "対応カプセル・抽出方法を確認。",
+          "official": "https://www.ucc.co.jp/drip-pod/"
+        }
+      ]
+    }
+  ]
+}
