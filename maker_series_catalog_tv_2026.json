@@ -38,6 +38,15 @@
           "strength": "QD-OLED有機ELパネル、プロセッサーXR、4K画質。",
           "watch": "Mini LED液晶ではない。直射日光や明るい部屋での使い方は店頭比較。",
           "official": "https://www.sony.jp/bravia/products/K-XR80M2/spec.html"
+        },
+        {
+          "id": "regza_x8900n",
+          "name": "REGZA X8900N（48・55・65型）",
+          "tag": "2024年 4K有機EL・低反射・120Hz倍速",
+          "summary": "映画やドラマの黒の表現を重視し、低反射の有機ELテレビを探す方向け。48・55・65型。",
+          "strength": "レグザ専用高コントラスト低反射4K有機ELパネル、レグザエンジンZR、120Hz倍速、重低音立体音響システムXP。",
+          "watch": "メーカー公式は在庫限り。Z890Sとは異なり有機ELモデル。タイムシフトマシン非搭載のため、通常録画と区別して案内。",
+          "official": "https://www.regza.com/tv/lineup/x8900n.html"
         }
       ]
     }
