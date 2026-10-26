@@ -16,7 +16,7 @@
 })();
 
 (function(){
-  var pages=[['sales_challenge.html','接客挑戦モード'],['sales_mode.html','接客モード'],['consult.html','商品コンサル'],['compare.html','商品比較'],['qa.html','QA暗記'],['basics.html','基礎知識'],['maker_basics.html','メーカー基礎'],['makers.html','メーカー比較'],['memo.html','端末メモ']];
+  var pages=[['sales_challenge.html','接客挑戦モード'],['sales_mode.html','接客モード'],['consult.html','商品コンサル'],['compare.html','商品比較'],['installation_fit.html','設置サイズ検索'],['spec_filter.html','スペック検索'],['basics.html','基礎知識'],['maker_basics.html','メーカー基礎'],['makers.html','メーカー比較'],['talk_examples.html','トーク一例集'],['qa.html','QA暗記'],['memo.html','端末メモ']];
   function current(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();if(p==='index.html'||p==='')return 'sales_challenge.html';return p}
   function sync(){var nav=document.querySelector('.siteHeader .nav');if(!nav)return;var cur=current();var html=pages.map(function(p){return '<a'+(cur===p[0]?' class="active"':'')+' href="'+p[0]+'">'+p[1]+'</a>'}).join('');if(nav.innerHTML!==html)nav.innerHTML=html}
   function run(){sync();setTimeout(sync,60);setTimeout(sync,300)}
