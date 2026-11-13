@@ -16,7 +16,7 @@
 })();
 
 (function(){
-  var pages=[['consult.html','商品コンサル'],['compare.html','商品比較'],['maker_basics.html','メーカー基礎'],['talk_examples.html','トーク一例集'],['qa.html','ヒアリング']];
+  var pages=[['consult.html','商品コンサル'],['compare.html','商品比較'],['maker_basics.html','メーカー基礎'],['talk_examples.html','トーク一例集'],['qa.html','知識トーク']];
   function current(){var p=(location.pathname.split('/').pop()||'index.html').toLowerCase();if(p==='index.html'||p==='')return 'sales_challenge.html';return p}
   function sync(){var nav=document.querySelector('.siteHeader .nav');if(!nav)return;var cur=current();var html=pages.map(function(p){return '<a'+(cur===p[0]?' class="active"':'')+' href="'+p[0]+'">'+p[1]+'</a>'}).join('');if(nav.innerHTML!==html)nav.innerHTML=html}
   function run(){sync();setTimeout(sync,60);setTimeout(sync,300)}
