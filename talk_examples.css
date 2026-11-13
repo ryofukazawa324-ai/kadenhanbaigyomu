@@ -1,2 +1,19 @@
 .talkTools{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}.talkTools select,.talkTools input{padding:10px;border:1px solid #ccd6e4;border-radius:9px;background:white}.talkCard{border:1px solid #dce3ef;background:white;border-radius:12px;margin:10px 0;padding:12px 16px}.talkCard summary{cursor:pointer;font-weight:800}.talkCard blockquote{background:#eff4ff;padding:14px;border-radius:10px;margin:10px 0;line-height:1.8}.talkCard small{color:#526177}.talkCard button{border:1px solid #b7c5df;background:white;padding:8px 12px;border-radius:8px}
 .talkTools label{display:flex;flex-direction:column;gap:5px;font-weight:700}.talkCard summary:before{content:''}.talkCard blockquote{white-space:pre-wrap}
+
+.printTools{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:12px 0 18px}
+.printTools button{border:1px solid #b7c5df;background:#fff;padding:9px 13px;border-radius:8px;cursor:pointer}
+#selectedCount{font-weight:700;margin-right:4px}
+.talkPick{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#526177;margin:0 0 8px;cursor:pointer}
+.talkPick input{width:17px;height:17px}
+@media print{
+ body.talkPrinting #header,body.talkPrinting .talkTools,body.talkPrinting #count,body.talkPrinting .printTools,body.talkPrinting .talkPick{display:none!important}
+ body.talkPrinting main.shell{max-width:none;margin:0;padding:0}
+ body.talkPrinting h1{font-size:20pt}
+ body.talkPrinting .talkCard{display:block!important;break-inside:avoid;border:1px solid #999;border-radius:0;margin:0 0 12px;padding:10px 12px;background:#fff;color:#000}
+ body.talkPrinting .talkCard:not(.printTarget){display:none!important}
+ body.talkPrinting .talkCard summary{display:block;list-style:none;font-size:12pt}
+ body.talkPrinting .talkCard summary::-webkit-details-marker{display:none}
+ body.talkPrinting .talkCard blockquote{background:#f3f3f3!important;color:#000!important;border-left:3px solid #777;padding:10px;line-height:1.6}
+ body.talkPrinting .talkCard p{margin:6px 0}
+}
