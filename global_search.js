@@ -13,7 +13,7 @@ if(!q){status.textContent='上部の検索欄にキーワードを入力して�
 var terms=q.toLowerCase().split(/\s+/).filter(Boolean);
 function fullText(value){var out=[];function walk(v,label){if(v==null)return;if(Array.isArray(v)){v.forEach(function(x,i){walk(x,label+' '+(i+1))});return}if(typeof v==='object'){Object.keys(v).forEach(function(k){walk(v[k],label?label+' / '+k:k)});return}var s=String(v).trim();if(s)out.push((label?label+'：':'')+s)}walk(value,'');return out.join(' ・ ')}
 function add(type,title,body,url,more,searchBody){records.push({type:type,title:title,body:body,url:url,more:more||'',searchBody:searchBody||body})}
-function pageUrl(path){return new URL(path,'https://ryofukazawa324-ai.github.io/kadenhanbaigyomu/').href}\nfunction pageUrl(path){return new URL(path,'https://ryofukazawa324-ai.github.io/kadenhanbaigyomu/').href}
+function pageUrl(path){return new URL(path,'https://ryofukazawa324-ai.github.io/kadenhanbaigyomu/').href}
 function process(f,v){if(!v)return;if(knowledge.indexOf(f)>=0&&Array.isArray(v)){v.forEach(function(x){add('基礎知識',x.title||'',fullText({body:x.body,points:x.points}),'basics.html',x.cat||'',fullText(x))})}
 else if(qa.indexOf(f)>=0&&Array.isArray(v)){v.forEach(function(x){var k=(x.genre||'')+'||'+(x.q||'');if(hidden.indexOf(k)>=0)return;add('QA',x.q||'',fullText({answer:x.answer,detail:x.detail}),'qa.html',x.genre||'',fullText(x))})}
 else if(talk.indexOf(f)>=0&&Array.isArray(v)){v.forEach(function(x){add('トーク一例集',x.title||'',fullText({need:x.need,talk:x.talk,point:x.point}),'talk_examples.html',(x.genre||'')+' · '+(x.type||''),fullText(x))})}
