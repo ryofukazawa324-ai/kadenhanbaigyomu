@@ -31,7 +31,7 @@ document.getElementById('printSelected').addEventListener('click',function(){pri
 document.getElementById('printVisible').addEventListener('click',function(){printCards('visible')});
 document.getElementById('clearSelected').addEventListener('click',function(){selected.clear();render()});
 window.addEventListener('afterprint',function(){document.body.classList.remove('talkPrinting');target.querySelectorAll('.talkCard').forEach(function(c){c.classList.remove('printTarget');c.open=false});printMode=''});
-Promise.all([fetch('talk_examples.json').then(function(r){return r.json()}),fetch('talk_examples_washer.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]}),fetch('talk_examples_expansion_20261113.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]})]).then(function(parts){
+Promise.all([fetch('talk_examples.json?v=20261117-detail').then(function(r){return r.json()}),fetch('talk_examples_washer.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]}),fetch('talk_examples_expansion_20261113.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]})]).then(function(parts){
  var xs=parts[0].concat(parts[1],parts[2]);all=xs;
  ['genre','type'].forEach(function(k){var el=k==='genre'?genre:type;Array.from(new Set(xs.map(function(x){return x[k]}))).sort().forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o)})});
  render();
