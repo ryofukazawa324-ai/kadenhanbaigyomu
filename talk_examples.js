@@ -20,6 +20,7 @@ function updateSelectedCount(){document.getElementById('selectedCount').textCont
 function updateProductOptions(reset){
  var current=reset?'':type.value;
  var products=Array.from(new Set(all.filter(function(x){return !genre.value||x.department===genre.value;}).map(function(x){return x.product;})));
+ if(genre.value==='情報部門' && all.some(function(x){return x.product==='ゲーム機';}) && products.indexOf('ゲーム機')<0) products.push('ゲーム機');
  products.sort(function(a,b){return a.localeCompare(b,'ja');});
  type.replaceChildren();
  var any=document.createElement('option');any.value='';any.textContent='すべて';type.appendChild(any);
