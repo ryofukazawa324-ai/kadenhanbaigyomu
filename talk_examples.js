@@ -17,6 +17,15 @@ function normalizeItem(x){
  return Object.assign({},x,{talkType:x.type,product:product,department:departmentMap[product]||'情報部門'});
 }
 function updateSelectedCount(){document.getElementById('selectedCount').textContent=selected.size+'件選択中';}
+function updateProductOptions(reset){
+ var current=reset?'':type.value;
+ var products=Array.from(new Set(all.filter(function(x){return !genre.value||x.department===genre.value;}).map(function(x){return x.product;})));
+ products.sort(function(a,b){return a.localeCompare(b,'ja');});
+ type.replaceChildren();
+ var any=document.createElement('option');any.value='';any.textContent='すべて';type.appendChild(any);
+ products.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;type.appendChild(o);});
+ type.value=products.indexOf(current)>=0?current:'';
+}
 function render(){
  var q=search.value.toLowerCase();
  var found=all.filter(function(x){return(!genre.value||x.department===genre.value)&&(!type.value||x.product===type.value)&&(!level.value||x.level===level.value)&&(!q||JSON.stringify(x).toLowerCase().includes(q))});
@@ -49,8 +58,9 @@ window.addEventListener('afterprint',function(){document.body.classList.remove('
 Promise.all([fetch('talk_examples.json?v=20261117-detail').then(function(r){return r.json()}),fetch('talk_examples_washer.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]}),fetch('talk_examples_expansion_20261113.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]})]).then(function(parts){
  var xs=parts[0].concat(parts[1],parts[2]).map(normalizeItem);all=xs;
  ['家電部門','季節AV部門','情報部門','通信部門','サービス'].forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;genre.appendChild(o)});
- ['コーヒーメーカー','シェーバー','ドライヤー','冷蔵庫','クリーナー','洗濯機','炊飯器','シーリング','電子レンジ','食器洗い乾燥機','エアコン','テレビ','空気清浄機','加湿器','暖房器具','パソコン','Wi-Fi','カメラ','モニター','タブレット','PCサポート','プリンター','イヤホン','AirPods','携帯・スマホ','価格・販売制度','保証・サービス'].forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;type.appendChild(o)});
+ updateProductOptions(true);
  render();
 }).catch(function(){target.textContent='読み込みに失敗しました'});
-[genre,type,level,search].forEach(function(el){el.addEventListener('input',render)});
+genre.addEventListener('change',function(){updateProductOptions(true);render()});
+[type,level,search].forEach(function(el){el.addEventListener('input',render)});
 })();
