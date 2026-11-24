@@ -3,14 +3,14 @@ document.getElementById('header').innerHTML=KadenSite.nav('talk');
 var genre=document.getElementById('genre'),type=document.getElementById('type'),level=document.getElementById('level'),search=document.getElementById('search'),target=document.getElementById('items'),all=[],selected=new Set(),printMode='';
 var productMap={
  'PC':'パソコン','パソコン':'パソコン','PCサポート':'PCサポート','ゲーム機':'ゲーム機',
- 'テレビ':'テレビ','洗濯機':'洗濯機','冷蔵庫':'冷蔵庫','エアコン':'エアコン','炊飯器':'炊飯器','プリンター':'プリンター','Wi-Fi':'Wi-Fi','コーヒーメーカー':'コーヒーメーカー','保証・サービス':'保証・サービス','カメラ':'カメラ','掃除機・クリーナー':'クリーナー','空気清浄機':'空気清浄機','加湿器':'加湿器','シェーバー':'シェーバー','AirPods':'AirPods','電子レンジ':'電子レンジ','モニター':'モニター','スマートウォッチ':'スマートウォッチ','ドライヤー':'ドライヤー','食器洗い乾燥機':'食器洗い乾燥機','スマートフォン':'携帯・スマホ','携帯・スマホ':'携帯・スマホ','暖房器具':'暖房器具','価格・販売制度':'価格・販売制度','照明・シーリング':'シーリング','シーリング':'シーリング'
+ 'テレビ':'テレビ','洗濯機':'洗濯機','冷蔵庫':'冷蔵庫','エアコン':'エアコン','炊飯器':'炊飯器','プリンター':'プリンター','Wi-Fi':'Wi-Fi','コーヒーメーカー':'コーヒーメーカー','保証・サービス':'保証・サービス','カメラ':'カメラ','掃除機・クリーナー':'クリーナー','空気清浄機':'空気清浄機','加湿器':'加湿器','シェーバー':'シェーバー','AirPods':'AirPods','電子レンジ':'電子レンジ','モニター':'モニター','スマートウォッチ':'スマートウォッチ','ドライヤー':'ドライヤー','食器洗い乾燥機':'食器洗い乾燥機','スマートフォン':'携帯・スマホ','携帯・スマホ':'携帯・スマホ','暖房器具':'暖房器具','価格・販売制度':'価格・販売制度','照明・シーリング':'シーリング','シーリング':'シーリング','時事・雑談':'時事・雑談'
 };
 var departmentMap={
  'ゲーム機':'情報部門','コーヒーメーカー':'家電部門','シェーバー':'家電部門','ドライヤー':'家電部門','冷蔵庫':'家電部門','クリーナー':'家電部門','洗濯機':'家電部門','炊飯器':'家電部門','シーリング':'家電部門','電子レンジ':'家電部門','食器洗い乾燥機':'家電部門',
  'エアコン':'季節AV部門','テレビ':'季節AV部門','空気清浄機':'季節AV部門','加湿器':'季節AV部門','暖房器具':'季節AV部門',
  'パソコン':'情報部門','Wi-Fi':'情報部門','カメラ':'情報部門','モニター':'情報部門','タブレット':'情報部門','スマートウォッチ':'情報部門','PCサポート':'情報部門','プリンター':'情報部門',
  'イヤホン':'通信部門','AirPods':'通信部門','携帯・スマホ':'通信部門',
- '価格・販売制度':'サービス','保証・サービス':'サービス'
+ '価格・販売制度':'サービス','保証・サービス':'サービス','時事・雑談':'木戸に立てかけし衣食住'
 };
 function normalizeItem(x){
  var product=productMap[x.genre]||x.genre;
@@ -56,9 +56,9 @@ document.getElementById('printSelected').addEventListener('click',function(){pri
 document.getElementById('printVisible').addEventListener('click',function(){printCards('visible')});
 document.getElementById('clearSelected').addEventListener('click',function(){selected.clear();render()});
 window.addEventListener('afterprint',function(){document.body.classList.remove('talkPrinting');target.querySelectorAll('.talkCard').forEach(function(c){c.classList.remove('printTarget');c.open=false});printMode=''});
-Promise.all([fetch('talk_examples.json?v=20261117-detail').then(function(r){return r.json()}),fetch('talk_examples_washer.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]}),fetch('talk_examples_expansion_20261113.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]})]).then(function(parts){
- var xs=parts[0].concat(parts[1],parts[2]).map(normalizeItem);all=xs;
- ['家電部門','季節AV部門','情報部門','通信部門','サービス'].forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;genre.appendChild(o)});
+Promise.all([fetch('talk_examples.json?v=20261117-detail').then(function(r){return r.json()}),fetch('talk_examples_washer.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]}),fetch('talk_examples_expansion_20261113.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]}),fetch('talk_examples_life_topics.json?v=20261124').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]})]).then(function(parts){
+ var xs=parts[0].concat(parts[1],parts[2],parts[3]).map(normalizeItem);all=xs;
+ ['家電部門','季節AV部門','情報部門','通信部門','サービス','木戸に立てかけし衣食住'].forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;genre.appendChild(o)});
  updateProductOptions(true);
  render();
 }).catch(function(){target.textContent='読み込みに失敗しました'});
