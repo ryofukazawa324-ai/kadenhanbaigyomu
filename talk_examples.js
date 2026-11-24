@@ -38,7 +38,7 @@ function render(){
   var s=document.createElement('summary');s.textContent='['+x.level+'] '+x.department+' / '+x.product+' / '+x.title;d.appendChild(s);
   var p=document.createElement('p');p.textContent='お客様の悩み：'+x.need;d.appendChild(p);
   var b=document.createElement('blockquote');b.textContent=x.talk;d.appendChild(b);
-  var n=document.createElement('p');n.textContent='確認：'+x.point;d.appendChild(n);
+  var bridge=document.createElement('p');bridge.className='talkBridge';bridge.textContent='家電の仕事へのつなげ方：'+(x.bridge||'お客様の関心や困りごとが出た場合に、関連する家電の相談へ自然につなげる');d.appendChild(bridge);var n=document.createElement('p');n.textContent='確認：'+x.point;d.appendChild(n);
   target.appendChild(d);
  });
  updateSelectedCount();
